@@ -1,0 +1,683 @@
+<!DOCTYPE html><html lang="he" dir="rtl"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>פתרונות אחסון תעשייתי מקצועיים — מוצגים פתרונות אחסון ותצוגה</title>
+  <meta name="description" content="שירותי אחסון תעשייתי מקיפים: מדפי אחסון למפעלים, מתקני קומפקטוס, ריהוט לוגיסטי ופתרונות מותאמים אישית. ייעוץ והתקנה מקצועית.">
+  <meta name="keywords" content="מדפי אחסון תעשייתי למפעלים, פתרונות אחסון למשקל כבד, מתקני קומפקטוס לעסקים, ריהוט תעשייתי לחברות לוגיסטיקה">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<style>
+/* Zappy Attribution Header Styles */
+.zappy-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.04);
+  padding: 16px 10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 21px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 21px;
+  direction: ltr !important;
+  unicode-bidi: isolate;
+}
+
+    .zappy-header p {
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      white-space: nowrap;
+      display: inline-block;
+      vertical-align: baseline;
+      margin-bottom: 0 !important;
+      direction: ltr !important;
+    }
+
+.zappy-header .zappy-link {
+  font-weight: 700;
+  color: #4a4a4a;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.zappy-header .zappy-link:hover {
+  opacity: 0.7;
+}</style>
+    <!-- Cookie Consent -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+    <!-- Mickidum Accessibility Toolbar -->
+    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+<!-- Zappy Analytics -->
+<script>
+(function() {
+  'use strict';
+  
+  // Configuration
+  var config = {
+    websiteId: '2e6da26f-94ea-49eb-9773-e0dfc66ba98e',
+    apiUrl: 'https://api.zappy5.com/api/analytics/track',
+    sessionDuration: 30 * 60 * 1000, // 30 minutes
+    visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
+    trackPageViews: true,
+    trackClicks: true,
+    trackFormSubmissions: true
+  };
+  
+  // Generate or retrieve persistent visitor ID (30 days)
+  function getVisitorId() {
+    var visitorKey = 'zappy_visitor_' + config.websiteId;
+    var visitor = null;
+    
+    try {
+      visitor = localStorage.getItem(visitorKey);
+      if (visitor) {
+        var visitorData = JSON.parse(visitor);
+        var now = Date.now();
+        
+        // Check if visitor ID is still valid (30 days)
+        if (now - visitorData.created < config.visitorDuration) {
+          // Update last seen timestamp
+          visitorData.lastSeen = now;
+          localStorage.setItem(visitorKey, JSON.stringify(visitorData));
+          return visitorData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: LocalStorage not available');
+    }
+    
+    // Generate new visitor ID
+    var newVisitorId = 'zv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      localStorage.setItem(visitorKey, JSON.stringify({
+        id: newVisitorId,
+        created: Date.now(),
+        lastSeen: Date.now()
+      }));
+    } catch (e) {
+      // Continue without local storage
+    }
+    
+    return newVisitorId;
+  }
+  
+  // Generate or retrieve session ID (30 minutes)
+  function getSessionId() {
+    var sessionKey = 'zappy_session_' + config.websiteId;
+    var session = null;
+    
+    try {
+      session = sessionStorage.getItem(sessionKey);
+      if (session) {
+        var sessionData = JSON.parse(session);
+        var now = Date.now();
+        
+        // Check if session is still valid
+        if (now - sessionData.timestamp < config.sessionDuration) {
+          // Update timestamp
+          sessionData.timestamp = now;
+          sessionStorage.setItem(sessionKey, JSON.stringify(sessionData));
+          return sessionData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: SessionStorage not available');
+    }
+    
+    // Generate new session ID
+    var newSessionId = 'zs_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      sessionStorage.setItem(sessionKey, JSON.stringify({
+        id: newSessionId,
+        timestamp: Date.now()
+      }));
+    } catch (e) {
+      // Continue without session storage
+    }
+    
+    return newSessionId;
+  }
+  
+  var visitorId = getVisitorId();
+  var sessionId = getSessionId();
+  
+  // Track an event
+  function trackEvent(eventType, data) {
+    data = data || {};
+    
+    var eventData = {
+      website_id: config.websiteId,
+      event_type: eventType,
+      page_path: window.location.pathname,
+      referrer: document.referrer || 'direct',
+      visitor_id: visitorId,
+      session_id: sessionId,
+      metadata: data
+    };
+    
+    // Use sendBeacon if available (better for page unload events)
+    if (navigator.sendBeacon) {
+      var blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
+      navigator.sendBeacon(config.apiUrl, blob);
+    } else {
+      // Fallback to fetch
+      fetch(config.apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(eventData),
+        keepalive: true
+      }).catch(function(error) {
+        console.warn('Zappy Analytics: Failed to track event', error);
+      });
+    }
+  }
+  
+  // Track page view
+  if (config.trackPageViews) {
+    trackEvent('pageview', {
+      title: document.title,
+      url: window.location.href
+    });
+  }
+  
+  // Track clicks on important elements
+  if (config.trackClicks) {
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      
+      // Track button clicks (counted as actions)
+      if (target.tagName === 'BUTTON' || target.closest('button')) {
+        var button = target.tagName === 'BUTTON' ? target : target.closest('button');
+        trackEvent('click', {
+          element: 'button',
+          text: button.textContent.trim().substring(0, 100),
+          id: button.id || null,
+          class: button.className || null
+        });
+      }
+      
+      // Track link clicks (navigation - not counted as actions)
+      else if (target.tagName === 'A' || target.closest('a')) {
+        var link = target.tagName === 'A' ? target : target.closest('a');
+        trackEvent('navigation', {
+          element: 'link',
+          text: link.textContent.trim().substring(0, 100),
+          href: link.href,
+          external: link.hostname !== window.location.hostname
+        });
+      }
+    }, true);
+  }
+  
+  // Track form submissions
+  if (config.trackFormSubmissions) {
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      
+      trackEvent('form_submit', {
+        form_id: form.id || null,
+        form_name: form.name || null,
+        form_action: form.action || null,
+        form_method: form.method || 'GET'
+      });
+    }, true);
+  }
+  
+  // Track time on page (send on page unload)
+  var pageLoadTime = Date.now();
+  
+  window.addEventListener('beforeunload', function() {
+    var timeOnPage = Math.floor((Date.now() - pageLoadTime) / 1000); // in seconds
+    
+    trackEvent('page_unload', {
+      time_on_page: timeOnPage,
+      page_path: window.location.pathname
+    });
+  });
+  
+  // Expose tracking function globally for custom events
+  window.zappyAnalytics = {
+    track: trackEvent,
+    getVisitorId: function() { return visitorId; },
+    getSessionId: function() { return sessionId; }
+  };
+  
+})();
+</script>
+<!-- End Zappy Analytics -->
+
+    <style id="zappy-dropdown-submenu-styles">
+      /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
+      /* Base styles for dropdown submenus - parent must be positioned */
+      .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { position: relative; }
+      /* Submenu base - hidden by default */
+      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; background: white; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
+      /* CRITICAL: Desktop hover styles to show dropdown */
+      .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Submenu item styling */
+      .sub-menu li { list-style: none; margin: 0; padding: 0; }
+      .sub-menu a { display: block !important; padding: 10px 16px !important; color: #333 !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
+      .sub-menu a:hover { background-color: #f5f5f5; }
+      /* RTL (Hebrew/Arabic) dropdown positioning */
+      [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
+      /* Hide empty dropdown menus */
+      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))), .sub-menu:not(:has(li)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
+      /* Desktop: show submenu on Menu Group hover */
+      li:has(.menu-group-title):hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Menu Group title styling */
+      .nav-menu > li > .menu-group-title, #navMenu > li > .menu-group-title { display: inline-block; padding: 0.5rem 1rem; cursor: default; user-select: none; }
+      
+      /* ========== MOBILE SUBMENU STYLES ========== */
+      @media (max-width: 768px) {
+        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { position: static !important; transform: none !important; box-shadow: none !important; background: transparent !important; max-height: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; padding: 0 !important; border-radius: 0 !important; }
+        .sub-menu.mobile-expanded { max-height: 500px !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
+        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded { padding: 8px 16px 8px 0 !important; }
+        /* Disable hover behavior on mobile */
+        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 0; visibility: hidden; pointer-events: none; }
+        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
+        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { display: flex !important; flex-wrap: wrap !important; align-items: center !important; }
+        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a { flex: 1 !important; }
+        .nav-menu li:has(.sub-menu) > a [class*="chevron"], .nav-menu li:has(.sub-menu) > a [class*="arrow"], .nav-menu li:has(.sub-menu) > a .fa-chevron-down, .nav-menu li:has(.sub-menu) > a .fa-angle-down, nav li:has(.sub-menu) > a [class*="chevron"], nav li:has(.sub-menu) > a [class*="arrow"], #navMenu li:has(.sub-menu) > a [class*="chevron"], #navMenu li:has(.sub-menu) > a [class*="arrow"] { display: none !important; visibility: hidden !important; }
+        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: 44px !important; background: transparent !important; border: none !important; cursor: pointer !important; }
+        .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
+        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
+        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; }
+        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; }
+      }
+      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
+    </style>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<!-- Zappy Attribution Header -->
+<div id="zappy-attribution-header" class="zappy-header" style="display: none;">
+  <p>Happily created by&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-link">Zappy</a></p>
+</div>
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="nav-brand">
+        <a href="/" class="logo-link">
+          <img src="/assets/business-logo.webp" alt="מוצגים פתרונות אחסון ותצוגה" class="logo">
+        </a>
+      </div>
+      
+      <button class="mobile-toggle" id="mobileToggle" aria-label="תפריט">
+        <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+        </svg>
+        <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+          <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+        </svg>
+      </button>
+      
+      <button class="phone-header-btn" aria-label="התקשרו אלינו">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+      </button>
+      
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="/services">שירותים</a></li>
+        <li><a href="/about">אודות</a></li>
+      </ul>
+      
+      <div class="nav-cta-container">
+        <li class="nav-cta-item">
+          <a href="/contact" class="nav-cta-btn">צור קשר</a>
+        </li>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>פתרונות אחסון תעשייתי מותאמים לכל צורך</h1>
+      <h3>מדפי אחסון תעשייתי למפעלים, מתקני קומפקטוס לעסקים, ריהוט תעשייתי לחברות לוגיסטיקה ופתרונות אחסון למשקל כבד</h3>
+    </div>
+  </section>
+
+  <section class="section service-section" id="מדפי-אחסון-תעשייתי-למפעלים" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detail">
+      
+        <div class="service-detail-image">
+          <img data-placeholder="service-4" data-context="Heavy-duty industrial metal shelving system with multiple levels storing large industrial parts and equipment in factory setting" src="/assets/service-service-4.webp" alt="מדפי אחסון תעשייתי למפעלים - מערכת מדפים כבדה במפעל">
+        </div>
+        <div class="service-detail-content">
+          <h2>מדפי אחסון תעשייתי למפעלים</h2>
+          <p>אנו מתמחים במדפי אחסון תעשייתי למפעלים המיועדים לעמוד בתנאי עבודה קשים ובעומסים כבדים במיוחד. המערכות שלנו בנויות מפלדה איכותית עם ציפוי אנטי-קורוזיה ומותאמות לסביבות תעשייתיות מאתגרות.</p>
+          <p>כל מערכת מדפים עוברת בדיקות איכות קפדניות ומתוכננת על ידי מהנדסים מנוסים בהתאם לצרכים הספציפיים של המפעל שלכם. אנו מציעים מגוון רחב של גבהים, רוחבים ויכולות עומס, החל מ-500 ק"ג ועד 5 טון למדף.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> עמידות למשקל כבד עד 5 טון למדף</li>
+            <li><i class="fas fa-check-circle"></i> ציפוי אנטי-קורוזיה לעמידות ארוכת שנים</li>
+            <li><i class="fas fa-check-circle"></i> התאמה מלאה לגובה ורוחב הנדרשים</li>
+            <li><i class="fas fa-check-circle"></i> התקנה מקצועית על ידי צוות מיומן</li>
+            <li><i class="fas fa-check-circle"></i> עמידה בתקני בטיחות בינלאומיים</li>
+          </ul>
+        </div>
+      
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="פתרונות-אחסון-למשקל-כבד" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detail service-reverse">
+      
+        <div class="service-detail-content">
+          <h2>פתרונות אחסון למשקל כבד</h2>
+          <p>פתרונות אחסון למשקל כבד שלנו מיועדים לעסקים המאחסנים ציוד תעשייתי, חומרי גלם כבדים, או מוצרים גדולים. אנו מספקים מערכות אחסון חזקות ויציבות שמבטיחות בטיחות מקסימלית ויכולת נשיאה יוצאת דופן.</p>
+          <p>המערכות כוללות מסילות חיזוק מיוחדות, בסיסים מחוזקים ומנגנוני נעילה בטיחותיים. כל פתרון מתוכנן בקפידה תוך התחשבות במשקל הציוד, תדירות הגישה והצרכים הלוגיסטיים של העסק.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> תכנון מותאם למשקלים כבדים במיוחד</li>
+            <li><i class="fas fa-check-circle"></i> מערכות בטיחות מתקדמות</li>
+            <li><i class="fas fa-check-circle"></i> חיזוקים מיוחדים לעמידות מקסימלית</li>
+            <li><i class="fas fa-check-circle"></i> אפשרות להרחבה עתידית</li>
+            <li><i class="fas fa-check-circle"></i> ייעוץ הנדסי מקצועי</li>
+          </ul>
+        </div>
+        <div class="service-detail-image">
+          <img data-placeholder="service-5" data-context="Robust heavy-duty pallet racking system storing large industrial equipment and heavy materials in warehouse" src="/assets/service-service-5.webp" alt="פתרונות אחסון למשקל כבד - מערכת פלטות חזקה">
+        </div>
+      
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="מתקני-קומפקטוס-לעסקים" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detail">
+      
+        <div class="service-detail-image">
+          <img data-placeholder="service-6" data-context="Modern compactus mobile shelving system with sliding mechanism in organized office archive, showing space-saving design" src="/assets/service-service-6.webp" alt="מתקני קומפקטוס לעסקים - מערכת אחסון זזה מודרנית">
+        </div>
+        <div class="service-detail-content">
+          <h2>מתקני קומפקטוס לעסקים</h2>
+          <p>מתקני קומפקטוס לעסקים שלנו מציעים פתרון אחסון חכם וחוסך מקום. המערכות הזזות שלנו מאפשרות חיסכון של עד 50% בשטח האחסון, תוך שמירה על נגישות מלאה לכל הפריטים המאוחסנים.</p>
+          <p>הקומפקטוס מתאים במיוחד לארכיונים, מחסני ציוד, ספריות, מעבדות ומרכזי לוגיסטיקה. המערכת כוללת מנגנון הזזה חלק ושקט, מערכת נעילה אוטומטית ואפשרות לשילוב מערכת ממוחשבת לניהול המלאי.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> חיסכון של עד 50% בשטח האחסון</li>
+            <li><i class="fas fa-check-circle"></i> מנגנון הזזה חלק ושקט</li>
+            <li><i class="fas fa-check-circle"></i> מערכת נעילה אוטומטית לבטיחות</li>
+            <li><i class="fas fa-check-circle"></i> אפשרות לשילוב מערכת ממוחשבת</li>
+            <li><i class="fas fa-check-circle"></i> מגוון גדלים וקונפיגורציות</li>
+          </ul>
+        </div>
+      
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="ריהוט-תעשייתי-לחברות-לוגיסטיקה" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detail service-reverse">
+      
+        <div class="service-detail-content">
+          <h2>ריהוט תעשייתי לחברות לוגיסטיקה</h2>
+          <p>ריהוט תעשייתי לחברות לוגיסטיקה שלנו כולל מגוון רחב של פתרונות אחסון ותצוגה המותאמים לצרכים המיוחדים של תעשיית הלוגיסטיקה. אנו מספקים מערכות פלטות, מדפי pick &amp; pack, עגלות הובלה ופתרונות אחסון דינמיים.</p>
+          <p>המערכות מתוכננות לעבוד בהרמוניה עם מלגזות, מערכות אוטומציה וציוד לוגיסטי אחר. אנו מתמחים ביצירת זרימת עבודה אופטימלית שמגבירה את היעילות ומקצרת זמני איסוף והפצה.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> מערכות פלטות מתקדמות</li>
+            <li><i class="fas fa-check-circle"></i> פתרונות pick &amp; pack יעילים</li>
+            <li><i class="fas fa-check-circle"></i> תאימות למלגזות ואוטומציה</li>
+            <li><i class="fas fa-check-circle"></i> אופטימיזציה של זרימת עבודה</li>
+            <li><i class="fas fa-check-circle"></i> פתרונות אחסון דינמיים</li>
+          </ul>
+        </div>
+        <div class="service-detail-image">
+          <img data-placeholder="service-7" data-context="Modern logistics warehouse with organized pallet racking, pick and pack stations, and efficient workflow layout" src="/assets/service-service-7.webp" alt="ריהוט תעשייתי לחברות לוגיסטיקה - מחסן לוגיסטי מאורגן">
+        </div>
+      
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="תכנון-והתאמה-אישית" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detail">
+      
+        <div class="service-detail-image">
+          <img data-placeholder="service-8" data-context="Custom industrial storage solution being installed by professional team in factory, showing tailored design process" src="/assets/service-service-8.webp" alt="פתרונות מותאמים אישית - התקנת מערכת אחסון במפעל">
+        </div>
+        <div class="service-detail-content">
+          <h2>תכנון והתאמה אישית</h2>
+          <p>כל פרויקט מתחיל בסקר מקיף של המתקן שלכם וניתוח מעמיק של הצרכים והאתגרים הייחודיים. צוות המהנדסים והמתכננים שלנו עובד איתכם צעד אחר צעד ליצירת פתרון אחסון מושלם.</p>
+          <p>אנו מתחשבים בכל פרמטר רלוונטי: גובה התקרה, רוחב המעברים, סוג הציוד המאוחסן, תדירות הגישה, דרישות בטיחות ותקציב. התוצאה היא מערכת אחסון יעילה, בטיחותית ומותאמת במדויק לצרכים שלכם.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> סקר מקיף של המתקן</li>
+            <li><i class="fas fa-check-circle"></i> תכנון תלת-מימדי ממוחשב</li>
+            <li><i class="fas fa-check-circle"></i> ייעוץ הנדסי מקצועי</li>
+            <li><i class="fas fa-check-circle"></i> התאמה מלאה לצרכים</li>
+            <li><i class="fas fa-check-circle"></i> אופטימיזציה של שטח</li>
+          </ul>
+        </div>
+      
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="התקנה-ושירות" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detail service-reverse">
+      
+        <div class="service-detail-content">
+          <h2>התקנה ושירות</h2>
+          <p>צוות ההתקנה המקצועי שלנו מורכב מטכנאים מיומנים ומוסמכים בעלי ניסיון רב שנים. אנו מבצעים התקנה מהירה ומדויקת תוך הפרעה מינימלית לפעילות השוטפת של העסק.</p>
+          <p>לאחר ההתקנה, אנו מספקים הדרכה מקיפה לצוות שלכם על השימוש הנכון והבטיחותי במערכת. השירות שלנו לא נגמר בהתקנה - אנו מציעים תחזוקה שוטפת, תמיכה טכנית ושירותי שדרוג עתידיים.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> התקנה מקצועית ומהירה</li>
+            <li><i class="fas fa-check-circle"></i> הדרכה מקיפה לצוות</li>
+            <li><i class="fas fa-check-circle"></i> תחזוקה ותמיכה שוטפת</li>
+            <li><i class="fas fa-check-circle"></i> אחריות מלאה על המוצרים</li>
+            <li><i class="fas fa-check-circle"></i> שירותי שדרוג והרחבה</li>
+          </ul>
+        </div>
+        <div class="service-detail-image">
+          <img data-placeholder="service-9" data-context="Professional installation team setting up industrial shelving system, showing careful assembly and safety procedures" src="/assets/service-service-9.webp" alt="התקנה מקצועית - צוות מתקין מערכת אחסון">
+        </div>
+      
+    </div>
+  </div>
+</section>
+<section class="section service-section" id="בקרת-איכות-ובטיחות" data-zappy-section="true">
+  <div class="container">
+    <div class="service-detail">
+      
+        <div class="service-detail-image">
+          <img data-placeholder="service-10" data-context="Quality control inspection of industrial storage system, showing attention to safety standards and professional assessment" src="/assets/service-service-10.webp" alt="בקרת איכות - בדיקת מערכת אחסון">
+        </div>
+        <div class="service-detail-content">
+          <h2>בקרת איכות ובטיחות</h2>
+          <p>איכות ובטיחות הם בראש סדר העדיפויות שלנו. כל מוצר עובר בדיקות איכות קפדניות בכל שלב של הייצור וההתקנה. אנו עובדים לפי תקני בטיחות בינלאומיים מחמירים ומקפידים על עמידה בכל הרגולציות הרלוונטיות.</p>
+          <p>המערכות שלנו עוברות בדיקות עומס, בדיקות יציבות ובדיקות בטיחות מקיפות לפני האספקה. אנו מספקים תיעוד מלא של כל הבדיקות ואישורי בטיחות מתאימים. בנוסף, אנו מציעים שירותי בדיקה תקופתיים כדי להבטיח שהמערכות ממשיכות לעמוד בתקני הבטיחות לאורך זמן.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> בדיקות איכות מקיפות</li>
+            <li><i class="fas fa-check-circle"></i> עמידה בתקני בטיחות בינלאומיים</li>
+            <li><i class="fas fa-check-circle"></i> תיעוד מלא ואישורים</li>
+            <li><i class="fas fa-check-circle"></i> בדיקות תקופתיות</li>
+            <li><i class="fas fa-check-circle"></i> ייעוץ בטיחותי מתמשך</li>
+          </ul>
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>צריכים פתרון אחסון מותאם אישית?</h2>
+        <p>צוות המומחים שלנו מוכן לעזור לכם למצוא את הפתרון המושלם לצרכים שלכם. צרו קשר עוד היום לקבלת ייעוץ מקצועי והצעת מחיר.</p>
+        <a href="/contact" class="btn-primary">קבלו הצעת מחיר</a>
+      </div>
+    </div>
+  </section>
+
+  <a href="https://wa.me/[whatsapp_handle]" target="_blank" class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  
+    <!-- Legal Footer -->
+    <footer class="legal-footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="all-rights-reserved">
+            <p>© 2026 מוצגים פתרונות אחסון ותצוגה. כל הזכויות שמורות.</p>
+          </div>
+          <div class="footer-social"><a href="https://facebook.com/[facebook_handle]" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+<a href="https://instagram.com/[instagram_handle]" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+<a href="https://wa.me/[whatsapp_handle]" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div>
+          <div class="footer-legal">
+            <a href="/privacy" aria-label="מדיניות פרטיות">
+              מדיניות פרטיות
+            </a>
+            <span class="separator">|</span>
+            <a href="/accessibility" aria-label="נגישות">
+              נגישות
+            </a>
+            <span class="separator">|</span>
+            <a href="/terms" aria-label="תנאי שימוש">
+              תנאי שימוש
+            </a>
+          </div>
+        </div>
+        <div class="zappy-attribution">
+          <p>נוצר באמצעות&nbsp;<a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Zappy</a></p>
+        </div>
+      </div>
+    </footer>
+
+
+<!-- Zappy Attribution Header Script -->
+<script>
+(function() {
+  var websiteId = '2e6da26f-94ea-49eb-9773-e0dfc66ba98e';
+  
+  // Don't show header in preview mode
+  var currentUrl = window.location.href;
+  var isPreview = currentUrl.includes('/preview/') || 
+                  currentUrl.includes('/preview-fullscreen/') || 
+                  currentUrl.includes('localhost:5001') ||
+                  currentUrl.includes('localhost:3000');
+  
+  if (isPreview) {
+    return; // Exit early in preview mode
+  }
+  
+  fetch('https://api.zappy5.com/api/website/' + websiteId + '/tier')
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      if (data.showAttribution) {
+        var header = document.getElementById('zappy-attribution-header');
+        if (header) {
+          // Use dynamic announcement content if available
+          if (data.announcement && data.announcement.html) {
+            header.innerHTML = data.announcement.html;
+          }
+          // Apply fixed positioning styles inline (works for existing sites too)
+          header.style.cssText = 'position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99999 !important; display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important; box-sizing: border-box !important;';
+          // Fix child elements that might have position: fixed from old CSS
+          var children = header.querySelectorAll('*');
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.position = 'static';
+          }
+          // Get header height
+          var headerHeight = header.offsetHeight;
+          // Find and fix navbar to be fixed as well (prevents gap at top of page)
+          var navSelectors = ['nav', '.navbar', '.nav'];
+          var navbar = null;
+          for (var j = 0; j < navSelectors.length; j++) {
+            navbar = document.querySelector(navSelectors[j]);
+            if (navbar && navbar.id !== 'zappy-attribution-header') break;
+            navbar = null;
+          }
+          if (navbar) {
+            var navbarHeight = navbar.offsetHeight;
+            navbar.style.cssText += '; position: fixed !important; top: ' + headerHeight + 'px !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99998 !important;';
+            document.body.style.paddingTop = (headerHeight + navbarHeight) + 'px';
+          } else {
+            document.body.style.paddingTop = headerHeight + 'px';
+          }
+        }
+      }
+    })
+    .catch(function(error) {
+      console.error('Failed to check tier:', error);
+    });
+})();
+</script>
+    <div data-integration="accessibility:toolbar"></div>
+
+    <script id="zappy-mobile-submenu-script">
+    (function() {
+      function initMobileSubmenuToggles() {
+        if (window.innerWidth > 768) {
+          document.querySelectorAll('.mobile-submenu-toggle').forEach(function(btn) { btn.remove(); });
+          document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) { menu.classList.remove('mobile-expanded'); });
+          return;
+        }
+        var items = document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)');
+        items.forEach(function(li) {
+          if (li.querySelector('.mobile-submenu-toggle')) return;
+          var submenu = li.querySelector('.sub-menu');
+          var parentLink = li.querySelector(':scope > a');
+          if (!submenu || !parentLink) return;
+          var toggleBtn = document.createElement('button');
+          toggleBtn.className = 'mobile-submenu-toggle';
+          toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+          toggleBtn.setAttribute('type', 'button');
+          parentLink.insertAdjacentElement('afterend', toggleBtn);
+          toggleBtn.addEventListener('click', function(e) {
+            e.preventDefault(); e.stopPropagation();
+            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+              if (menu !== submenu) { menu.classList.remove('mobile-expanded'); var t = menu.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }
+            });
+            submenu.classList.toggle('mobile-expanded');
+            toggleBtn.classList.toggle('expanded');
+          });
+        });
+      }
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
+      else { initMobileSubmenuToggles(); }
+      var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
+      // Re-initialize when mobile menu becomes visible (MutationObserver)
+      var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.type === 'attributes') {
+            var target = mutation.target;
+            if (target.classList && (target.classList.contains('active') || target.classList.contains('open'))) {
+              setTimeout(initMobileSubmenuToggles, 100);
+            }
+          }
+        });
+      });
+      setTimeout(function() {
+        document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu, nav').forEach(function(menu) {
+          observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
+        });
+      }, 500);
+    })();
+    </script>
+    <script src="/script.js"></script>
+</body></html>
