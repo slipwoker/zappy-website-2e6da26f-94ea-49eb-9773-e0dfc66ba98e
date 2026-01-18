@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>בית - שירותי אינסטלציה מקצועיים</title>
+    <meta name="description" content="שירותי אינסטלציה מקצועיים ואמינים. זמינים 24/7 לשירותי חירום. התקנה, תיקון ותחזוקה של מערכות אינסטלציה.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/styles.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<!-- Zappy Analytics -->
+<script>
+(function() {
+  'use strict';
+  
+  // Configuration
+  var config = {
+    websiteId: '2e6da26f-94ea-49eb-9773-e0dfc66ba98e',
+    apiUrl: 'https://api.zappy5.com/api/analytics/track',
+    sessionDuration: 30 * 60 * 1000, // 30 minutes
+    visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
+    trackPageViews: true,
+    trackClicks: true,
+    trackFormSubmissions: true
+  };
+  
+  // Generate or retrieve persistent visitor ID (30 days)
+  function getVisitorId() {
+    var visitorKey = 'zappy_visitor_' + config.websiteId;
+    var visitor = null;
+    
+    try {
+      visitor = localStorage.getItem(visitorKey);
+      if (visitor) {
+        var visitorData = JSON.parse(visitor);
+        var now = Date.now();
+        
+        // Check if visitor ID is still valid (30 days)
+        if (now - visitorData.created < config.visitorDuration) {
+          // Update last seen timestamp
+          visitorData.lastSeen = now;
+          localStorage.setItem(visitorKey, JSON.stringify(visitorData));
+          return visitorData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: LocalStorage not available');
+    }
+    
+    // Generate new visitor ID
+    var newVisitorId = 'zv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      localStorage.setItem(visitorKey, JSON.stringify({
+        id: newVisitorId,
+        created: Date.now(),
+        lastSeen: Date.now()
+      }));
+    } catch (e) {
+      // Continue without local storage
+    }
+    
+    return newVisitorId;
+  }
+  
+  // Generate or retrieve session ID (30 minutes)
+  function getSessionId() {
+    var sessionKey = 'zappy_session_' + config.websiteId;
+    var session = null;
+    
+    try {
+      session = sessionStorage.getItem(sessionKey);
+      if (session) {
+        var sessionData = JSON.parse(session);
+        var now = Date.now();
+        
+        // Check if session is still valid
+        if (now - sessionData.timestamp < config.sessionDuration) {
+          // Update timestamp
+          sessionData.timestamp = now;
+          sessionStorage.setItem(sessionKey, JSON.stringify(sessionData));
+          return sessionData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: SessionStorage not available');
+    }
+    
+    // Generate new session ID
+    var newSessionId = 'zs_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      sessionStorage.setItem(sessionKey, JSON.stringify({
+        id: newSessionId,
+        timestamp: Date.now()
+      }));
+    } catch (e) {
+      // Continue without session storage
+    }
+    
+    return newSessionId;
+  }
+  
+  var visitorId = getVisitorId();
+  var sessionId = getSessionId();
+  
+  // Track an event
+  function trackEvent(eventType, data) {
+    data = data || {};
+    
+    var eventData = {
+      website_id: config.websiteId,
+      event_type: eventType,
+      page_path: window.location.pathname,
+      referrer: document.referrer || 'direct',
+      visitor_id: visitorId,
+      session_id: sessionId,
+      metadata: data
+    };
+    
+    // Use sendBeacon if available (better for page unload events)
+    if (navigator.sendBeacon) {
+      var blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
+      navigator.sendBeacon(config.apiUrl, blob);
+    } else {
+      // Fallback to fetch
+      fetch(config.apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(eventData),
+        keepalive: true
+      }).catch(function(error) {
+        console.warn('Zappy Analytics: Failed to track event', error);
+      });
+    }
+  }
+  
+  // Track page view
+  if (config.trackPageViews) {
+    trackEvent('pageview', {
+      title: document.title,
+      url: window.location.href
+    });
+  }
+  
+  // Track clicks on important elements
+  if (config.trackClicks) {
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      
+      // Track button clicks (counted as actions)
+      if (target.tagName === 'BUTTON' || target.closest('button')) {
+        var button = target.tagName === 'BUTTON' ? target : target.closest('button');
+        trackEvent('click', {
+          element: 'button',
+          text: button.textContent.trim().substring(0, 100),
+          id: button.id || null,
+          class: button.className || null
+        });
+      }
+      
+      // Track link clicks (navigation - not counted as actions)
+      else if (target.tagName === 'A' || target.closest('a')) {
+        var link = target.tagName === 'A' ? target : target.closest('a');
+        trackEvent('navigation', {
+          element: 'link',
+          text: link.textContent.trim().substring(0, 100),
+          href: link.href,
+          external: link.hostname !== window.location.hostname
+        });
+      }
+    }, true);
+  }
+  
+  // Track form submissions
+  if (config.trackFormSubmissions) {
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      
+      trackEvent('form_submit', {
+        form_id: form.id || null,
+        form_name: form.name || null,
+        form_action: form.action || null,
+        form_method: form.method || 'GET'
+      });
+    }, true);
+  }
+  
+  // Track time on page (send on page unload)
+  var pageLoadTime = Date.now();
+  
+  window.addEventListener('beforeunload', function() {
+    var timeOnPage = Math.floor((Date.now() - pageLoadTime) / 1000); // in seconds
+    
+    trackEvent('page_unload', {
+      time_on_page: timeOnPage,
+      page_path: window.location.pathname
+    });
+  });
+  
+  // Expose tracking function globally for custom events
+  window.zappyAnalytics = {
+    track: trackEvent,
+    getVisitorId: function() { return visitorId; },
+    getSessionId: function() { return sessionId; }
+  };
+  
+})();
+</script>
+<!-- End Zappy Analytics -->
+
+    <style id="zappy-dropdown-submenu-styles">
+      /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
+      /* Base styles for dropdown submenus - parent must be positioned */
+      .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { position: relative; }
+      /* Submenu base - hidden by default */
+      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; background: white; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
+      /* CRITICAL: Desktop hover styles to show dropdown */
+      .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Submenu item styling */
+      .sub-menu li { list-style: none; margin: 0; padding: 0; }
+      .sub-menu a { display: block !important; padding: 10px 16px !important; color: #333 !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
+      .sub-menu a:hover { background-color: #f5f5f5; }
+      /* RTL (Hebrew/Arabic) dropdown positioning */
+      [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
+      /* Hide empty dropdown menus */
+      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))), .sub-menu:not(:has(li)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
+      /* Desktop: show submenu on Menu Group hover */
+      li:has(.menu-group-title):hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Menu Group title styling */
+      .nav-menu > li > .menu-group-title, #navMenu > li > .menu-group-title { display: inline-block; padding: 0.5rem 1rem; cursor: default; user-select: none; }
+      
+      /* ========== MOBILE SUBMENU STYLES ========== */
+      @media (max-width: 768px) {
+        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { position: static !important; transform: none !important; box-shadow: none !important; background: transparent !important; max-height: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; padding: 0 !important; border-radius: 0 !important; }
+        .sub-menu.mobile-expanded { max-height: 500px !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
+        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded { padding: 8px 16px 8px 0 !important; }
+        /* Disable hover behavior on mobile */
+        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 0; visibility: hidden; pointer-events: none; }
+        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
+        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { display: flex !important; flex-wrap: wrap !important; align-items: center !important; }
+        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a { flex: 1 !important; }
+        .nav-menu li:has(.sub-menu) > a [class*="chevron"], .nav-menu li:has(.sub-menu) > a [class*="arrow"], .nav-menu li:has(.sub-menu) > a .fa-chevron-down, .nav-menu li:has(.sub-menu) > a .fa-angle-down, nav li:has(.sub-menu) > a [class*="chevron"], nav li:has(.sub-menu) > a [class*="arrow"], #navMenu li:has(.sub-menu) > a [class*="chevron"], #navMenu li:has(.sub-menu) > a [class*="arrow"] { display: none !important; visibility: hidden !important; }
+        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: 44px !important; background: transparent !important; border: none !important; cursor: pointer !important; }
+        .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
+        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
+        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; }
+        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; }
+      }
+      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header data-element-id="element-saved-header" data-element-type="header">
+        <nav data-element-id="element-saved-nav" data-element-type="navigation">
+            <div class="nav-container">
+                <div class="logo" data-element-id="element-saved-logo" data-element-type="logo">
+                    <i class="fas fa-wrench"></i>
+                    <span data-i18n="site_title">אינסטלציה מקצועית</span>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="תפריט" data-element-id="element-saved-mobile-toggle" data-element-type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" data-element-id="element-saved-nav-menu" data-element-type="menu">
+                    <li><a href="#home" data-i18n="nav_home">בית</a></li>
+                    <li><a href="#services" data-i18n="nav_services">שירותים</a></li>
+                    <li><a href="#about" data-i18n="nav_about">אודות</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">צור קשר</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" data-element-id="element-saved-hero" data-element-type="section">
+        <div class="hero-content" data-element-id="element-saved-hero-content" data-element-type="content">
+            <h1 data-element-id="element-saved-hero-title" data-element-type="heading" data-i18n="hero_title">שירותי אינסטלציה מקצועיים</h1>
+            <p data-element-id="element-saved-hero-subtitle" data-element-type="text" data-i18n="hero_subtitle">זמינים 24/7 לכל בעיות האינסטלציה שלכם</p>
+            <div class="hero-buttons" data-element-id="element-saved-hero-buttons" data-element-type="button-group">
+                <a href="#contact" class="btn btn-primary" data-element-id="element-saved-cta-primary" data-element-type="button" data-i18n="hero_cta_primary">צור קשר עכשיו</a>
+                <a href="#services" class="btn btn-secondary" data-element-id="element-saved-cta-secondary" data-element-type="button" data-i18n="hero_cta_secondary">השירותים שלנו</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services" data-element-id="element-saved-services" data-element-type="section">
+        <div class="container">
+            <h2 data-element-id="element-saved-services-title" data-element-type="heading" data-i18n="services_title">השירותים שלנו</h2>
+            <div class="services-grid" data-element-id="element-saved-services-grid" data-element-type="grid">
+                <div class="service-card" data-element-id="element-saved-service-1" data-element-type="card">
+                    <div class="service-icon">
+                        <i class="fas fa-faucet"></i>
+                    </div>
+                    <h3 data-i18n="service_1_title">תיקון ברזים</h3>
+                    <p data-i18n="service_1_desc">תיקון והחלפת ברזים דולפים ושבורים</p>
+                </div>
+                <div class="service-card" data-element-id="element-saved-service-2" data-element-type="card">
+                    <div class="service-icon">
+                        <i class="fas fa-toilet"></i>
+                    </div>
+                    <h3 data-i18n="service_2_title">תיקון אסלות</h3>
+                    <p data-i18n="service_2_desc">פתרון בעיות סתימה ודליפות באסלות</p>
+                </div>
+                <div class="service-card" data-element-id="element-saved-service-3" data-element-type="card">
+                    <div class="service-icon">
+                        <i class="fas fa-shower"></i>
+                    </div>
+                    <h3 data-i18n="service_3_title">התקנת מקלחות</h3>
+                    <p data-i18n="service_3_desc">התקנה ושדרוג מערכות מקלחת</p>
+                </div>
+                <div class="service-card" data-element-id="element-saved-service-4" data-element-type="card">
+                    <div class="service-icon">
+                        <i class="fas fa-pipe"></i>
+                    </div>
+                    <h3 data-i18n="service_4_title">תיקון צנרת</h3>
+                    <p data-i18n="service_4_desc">תיקון והחלפת צנרת פגומה</p>
+                </div>
+                <div class="service-card" data-element-id="element-saved-service-5" data-element-type="card">
+                    <div class="service-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 data-i18n="service_5_title">דוד שמש</h3>
+                    <p data-i18n="service_5_desc">התקנה ותחזוקה של דודי שמש</p>
+                </div>
+                <div class="service-card" data-element-id="element-saved-service-6" data-element-type="card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 data-i18n="service_6_title">שירותי חירום</h3>
+                    <p data-i18n="service_6_desc">זמינים 24/7 לשירותי חירום</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about" data-element-id="element-saved-about" data-element-type="section">
+        <div class="container">
+            <h2 data-element-id="element-saved-about-title" data-element-type="heading" data-i18n="about_title">אודותינו</h2>
+            <div class="about-content" data-element-id="element-saved-about-content" data-element-type="content">
+                <div class="about-text" data-element-id="element-saved-about-text" data-element-type="text">
+                    <p data-i18n="about_text_1">אנחנו צוות של אינסטלטורים מקצועיים עם ניסיון של למעלה מ-15 שנה בתחום.</p>
+                    <p data-i18n="about_text_2">אנו מתמחים במתן פתרונות אינסטלציה איכוtiים ואמינים לבתים ועסקים.</p>
+                    <p data-i18n="about_text_3">שביעות רצון הלקוח היא בראש סדר העדיפויות שלנו.</p>
+                </div>
+                <div class="about-features" data-element-id="element-saved-about-features" data-element-type="list">
+                    <div class="feature-item" data-element-id="element-saved-feature-1" data-element-type="item">
+                        <i class="fas fa-check-circle"></i>
+                        <span data-i18n="feature_1">מקצועיות ואמינות</span>
+                    </div>
+                    <div class="feature-item" data-element-id="element-saved-feature-2" data-element-type="item">
+                        <i class="fas fa-check-circle"></i>
+                        <span data-i18n="feature_2">זמינות 24/7</span>
+                    </div>
+                    <div class="feature-item" data-element-id="element-saved-feature-3" data-element-type="item">
+                        <i class="fas fa-check-circle"></i>
+                        <span data-i18n="feature_3">מחירים הוגנים</span>
+                    </div>
+                    <div class="feature-item" data-element-id="element-saved-feature-4" data-element-type="item">
+                        <i class="fas fa-check-circle"></i>
+                        <span data-i18n="feature_4">אחריות על העבודה</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" data-element-id="element-saved-contact" data-element-type="section">
+        <div class="container">
+            <h2 data-element-id="element-saved-contact-title" data-element-type="heading" data-i18n="contact_title">צור קשר</h2>
+            <div class="contact-content" data-element-id="element-saved-contact-content" data-element-type="content">
+                <div class="contact-info" data-element-id="element-saved-contact-info" data-element-type="info">
+                    <div class="contact-item" data-element-id="element-saved-contact-phone" data-element-type="item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3 data-i18n="contact_phone_title">טלפון</h3>
+                            <p>054-277-0665</p>
+                        </div>
+                    </div>
+                    <div class="contact-item" data-element-id="element-saved-contact-email" data-element-type="item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3 data-i18n="contact_email_title">אימייל</h3>
+                            <p>info@plumbing.co.il</p>
+                        </div>
+                    </div>
+                    <div class="contact-item" data-element-id="element-saved-contact-hours" data-element-type="item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3 data-i18n="contact_hours_title">שעות פעילות</h3>
+                            <p data-i18n="contact_hours_text">24/7 - זמינים תמיד</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" data-element-id="element-saved-contact-form" data-element-type="form">
+                    <input type="text" placeholder="שם מלא" required data-i18n-placeholder="form_name">
+                    <input type="tel" placeholder="טלפון" required data-i18n-placeholder="form_phone">
+                    <input type="email" placeholder="אימייל" required data-i18n-placeholder="form_email">
+                    <textarea placeholder="הודעה" rows="5" required data-i18n-placeholder="form_message"></textarea>
+                    <button type="submit" class="btn btn-primary" data-i18n="form_submit">שלח הודעה</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer data-element-id="element-saved-footer" data-element-type="footer">
+        <div class="container">
+            <div class="footer-content" data-element-id="element-saved-footer-content" data-element-type="content">
+                <div class="footer-section" data-element-id="element-saved-footer-about" data-element-type="section">
+                    <h3 data-i18n="footer_about_title">אינסטלציה מקצועית</h3>
+                    <p data-i18n="footer_about_text">שירותי אינסטלציה מקצועיים ואמינים לבית ולעסק</p>
+                </div>
+                <div class="footer-section" data-element-id="element-saved-footer-links" data-element-type="section">
+                    <h3 data-i18n="footer_links_title">קישורים מהירים</h3>
+                    <ul>
+                        <li><a href="#home" data-i18n="footer_link_home">בית</a></li>
+                        <li><a href="#services" data-i18n="footer_link_services">שירותים</a></li>
+                        <li><a href="#about" data-i18n="footer_link_about">אודות</a></li>
+                        <li><a href="#contact" data-i18n="footer_link_contact">צור קשר</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section" data-element-id="element-saved-footer-social" data-element-type="section">
+                    <h3 data-i18n="footer_social_title">עקבו אחרינו</h3>
+                    <div class="social-links" data-element-id="element-saved-social-links" data-element-type="social-links">
+                        <a href="https://facebook.com/#" aria-label="Facebook" data-element-id="element-saved-social-facebook" data-element-type="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com/#" aria-label="Instagram" data-element-id="element-saved-social-instagram" data-element-type="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/972542770665" aria-label="WhatsApp" data-element-id="element-saved-social-whatsapp" data-element-type="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Twitter" data-element-id="element-saved-social-twitter" data-element-type="social-link" style="display:none;"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn" data-element-id="element-saved-social-linkedin" data-element-type="social-link" style="display:none;" style="display:none;" style="display:none;" style="display:none;" style="display:none;" style="display:none;"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="YouTube" data-element-id="element-saved-social-youtube" data-element-type="social-link" style="display:none;" style="display:none;" style="display:none;" style="display:none;" style="display:none;" style="display:none;"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="TikTok" data-element-id="element-saved-social-tiktok" data-element-type="social-link" style="display:none;" style="display:none;" style="display:none;" style="display:none;" style="display:none;" style="display:none;"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom" data-element-id="element-saved-footer-bottom" data-element-type="content">
+                <p data-i18n="footer_copyright">&copy; 2024 אינסטלציה מקצועית. כל הזכויות שמורות.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+
+    <script id="zappy-mobile-submenu-script">
+    (function() {
+      function initMobileSubmenuToggles() {
+        if (window.innerWidth > 768) {
+          document.querySelectorAll('.mobile-submenu-toggle').forEach(function(btn) { btn.remove(); });
+          document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) { menu.classList.remove('mobile-expanded'); });
+          return;
+        }
+        var items = document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)');
+        items.forEach(function(li) {
+          if (li.querySelector('.mobile-submenu-toggle')) return;
+          var submenu = li.querySelector('.sub-menu');
+          var parentLink = li.querySelector(':scope > a');
+          if (!submenu || !parentLink) return;
+          var toggleBtn = document.createElement('button');
+          toggleBtn.className = 'mobile-submenu-toggle';
+          toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+          toggleBtn.setAttribute('type', 'button');
+          parentLink.insertAdjacentElement('afterend', toggleBtn);
+          toggleBtn.addEventListener('click', function(e) {
+            e.preventDefault(); e.stopPropagation();
+            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+              if (menu !== submenu) { menu.classList.remove('mobile-expanded'); var t = menu.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }
+            });
+            submenu.classList.toggle('mobile-expanded');
+            toggleBtn.classList.toggle('expanded');
+          });
+        });
+      }
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
+      else { initMobileSubmenuToggles(); }
+      var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
+      // Re-initialize when mobile menu becomes visible (MutationObserver)
+      var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.type === 'attributes') {
+            var target = mutation.target;
+            if (target.classList && (target.classList.contains('active') || target.classList.contains('open'))) {
+              setTimeout(initMobileSubmenuToggles, 100);
+            }
+          }
+        });
+      });
+      setTimeout(function() {
+        document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu, nav').forEach(function(menu) {
+          observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
+        });
+      }, 500);
+    })();
+    </script>
+</body>
+</html>
