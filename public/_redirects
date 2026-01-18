@@ -6,9 +6,9 @@
 /privacy  /privacy.html  200
 /accessibility  /accessibility.html  200
 /terms  /terms.html  200
-/menu-group-1768580862951  /menu-group-1768580862951.html  200
-/contact  /contact.html  200
 /catalog-menu  /catalog-menu.html  200
+/medium-duty-storage  /medium-duty-storage.html  200
+/contact  /contact.html  200
 
 # Legal pages - redirect old .html URLs to friendly URLs
 /privacy.html  /privacy  301
