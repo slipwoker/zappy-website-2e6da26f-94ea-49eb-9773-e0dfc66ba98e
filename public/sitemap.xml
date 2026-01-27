@@ -37,19 +37,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mutzagim.co.il/contact</loc>
-    <lastmod>2026-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mutzagim.co.il/advanced-industrial-furniture</loc>
+    <loc>https://mutzagim.co.il/heavy-duty-shelving</loc>
     <lastmod>2026-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mutzagim.co.il/heavy-duty-shelving</loc>
+    <loc>https://mutzagim.co.il/advanced-industrial-furniture</loc>
     <lastmod>2026-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -64,6 +58,18 @@
     <loc>https://mutzagim.co.il/vehicle-shelving</loc>
     <lastmod>2026-01-27</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/plastic-storage-containers-977433</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/contact</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
