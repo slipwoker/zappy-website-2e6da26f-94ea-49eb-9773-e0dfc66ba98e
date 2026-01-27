@@ -1,6 +1,4 @@
-# מוצגים פתרונות אחסון ותצוגה — Generative Engine Optimization Map
-
-> A אחסון ותעשייה business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -33,10 +31,6 @@ https://mutzagim.co.il/light-medium-storage
 https://mutzagim.co.il/contact
 צרו קשר עם מוצגים פתרונות אחסון ותצוגה לקבלת ייעוץ מקצועי על מדפי אחסון תעשייתי למפעלים, פתרונות אחסון למשקל כבד ומתקני קומפקטוס. נשמח לעזור!
 
-### ריהוט תעשייתי
-https://mutzagim.co.il/industrial-furniture
-קטלוג ריהוט תעשייתי מתקדם: שולחנות עבודה, ארונות מגירות, עגלות שירות וכסאות ארגונומיים. פתרונות משלימים למערכות מדפי אחסון תעשייתי למפעלים.
-
 ### ריהוט תעשייתי מתקדם
 https://mutzagim.co.il/advanced-industrial-furniture
 קטלוג ריהוט תעשייתי מתקדם: ארונות מגירות למשקל כבד, עמדות עבודה מודולריות ופתרונות אחסון CNC. איכות ועמידות למפעלים ותעשייה.
@@ -44,6 +38,14 @@ https://mutzagim.co.il/advanced-industrial-furniture
 ### מידוף כבד
 https://mutzagim.co.il/heavy-duty-shelving
 מערכות מידוף כבד למשקל גבוה - פתרונות אחסון תעשייתי למפעלים, מחסנים לוגיסטיים ומשטחים. מדפי משטחים, קנטיליבר וגלריות לעומסים כבדים.
+
+### מתקני קומפקטוס
+https://mutzagim.co.il/compactus-systems
+מערכות קומפקטוס מתקדמות לאחסון צפוף. חסכון של עד 70% בשטח הרצפה. פתרונות אחסון למשקל כבד, ארכיונים ומחסנים לוגיסטיים. תכנון והתקנה מקצועית.
+
+### זיווד רכבים
+https://mutzagim.co.il/vehicle-shelving
+פתרונות זיווד רכבים מתקדמים וריהוט תעשייתי נייד. מערכות מדפים, מגירות וציוד לרכבי שירות. תכנון מודולרי המותאם לכל סוגי הרכבים המסחריים.
 
 ## Legal & Policy
 
@@ -63,15 +65,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About מוצגים פתרונות אחסון ותצוגה
-מוצגים פתרונות אחסון ותצוגה is a business in the אחסון ותעשייה industry.
-
-## Target Audience
-קהל יעד מכל סוגי הלקוחות, לקוחות עסקיים (עסקים קטנים, בינוניים וגדולים, מפעלים, חברות לוגיסטיקה)
-
-## Industry
-אחסון ותעשייה
-
+## About Business
 ---
 
 # Additional Resources
