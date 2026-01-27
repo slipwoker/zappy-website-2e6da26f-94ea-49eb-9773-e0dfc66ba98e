@@ -1,6 +1,4 @@
-# מוצגים פתרונות אחסון ותצוגה — Generative Engine Optimization Map
-
-> A אחסון ותעשייה business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -53,6 +51,10 @@ https://mutzagim.co.il/plastic-storage-containers-977433
 https://mutzagim.co.il/contact
 צרו קשר עם מוצגים פתרונות אחסון ותצוגה לקבלת ייעוץ מקצועי על מדפי אחסון תעשייתי למפעלים, פתרונות אחסון למשקל כבד ומתקני קומפקטוס. נשמח לעזור!
 
+### מדפי תצוגה לסופרמקטים | פתרונות מידוף לחנויות מזון וקמעונאות
+https://mutzagim.co.il/supermarket-shelving
+קטלוג מדפי תצוגה לסופרמקטים וחנויות נוחות. פתרונות מידוף מודולריים, מדפי גונדולה, יחידות קיר ופתרונות אחסון למשקל כבד בעיצוב אסתטי ועמיד.
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -71,15 +73,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About מוצגים פתרונות אחסון ותצוגה
-מוצגים פתרונות אחסון ותצוגה is a business in the אחסון ותעשייה industry.
-
-## Target Audience
-קהל יעד מכל סוגי הלקוחות, לקוחות עסקיים (עסקים קטנים, בינוניים וגדולים, מפעלים, חברות לוגיסטיקה)
-
-## Industry
-אחסון ותעשייה
-
+## About Business
 ---
 
 # Additional Resources
