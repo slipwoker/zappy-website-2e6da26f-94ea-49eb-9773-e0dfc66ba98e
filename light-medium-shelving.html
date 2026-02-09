@@ -585,24 +585,211 @@ img[data-no-hero-position] { position: static !important; }
 .ai-generated-page [class*="hero"] p { color: unset !important; }
 /* End Zappy Base Styles */
 
-</style>    <!-- ZAPPY_INTEGRATION_START analytics:add_google_tag_manager -->
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MWD9Q32P');</script>
-<!-- ZAPPY_INTEGRATION_END analytics:add_google_tag_manager -->
-      <link rel="stylesheet" href="/styles.css">
+</style><!-- Zappy Analytics -->
+<script>
+(function() {
+  'use strict';
+  
+  // Configuration
+  var config = {
+    websiteId: '2e6da26f-94ea-49eb-9773-e0dfc66ba98e',
+    apiUrl: 'https://api.zappy5.com/api/analytics/track',
+    sessionDuration: 30 * 60 * 1000, // 30 minutes
+    visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
+    trackPageViews: true,
+    trackClicks: true,
+    trackFormSubmissions: true
+  };
+  
+  // Generate or retrieve persistent visitor ID (30 days)
+  function getVisitorId() {
+    var visitorKey = 'zappy_visitor_' + config.websiteId;
+    var visitor = null;
+    
+    try {
+      visitor = localStorage.getItem(visitorKey);
+      if (visitor) {
+        var visitorData = JSON.parse(visitor);
+        var now = Date.now();
+        
+        // Check if visitor ID is still valid (30 days)
+        if (now - visitorData.created < config.visitorDuration) {
+          // Update last seen timestamp
+          visitorData.lastSeen = now;
+          localStorage.setItem(visitorKey, JSON.stringify(visitorData));
+          return visitorData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: LocalStorage not available');
+    }
+    
+    // Generate new visitor ID
+    var newVisitorId = 'zv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      localStorage.setItem(visitorKey, JSON.stringify({
+        id: newVisitorId,
+        created: Date.now(),
+        lastSeen: Date.now()
+      }));
+    } catch (e) {
+      // Continue without local storage
+    }
+    
+    return newVisitorId;
+  }
+  
+  // Generate or retrieve session ID (30 minutes)
+  function getSessionId() {
+    var sessionKey = 'zappy_session_' + config.websiteId;
+    var session = null;
+    
+    try {
+      session = sessionStorage.getItem(sessionKey);
+      if (session) {
+        var sessionData = JSON.parse(session);
+        var now = Date.now();
+        
+        // Check if session is still valid
+        if (now - sessionData.timestamp < config.sessionDuration) {
+          // Update timestamp
+          sessionData.timestamp = now;
+          sessionStorage.setItem(sessionKey, JSON.stringify(sessionData));
+          return sessionData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: SessionStorage not available');
+    }
+    
+    // Generate new session ID
+    var newSessionId = 'zs_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      sessionStorage.setItem(sessionKey, JSON.stringify({
+        id: newSessionId,
+        timestamp: Date.now()
+      }));
+    } catch (e) {
+      // Continue without session storage
+    }
+    
+    return newSessionId;
+  }
+  
+  var visitorId = getVisitorId();
+  var sessionId = getSessionId();
+  
+  // Track an event
+  function trackEvent(eventType, data) {
+    data = data || {};
+    
+    var eventData = {
+      website_id: config.websiteId,
+      event_type: eventType,
+      page_path: window.location.pathname,
+      referrer: document.referrer || 'direct',
+      visitor_id: visitorId,
+      session_id: sessionId,
+      metadata: data
+    };
+    
+    // Use sendBeacon if available (better for page unload events)
+    if (navigator.sendBeacon) {
+      var blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
+      navigator.sendBeacon(config.apiUrl, blob);
+    } else {
+      // Fallback to fetch
+      fetch(config.apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(eventData),
+        keepalive: true
+      }).catch(function(error) {
+        console.warn('Zappy Analytics: Failed to track event', error);
+      });
+    }
+  }
+  
+  // Track page view
+  if (config.trackPageViews) {
+    trackEvent('pageview', {
+      title: document.title,
+      url: window.location.href
+    });
+  }
+  
+  // Track clicks on important elements
+  if (config.trackClicks) {
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      
+      // Track button clicks (counted as actions)
+      if (target.tagName === 'BUTTON' || target.closest('button')) {
+        var button = target.tagName === 'BUTTON' ? target : target.closest('button');
+        trackEvent('click', {
+          element: 'button',
+          text: button.textContent.trim().substring(0, 100),
+          id: button.id || null,
+          class: button.className || null
+        });
+      }
+      
+      // Track link clicks (navigation - not counted as actions)
+      else if (target.tagName === 'A' || target.closest('a')) {
+        var link = target.tagName === 'A' ? target : target.closest('a');
+        trackEvent('navigation', {
+          element: 'link',
+          text: link.textContent.trim().substring(0, 100),
+          href: link.href,
+          external: link.hostname !== window.location.hostname
+        });
+      }
+    }, true);
+  }
+  
+  // Track form submissions
+  if (config.trackFormSubmissions) {
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      
+      trackEvent('form_submit', {
+        form_id: form.id || null,
+        form_name: form.name || null,
+        form_action: form.action || null,
+        form_method: form.method || 'GET'
+      });
+    }, true);
+  }
+  
+  // Track time on page (send on page unload)
+  var pageLoadTime = Date.now();
+  
+  window.addEventListener('beforeunload', function() {
+    var timeOnPage = Math.floor((Date.now() - pageLoadTime) / 1000); // in seconds
+    
+    trackEvent('page_unload', {
+      time_on_page: timeOnPage,
+      page_path: window.location.pathname
+    });
+  });
+  
+  // Expose tracking function globally for custom events
+  window.zappyAnalytics = {
+    track: trackEvent,
+    getVisitorId: function() { return visitorId; },
+    getSessionId: function() { return sessionId; }
+  };
+  
+})();
+</script>
+<!-- End Zappy Analytics -->
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <!-- ZAPPY_INTEGRATION_START analytics:add_google_tag_manager -->
-<div data-zappy-integration="analytics:add_google_tag_manager" style="display:contents">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWD9Q32P"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-</div>
-<!-- ZAPPY_INTEGRATION_END analytics:add_google_tag_manager -->
 
 <!-- Zappy Attribution Header -->
 <div id="zappy-attribution-header" class="zappy-header" style="display: none;">
@@ -618,16 +805,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
       <button class="mobile-toggle" id="mobileToggle" aria-label="תפריט">
         <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
         </svg>
         <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-          <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
         </svg>
       </button>
       
       <button class="phone-header-btn" aria-label="התקשרו אלינו">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
         </svg>
       </button>
       
@@ -641,39 +828,326 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </nav><main class="page-main blog-page ai-generated-page">
   <!-- Hero Section -->
-  <section class="section hero-section" id="hero-section" style="background-color: #f8f9fa !important; padding: 80px 0; position: relative; overflow: hidden;" data-zappy-section="true">
-    <div class="container" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 30px;">
-      <h1 style="color: #102030 !important; font-size: 2.5rem; font-weight: 800; margin: 0; max-width: 800px;">מדפי אחסון תעשייתי למפעלים – מידוף קל ובינוני</h1>
-      <p style="color: #102030 !important; font-size: 1.25rem; max-width: 700px; margin: 0; opacity: 0.9;">
-        פתרונות אחסון חכמים המשלבים חוזק מבני, גמישות מודולרית ועיצוב נקי. המערכת האידיאלית לאחסון ידני, ארכיונים וחלקי חילוף.
-      </p>
-      <div style="margin-top: 20px;">
-        <a href="#contact" class="btn" style="background-color: #1e3a8a; color: #ffffff !important; padding: 15px 35px; border-radius: 6px; text-decoration: none; font-weight: 700; display: inline-block; transition: all 0.3s ease;" data-original-href="#contact" data-element-type="button" data-element-id="btn-1769542573430-uu5tkg7qn" data-native-element="true">לקבלת הצעת מחיר</a>
-      </div>
-      <div style="width: 100%; margin-top: 40px;">
-        <img data-placeholder="hero-shelving" data-context="Large warehouse space with clean, galvanized metal shelving units arranged in neat rows, modern industrial aesthetic, bright lighting" data-zappy-editable-image="true" src="/assets/image-hero-shelving-1769542960624-zeayuj.webp?v=1769542960773" alt="מערכות מדפי אחסון תעשייתי למפעלים" style="width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border-radius: 12px; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px; object-position: 50% 50%; height: auto; max-width: 100%" class="generated-image zappy-editable-image" data-og-image="/assets/page-hero-shelving-1769542534894-og.jpg" data-element-type="image" data-element-id="img-1769542573432-y03v3myov" data-resize-handler-attached="true">
+  <section class="industrial-shelving-hero section" data-zappy-section="true">
+  <style>
+    .industrial-shelving-hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      direction: rtl;
+      font-family: system-ui, sans-serif;
+    }
+
+    .hero-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    .hero-background::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(30, 58, 138, 0.85) 0%, rgba(59, 130, 246, 0.75) 100%);
+      z-index: 2;
+    }
+
+    .hero-content-wrapper {
+      position: relative;
+      z-index: 3;
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .hero-text-section {
+      animation: slideInRight 1s ease-out;
+    }
+
+    @keyframes slideInRight {
+      from {
+        opacity: 0;
+        transform: translateX(-60px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .hero-text-section h1 {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 900;
+      color: var(--bg-white);
+      margin: 0 0 1.5rem 0;
+      line-height: 1.1;
+      text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.3);
+      letter-spacing: -0.02em;
+    }
+
+    .hero-text-section p {
+      font-size: clamp(1.1rem, 2vw, 1.4rem);
+      color: var(--bg-light);
+      margin: 0 0 2.5rem 0;
+      line-height: 1.7;
+      font-weight: 300;
+      max-width: 600px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 1.2rem 3rem;
+      background: var(--bg-white);
+      color: var(--primary-color);
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: 700;
+      border-radius: 50px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-button::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-radius: 50%;
+      background: var(--accent-color);
+      transition: width 0.6s, height 0.6s, top 0.6s, left 0.6s;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+      color: var(--bg-white);
+    }
+
+    .cta-button:hover::before {
+      width: 400px;
+      height: 400px;
+    }
+
+    .hero-video-section {
+      position: relative;
+      animation: slideInLeft 1s ease-out 0.3s backwards;
+    }
+
+    @keyframes slideInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(60px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .video-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 2rem;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .video-card::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+      transform: rotate(45deg);
+      animation: shimmer 3s infinite;
+    }
+
+    @keyframes shimmer {
+      0%, 100% {
+        transform: translateX(-100%) rotate(45deg);
+      }
+      50% {
+        transform: translateX(100%) rotate(45deg);
+      }
+    }
+
+    .video-card h2 {
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+      color: var(--bg-white);
+      margin: 0 0 1.5rem 0;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .video-container {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      position: relative;
+      z-index: 1;
+    }
+
+    .floating-icon {
+      position: absolute;
+      bottom: 10%;
+      left: 5%;
+      width: 100px;
+      height: 100px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: float 4s ease-in-out infinite;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      z-index: 4;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0) rotate(0deg);
+      }
+      50% {
+        transform: translateY(-20px) rotate(5deg);
+      }
+    }
+
+    .floating-icon svg {
+      width: 50px;
+      height: 50px;
+      fill: var(--bg-white);
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    }
+
+    .decorative-dots {
+      position: absolute;
+      top: 15%;
+      right: 10%;
+      width: 150px;
+      height: 150px;
+      background-image: radial-gradient(circle, rgba(255, 255, 255, 0.3) 2px, transparent 2px);
+      background-size: 20px 20px;
+      z-index: 2;
+      animation: rotate 20s linear infinite;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @media (max-width: 968px) {
+      .hero-content-wrapper {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 4rem 1.5rem;
+      }
+
+      .hero-text-section h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero-text-section p {
+        font-size: 1.1rem;
+      }
+
+      .cta-button {
+        padding: 1rem 2.5rem;
+        font-size: 1.1rem;
+      }
+
+      .floating-icon {
+        width: 80px;
+        height: 80px;
+      }
+
+      .floating-icon svg {
+        width: 40px;
+        height: 40px;
+      }
+
+      .decorative-dots {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .industrial-shelving-hero {
+        min-height: auto;
+      }
+
+      .hero-content-wrapper {
+        padding: 3rem 1rem;
+      }
+
+      .hero-text-section h1 {
+        font-size: 2rem;
+      }
+
+      .video-card {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+
+  <div class="hero-background" style="background-image: url('assets/image-hero-shelving-1769542960624-zeayuj.webp?v=1769542960773'); background-size: cover; background-position: center;"></div>
+
+  <div class="decorative-dots"></div>
+
+  <div class="hero-content-wrapper">
+    <div class="hero-text-section">
+      <h1>מדפי אחסון תעשייתי למפעלים – מידוף קל ובינוני</h1>
+      <p>פתרונות אחסון חכמים המשלבים חוזק מבני, גמישות מודולרית ועיצוב נקי. המערכת האידיאלית לאחסון ידני, ארכיונים וחלקי חילוף.</p>
+      <a href="#contact" class="cta-button">לקבלת הצעת מחיר</a>
+    </div>
+
+    <div class="hero-video-section">
+      <div class="video-card">
+        <h2>איך להתקין מדפי METALSISTEM SUPER 1-2-3</h2>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/Q-BLN0UQpUw" width="560" height="315" frameborder="0" allowfullscreen="" style="max-width: 100%;"></iframe>
+        </div>
       </div>
     </div>
-  <h2 id="element-saved-1769693486794-g70fug8yya" class="text-3xl font-bold text-gray-900 mb-4" style="color: #1a1a1a; text-align: center" data-element-type="h2">איך להתקין מדפי METALSISTEM SUPER 1-2-3</h2><div style="width: 100%; max-width: 600px; display: block; margin-left: auto; margin-right: auto;"><div style="position: relative; width: 100%; max-width: 800px; height: 0px; padding-bottom: 56.25%; background: rgb(0, 0, 0); border-radius: 8px; overflow: hidden;" data-element-type="video" data-element-id="zappy-element-1769693475034-brtd0pjmd" id="zappy-element-1769693475034-brtd0pjmd"><iframe src="https://www.youtube.com/embed/Q-BLN0UQpUw" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none; " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><div class="zappy-horizontal-grid grid" id="zappy-horizontal-grid-1770038569634-ajus2r" data-zappy-local-grid="true" data-zappy-grid-kind="horizontal-pair" data-zappy-anchor-height="338" style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; padding: 0px !important;">
-        <div style="width: 100%; max-width: 600px;">
-          <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; background: transparent; border-radius: 8px; overflow: hidden;" data-element-type="video">
-            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; text-align: center;">
-              <svg style="width: 270px; height: 265px; display: block;" viewBox="0 0 270 265" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="2" y="2" width="266" height="261" rx="40" stroke="#FF0083" stroke-width="4"/>
-                <g clip-path="url(#clip0_201_1806)">
-                  <path d="M102.5 91L112.5 82.5L123.5 81.5L175.5 119L182.5 131.5L178.5 142L125.5 180.5L116 183.5L109 181L102 172L102.5 91Z" fill="#FFE8F4"/>
-                  <path d="M177.228 117.668L127.264 81.483C121.838 77.496 114.723 76.929 108.729 79.9665C102.636 83.058 99 88.98 99 95.811V168.194C99 175.029 102.641 180.951 108.734 184.038C111.335 185.357 114.089 186.009 116.82 186.009C120.483 186.009 124.105 184.835 127.251 182.526L177.223 146.337L177.237 146.328C181.849 142.944 184.495 137.724 184.495 132C184.495 126.276 181.849 121.056 177.223 117.668H177.228ZM174.582 142.692L124.605 178.886C120.492 181.91 115.322 182.328 110.772 180.024C106.218 177.716 103.504 173.297 103.504 168.194V95.8065C103.504 90.708 106.223 86.289 110.772 83.976C112.703 82.995 114.736 82.5 116.82 82.5C119.587 82.5 122.283 83.4045 124.618 85.1235L174.587 121.308C178.029 123.833 180.005 127.73 180.005 132C180.005 136.271 178.034 140.163 174.587 142.692H174.582Z" fill="#FF0083"/>
-                </g>
-                <defs>
-                  <clipPath id="clip0_201_1806">
-                    <rect width="108" height="108" fill="white" transform="translate(81 78)"/>
-                  </clipPath>
-                </defs>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div></div></div></section>
+  </div>
+
+  <div class="floating-icon">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20 7h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM10 4h4v3h-4V4zm10 16H4V9h16v11z"></path>
+      <path d="M6 12h2v2H6zm3 0h2v2H9zm3 0h2v2h-2zm3 0h2v2h-2z"></path>
+    </svg>
+  </div>
+</section>
 
   <!-- Key Benefits Grid -->
   <section class="section benefits-section" id="benefits" style="background-color: #ffffff !important; padding: 80px 0;" data-zappy-section="true">
