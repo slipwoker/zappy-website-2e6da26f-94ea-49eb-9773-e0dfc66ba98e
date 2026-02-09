@@ -1809,7 +1809,8 @@ body.accessibility-widget-visible ._access-menu {
   
   /* ========== MAIN PADDING FIX ========== */
   /* Fix double-padding from old V2 mobile CSS that applied padding to both main and sections */
-  main {
+  /* Exclude ecommerce-page which needs its own horizontal padding for proper mobile layout */
+  main:not(.ecommerce-page) {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -1822,7 +1823,8 @@ body.accessibility-widget-visible ._access-menu {
   
   /* Hero sections need extra padding-top to clear the sticky navbar */
   /* The navbar is ~70px tall, so hero needs at least 100px padding-top */
-  [class*="-hero-section"]:first-of-type,
+  /* IMPORTANT: Use section tag to avoid matching child elements like buttons that contain "-hero-section" in their BEM class */
+  section[class*="-hero-section"]:first-of-type,
   main > section:first-child {
     padding-top: 100px !important;
   }
@@ -1899,6 +1901,20 @@ body.accessibility-widget-visible ._access-menu {
   display: block !important;
   width: 100% !important;
   height: auto !important;
+}
+
+/* Exclude small icon SVGs from full-width sizing - these are decorative icons, not wave dividers */
+.section-divider svg.divider-icon,
+.section-divider svg[width="32"],
+.section-divider svg[width="24"],
+.section-divider svg[width="48"],
+.section-divider svg[viewBox="0 0 32 32"],
+.section-divider svg[viewBox="0 0 24 24"],
+.section-divider svg[viewBox="0 0 48 48"] {
+  width: auto !important;
+  height: auto !important;
+  max-width: 64px !important;
+  max-height: 64px !important;
 }
 
 /* ========== END SVG DIVIDER OVERLAY FIX ========== */
