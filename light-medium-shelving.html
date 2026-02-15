@@ -641,80 +641,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </nav><main class="page-main blog-page ai-generated-page">
   <!-- Hero Section -->
-  <section style="position: relative; width: 100%; max-width: 100%; box-sizing: border-box; min-height: 100vh; overflow: visible; padding: 0; margin: 0; direction: rtl; font-family: system-ui, sans-serif;" data-zappy-section="true" class="section">
+  <section class="industrial-shelving-hero section" data-zappy-section="true">
   <style>
-    .industrial-hero-section {
+    .industrial-shelving-hero {
       position: relative;
       min-height: 100vh;
       display: flex;
       align-items: center;
-      justify-content: center;
-      background: var(--bg-light);
-      overflow: visible;
-      padding-bottom: 120px;
+      overflow: hidden;
+      direction: rtl;
+      font-family: system-ui, sans-serif;
     }
-    
-    .industrial-hero-bg {
+
+    .hero-background {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      z-index: 0;
+      z-index: 1;
     }
-    
-    .industrial-hero-bg::after {
+
+    .hero-background::after {
       content: '';
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background: linear-gradient(135deg, rgba(30, 58, 138, 0.92) 0%, rgba(59, 130, 246, 0.85) 100%);
-      z-index: 1;
+      background: linear-gradient(135deg, rgba(30, 58, 138, 0.85) 0%, rgba(59, 130, 246, 0.75) 100%);
+      z-index: 2;
     }
-    
-    .industrial-hero-content {
+
+    .hero-content-wrapper {
       position: relative;
-      z-index: 10;
-      max-width: 1200px;
+      z-index: 3;
+      width: 100%;
+      max-width: 1400px;
       margin: 0 auto;
-      padding: 120px 2rem 3rem;
+      padding: 0 2rem;
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 4rem;
       align-items: center;
     }
-    
-    .industrial-hero-text {
-      color: var(--bg-white);
+
+    .hero-text-section {
       animation: slideInRight 1s ease-out;
     }
-    
-    .industrial-hero-text h1 {
-      font-size: 3.5rem;
+
+    @keyframes slideInRight {
+      from {
+        opacity: 0;
+        transform: translateX(-60px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .hero-text-section h1 {
+      font-size: clamp(2.5rem, 5vw, 4rem);
       font-weight: 900;
-      line-height: 1.1;
+      color: var(--bg-white);
       margin: 0 0 1.5rem 0;
-      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      line-height: 1.1;
+      text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.3);
       letter-spacing: -0.02em;
     }
-    
-    .industrial-hero-text p {
-      font-size: 1.25rem;
-      line-height: 1.8;
-      margin: 0 0 2rem 0;
-      opacity: 0.95;
+
+    .hero-text-section p {
+      font-size: clamp(1.1rem, 2vw, 1.4rem);
+      color: var(--bg-light);
+      margin: 0 0 2.5rem 0;
+      line-height: 1.7;
       font-weight: 300;
+      max-width: 600px;
     }
-    
-    .industrial-cta-btn {
+
+    .cta-button {
       display: inline-block;
-      padding: 1.25rem 3rem;
+      padding: 1.2rem 3rem;
       background: var(--bg-white);
       color: var(--primary-color);
       text-decoration: none;
-      font-size: 1.125rem;
+      font-size: 1.2rem;
       font-weight: 700;
       border-radius: 50px;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -722,8 +734,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       position: relative;
       overflow: hidden;
     }
-    
-    .industrial-cta-btn::before {
+
+    .cta-button::before {
       content: '';
       position: absolute;
       top: 50%;
@@ -732,190 +744,221 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       height: 0;
       border-radius: 50%;
       background: var(--accent-color);
+      transition: width 0.6s, height 0.6s, top 0.6s, left 0.6s;
       transform: translate(-50%, -50%);
-      transition: width 0.6s, height 0.6s;
       z-index: -1;
     }
-    
-    .industrial-cta-btn:hover {
-      transform: translateY(-4px);
+
+    .cta-button:hover {
+      transform: translateY(-5px) scale(1.05);
       box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
       color: var(--bg-white);
     }
-    
-    .industrial-cta-btn:hover::before {
-      width: 300px;
-      height: 300px;
+
+    .cta-button:hover::before {
+      width: 400px;
+      height: 400px;
     }
-    
-    .industrial-video-container {
+
+    .hero-video-section {
       position: relative;
-      border-radius: 20px;
-      overflow: hidden;
-      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
-      transform: perspective(1000px) rotateY(-5deg);
-      transition: all 0.6s ease;
-      animation: slideInLeft 1s ease-out;
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(10px);
+      animation: slideInLeft 1s ease-out 0.3s backwards;
     }
-    
-    .industrial-video-container:hover {
-      transform: perspective(1000px) rotateY(0deg) scale(1.02);
-      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.6);
-    }
-    
-    .industrial-features {
-      position: relative;
-      z-index: 10;
-      max-width: 1200px;
-      margin: -80px auto 0;
-      padding: 0 2rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 2rem;
-    }
-    
-    .industrial-feature-card {
-      background: var(--bg-white);
-      padding: 2.5rem;
-      border-radius: 16px;
-      box-shadow: var(--shadow-lg);
-      transition: all 0.4s ease;
-      position: relative;
-      overflow: hidden;
-    }
-    
-    .industrial-feature-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 4px;
-      background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
-      transform: scaleX(0);
-      transform-origin: right;
-      transition: transform 0.4s ease;
-    }
-    
-    .industrial-feature-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-    }
-    
-    .industrial-feature-card:hover::before {
-      transform: scaleX(1);
-      transform-origin: left;
-    }
-    
-    .industrial-feature-icon {
-      font-size: 3rem;
-      margin-bottom: 1.5rem;
-      color: var(--accent-color);
-      display: block;
-    }
-    
-    .industrial-feature-card h2 {
-      font-size: 1.5rem;
-      color: var(--text-dark);
-      margin: 0 0 1rem 0;
-      font-weight: 700;
-    }
-    
-    .divider-wrapper {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 120px;
-      pointer-events: none;
-      z-index: 5;
-    }
-    
-    @keyframes slideInRight {
-      from {
-        opacity: 0;
-        transform: translateX(-50px);
-      }
-      to {
-        opacity: 1;
-        transform: translateX(0);
-      }
-    }
-    
+
     @keyframes slideInLeft {
       from {
         opacity: 0;
-        transform: translateX(50px);
+        transform: translateX(60px);
       }
       to {
         opacity: 1;
         transform: translateX(0);
       }
     }
-    
-    @media (max-width: 768px) {
-      .industrial-hero-section {
-        padding-bottom: 80px;
+
+    .video-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 2rem;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .video-card::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+      transform: rotate(45deg);
+      animation: shimmer 3s infinite;
+    }
+
+    @keyframes shimmer {
+      0%, 100% {
+        transform: translateX(-100%) rotate(45deg);
       }
-      
-      .industrial-hero-content {
+      50% {
+        transform: translateX(100%) rotate(45deg);
+      }
+    }
+
+    .video-card h2 {
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+      color: var(--bg-white);
+      margin: 0 0 1.5rem 0;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .video-container {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      position: relative;
+      z-index: 1;
+    }
+
+    .floating-icon {
+      position: absolute;
+      bottom: 10%;
+      left: 5%;
+      width: 100px;
+      height: 100px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: float 4s ease-in-out infinite;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      z-index: 4;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0) rotate(0deg);
+      }
+      50% {
+        transform: translateY(-20px) rotate(5deg);
+      }
+    }
+
+    .floating-icon svg {
+      width: 50px;
+      height: 50px;
+      fill: var(--bg-white);
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    }
+
+    .decorative-dots {
+      position: absolute;
+      top: 15%;
+      right: 10%;
+      width: 150px;
+      height: 150px;
+      background-image: radial-gradient(circle, rgba(255, 255, 255, 0.3) 2px, transparent 2px);
+      background-size: 20px 20px;
+      z-index: 2;
+      animation: rotate 20s linear infinite;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @media (max-width: 968px) {
+      .hero-content-wrapper {
         grid-template-columns: 1fr;
         gap: 3rem;
-        padding-top: 140px;
+        padding: 4rem 1.5rem;
       }
-      
-      .industrial-hero-text h1 {
+
+      .hero-text-section h1 {
         font-size: 2.5rem;
       }
-      
-      .industrial-hero-text p {
-        font-size: 1.125rem;
+
+      .hero-text-section p {
+        font-size: 1.1rem;
       }
-      
-      .industrial-video-container {
-        transform: perspective(1000px) rotateY(0deg);
+
+      .cta-button {
+        padding: 1rem 2.5rem;
+        font-size: 1.1rem;
       }
-      
-      .industrial-features {
-        margin-top: -40px;
-        grid-template-columns: 1fr;
-      }
-      
-      .divider-wrapper {
+
+      .floating-icon {
+        width: 80px;
         height: 80px;
+      }
+
+      .floating-icon svg {
+        width: 40px;
+        height: 40px;
+      }
+
+      .decorative-dots {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .industrial-shelving-hero {
+        min-height: auto;
+      }
+
+      .hero-content-wrapper {
+        padding: 3rem 1rem;
+      }
+
+      .hero-text-section h1 {
+        font-size: 2rem;
+      }
+
+      .video-card {
+        padding: 1.5rem;
       }
     }
   </style>
-  
-  <div class="industrial-hero-section">
-    <div class="industrial-hero-bg" style="background-image: url('assets/image-hero-shelving-1769542960624-zeayuj.webp?v=1769542960773'); background-size: cover; background-position: center;"></div>
-    
-    <div class="industrial-hero-content">
-      <div class="industrial-hero-text">
-        <h1>מדפי אחסון תעשייתי למפעלים – מידוף קל ובינוני</h1>
-        <p>פתרונות אחסון חכמים המשלבים חוזק מבני, גמישות מודולרית ועיצוב נקי. המערכת האידיאלית לאחסון ידני, ארכיונים וחלקי חילוף.</p>
-        <a href="#contact" class="industrial-cta-btn">לקבלת הצעת מחיר</a>
-      </div>
-      
-      <div class="industrial-video-container">
-        <iframe src="https://www.youtube.com/embed/Q-BLN0UQpUw" width="560" height="315" frameborder="0" allowfullscreen="" style="max-width: 100%;"></iframe>
-      </div>
+
+  <div class="hero-background" style="background-image: url('assets/image-hero-shelving-1769542960624-zeayuj.webp?v=1769542960773'); background-size: cover; background-position: center;"></div>
+
+  <div class="decorative-dots"></div>
+
+  <div class="hero-content-wrapper">
+    <div class="hero-text-section">
+      <h1>מדפי אחסון תעשייתי למפעלים – מידוף קל ובינוני</h1>
+      <p>פתרונות אחסון חכמים המשלבים חוזק מבני, גמישות מודולרית ועיצוב נקי. המערכת האידיאלית לאחסון ידני, ארכיונים וחלקי חילוף.</p>
+      <a href="#contact" class="cta-button">לקבלת הצעת מחיר</a>
     </div>
-    
-    <div class="divider-wrapper">
-      <svg viewBox="0 0 1200 120" preserveAspectRatio="none" style="display: block; width: 100%; height: 100%;">
-        <path d="M0,120 C200,40 400,0 600,20 C800,40 1000,80 1200,60 L1200,120 L0,120 Z" fill="#ffffff"></path>
-      </svg>
+
+    <div class="hero-video-section">
+      <div class="video-card">
+        <h2>איך להתקין מדפי METALSISTEM SUPER 1-2-3</h2>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/Q-BLN0UQpUw" width="560" height="315" frameborder="0" allowfullscreen="" style="max-width: 100%;"></iframe>
+        </div>
+      </div>
     </div>
   </div>
-  
-  <div class="industrial-features">
-    <div class="industrial-feature-card">
-      <span class="industrial-feature-icon">📦</span>
-      <h2>איך להתקין מדפי METALSISTEM SUPER 1-2-3</h2>
-    </div>
+
+  <div class="floating-icon">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20 7h-4V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM10 4h4v3h-4V4zm10 16H4V9h16v11z"></path>
+      <path d="M6 12h2v2H6zm3 0h2v2H9zm3 0h2v2h-2zm3 0h2v2h-2z"></path>
+    </svg>
   </div>
 </section>
 
