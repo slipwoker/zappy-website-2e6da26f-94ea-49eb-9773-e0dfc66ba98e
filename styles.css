@@ -1656,6 +1656,118 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* Added Component Styles */
+/* Gallery Section Styles */
+.gallery-section {
+  padding: 4rem 1rem;
+  background-color: #f8fafc;
+  direction: rtl;
+}
+
+.gallery-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  aspect-ratio: 4/3;
+}
+
+.gallery-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(30, 58, 138, 0.15);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.25rem;
+  }
+  
+  .gallery-section {
+    padding: 3rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .gallery-section {
+    padding: 2.5rem 0.75rem;
+  }
+  
+  .gallery-item {
+    aspect-ratio: 1/1;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .gallery-section {
+    padding: 2rem 0.5rem;
+  }
+  
+  .gallery-item {
+    aspect-ratio: 16/9;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .gallery-item,
+  .gallery-image {
+    transition: none;
+  }
+  
+  .gallery-item:hover {
+    transform: none;
+  }
+  
+  .gallery-item:hover .gallery-image {
+    transform: none;
+  }
+}
+
+/* Focus states for keyboard navigation */
+.gallery-item:focus-within {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
