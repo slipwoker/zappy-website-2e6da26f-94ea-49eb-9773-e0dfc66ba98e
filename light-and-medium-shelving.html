@@ -1283,271 +1283,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </section>
 
-<section style="position: relative; width: 100%; max-width: 100%; box-sizing: border-box; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%); overflow: hidden; padding: 120px 20px 60px;" data-zappy-section="true" class="section">
-  <style>
-    @keyframes float {
-      0%, 100% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-30px) rotate(5deg); }
-    }
-    
-    @keyframes pulse-glow {
-      0%, 100% { box-shadow: 0 0 30px rgba(59, 130, 246, 0.4); }
-      50% { box-shadow: 0 0 60px rgba(59, 130, 246, 0.8); }
-    }
-    
-    @keyframes slide-in-diagonal {
-      from { 
-        transform: translate(-100px, -100px) rotate(-10deg);
-        opacity: 0;
-      }
-      to { 
-        transform: translate(0, 0) rotate(0deg);
-        opacity: 1;
-      }
-    }
-
-    @keyframes geometric-rotate {
-      0% { transform: rotate(0deg) scale(1); }
-      50% { transform: rotate(180deg) scale(1.1); }
-      100% { transform: rotate(360deg) scale(1); }
-    }
-
-    .empty-state-container {
-      position: relative;
-      z-index: 10;
-      max-width: 900px;
-      text-align: center;
-      animation: slide-in-diagonal 1s cubic-bezier(0.34, 1.56, 0.64, 1);
-    }
-
-    .geometric-bg {
-      position: absolute;
-      width: 400px;
-      height: 400px;
-      border: 4px solid rgba(255, 255, 255, 0.1);
-      border-radius: 50%;
-      animation: geometric-rotate 20s linear infinite;
-    }
-
-    .geometric-bg-1 {
-      top: -200px;
-      right: -100px;
-      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-      background: rgba(59, 130, 246, 0.1);
-    }
-
-    .geometric-bg-2 {
-      bottom: -150px;
-      left: -150px;
-      width: 500px;
-      height: 500px;
-      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-      background: rgba(30, 58, 138, 0.15);
-      animation: geometric-rotate 25s linear infinite reverse;
-    }
-
-    .geometric-bg-3 {
-      top: 50%;
-      left: 50%;
-      width: 300px;
-      height: 300px;
-      transform: translate(-50%, -50%);
-      clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-      background: rgba(248, 250, 252, 0.05);
-      animation: float 6s ease-in-out infinite;
-    }
-
-    .content-card {
-      background: rgba(255, 255, 255, 0.98);
-      border-radius: 30px;
-      padding: 80px 60px;
-      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
-      position: relative;
-      overflow: hidden;
-      animation: pulse-glow 3s ease-in-out infinite;
-      backdrop-filter: blur(10px);
-    }
-
-    .content-card::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: linear-gradient(45deg, transparent 30%, rgba(59, 130, 246, 0.1) 50%, transparent 70%);
-      animation: shimmer 3s linear infinite;
-    }
-
-    @keyframes shimmer {
-      0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
-      100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
-    }
-
-    .icon-wrapper {
-      position: relative;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 140px;
-      height: 140px;
-      background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
-      border-radius: 50%;
-      margin-bottom: 40px;
-      box-shadow: 0 20px 50px rgba(30, 58, 138, 0.4);
-      animation: float 4s ease-in-out infinite;
-    }
-
-    .icon-wrapper::after {
-      content: '';
-      position: absolute;
-      width: 160px;
-      height: 160px;
-      border: 3px solid var(--accent-color);
-      border-radius: 50%;
-      opacity: 0.3;
-      animation: pulse-ring 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
-    }
-
-    @keyframes pulse-ring {
-      0% { transform: scale(0.8); opacity: 0.5; }
-      100% { transform: scale(1.3); opacity: 0; }
-    }
-
-    .icon-wrapper svg {
-      width: 70px;
-      height: 70px;
-      color: white;
-      position: relative;
-      z-index: 1;
-      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
-    }
-
-    .empty-state-container h2 {
-      font-size: 3.5rem;
-      font-weight: 900;
-      color: var(--primary-color);
-      margin: 0 0 30px 0;
-      line-height: 1.2;
-      letter-spacing: -1px;
-      position: relative;
-      z-index: 1;
-      background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    .empty-state-container p {
-      font-size: 1.5rem;
-      color: var(--text-gray);
-      margin: 0;
-      position: relative;
-      z-index: 1;
-      line-height: 1.6;
-      font-weight: 500;
-    }
-
-    .decorative-dots {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      opacity: 0.1;
-      z-index: 0;
-    }
-
-    .decorative-dots::before,
-    .decorative-dots::after {
-      content: '';
-      position: absolute;
-      width: 8px;
-      height: 8px;
-      background: white;
-      border-radius: 50%;
-      box-shadow: 
-        30px 40px 0 white,
-        60px 80px 0 white,
-        90px 20px 0 white,
-        120px 100px 0 white,
-        150px 60px 0 white;
-    }
-
-    .decorative-dots::before {
-      top: 20%;
-      left: 10%;
-    }
-
-    .decorative-dots::after {
-      bottom: 20%;
-      right: 10%;
-      box-shadow: 
-        -30px -40px 0 white,
-        -60px -80px 0 white,
-        -90px -20px 0 white,
-        -120px -100px 0 white,
-        -150px -60px 0 white;
-    }
-
-    @media (max-width: 768px) {
-      section {
-        padding-top: 140px;
-        padding-bottom: 80px;
-        min-height: 100vh;
-      }
-
-      .content-card {
-        padding: 50px 30px;
-        border-radius: 20px;
-      }
-
-      .empty-state-container h2 {
-        font-size: 2.5rem;
-      }
-
-      .empty-state-container p {
-        font-size: 1.2rem;
-      }
-
-      .icon-wrapper {
-        width: 100px;
-        height: 100px;
-        margin-bottom: 30px;
-      }
-
-      .icon-wrapper svg {
-        width: 50px;
-        height: 50px;
-      }
-
-      .icon-wrapper::after {
-        width: 120px;
-        height: 120px;
-      }
-
-      .geometric-bg-1,
-      .geometric-bg-2,
-      .geometric-bg-3 {
-        display: none;
-      }
-    }
-  </style>
-
-  <div class="decorative-dots"></div>
-  <div class="geometric-bg geometric-bg-1"></div>
-  <div class="geometric-bg geometric-bg-2"></div>
-  <div class="geometric-bg geometric-bg-3"></div>
-
-  <div class="empty-state-container">
-    <div class="content-card">
-      <div class="icon-wrapper">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
-        </svg>
+<section class="gallery-section" dir="rtl" data-zappy-component="true" id="ai-section-1771756486972-a119n0v">
+  <div class="gallery-container">
+    <div class="gallery-grid zappy-preserve-css-grid" id="zappy-auto-grid-1771756711666-x8f35b" data-zappy-auto-grid="true" data-original-item-width="270" data-original-gap="32px" style="grid-template-columns: 375.333px 375.333px 375.333px;">
+      <div class="gallery-item zappy-grid-item-media-only" data-grid-item-index="0" data-zappy-original-height="281.4895935058594" style="height: 281.49px !important; overflow: hidden !important;">
+        <div data-zappy-zoom-wrapper="true" data-element-id="img-1771756711637-qvtsjakd6" data-element-type="image" data-zappy-zoom-wrapper-width="394px" data-zappy-zoom-wrapper-height="281px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: hidden !important; width: 394px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 281px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-image-placeholder="0" alt="מדפי אחסון תעשייתי מותקנים בחלל מפעל מודרני" class="gallery-image loaded zappy-editable-image" data-element-type="image" data-element-id="img-1771756711637-qvtsjakd6" data-resize-handler-attached="true" data-original-position="static" style="position: relative; object-position: 50% 50%; margin-top: 0px !important; margin-bottom: 0px !important; display: block;" data-zappy-original-width="394" data-zappy-original-height="281.4895935058594" src="/assets/image-img-mlxm866p-1771756755793-cfcm9g.webp?v=1771756757013" data-zappy-zoom="1.05"></div>
       </div>
-      <h2>מוכן לתוכן חדש</h2>
-      <p>אזור זה מוכן לקבל את התוכן המעוצב שלך</p>
+      <div class="gallery-item zappy-grid-item-media-only" data-grid-item-index="1">
+        <img data-image-placeholder="1" alt="מערכת מדפים תעשייתית מתקדמת עם מדפי מתכת חזקים" class="gallery-image loaded zappy-editable-image" loading="lazy" data-element-type="image" data-element-id="img-1771756711637-3du5b6w41" data-resize-handler-attached="true" data-original-position="static" style="position: relative;">
+      </div>
+      <div class="gallery-item zappy-grid-item-media-only" data-grid-item-index="2">
+        <img data-image-placeholder="2" alt="מדפי אחסון תעשייתי ארוכים במפעל עם טכנאי בודק את המערכת" class="gallery-image loaded zappy-editable-image" loading="lazy" data-element-type="image" data-element-id="img-1771756711637-h63p0stnm" data-resize-handler-attached="true" data-original-position="static" style="position: relative;">
+      </div>
+      <div class="gallery-item zappy-grid-item-media-only" data-grid-item-index="3">
+        <img data-image-placeholder="0" alt="פתרון אחסון תעשייתי מקצועי למפעלים" class="gallery-image loaded zappy-editable-image" loading="lazy" data-element-type="image" data-element-id="img-1771756711637-xu0i3914h" data-resize-handler-attached="true" data-original-position="static" style="position: relative;">
+      </div>
+      <div class="gallery-item zappy-grid-item-media-only" data-grid-item-index="4">
+        <img data-image-placeholder="1" alt="מערכת מדפים מודולרית לאחסון תעשייתי" class="gallery-image zappy-editable-image" loading="lazy" data-element-type="image" data-element-id="img-1771756711638-lvh5p2hs4" data-resize-handler-attached="true" data-original-position="static" style="position: relative;">
+      </div>
+      <div class="gallery-item zappy-grid-item-media-only" data-grid-item-index="5">
+        <img data-image-placeholder="2" alt="התקנת מדפי אחסון תעשייתי איכותיים" class="gallery-image zappy-editable-image" loading="lazy" data-element-type="image" data-element-id="img-1771756711638-6oak59d0o" data-resize-handler-attached="true" data-original-position="static" style="position: relative;">
+      </div>
+      <div class="gallery-item zappy-grid-item-media-only" data-grid-item-index="6" style="">
+        <img data-image-placeholder="0" alt="מדפי מתכת תעשייתיים לאחסון כבד" class="gallery-image zappy-editable-image" loading="lazy" data-element-type="image" data-element-id="img-1771756711638-gjg9d1ifo" data-resize-handler-attached="true" data-original-position="static" style="position: relative;">
+      </div>
+      <div class="gallery-item zappy-grid-item-media-only" data-grid-item-index="7" style="">
+        <img data-image-placeholder="1" alt="פתרונות אחסון מתקדמים למפעלים ומחסנים" class="gallery-image zappy-editable-image" loading="lazy" data-element-type="image" data-element-id="img-1771756711638-emm3qs2it" data-resize-handler-attached="true" data-original-position="static" style="position: relative;">
+      </div>
     </div>
   </div>
 </section>
