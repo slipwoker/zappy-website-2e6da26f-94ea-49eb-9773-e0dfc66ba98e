@@ -67,6 +67,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://mutzagim.co.il/esd-containers</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://mutzagim.co.il/supermarket-shelving</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -79,7 +85,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mutzagim.co.il/esd-containers</loc>
+    <loc>https://mutzagim.co.il/light-and-medium-shelving</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
