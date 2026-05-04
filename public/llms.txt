@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# מוצגים פתרונות אחסון ותצוגה — Generative Engine Optimization Map
+
+> A אחסון ותעשייה business.
 
 ---
 
@@ -99,12 +101,43 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## How to Contact Us
 
-## About Business
+- Email: effi@mutzagim.co.il
+- Phone: +972542770665
+- Phone (tel): tel:+972542770665
+- Address: כתובת החברה, יקנעם, ישראל
+
+### Contact form
+- URL: https://mutzagim.co.il/contact-us
+- Endpoint: https://mutzagim.co.il/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `company` (text)
+  - `serviceType` (select)
+  - `message` (textarea)
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://mutzagim.co.il/sitemap.xml
-- **Robots.txt**: https://mutzagim.co.il/robots.txt
+## About מוצגים פתרונות אחסון ותצוגה
+מוצגים פתרונות אחסון ותצוגה is a business in the אחסון ותעשייה industry.
+
+## Target Audience
+קהל יעד מכל סוגי הלקוחות, לקוחות עסקיים (עסקים קטנים, בינוניים וגדולים, מפעלים, חברות לוגיסטיקה)
+
+## Industry
+אחסון ותעשייה
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://mutzagim.co.il/sitemap.xml
+- Robots: https://mutzagim.co.il/robots.txt
+- Flattened page text (for LLMs): https://mutzagim.co.il/llms-full.txt
