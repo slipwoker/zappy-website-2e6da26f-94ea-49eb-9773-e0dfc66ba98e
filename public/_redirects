@@ -1,9 +1,8 @@
 # Clean URL redirects for Render static hosting
-# Generated: 2026-05-04T15:06:23.753Z
+# Generated: 2026-05-04T15:31:23.723Z
 # NOTE: Render uses render.yaml for routing, not _redirects (that is Netlify)
 # This file is kept for reference only
 
-/menu-group-1769425098718  /menu-group-1769425098718.html  200!
 /light-and-medium-shelving  /light-and-medium-shelving.html  200!
 /heavy-duty-shelving  /heavy-duty-shelving.html  200!
 /advanced-industrial-furniture  /advanced-industrial-furniture.html  200!
@@ -25,6 +24,31 @@
 /dalmine-ls-modular-shelving  /dalmine-ls-modular-shelving.html  200!
 /cold-room-shelving  /cold-room-shelving.html  200!
 /cold-room-freezer-shelving-tonon  /cold-room-freezer-shelving-tonon.html  200!
+
+# Language slug rewrites for SEO
+/en  /en/index.html  200!
+/en/light-and-medium-shelving  /en/light-and-medium-shelving.html  200!
+/en/heavy-duty-shelving  /en/heavy-duty-shelving.html  200!
+/en/advanced-industrial-furniture  /en/advanced-industrial-furniture.html  200!
+/en/compactus-systems  /en/compactus-systems.html  200!
+/en/plastic-storage-containers-977433  /en/plastic-storage-containers-977433.html  200!
+/en/esd-containers  /en/esd-containers.html  200!
+/en/supermarket-shelving  /en/supermarket-shelving.html  200!
+/en/storage-mezzanines  /en/storage-mezzanines.html  200!
+/en/shelving-solutions-north  /en/shelving-solutions-north.html  200!
+/en/services  /en/services.html  200!
+/en/privacy  /en/privacy.html  200!
+/en/accessibility  /en/accessibility.html  200!
+/en/terms  /en/terms.html  200!
+/en/vehicle-equipment  /en/vehicle-equipment.html  200!
+/en/catalog-and-pricing  /en/catalog-and-pricing.html  200!
+/en/about  /en/about.html  200!
+/en/contact-us  /en/contact-us.html  200!
+/en/vlm-vertical-storage  /en/vlm-vertical-storage.html  200!
+/en/dalmine-ls-modular-shelving  /en/dalmine-ls-modular-shelving.html  200!
+/en/cold-room-shelving  /en/cold-room-shelving.html  200!
+/en/cold-room-freezer-shelving-tonon  /en/cold-room-freezer-shelving-tonon.html  200!
+/en  /en/index.html  200!
 
 # Legal pages - redirect old .html URLs to friendly URLs
 /privacy.html  /privacy  301
