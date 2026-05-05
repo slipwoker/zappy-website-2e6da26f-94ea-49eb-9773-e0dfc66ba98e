@@ -90,6 +90,26 @@ https://mutzagim.co.il/product/:slug
 https://mutzagim.co.il/category/:slug
 מוצרים - מוצגים פתרונות אחסון ותצוגה
 
+### Cart
+https://mutzagim.co.il/cart
+עגלת הקניות שלך
+
+### Checkout
+https://mutzagim.co.il/checkout
+תשלום
+
+### Login
+https://mutzagim.co.il/login
+התחברות לקוחות
+
+### Account
+https://mutzagim.co.il/account
+החשבון שלי
+
+### Order Success
+https://mutzagim.co.il/order-success
+תודה על ההזמנה
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -110,12 +130,14 @@ Information about WCAG compliance and accessibility features.
 
 **Total active products: 1**
 
-### סט קיט מדפים 
-https://mutzagim.co.il/product/st-kyt-mdpym-a7kyp0
-- Price: 390.00 USD (sale, was 450.00 USD)
+### סט קיט מדפים ERREX תוצרת איטליה
+https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-dxufom
+- Price: 531.00 USD (sale, was 650.00 USD)
 - Availability: In stock
 - Category: מידוף קל ובינוני
-- Brand: מרסגלי
+- Brand: Dalmine
+- Description: קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק"ג למדף
+- Image: https://mutzagim.co.il/assets/product-1777982140101-repjrb.webp
 
 ---
 

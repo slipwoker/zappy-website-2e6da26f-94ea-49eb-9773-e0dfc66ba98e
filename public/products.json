@@ -1,36 +1,38 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-05T11:47:12.479Z",
+  "generated_at": "2026-05-05T11:59:11.956Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 1,
   "products": [
     {
       "id": "781e91fe-8967-44c7-98f4-f394a18f64bf",
-      "slug": "st-kyt-mdpym-a7kyp0",
-      "name": "סט קיט מדפים ",
+      "slug": "st-kyt-mdpym-errex-tvtsrt-aytlyh-dxufom",
+      "name": "סט קיט מדפים ERREX תוצרת איטליה",
       "name_translations": {
-        "ar": "طقم رفوف",
-        "en": "Shelf Kit Set",
-        "he": "סט קיט מדפים ",
-        "ru": "Набор полочных кронштейнов"
+        "ar": "طقم رفوف ERREX صناعة إيطالية",
+        "en": "ERREX Shelving Kit Set Made in Italy",
+        "he": "סט קיט מדפים ERREX תוצרת איטליה",
+        "ru": "Комплект стеллажных полок ERREX производства Италии"
       },
-      "description": "",
-      "short_description": null,
+      "description": "<p>Kit ERREX1® is the ideal choice when you need strong and functional shelving: Kit ERREX1® •Materials: galvanized steel for increased durability. • Load capacity: up to 170 kgs for each shelf according to its depth (30 cm or 40 cm). • Design: stylish and durable, fit for industrial and commercial applications. •Modular: each starting module can be easily extended by purchasing add-on units for all your needs changing over time. • Ease of assembly: entirely flat-pack including detailed assembly instructions</p>",
+      "short_description": "קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק\"ג למדף",
       "sku": null,
-      "brand": "מרסגלי",
-      "price": 390,
-      "base_price": 450,
-      "sale_price": 390,
+      "brand": "Dalmine",
+      "price": 531,
+      "base_price": 650,
+      "sale_price": 531,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1777982140101-repjrb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/st-kyt-mdpym-a7kyp0",
+      "url": "https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-dxufom",
       "categories": [
         "מידוף קל ובינוני"
       ],
-      "updated_at": "2026-05-05T11:46:41.543Z"
+      "updated_at": "2026-05-05T11:58:41.010Z"
     }
   ]
 }
