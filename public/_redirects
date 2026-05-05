@@ -1,5 +1,5 @@
 # Clean URL redirects for Render static hosting
-# Generated: 2026-05-05T09:32:38.531Z
+# Generated: 2026-05-05T09:35:46.952Z
 # NOTE: Render uses render.yaml for routing, not _redirects (that is Netlify)
 # This file is kept for reference only
 
@@ -12,9 +12,6 @@
 /supermarket-shelving  /supermarket-shelving.html  200!
 /storage-mezzanines  /storage-mezzanines.html  200!
 /shelving-solutions-north  /shelving-solutions-north.html  200!
-/dalmine-ls-modular-shelving  /dalmine-ls-modular-shelving.html  200!
-/cold-room-freezer-shelving-tonon  /cold-room-freezer-shelving-tonon.html  200!
-/vlm-vertical-storage  /vlm-vertical-storage.html  200!
 /services  /services.html  200!
 /privacy  /privacy.html  200!
 /accessibility  /accessibility.html  200!
@@ -23,7 +20,10 @@
 /catalog-and-pricing  /catalog-and-pricing.html  200!
 /about  /about.html  200!
 /contact-us  /contact-us.html  200!
+/vlm-vertical-storage  /vlm-vertical-storage.html  200!
+/dalmine-ls-modular-shelving  /dalmine-ls-modular-shelving.html  200!
 /cold-room-shelving  /cold-room-shelving.html  200!
+/cold-room-freezer-shelving-tonon  /cold-room-freezer-shelving-tonon.html  200!
 
 # Language slug rewrites for SEO
 /en  /en/index.html  200!
@@ -36,9 +36,6 @@
 /en/supermarket-shelving  /en/supermarket-shelving.html  200!
 /en/storage-mezzanines  /en/storage-mezzanines.html  200!
 /en/shelving-solutions-north  /en/shelving-solutions-north.html  200!
-/en/dalmine-ls-modular-shelving  /en/dalmine-ls-modular-shelving.html  200!
-/en/cold-room-freezer-shelving-tonon  /en/cold-room-freezer-shelving-tonon.html  200!
-/en/vlm-vertical-storage  /en/vlm-vertical-storage.html  200!
 /en/services  /en/services.html  200!
 /en/privacy  /en/privacy.html  200!
 /en/accessibility  /en/accessibility.html  200!
@@ -47,7 +44,10 @@
 /en/catalog-and-pricing  /en/catalog-and-pricing.html  200!
 /en/about  /en/about.html  200!
 /en/contact-us  /en/contact-us.html  200!
+/en/vlm-vertical-storage  /en/vlm-vertical-storage.html  200!
+/en/dalmine-ls-modular-shelving  /en/dalmine-ls-modular-shelving.html  200!
 /en/cold-room-shelving  /en/cold-room-shelving.html  200!
+/en/cold-room-freezer-shelving-tonon  /en/cold-room-freezer-shelving-tonon.html  200!
 /en  /en/index.html  200!
 /ar  /ar/index.html  200!
 /ar/light-and-medium-shelving  /ar/light-and-medium-shelving.html  200!
@@ -59,9 +59,6 @@
 /ar/supermarket-shelving  /ar/supermarket-shelving.html  200!
 /ar/storage-mezzanines  /ar/storage-mezzanines.html  200!
 /ar/shelving-solutions-north  /ar/shelving-solutions-north.html  200!
-/ar/dalmine-ls-modular-shelving  /ar/dalmine-ls-modular-shelving.html  200!
-/ar/cold-room-freezer-shelving-tonon  /ar/cold-room-freezer-shelving-tonon.html  200!
-/ar/vlm-vertical-storage  /ar/vlm-vertical-storage.html  200!
 /ar/services  /ar/services.html  200!
 /ar/privacy  /ar/privacy.html  200!
 /ar/accessibility  /ar/accessibility.html  200!
@@ -70,7 +67,10 @@
 /ar/catalog-and-pricing  /ar/catalog-and-pricing.html  200!
 /ar/about  /ar/about.html  200!
 /ar/contact-us  /ar/contact-us.html  200!
+/ar/vlm-vertical-storage  /ar/vlm-vertical-storage.html  200!
+/ar/dalmine-ls-modular-shelving  /ar/dalmine-ls-modular-shelving.html  200!
 /ar/cold-room-shelving  /ar/cold-room-shelving.html  200!
+/ar/cold-room-freezer-shelving-tonon  /ar/cold-room-freezer-shelving-tonon.html  200!
 /ar  /ar/index.html  200!
 
 # Legal pages - redirect old .html URLs to friendly URLs
