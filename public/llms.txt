@@ -134,7 +134,7 @@ Information about WCAG compliance and accessibility features.
 https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp
 - Price: 531.00 USD (sale, was 650.00 USD)
 - Availability: In stock
-- Category: מידוף קל ובינוני
+- Category: מידוף מחסן לעומס קל ובינוני
 - Brand: Dalmine
 - Description: קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק"ג למדף
 - Image: https://mutzagim.co.il/assets/product-1777982140101-repjrb.webp
