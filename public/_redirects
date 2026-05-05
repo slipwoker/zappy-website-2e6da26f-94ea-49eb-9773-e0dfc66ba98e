@@ -1,5 +1,5 @@
 # Clean URL redirects for Render static hosting
-# Generated: 2026-05-04T15:35:42.589Z
+# Generated: 2026-05-05T09:10:38.602Z
 # NOTE: Render uses render.yaml for routing, not _redirects (that is Netlify)
 # This file is kept for reference only
 
@@ -49,6 +49,29 @@
 /en/cold-room-shelving  /en/cold-room-shelving.html  200!
 /en/cold-room-freezer-shelving-tonon  /en/cold-room-freezer-shelving-tonon.html  200!
 /en  /en/index.html  200!
+/ar  /ar/index.html  200!
+/ar/light-and-medium-shelving  /ar/light-and-medium-shelving.html  200!
+/ar/heavy-duty-shelving  /ar/heavy-duty-shelving.html  200!
+/ar/advanced-industrial-furniture  /ar/advanced-industrial-furniture.html  200!
+/ar/compactus-systems  /ar/compactus-systems.html  200!
+/ar/plastic-storage-containers-977433  /ar/plastic-storage-containers-977433.html  200!
+/ar/esd-containers  /ar/esd-containers.html  200!
+/ar/supermarket-shelving  /ar/supermarket-shelving.html  200!
+/ar/storage-mezzanines  /ar/storage-mezzanines.html  200!
+/ar/shelving-solutions-north  /ar/shelving-solutions-north.html  200!
+/ar/services  /ar/services.html  200!
+/ar/privacy  /ar/privacy.html  200!
+/ar/accessibility  /ar/accessibility.html  200!
+/ar/terms  /ar/terms.html  200!
+/ar/vehicle-equipment  /ar/vehicle-equipment.html  200!
+/ar/catalog-and-pricing  /ar/catalog-and-pricing.html  200!
+/ar/about  /ar/about.html  200!
+/ar/contact-us  /ar/contact-us.html  200!
+/ar/vlm-vertical-storage  /ar/vlm-vertical-storage.html  200!
+/ar/dalmine-ls-modular-shelving  /ar/dalmine-ls-modular-shelving.html  200!
+/ar/cold-room-shelving  /ar/cold-room-shelving.html  200!
+/ar/cold-room-freezer-shelving-tonon  /ar/cold-room-freezer-shelving-tonon.html  200!
+/ar  /ar/index.html  200!
 
 # Legal pages - redirect old .html URLs to friendly URLs
 /privacy.html  /privacy  301
