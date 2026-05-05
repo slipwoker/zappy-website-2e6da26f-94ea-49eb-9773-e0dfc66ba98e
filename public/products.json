@@ -1,19 +1,19 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-05T11:44:40.501Z",
+  "generated_at": "2026-05-05T11:47:12.479Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 1,
   "products": [
     {
       "id": "781e91fe-8967-44c7-98f4-f394a18f64bf",
-      "slug": "st-kyt-mdpym-uiem2j",
+      "slug": "st-kyt-mdpym-a7kyp0",
       "name": "סט קיט מדפים ",
       "name_translations": {
         "ar": "طقم رفوف",
         "en": "Shelf Kit Set",
         "he": "סט קיט מדפים ",
-        "ru": "Комплект полок"
+        "ru": "Набор полочных кронштейнов"
       },
       "description": "",
       "short_description": null,
@@ -26,9 +26,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/st-kyt-mdpym-uiem2j",
-      "categories": [],
-      "updated_at": "2026-05-05T11:44:09.674Z"
+      "url": "https://mutzagim.co.il/product/st-kyt-mdpym-a7kyp0",
+      "categories": [
+        "מידוף קל ובינוני"
+      ],
+      "updated_at": "2026-05-05T11:46:41.543Z"
     }
   ]
 }

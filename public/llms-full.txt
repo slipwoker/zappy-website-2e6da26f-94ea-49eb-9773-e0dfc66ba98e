@@ -7811,7 +7811,7 @@ Description: מוצרים - מוצגים פתרונות אחסון ותצוגה
 ## Product Catalog
 
 ### סט קיט מדפים 
-URL: https://mutzagim.co.il/product/st-kyt-mdpym-uiem2j
+URL: https://mutzagim.co.il/product/st-kyt-mdpym-a7kyp0
 Price: 390.00 USD (sale, was 450.00 USD)
 Availability: In stock
 Brand: מרסגלי
