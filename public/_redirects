@@ -1,5 +1,5 @@
 # Clean URL redirects for Render static hosting
-# Generated: 2026-05-05T10:40:46.055Z
+# Generated: 2026-05-05T11:33:49.175Z
 # NOTE: Render uses render.yaml for routing, not _redirects (that is Netlify)
 # This file is kept for reference only
 
@@ -17,13 +17,13 @@
 /accessibility  /accessibility.html  200!
 /terms  /terms.html  200!
 /vehicle-equipment  /vehicle-equipment.html  200!
-/catalog-and-pricing  /catalog-and-pricing.html  200!
 /about  /about.html  200!
 /contact-us  /contact-us.html  200!
 /vlm-vertical-storage  /vlm-vertical-storage.html  200!
 /dalmine-ls-modular-shelving  /dalmine-ls-modular-shelving.html  200!
 /cold-room-shelving  /cold-room-shelving.html  200!
 /cold-room-freezer-shelving-tonon  /cold-room-freezer-shelving-tonon.html  200!
+/products  /products.html  200!
 
 # Language slug rewrites for SEO
 /en  /en/index.html  200!
@@ -41,13 +41,13 @@
 /en/accessibility  /en/accessibility.html  200!
 /en/terms  /en/terms.html  200!
 /en/vehicle-equipment  /en/vehicle-equipment.html  200!
-/en/catalog-and-pricing  /en/catalog-and-pricing.html  200!
 /en/about  /en/about.html  200!
 /en/contact-us  /en/contact-us.html  200!
 /en/vlm-vertical-storage  /en/vlm-vertical-storage.html  200!
 /en/dalmine-ls-modular-shelving  /en/dalmine-ls-modular-shelving.html  200!
 /en/cold-room-shelving  /en/cold-room-shelving.html  200!
 /en/cold-room-freezer-shelving-tonon  /en/cold-room-freezer-shelving-tonon.html  200!
+/en/products  /en/products.html  200!
 /en  /en/index.html  200!
 /ar  /ar/index.html  200!
 /ar/light-and-medium-shelving  /ar/light-and-medium-shelving.html  200!
@@ -64,13 +64,13 @@
 /ar/accessibility  /ar/accessibility.html  200!
 /ar/terms  /ar/terms.html  200!
 /ar/vehicle-equipment  /ar/vehicle-equipment.html  200!
-/ar/catalog-and-pricing  /ar/catalog-and-pricing.html  200!
 /ar/about  /ar/about.html  200!
 /ar/contact-us  /ar/contact-us.html  200!
 /ar/vlm-vertical-storage  /ar/vlm-vertical-storage.html  200!
 /ar/dalmine-ls-modular-shelving  /ar/dalmine-ls-modular-shelving.html  200!
 /ar/cold-room-shelving  /ar/cold-room-shelving.html  200!
 /ar/cold-room-freezer-shelving-tonon  /ar/cold-room-freezer-shelving-tonon.html  200!
+/ar/products  /ar/products.html  200!
 /ar  /ar/index.html  200!
 /ru  /ru/index.html  200!
 /ru/light-and-medium-shelving  /ru/light-and-medium-shelving.html  200!
@@ -87,13 +87,13 @@
 /ru/accessibility  /ru/accessibility.html  200!
 /ru/terms  /ru/terms.html  200!
 /ru/vehicle-equipment  /ru/vehicle-equipment.html  200!
-/ru/catalog-and-pricing  /ru/catalog-and-pricing.html  200!
 /ru/about  /ru/about.html  200!
 /ru/contact-us  /ru/contact-us.html  200!
 /ru/vlm-vertical-storage  /ru/vlm-vertical-storage.html  200!
 /ru/dalmine-ls-modular-shelving  /ru/dalmine-ls-modular-shelving.html  200!
 /ru/cold-room-shelving  /ru/cold-room-shelving.html  200!
 /ru/cold-room-freezer-shelving-tonon  /ru/cold-room-freezer-shelving-tonon.html  200!
+/ru/products  /ru/products.html  200!
 /ru  /ru/index.html  200!
 
 # Legal pages - redirect old .html URLs to friendly URLs
@@ -103,5 +103,12 @@
 
 /  /index.html  200!
 
-# SPA fallback - serve index.html for all unmatched routes
-/*  /index.html  200
+# Dynamic routes - serve dedicated HTML templates for dynamic paths
+/product/*  /product.html  200!
+/category/*  /category.html  200!
+/en/product/*  /en/product/index.html  200!
+/en/category/*  /en/category/index.html  200!
+/ar/product/*  /ar/product/index.html  200!
+/ar/category/*  /ar/category/index.html  200!
+/ru/product/*  /ru/product/index.html  200!
+/ru/category/*  /ru/category/index.html  200!
