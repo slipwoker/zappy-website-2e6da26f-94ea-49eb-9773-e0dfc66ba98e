@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-05T11:59:11.956Z",
+  "generated_at": "2026-05-05T12:01:39.338Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 1,
   "products": [
     {
       "id": "781e91fe-8967-44c7-98f4-f394a18f64bf",
-      "slug": "st-kyt-mdpym-errex-tvtsrt-aytlyh-dxufom",
+      "slug": "st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp",
       "name": "סט קיט מדפים ERREX תוצרת איטליה",
       "name_translations": {
         "ar": "طقم رفوف ERREX صناعة إيطالية",
@@ -15,7 +15,7 @@
         "he": "סט קיט מדפים ERREX תוצרת איטליה",
         "ru": "Комплект стеллажных полок ERREX производства Италии"
       },
-      "description": "<p>Kit ERREX1® is the ideal choice when you need strong and functional shelving: Kit ERREX1® •Materials: galvanized steel for increased durability. • Load capacity: up to 170 kgs for each shelf according to its depth (30 cm or 40 cm). • Design: stylish and durable, fit for industrial and commercial applications. •Modular: each starting module can be easily extended by purchasing add-on units for all your needs changing over time. • Ease of assembly: entirely flat-pack including detailed assembly instructions</p>",
+      "description": "<p class=\"ql-align-right\">קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק\"ג למדף</p><p class=\"ql-align-right\">מידות 100/40/180 ס\"מ, 5 מדפים בעומק 40 ס\"מ</p><p class=\"ql-align-right\"><br></p><p><br></p><p>Kit ERREX1® is the ideal choice when you need strong and functional shelving: Kit ERREX1® •Materials: galvanized steel for increased durability. • Load capacity: up to 170 kgs for each shelf according to its depth (30 cm or 40 cm). • Design: stylish and durable, fit for industrial and commercial applications. •Modular: each starting module can be easily extended by purchasing add-on units for all your needs changing over time. • Ease of assembly: entirely flat-pack including detailed assembly instructions</p>",
       "short_description": "קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק\"ג למדף",
       "sku": null,
       "brand": "Dalmine",
@@ -28,11 +28,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-dxufom",
+      "url": "https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp",
       "categories": [
         "מידוף קל ובינוני"
       ],
-      "updated_at": "2026-05-05T11:58:41.010Z"
+      "updated_at": "2026-05-05T12:01:07.185Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 # Clean URL redirects for Render static hosting
-# Generated: 2026-05-05T11:33:49.175Z
+# Generated: 2026-05-05T12:01:39.347Z
 # NOTE: Render uses render.yaml for routing, not _redirects (that is Netlify)
 # This file is kept for reference only
 
@@ -24,6 +24,12 @@
 /cold-room-shelving  /cold-room-shelving.html  200!
 /cold-room-freezer-shelving-tonon  /cold-room-freezer-shelving-tonon.html  200!
 /products  /products.html  200!
+/cart  /cart.html  200!
+/checkout  /checkout.html  200!
+/login  /login.html  200!
+/account  /account.html  200!
+/order-success  /order-success.html  200!
+/return-policy  /return-policy.html  200!
 
 # Language slug rewrites for SEO
 /en  /en/index.html  200!
@@ -48,6 +54,12 @@
 /en/cold-room-shelving  /en/cold-room-shelving.html  200!
 /en/cold-room-freezer-shelving-tonon  /en/cold-room-freezer-shelving-tonon.html  200!
 /en/products  /en/products.html  200!
+/en/cart  /en/cart.html  200!
+/en/checkout  /en/checkout.html  200!
+/en/login  /en/login.html  200!
+/en/account  /en/account.html  200!
+/en/order-success  /en/order-success.html  200!
+/en/return-policy  /en/return-policy.html  200!
 /en  /en/index.html  200!
 /ar  /ar/index.html  200!
 /ar/light-and-medium-shelving  /ar/light-and-medium-shelving.html  200!
@@ -71,6 +83,12 @@
 /ar/cold-room-shelving  /ar/cold-room-shelving.html  200!
 /ar/cold-room-freezer-shelving-tonon  /ar/cold-room-freezer-shelving-tonon.html  200!
 /ar/products  /ar/products.html  200!
+/ar/cart  /ar/cart.html  200!
+/ar/checkout  /ar/checkout.html  200!
+/ar/login  /ar/login.html  200!
+/ar/account  /ar/account.html  200!
+/ar/order-success  /ar/order-success.html  200!
+/ar/return-policy  /ar/return-policy.html  200!
 /ar  /ar/index.html  200!
 /ru  /ru/index.html  200!
 /ru/light-and-medium-shelving  /ru/light-and-medium-shelving.html  200!
@@ -94,6 +112,12 @@
 /ru/cold-room-shelving  /ru/cold-room-shelving.html  200!
 /ru/cold-room-freezer-shelving-tonon  /ru/cold-room-freezer-shelving-tonon.html  200!
 /ru/products  /ru/products.html  200!
+/ru/cart  /ru/cart.html  200!
+/ru/checkout  /ru/checkout.html  200!
+/ru/login  /ru/login.html  200!
+/ru/account  /ru/account.html  200!
+/ru/order-success  /ru/order-success.html  200!
+/ru/return-policy  /ru/return-policy.html  200!
 /ru  /ru/index.html  200!
 
 # Legal pages - redirect old .html URLs to friendly URLs

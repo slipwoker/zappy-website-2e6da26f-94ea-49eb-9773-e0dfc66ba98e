@@ -198,6 +198,8 @@ window.onload = function() {
 })();
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -211,7 +213,7 @@ window.onload = function() {
   } catch (e) {}
 
   const websiteId = window.ZAPPY_WEBSITE_ID;
-  const isCatalogMode = true; // true = catalog only (no cart), false = full e-commerce
+  const isCatalogMode = false; // true = catalog only (no cart), false = full e-commerce
   
   // Set up fixed header heights - NO GAP between header and catalog menu
   function setupFixedHeaders() {
@@ -4791,7 +4793,7 @@ function stripHtmlToText(html) {
 
 ;
 // Catalog mode flag - set at generation time
-const isCatalogMode = true; // true = catalog only (no cart/checkout), false = full e-commerce
+const isCatalogMode = false; // true = catalog only (no cart/checkout), false = full e-commerce
 const zappyAdditionalDefaultLanguage = "he";
 
 // API base helper for additional JS
