@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-07T13:44:49.955Z",
+  "generated_at": "2026-05-07T13:45:36.948Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 2,
   "products": [
     {
       "id": "3e349ad4-b1c1-4d53-8b40-ad3a5c258ac8",
-      "slug": "hktgvryh-bthlyk-hkmh-chzrv-shvb-bkrvb-wpluwj",
+      "slug": "hktgvryh-bthlyk-hkmh-chzrv-shvb-bkrvb-dcdahe",
       "name": "הקטגוריה בתהליך הקמה - חזרו שוב בקרוב ",
       "name_translations": {
         "ar": "الفئة قيد الإنشاء - عودوا قريباً",
@@ -28,9 +28,22 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/hktgvryh-bthlyk-hkmh-chzrv-shvb-bkrvb-wpluwj",
-      "categories": [],
-      "updated_at": "2026-05-07T13:42:50.714Z"
+      "url": "https://mutzagim.co.il/product/hktgvryh-bthlyk-hkmh-chzrv-shvb-bkrvb-dcdahe",
+      "categories": [
+        "מידוף מחסן לעומס קל ובינוני",
+        "מידוף מחסן לעומס כבד ומשטחים",
+        "מדפים לחדרי קירור ומקפיאים",
+        "קנטילברים ומחסנים לוגסטים ",
+        "ריהוט תעשייתי מתקדם ",
+        "מיכלים וארגזים אנטי סטטיים (ESD)",
+        "ארגזי פלסטיק ומיכלי אחסון ",
+        "אחסון וורטיקלי VLM",
+        "זיווד רכבים ",
+        "מתקני קומפקטוס ",
+        "מדפי תצוגה לחנויות וסופרמרקטים ",
+        "פתרונות אחסנה ביתיים "
+      ],
+      "updated_at": "2026-05-07T13:45:06.010Z"
     },
     {
       "id": "781e91fe-8967-44c7-98f4-f394a18f64bf",
