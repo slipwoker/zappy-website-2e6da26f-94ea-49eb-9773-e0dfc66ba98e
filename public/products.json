@@ -1,10 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-06T11:16:00.646Z",
+  "generated_at": "2026-05-07T13:43:17.395Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
-  "count": 1,
+  "count": 2,
   "products": [
+    {
+      "id": "3e349ad4-b1c1-4d53-8b40-ad3a5c258ac8",
+      "slug": "hktgvryh-bthlyk-hkmh-chzrv-shvb-bkrvb-wpluwj",
+      "name": "הקטגוריה בתהליך הקמה - חזרו שוב בקרוב ",
+      "name_translations": {
+        "ar": "الفئة قيد الإنشاء - عودوا قريباً",
+        "en": "Category under construction - come back soon",
+        "he": "הקטגוריה בתהליך הקמה - חזרו שוב בקרוב ",
+        "ru": "Категория в процессе создания - вернитесь снова в ближайшее время"
+      },
+      "description": "",
+      "short_description": "אנחנו משדרגים את האתר ומעדכנים מוצרים חדשים מדי יום, בכל שאלה מוזמנים ליצור אתנו קשר בטלפון או במייל",
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/image-product-image-1778161336192-3v7vxo.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/hktgvryh-bthlyk-hkmh-chzrv-shvb-bkrvb-wpluwj",
+      "categories": [],
+      "updated_at": "2026-05-07T13:42:50.714Z"
+    },
     {
       "id": "781e91fe-8967-44c7-98f4-f394a18f64bf",
       "slug": "st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp",
