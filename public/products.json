@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-12T16:20:35.194Z",
+  "generated_at": "2026-05-12T16:21:19.535Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 17,
@@ -298,23 +298,31 @@
     },
     {
       "id": "2e04b5e9-632a-4688-bf9d-18da0757f296",
-      "slug": "st-mdpym-mvdlrym-15032250h-6p2wb2",
+      "slug": "st-mdpym-mvdlrym-15032250h-mc1y3m",
       "name": "סט מדפים מודלרים 150/32/250H",
       "name_translations": {},
-      "description": "סט מדפים מודלרים באורך 150 ס\"מ (158 ס\"מ כולל מסגרות), גובה 250 ס\"מ, עומק 32 ס\"מ, 4 מדפים בעומס מפולג 140 ק\"ג למדף.",
-      "short_description": null,
+      "description": "<p class=\"ql-align-right\">מדפי מתכת מודולריים למחסן Super 1-2-3 מבית METALSISTEM איטליה</p><p class=\"ql-align-right\">כוננית מדפים מודולרית מפלדה מגולוונת, קלה להרכבה ומתאימה למגוון שימושים רחב: מדפים למחסן הביתי, למשרד, לבתי עסק, למוסכים ולאחסון לוגיסטי מתקדם.</p><p class=\"ql-align-right\">מערכת ה-<strong>Super 1-2-3</strong>&nbsp;מיוצרת באיטליה בטכנולוגיה מתקדמת, המעניקה למדפים חוזק מבני יוצא דופן לצד מראה נקי ומקצועי. המדפים עמידים בפני חלודה ומתאימים לעבודה בתנאים מאתגרים לאורך שנים.</p><ul><li class=\"ql-align-right\"><strong>כוננית מדף מודולרית ללא ברגים (שיטת הקליק)</strong></li><li class=\"ql-align-right\"><strong>הרכבה עצמית קלה, מהירה ובטיחותית</strong></li><li class=\"ql-align-right\"><strong>כושר נשיאה גבוה:</strong>&nbsp;מתוכנן לעומסים של עד&nbsp;<strong>150 ק\"ג למדף</strong>&nbsp;(בחלוקה שווה)</li><li class=\"ql-align-right\"><strong>עמידות מקסימלית:</strong>&nbsp;עשוי פלדה מגולוונת באיכות פרימיום נגד קורוזיה</li><li class=\"ql-align-right\"><strong>גמישות מלאה:</strong>&nbsp;ניתן לשינוי גבהים והוספת יחידות המשך בקלות</li><li class=\"ql-align-right\"><strong>אחריות יצרן:</strong>&nbsp;מוצר איטלקי מקורי מבית METALSISTEM</li></ul><p class=\"ql-align-right\">מדפים אלו תוכננו במיוחד עבור אלו שלא מתפשרים על איכות. המערכת המודולרית מאפשרת לכם לתכנן את שטח האחסון בדיוק לפי המידות שלכם, עם אפשרות להתאמה אישית של גובה המדפים לניצול מקסימלי של החלל.</p><p class=\"ql-align-right\"><strong>חשוב!</strong>&nbsp;יש לקבע את המדפים לקיר להבטחת יציבות מקסימלית.</p><p><br></p>",
+      "short_description": "סט מדפים מודלרים באורך 150 ס\"מ (158 ס\"מ כולל מסגרות), גובה 250 ס\"מ, עומק 32 ס\"מ, 5 מדפים בעומס מפולג 140 ק\"ג למדף.\nאופציה ליח' המשך",
       "sku": null,
-      "brand": null,
-      "price": 965,
-      "base_price": 965,
+      "brand": "METALSISTEM ",
+      "price": 1049,
+      "base_price": 1049,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1778602760861-xtujvh.webp",
+        "https://mutzagim.co.il/assets/product-1778602802239-8imgvp.webp",
+        "https://mutzagim.co.il/assets/product-1778602808649-7ba8i.webp",
+        "https://mutzagim.co.il/assets/product-1778602813915-ei4lb.webp",
+        "https://mutzagim.co.il/assets/product-1778602818203-ezvj2g.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/st-mdpym-mvdlrym-15032250h-6p2wb2",
-      "categories": [],
-      "updated_at": "2026-05-12T15:18:45.831Z"
+      "url": "https://mutzagim.co.il/product/st-mdpym-mvdlrym-15032250h-mc1y3m",
+      "categories": [
+        "מידוף מחסן לעומס קל ובינוני"
+      ],
+      "updated_at": "2026-05-12T16:20:48.712Z"
     },
     {
       "id": "0ec1a373-687e-4947-bca7-317b77c6857b",
