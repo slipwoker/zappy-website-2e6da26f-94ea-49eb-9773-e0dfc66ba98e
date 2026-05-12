@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-12T16:05:35.197Z",
+  "generated_at": "2026-05-12T16:06:38.716Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 17,
@@ -102,7 +102,12 @@
       "id": "4ee62b71-25b0-48da-abba-7ce37f074982",
       "slug": "st-mdpym-mvdlrym-15070197h-dnl8hd",
       "name": "סט מדפים מודלרים 150/70/197H",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "طقم أرفف معيارية 150/70/197H",
+        "en": "Modular Shelving Set 150/70/197H",
+        "he": "סט מדפים מודלרים 150/70/197H",
+        "ru": "Комплект модульных полок 150/70/197H"
+      },
       "description": "<p class=\"ql-align-right\">מדפי מתכת מודולריים למחסן Super 1-2-3 מבית METALSISTEM איטליה</p><p class=\"ql-align-right\">כוננית מדפים מודולרית מפלדה מגולוונת, קלה להרכבה ומתאימה למגוון שימושים רחב: מדפים למחסן הביתי, למשרד, לבתי עסק, למוסכים ולאחסון לוגיסטי מתקדם.</p><p class=\"ql-align-right\">מערכת ה-<strong>Super 1-2-3</strong>&nbsp;מיוצרת באיטליה בטכנולוגיה מתקדמת, המעניקה למדפים חוזק מבני יוצא דופן לצד מראה נקי ומקצועי. המדפים עמידים בפני חלודה ומתאימים לעבודה בתנאים מאתגרים לאורך שנים.</p><ul><li class=\"ql-align-right\"><strong>כוננית מדף מודולרית ללא ברגים (שיטת הקליק)</strong></li><li class=\"ql-align-right\"><strong>הרכבה עצמית קלה, מהירה ובטיחותית</strong></li><li class=\"ql-align-right\"><strong>כושר נשיאה גבוה:</strong>&nbsp;מתוכנן לעומסים של עד&nbsp;<strong>150 ק\"ג למדף</strong>&nbsp;(בחלוקה שווה)</li><li class=\"ql-align-right\"><strong>עמידות מקסימלית:</strong>&nbsp;עשוי פלדה מגולוונת באיכות פרימיום נגד קורוזיה</li><li class=\"ql-align-right\"><strong>גמישות מלאה:</strong>&nbsp;ניתן לשינוי גבהים והוספת יחידות המשך בקלות</li><li class=\"ql-align-right\"><strong>אחריות יצרן:</strong>&nbsp;מוצר איטלקי מקורי מבית METALSISTEM</li></ul><p class=\"ql-align-right\">מדפים אלו תוכננו במיוחד עבור אלו שלא מתפשרים על איכות. המערכת המודולרית מאפשרת לכם לתכנן את שטח האחסון בדיוק לפי המידות שלכם, עם אפשרות להתאמה אישית של גובה המדפים לניצול מקסימלי של החלל.</p><p class=\"ql-align-right\"><strong>חשוב!</strong>&nbsp;יש לקבע את המדפים לקיר להבטחת יציבות מקסימלית.</p><p><br></p>",
       "short_description": "סט מדפים מודלרים באורך 150 ס\"מ (158 ס\"מ כולל מסגרות), גובה 197 ס\"מ, עומק 70 ס\"מ, 4 מדפים בעומס מפולג 140 ק\"ג למדף.",
       "sku": null,
@@ -124,7 +129,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-12T16:05:04.292Z"
+      "updated_at": "2026-05-12T16:06:07.456Z"
     },
     {
       "id": "ed613725-7f84-4fba-9c41-fdc433c2edba",
