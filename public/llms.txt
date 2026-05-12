@@ -130,12 +130,15 @@ Information about WCAG compliance and accessibility features.
 
 **Total active products: 6**
 
-### ריהוט סדנה עם ארונות דלתות צירים, רוחב 1520 x עומק 495 x גובה 1900 מ"מ
-https://mutzagim.co.il/product/ryhvt-sdnh-am-arvnvt-dltvt-tsyrym-rvchb-1520-x-avmk-495-x-gvbh-1900-mm-apzj9v
+### עמדת עבודה משולבת Garage 391 – גוון אפור אנתרציט
+https://mutzagim.co.il/product/amdt-abvdh-mshvlbt-garage-391-gvvn-apvr-antrtsyt-u2j1lx
 - Price: 4999.00 USD
 - Availability: In stock
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391G02
-- Description: ריהוט הסדנה של Garage 391 אידיאלי עבור אלו המחפשים מערכת מודולרית וניתנת לשינוי שניתן להתאים לצרכים התפעוליים שלהם.
+- Brand: FAMI
+- Description: מערכת ריהוט מודולרית לסדנאות Garage 391 – דגם 391G02
+- Image: https://mutzagim.co.il/assets/product-1778585018163-69muh.webp
 
 ### מערכת ריהוט תעשייתית משולבת GARAGE081 – פתרון אחסון ועבודה מושלם
 https://mutzagim.co.il/product/markt-ryhvt-tashyytyt-mshvlbt-garage081-ptrvn-achsvn-vabvdh-mvshlm-zkp7h3
