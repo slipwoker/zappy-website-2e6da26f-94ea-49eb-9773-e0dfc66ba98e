@@ -131,9 +131,9 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 6**
 
 ### עמדת עבודה משולבת Garage 391 – גוון אפור אנתרציט
-https://mutzagim.co.il/product/amdt-abvdh-mshvlbt-garage-391-gvvn-apvr-antrtsyt-u2j1lx
+https://mutzagim.co.il/product/amdt-abvdh-mshvlbt-garage-391-gvvn-apvr-antrtsyt-dzyqvq
 - Price: 4999.00 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391G02
 - Brand: FAMI

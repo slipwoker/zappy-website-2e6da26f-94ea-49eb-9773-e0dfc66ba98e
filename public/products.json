@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-12T12:54:13.213Z",
+  "generated_at": "2026-05-12T12:59:01.959Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 6,
   "products": [
     {
       "id": "367188fa-0b52-48e9-a5fe-26f84eb502da",
-      "slug": "amdt-abvdh-mshvlbt-garage-391-gvvn-apvr-antrtsyt-u2j1lx",
+      "slug": "amdt-abvdh-mshvlbt-garage-391-gvvn-apvr-antrtsyt-dzyqvq",
       "name": "עמדת עבודה משולבת Garage 391 – גוון אפור אנתרציט",
       "name_translations": {
         "ar": "محطة عمل متكاملة Garage 391 – لون رمادي أنثراسيت",
@@ -30,13 +30,13 @@
         "https://mutzagim.co.il/assets/product-1778585050406-7ifn77.webp",
         "https://mutzagim.co.il/assets/product-1778585055667-q3w3m.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/amdt-abvdh-mshvlbt-garage-391-gvvn-apvr-antrtsyt-u2j1lx",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/amdt-abvdh-mshvlbt-garage-391-gvvn-apvr-antrtsyt-dzyqvq",
       "categories": [
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-05-12T11:27:12.597Z"
+      "updated_at": "2026-05-12T12:58:31.119Z"
     },
     {
       "id": "8635b11a-1fc3-4733-8fa9-48c3ad5b168a",
