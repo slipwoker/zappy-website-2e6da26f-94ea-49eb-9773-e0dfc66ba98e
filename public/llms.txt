@@ -130,12 +130,15 @@ Information about WCAG compliance and accessibility features.
 
 **Total active products: 4**
 
-### שילוב רהיטים פינתיים GARAGE086
-https://mutzagim.co.il/product/shylvb-rhytym-pyntyym-garage086-garq4b
-- Price: 7781.00 USD
-- Availability: In stock
-- SKU: מוסך086
-- Description: שילוב ריהוט פינתי למוסך מייעל את החלל בסדנה שלכם ומאפשר לכם לנצל את כל אותם אזורים שבדרך כלל אינם מנוצלים. פתרון אחסון פינתי מקצועי לסדנה ומוסך.
+### מערכת ריהוט פינתית מודולרית GARAGE086 – לניצול מקסימלי של שטח הסדנה
+https://mutzagim.co.il/product/markt-ryhvt-pyntyt-mvdvlryt-garage086-lnytsvl-mksymly-shl-shtch-hsdnh-wmtvbf
+- Price: 36415.00 USD
+- Availability: Out of stock
+- Category: ריהוט תעשייתי מתקדם 
+- SKU: GARAGE086
+- Brand: FAMI
+- Description: עמדת עבודה וריהוט פינתי GARAGE086
+- Image: https://mutzagim.co.il/assets/product-1778578809385-33y46d.webp
 
 ### סט מדפים מודלרים 150/50/197H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15050197h-wtn8nd
