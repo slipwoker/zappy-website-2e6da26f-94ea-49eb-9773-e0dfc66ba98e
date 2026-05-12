@@ -1,29 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-12T09:59:48.365Z",
+  "generated_at": "2026-05-12T10:06:22.658Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 5,
   "products": [
     {
       "id": "8635b11a-1fc3-4733-8fa9-48c3ad5b168a",
-      "slug": "ryhvt-sdnh-am-arvnvt-vmgyrvt-am-dlt-acht-rvchb-1824-x-avmk-495-x-gvbh-1900-mm-nxhqs2",
-      "name": "ריהוט סדנה עם ארונות ומגירות עם דלת אחת, רוחב 1824 x עומק 495 x גובה 1900 מ\"מ",
+      "slug": "markt-ryhvt-tashyytyt-mshvlbt-garage081-ptrvn-achsvn-vabvdh-mvshlm-zkp7h3",
+      "name": "מערכת ריהוט תעשייתית משולבת GARAGE081 – פתרון אחסון ועבודה מושלם",
       "name_translations": {},
-      "description": "ריהוט הסדנה של Garage 391 אידיאלי עבור אלו המחפשים מערכת מודולרית וניתנת לשינוי שניתן להתאים לצרכים התפעוליים שלהם.",
-      "short_description": null,
+      "description": "<p class=\"ql-align-right\">דגם <strong>GARAGE081</strong> הוא הבחירה האולטימטיבית לסדנאות ומפעלים המחפשים שילוב של סדר מופתי, עמידות תעשייתית וסביבת עבודה ארגונומית. המערכת תוכננה לרכז את כל צורכי האחסון והעבודה ביחידה אחת חזקה ומעוצבת.</p><p class=\"ql-align-right\"><strong>מה בחבילה?</strong></p><ul><li class=\"ql-align-right\"><strong>אחסון ורטיקלי חכם:</strong> שתי ארונות שירות גבוהים עם דלתות צירים לאחסון פריטים גדולים.</li><li class=\"ql-align-right\"><strong>יחידות מגירות:</strong> שלוש יחידות מגירה במפרטים שונים לארגון כלי עבודה וחלקים קטנים.</li><li class=\"ql-align-right\"><strong>קיר פרפורציה (חירור):</strong> לוחות קיר לתליית כלים בגישה מהירה ונוחה.</li><li class=\"ql-align-right\"><strong>משטח עבודה פרימיום:</strong> משטח עבודה רחב מנירוסטה סאטן, עמיד בפני שחיקה וחומרים.</li><li class=\"ql-align-right\"><strong>תשתית טכנית מובנית:</strong> המערכת כוללת מפיץ חשמל ארבע-כיווני ופתחים ייעודיים להתקנת גלילי צינור (אוויר/חשמל) לשמירה על סביבת עבודה נקייה מכבלים.</li></ul><p class=\"ql-align-right\"><strong>מידות המערכת:</strong></p><ul><li class=\"ql-align-right\"><strong>רוחב כולל:</strong> 4082 מ\"מ</li><li class=\"ql-align-right\"><strong>גובה:</strong> 2000 מ\"מ</li><li class=\"ql-align-right\"><strong>עומק:</strong> 630 מ\"מ</li></ul><p class=\"ql-align-right\"><br></p><p><br></p>",
+      "short_description": "עמדת עבודה ותצוגה דגם GARAGE081 FAMI",
       "sku": "391G01",
-      "brand": null,
+      "brand": "FAMI",
       "price": 8551,
       "base_price": 8551,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ryhvt-sdnh-am-arvnvt-vmgyrvt-am-dlt-acht-rvchb-1824-x-avmk-495-x-gvbh-1900-mm-nxhqs2",
-      "categories": [],
-      "updated_at": "2026-05-12T09:59:17.453Z"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1778580291180-39p7d8.webp",
+        "https://mutzagim.co.il/assets/product-1778580308772-90fho.webp",
+        "https://mutzagim.co.il/assets/product-1778580314697-6ulm3c.webp",
+        "https://mutzagim.co.il/assets/product-1778580320361-tzyii.webp",
+        "https://mutzagim.co.il/assets/product-1778580326698-jje2a.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/markt-ryhvt-tashyytyt-mshvlbt-garage081-ptrvn-achsvn-vabvdh-mvshlm-zkp7h3",
+      "categories": [
+        "ריהוט תעשייתי מתקדם "
+      ],
+      "updated_at": "2026-05-12T10:05:51.752Z"
     },
     {
       "id": "4c4b81ec-22c8-4575-b684-4cf08b137d3c",
