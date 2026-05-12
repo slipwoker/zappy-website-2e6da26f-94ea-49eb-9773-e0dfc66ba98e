@@ -9590,7 +9590,7 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 ## Product Catalog
 
 ### סט מדפים מודלרים 150/80/250H
-URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080250h-zazral
+URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080250h-ubbtpw
 Price: 1480.00 USD
 Availability: In stock
 Brand: METALSISTEM 
