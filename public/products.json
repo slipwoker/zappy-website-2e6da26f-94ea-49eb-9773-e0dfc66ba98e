@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-12T11:26:44.673Z",
+  "generated_at": "2026-05-12T11:27:43.578Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 6,
@@ -9,7 +9,12 @@
       "id": "367188fa-0b52-48e9-a5fe-26f84eb502da",
       "slug": "amdt-abvdh-mshvlbt-garage-391-gvvn-apvr-antrtsyt-u2j1lx",
       "name": "עמדת עבודה משולבת Garage 391 – גוון אפור אנתרציט",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "محطة عمل متكاملة Garage 391 – لون رمادي أنثراسيت",
+        "en": "Garage 391 Integrated Workstation – Anthracite Gray Finish",
+        "he": "עמדת עבודה משולבת Garage 391 – גוון אפור אנתרציט",
+        "ru": "Интегрированная рабочая станция Garage 391 – цвет антрацитово-серый"
+      },
       "description": "<p class=\"ql-align-right\">מחפשים סדר וארגון בסדנה בלי להתפשר על איכות? מערכת ה-Garage 391 היא פתרון מודולרי מלא, המאפשר לכם להתאים את סביבת העבודה לצרכים המדויקים שלכם. בזכות המבנה החכם שלה, ניתן לשנות את מיקום המודולים בכל עת ולהנות מגמישות מקסימלית.</p><p class=\"ql-align-right\"><strong>מאפייני המערכת:</strong></p><ul><li class=\"ql-align-right\"><strong>אחסון תחתון רחב:</strong> כולל ארון בעל שתי דלתות עם מדף פנימי מתכוונן, בתוספת ארון דלת בודדת לאחסון כלי עבודה וחומרים.</li><li class=\"ql-align-right\"><strong>משטח עבודה \"מולטיפלקס\":</strong> משטח עץ בוק איכותי וחזק במיוחד, המעניק נוחות עבודה מקסימלית ועמידות לאורך שנים.</li><li class=\"ql-align-right\"><strong>אחסון עליון ותלייה:</strong> המערכת מצוידת בארון עליון דו-דלתי, יחידת מדף תלויה ולוח מחורר (פרפורציה) לתלייה קלה ומאורגנת של אביזרים וכלי יד.</li><li class=\"ql-align-right\"><strong>יציבות מלאה:</strong> המודול הוא <strong>Self-standing</strong> (עומד בפני עצמו) ואינו דורש קיבוע לקיר, מה שמאפשר הצבה פשוטה ומהירה בכל מקום בסטודיו או במוסך.</li></ul><p class=\"ql-align-right\"><strong>מפרט טכני:</strong></p><ul><li class=\"ql-align-right\"><strong>מידות כוללות:</strong> 1520 \\495 \\1900 מ\"מ (גובה).</li><li class=\"ql-align-right\"><strong>משטח עבודה:</strong> עץ בוק רב-שכבתי (Beech Multiplex) עמיד במיוחד.</li><li class=\"ql-align-right\"><strong>מבנה:</strong> פח צבוע בתנור בגימור איכותי (RAL 7016).</li></ul><p class=\"ql-align-right\"><br></p><p class=\"ql-align-right\"><br></p>",
       "short_description": "מערכת ריהוט מודולרית לסדנאות Garage 391 – דגם 391G02",
       "sku": "391G02",
@@ -31,7 +36,7 @@
       "categories": [
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-05-12T11:26:13.062Z"
+      "updated_at": "2026-05-12T11:27:12.597Z"
     },
     {
       "id": "8635b11a-1fc3-4733-8fa9-48c3ad5b168a",
