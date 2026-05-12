@@ -1738,10 +1738,10 @@
   "light_and_medium_shelving_h4_11": "Display and Commerce",
   "light_and_medium_shelving_h4_12": "Spare Parts Warehouses",
   "light_and_medium_shelving_h4_13": "Gallery Systems",
-  "light_and_medium_shelving_li_40": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>Load per shelf:</strong> up to 300 kg (depending on configuration)",
-  "light_and_medium_shelving_li_41": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>Raw material:</strong> galvanized steel to European standard",
-  "light_and_medium_shelving_li_42": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>Height:</strong> adjustable up to 6 meters",
-  "light_and_medium_shelving_li_43": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>Additions:</strong> drawers, dividers, doors and side panels",
+  "light_and_medium_shelving_li_40": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>אורך (רוחב מדף):</strong> 45 / 60 / 75 / 90 / 105 / 120 / 135 / 150 / 165 / 180 ס\"מ",
+  "light_and_medium_shelving_li_41": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>עומק:</strong> 32 / 40 / 50 / 60 / 70 / 80 ס\"מ",
+  "light_and_medium_shelving_li_42": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>גובה:</strong> 197 / 250 ס\"מ",
+  "light_and_medium_shelving_li_43": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>חומר:</strong> פלדה מגולוונת בתקן אירופאי",
   "light_and_medium_shelving_li_44": "<span style=\"color: #ffffff !important; font-weight: 600;\">Sunday:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
   "light_and_medium_shelving_li_45": "<span style=\"color: #ffffff !important; font-weight: 600;\">Monday:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
   "light_and_medium_shelving_li_46": "<span style=\"color: #ffffff !important; font-weight: 600;\">Tuesday:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
@@ -2273,5 +2273,6 @@
   "plastic_storage_containers_977433_seo_twitter_description": "Plastic boxes and containers catalog for industrial storage. Wide range of solutions including stackable boxes, plastic pallets, transport carts and large containers for factories and logistics.",
   "new_text_455_0": "<span><span><span>Happily created by&nbsp;</span></span></span><a href=\"https://",
   "new_text_456_0": "<span><span><span>נוצר באמצעות&nbsp;</span></span></span><a href=\"https://",
+  "new_text_542_0": "<span><span>Happily created by&nbsp;</span></span><a href=\"https://",
   "new_text_457_0": "<span><span>Happily created by&nbsp;</span></span><a href=\"https://"
 }

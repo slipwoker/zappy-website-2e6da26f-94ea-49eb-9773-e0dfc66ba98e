@@ -1738,10 +1738,10 @@
   "light_and_medium_shelving_h4_11": "Витрины и торговля",
   "light_and_medium_shelving_h4_12": "Склады запчастей",
   "light_and_medium_shelving_h4_13": "Галерейные системы",
-  "light_and_medium_shelving_li_40": "Нагрузка на полку: до 300 кг (в зависимости от конфигурации)",
-  "light_and_medium_shelving_li_41": "Материал: оцинкованная сталь по европейскому стандарту",
-  "light_and_medium_shelving_li_42": "Высота: регулируется до 6 метров",
-  "light_and_medium_shelving_li_43": "Дополнения: ящики, перегородки, двери и боковые панели",
+  "light_and_medium_shelving_li_40": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>Длина (ширина полки):</strong> 45 / 60 / 75 / 90 / 105 / 120 / 135 / 150 / 165 / 180 см",
+  "light_and_medium_shelving_li_41": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>Глубина:</strong> 32 / 40 / 50 / 60 / 70 / 80 см",
+  "light_and_medium_shelving_li_42": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>Высота:</strong> 197 / 250 см",
+  "light_and_medium_shelving_li_43": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>Материал:</strong> оцинкованная сталь по европейскому стандарту",
   "light_and_medium_shelving_li_44": "<span style=\"color: #ffffff !important; font-weight: 600;\">Воскресенье:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
   "light_and_medium_shelving_li_45": "<span style=\"color: #ffffff !important; font-weight: 600;\">Понедельник:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
   "light_and_medium_shelving_li_46": "<span style=\"color: #ffffff !important; font-weight: 600;\">Вторник:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
@@ -2273,5 +2273,6 @@
   "plastic_storage_containers_977433_seo_twitter_description": "Каталог пластиковых ящиков и контейнеров для промышленного хранения. Широкий ассортимент решений, включающий штабелируемые ящики, пластиковые поддоны, транспортные тележки и большие контейнеры для заводов и логистики.",
   "new_text_455_0": "<span><span><span>С радостью создано&nbsp;</span></span></span><a href=\"https://",
   "new_text_456_0": "<span><span><span>Создано с помощью&nbsp;</span></span></span><a href=\"https://",
+  "new_text_542_0": "<span><span>С радостью создано&nbsp;</span></span><a href=\"https://",
   "new_text_457_0": "<span><span>С радостью создано&nbsp;</span></span><a href=\"https://"
 }

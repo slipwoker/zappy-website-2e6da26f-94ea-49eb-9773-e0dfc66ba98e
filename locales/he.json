@@ -1738,10 +1738,10 @@
   "light_and_medium_shelving_h4_11": "תצוגה ומסחר",
   "light_and_medium_shelving_h4_12": "מחסני חלפים",
   "light_and_medium_shelving_h4_13": "מערכות גלריה",
-  "light_and_medium_shelving_li_40": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>עומס למדף:</strong> עד 300 ק\"ג (בהתאם לתצורה)",
-  "light_and_medium_shelving_li_41": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>חומר גלם:</strong> פלדה מגולוונת בתקן אירופאי",
-  "light_and_medium_shelving_li_42": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>גובה:</strong> ניתן להתאמה עד 6 מטרים",
-  "light_and_medium_shelving_li_43": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>תוספות:</strong> מגירות, מחיצות, דלתות וחיפויי צד",
+  "light_and_medium_shelving_li_40": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>אורך (רוחב מדף):</strong> 45 / 60 / 75 / 90 / 105 / 120 / 135 / 150 / 165 / 180 ס\"מ",
+  "light_and_medium_shelving_li_41": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>עומק:</strong> 32 / 40 / 50 / 60 / 70 / 80 ס\"מ",
+  "light_and_medium_shelving_li_42": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>גובה:</strong> 197 / 250 ס\"מ",
+  "light_and_medium_shelving_li_43": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>חומר:</strong> פלדה מגולוונת בתקן אירופאי",
   "light_and_medium_shelving_li_44": "<span style=\"color: #ffffff !important; font-weight: 600;\">יום ראשון:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
   "light_and_medium_shelving_li_45": "<span style=\"color: #ffffff !important; font-weight: 600;\">יום שני:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
   "light_and_medium_shelving_li_46": "<span style=\"color: #ffffff !important; font-weight: 600;\">יום שלישי:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
@@ -2273,5 +2273,6 @@
   "plastic_storage_containers_977433_seo_twitter_description": "קטלוג ארגזי פלסטיק ומיכלים לאחסון תעשייתי. מגוון פתרונות הכולל ארגזים נערמים, משטחי פלסטיק, עגלות שינוע ומיכלים גדולים למפעלים ולוגיסטיקה.",
   "new_text_455_0": "<span><span><span>נוצר בשמחה על ידי&nbsp;</span></span></span><a href=\"https://",
   "new_text_456_0": "<span><span><span>נוצר באמצעות&nbsp;</span></span></span><a href=\"https://",
+  "new_text_542_0": "<span><span>נוצר באהבה על ידי&nbsp;</span></span><a href=\"https://",
   "new_text_457_0": "<span><span>נוצר בשמחה על ידי&nbsp;</span></span><a href=\"https://"
 }

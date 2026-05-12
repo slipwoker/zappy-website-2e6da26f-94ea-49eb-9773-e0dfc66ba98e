@@ -1738,10 +1738,10 @@
   "light_and_medium_shelving_h4_11": "العرض والتجارة",
   "light_and_medium_shelving_h4_12": "مخازن قطع الغيار",
   "light_and_medium_shelving_h4_13": "أنظمة المعرض",
-  "light_and_medium_shelving_li_40": "حمولة الرف: حتى 300 كجم (حسب التكوين)",
-  "light_and_medium_shelving_li_41": "المادة الخام: فولاذ مجلفن بالمعيار الأوروبي",
-  "light_and_medium_shelving_li_42": "الارتفاع: قابل للتخصيص حتى 6 أمتار",
-  "light_and_medium_shelving_li_43": "الإضافات: أدراج، فواصل، أبواب وأغطية جانبية",
+  "light_and_medium_shelving_li_40": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>الطول (عرض الرف):</strong> 45 / 60 / 75 / 90 / 105 / 120 / 135 / 150 / 165 / 180 سم",
+  "light_and_medium_shelving_li_41": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>العمق:</strong> 32 / 40 / 50 / 60 / 70 / 80 سم",
+  "light_and_medium_shelving_li_42": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>الارتفاع:</strong> 197 / 250 سم",
+  "light_and_medium_shelving_li_43": "<span style=\"background: #1e3a8a; width: 10px; height: 10px; border-radius: 50%; display: block;\"></span>\n              <strong>المادة:</strong> فولاذ مجلفن وفقاً للمعايير الأوروبية",
   "light_and_medium_shelving_li_44": "<span style=\"color: #ffffff !important; font-weight: 600;\">الأحد:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
   "light_and_medium_shelving_li_45": "<span style=\"color: #ffffff !important; font-weight: 600;\">الاثنين:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
   "light_and_medium_shelving_li_46": "<span style=\"color: #ffffff !important; font-weight: 600;\">الثلاثاء:</span>&nbsp;<span style=\"color: #ffffff !important;\">09:00 - 17:00</span>",
@@ -2273,5 +2273,6 @@
   "plastic_storage_containers_977433_seo_twitter_description": "كتالوج صناديق بلاستيكية وحاويات للتخزين الصناعي. مجموعة متنوعة من الحلول تشمل صناديق قابلة للتكديس، منصات بلاستيكية، عربات نقل وحاويات كبيرة للمصانع واللوجستيات.",
   "new_text_455_0": "<span><span><span>تم إنشاؤه بسعادة بواسطة&nbsp;</span></span></span><a href=\"https://",
   "new_text_456_0": "<span><span><span>تم إنشاؤه بواسطة&nbsp;</span></span></span><a href=\"https://",
+  "new_text_542_0": "<span><span>تم إنشاؤه بسعادة بواسطة&nbsp;</span></span><a href=\"https://",
   "new_text_457_0": "<span><span>تم إنشاؤه بسعادة بواسطة&nbsp;</span></span><a href=\"https://"
 }
