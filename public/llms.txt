@@ -131,10 +131,13 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 17**
 
 ### סט מדפים מודלרים 150/80/250H
-https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080250h-u62ryh
-- Price: 965.00 USD
+https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080250h-zazral
+- Price: 1480.00 USD
 - Availability: In stock
-- Description: סט מדפים מודלרים באורך 150 ס"מ (158 ס"מ כולל מסגרות), גובה 250 ס"מ, עומק 80 ס"מ, 4 מדפים בעומס מפולג 140 ק"ג למדף.
+- Category: מידוף מחסן לעומס קל ובינוני
+- Brand: METALSISTEM 
+- Description: סט מדפים מודלרים באורך 150 ס"מ (158 ס"מ כולל מסגרות), גובה 250 ס"מ, עומק 80 ס"מ, 5 מדפים בעומס מפולג 140 ק"ג למדף.
+- Image: https://mutzagim.co.il/assets/product-1778600549153-iylh1m.webp
 
 ### סט מדפים מודלרים 150/80/197H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080197h-qgdis9
