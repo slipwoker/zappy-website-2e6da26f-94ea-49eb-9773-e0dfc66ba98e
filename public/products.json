@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-12T10:06:22.658Z",
+  "generated_at": "2026-05-12T10:07:15.541Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 5,
@@ -9,7 +9,12 @@
       "id": "8635b11a-1fc3-4733-8fa9-48c3ad5b168a",
       "slug": "markt-ryhvt-tashyytyt-mshvlbt-garage081-ptrvn-achsvn-vabvdh-mvshlm-zkp7h3",
       "name": "מערכת ריהוט תעשייתית משולבת GARAGE081 – פתרון אחסון ועבודה מושלם",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "نظام أثاث صناعي متكامل GARAGE081 – حل مثالي للتخزين والعمل",
+        "en": "GARAGE081 Integrated Industrial Furniture System – Perfect Storage and Work Solution",
+        "he": "מערכת ריהוט תעשייתית משולבת GARAGE081 – פתרון אחסון ועבודה מושלם",
+        "ru": "Интегрированная система промышленной мебели GARAGE081 – идеальное решение для хранения и работы"
+      },
       "description": "<p class=\"ql-align-right\">דגם <strong>GARAGE081</strong> הוא הבחירה האולטימטיבית לסדנאות ומפעלים המחפשים שילוב של סדר מופתי, עמידות תעשייתית וסביבת עבודה ארגונומית. המערכת תוכננה לרכז את כל צורכי האחסון והעבודה ביחידה אחת חזקה ומעוצבת.</p><p class=\"ql-align-right\"><strong>מה בחבילה?</strong></p><ul><li class=\"ql-align-right\"><strong>אחסון ורטיקלי חכם:</strong> שתי ארונות שירות גבוהים עם דלתות צירים לאחסון פריטים גדולים.</li><li class=\"ql-align-right\"><strong>יחידות מגירות:</strong> שלוש יחידות מגירה במפרטים שונים לארגון כלי עבודה וחלקים קטנים.</li><li class=\"ql-align-right\"><strong>קיר פרפורציה (חירור):</strong> לוחות קיר לתליית כלים בגישה מהירה ונוחה.</li><li class=\"ql-align-right\"><strong>משטח עבודה פרימיום:</strong> משטח עבודה רחב מנירוסטה סאטן, עמיד בפני שחיקה וחומרים.</li><li class=\"ql-align-right\"><strong>תשתית טכנית מובנית:</strong> המערכת כוללת מפיץ חשמל ארבע-כיווני ופתחים ייעודיים להתקנת גלילי צינור (אוויר/חשמל) לשמירה על סביבת עבודה נקייה מכבלים.</li></ul><p class=\"ql-align-right\"><strong>מידות המערכת:</strong></p><ul><li class=\"ql-align-right\"><strong>רוחב כולל:</strong> 4082 מ\"מ</li><li class=\"ql-align-right\"><strong>גובה:</strong> 2000 מ\"מ</li><li class=\"ql-align-right\"><strong>עומק:</strong> 630 מ\"מ</li></ul><p class=\"ql-align-right\"><br></p><p><br></p>",
       "short_description": "עמדת עבודה ותצוגה דגם GARAGE081 FAMI",
       "sku": "391G01",
@@ -31,7 +36,7 @@
       "categories": [
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-05-12T10:05:51.752Z"
+      "updated_at": "2026-05-12T10:06:44.545Z"
     },
     {
       "id": "4c4b81ec-22c8-4575-b684-4cf08b137d3c",
