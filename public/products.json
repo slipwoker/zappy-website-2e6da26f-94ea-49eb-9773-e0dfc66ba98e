@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-12T09:59:09.723Z",
+  "generated_at": "2026-05-12T09:59:48.365Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 5,
@@ -14,8 +14,8 @@
       "short_description": null,
       "sku": "391G01",
       "brand": null,
-      "price": 1774.44,
-      "base_price": 1774.44,
+      "price": 8551,
+      "base_price": 8551,
       "sale_price": null,
       "currency": "USD",
       "images": [],
@@ -23,7 +23,7 @@
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/ryhvt-sdnh-am-arvnvt-vmgyrvt-am-dlt-acht-rvchb-1824-x-avmk-495-x-gvbh-1900-mm-nxhqs2",
       "categories": [],
-      "updated_at": "2026-05-12T09:58:38.769Z"
+      "updated_at": "2026-05-12T09:59:17.453Z"
     },
     {
       "id": "4c4b81ec-22c8-4575-b684-4cf08b137d3c",
