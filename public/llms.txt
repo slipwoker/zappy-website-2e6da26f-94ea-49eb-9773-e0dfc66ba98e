@@ -128,7 +128,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 18**
+**Total active products: 19**
 
 ### סט מדפים מודלרים 120/80/250H 
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-12080250h-bh8dpt
@@ -147,6 +147,15 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080250h-ubbtpw
 - Brand: METALSISTEM 
 - Description: סט מדפים מודלרים באורך 150 ס"מ (158 ס"מ כולל מסגרות), גובה 250 ס"מ, עומק 80 ס"מ, 5 מדפים בעומס מפולג 140 ק"ג למדף.
 - Image: https://mutzagim.co.il/assets/product-1778600755326-2pyo6.webp
+
+### סט מדפים מודלרים 150/80/197H (Copy)
+https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080197h-copy-y8c7cb
+- Price: 1203.00 USD
+- Availability: In stock
+- Category: מידוף מחסן לעומס קל ובינוני
+- Brand: METALSISTEM 
+- Description: מדפי מתכת מודולריים למחסן Super 1-2-3 מבית METALSISTEM איטליה כוננית מדפים מודולרית מפלדה מגולוונת, קלה להרכבה ומתאימה למגוון שימושים רחב: מדפים למחסן הביתי, למשרד, לבתי עסק, למוסכים ולאחסון לוגיסטי מתקדם. מערכת ה- Super 1-2-3 &nbsp;מיוצרת באיטליה בטכנולוגיה מתקדמת, המעניקה למדפים חוזק מבני יוצא דופן לצד מראה נקי ומקצועי. המדפים עמידים בפני חלודה ומתאימים לעבודה בתנאים מאתגרים לאורך שנים. כוננית מדף מודולרית ללא ברגים (שיטת הקליק) הרכבה עצמית קלה, מהירה ובטיחותית כושר נשיאה גבוה: &nbsp;מתוכנן לע…
+- Image: https://mutzagim.co.il/assets/product-1778600668646-gm38u9.webp
 
 ### סט מדפים מודלרים 150/80/197H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080197h-d7avk6

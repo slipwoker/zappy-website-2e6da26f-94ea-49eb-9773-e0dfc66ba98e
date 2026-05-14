@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-14T10:36:39.812Z",
+  "generated_at": "2026-05-14T10:37:21.228Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
-  "count": 18,
+  "count": 19,
   "products": [
     {
       "id": "de02fd51-f52e-47d6-a139-931d1ce64e71",
@@ -34,7 +34,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-14T10:36:08.879Z"
+      "updated_at": "2026-05-14T10:36:49.219Z"
     },
     {
       "id": "ec9f5370-1ffb-427e-8bbe-09107d475a8b",
@@ -66,6 +66,32 @@
         "מידוף מחסן לעומס קל ובינוני"
       ],
       "updated_at": "2026-05-12T16:25:38.730Z"
+    },
+    {
+      "id": "3a228cc4-6965-446f-9199-f2c116e399d2",
+      "slug": "st-mdpym-mvdlrym-15080197h-copy-y8c7cb",
+      "name": "סט מדפים מודלרים 150/80/197H (Copy)",
+      "name_translations": {},
+      "description": "<p class=\"ql-align-right\">מדפי מתכת מודולריים למחסן Super 1-2-3 מבית METALSISTEM איטליה</p><p class=\"ql-align-right\">כוננית מדפים מודולרית מפלדה מגולוונת, קלה להרכבה ומתאימה למגוון שימושים רחב: מדפים למחסן הביתי, למשרד, לבתי עסק, למוסכים ולאחסון לוגיסטי מתקדם.</p><p class=\"ql-align-right\">מערכת ה-<strong>Super 1-2-3</strong>&nbsp;מיוצרת באיטליה בטכנולוגיה מתקדמת, המעניקה למדפים חוזק מבני יוצא דופן לצד מראה נקי ומקצועי. המדפים עמידים בפני חלודה ומתאימים לעבודה בתנאים מאתגרים לאורך שנים.</p><ul><li class=\"ql-align-right\"><strong>כוננית מדף מודולרית ללא ברגים (שיטת הקליק)</strong></li><li class=\"ql-align-right\"><strong>הרכבה עצמית קלה, מהירה ובטיחותית</strong></li><li class=\"ql-align-right\"><strong>כושר נשיאה גבוה:</strong>&nbsp;מתוכנן לעומסים של עד&nbsp;<strong>150 ק\"ג למדף</strong>&nbsp;(בחלוקה שווה)</li><li class=\"ql-align-right\"><strong>עמידות מקסימלית:</strong>&nbsp;עשוי פלדה מגולוונת באיכות פרימיום נגד קורוזיה</li><li class=\"ql-align-right\"><strong>גמישות מלאה:</strong>&nbsp;ניתן לשינוי גבהים והוספת יחידות המשך בקלות</li><li class=\"ql-align-right\"><strong>אחריות יצרן:</strong>&nbsp;מוצר איטלקי מקורי מבית METALSISTEM</li></ul><p class=\"ql-align-right\">מדפים אלו תוכננו במיוחד עבור אלו שלא מתפשרים על איכות. המערכת המודולרית מאפשרת לכם לתכנן את שטח האחסון בדיוק לפי המידות שלכם, עם אפשרות להתאמה אישית של גובה המדפים לניצול מקסימלי של החלל.</p><p class=\"ql-align-right\"><strong>חשוב!</strong>&nbsp;יש לקבע את המדפים לקיר להבטחת יציבות מקסימלית.</p><p><br></p>",
+      "short_description": null,
+      "sku": null,
+      "brand": "METALSISTEM ",
+      "price": 1203,
+      "base_price": 1203,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1778600668646-gm38u9.webp",
+        "https://mutzagim.co.il/assets/product-1778600682507-zc11ok.webp",
+        "https://mutzagim.co.il/assets/product-1778600687092-byzn28.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080197h-copy-y8c7cb",
+      "categories": [
+        "מידוף מחסן לעומס קל ובינוני"
+      ],
+      "updated_at": "2026-05-14T10:36:54.671Z"
     },
     {
       "id": "091632a5-7ab2-4e1b-8d14-072b0ea1bd25",
