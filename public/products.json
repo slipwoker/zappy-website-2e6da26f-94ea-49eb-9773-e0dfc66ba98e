@@ -1,14 +1,14 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-14T10:33:46.662Z",
+  "generated_at": "2026-05-14T10:35:38.906Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 18,
   "products": [
     {
       "id": "de02fd51-f52e-47d6-a139-931d1ce64e71",
-      "slug": "st-mdpym-mvdlrym-15080250h-copy-h8betp",
-      "name": "סט מדפים מודלרים 150/80/250H (Copy)",
+      "slug": "st-mdpym-mvdlrym-12080250h-wp6er4",
+      "name": "סט מדפים מודלרים 120/80/250H ",
       "name_translations": {
         "ar": "مجموعة أرفف معيارية 150/80/250H (Copy)",
         "en": "Modular Shelving Set 150/80/250H (Copy)",
@@ -19,8 +19,8 @@
       "short_description": null,
       "sku": null,
       "brand": "METALSISTEM ",
-      "price": 1480,
-      "base_price": 1480,
+      "price": 1294,
+      "base_price": 1294,
       "sale_price": null,
       "currency": "USD",
       "images": [
@@ -30,11 +30,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080250h-copy-h8betp",
+      "url": "https://mutzagim.co.il/product/st-mdpym-mvdlrym-12080250h-wp6er4",
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-14T10:33:15.788Z"
+      "updated_at": "2026-05-14T10:35:08.096Z"
     },
     {
       "id": "ec9f5370-1ffb-427e-8bbe-09107d475a8b",
