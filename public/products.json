@@ -1,22 +1,22 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-14T10:35:38.906Z",
+  "generated_at": "2026-05-14T10:36:15.344Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 18,
   "products": [
     {
       "id": "de02fd51-f52e-47d6-a139-931d1ce64e71",
-      "slug": "st-mdpym-mvdlrym-12080250h-wp6er4",
+      "slug": "st-mdpym-mvdlrym-12080250h-bh8dpt",
       "name": "סט מדפים מודלרים 120/80/250H ",
       "name_translations": {
-        "ar": "مجموعة أرفف معيارية 150/80/250H (Copy)",
-        "en": "Modular Shelving Set 150/80/250H (Copy)",
-        "he": "סט מדפים מודלרים 150/80/250H (Copy)",
-        "ru": "Комплект модульных полок 150/80/250H (Copy)"
+        "ar": "طقم أرفف معيارية 120/80/250H",
+        "en": "Modular Shelving Set 120/80/250H",
+        "he": "סט מדפים מודלרים 120/80/250H ",
+        "ru": "Комплект модульных полок 120/80/250H"
       },
       "description": "<p class=\"ql-align-right\">מדפי מתכת מודולריים למחסן Super 1-2-3 מבית METALSISTEM איטליה</p><p class=\"ql-align-right\">כוננית מדפים מודולרית מפלדה מגולוונת, קלה להרכבה ומתאימה למגוון שימושים רחב: מדפים למחסן הביתי, למשרד, לבתי עסק, למוסכים ולאחסון לוגיסטי מתקדם.</p><p class=\"ql-align-right\">מערכת ה-<strong>Super 1-2-3</strong>&nbsp;מיוצרת באיטליה בטכנולוגיה מתקדמת, המעניקה למדפים חוזק מבני יוצא דופן לצד מראה נקי ומקצועי. המדפים עמידים בפני חלודה ומתאימים לעבודה בתנאים מאתגרים לאורך שנים.</p><ul><li class=\"ql-align-right\"><strong>כוננית מדף מודולרית ללא ברגים (שיטת הקליק)</strong></li><li class=\"ql-align-right\"><strong>הרכבה עצמית קלה, מהירה ובטיחותית</strong></li><li class=\"ql-align-right\"><strong>כושר נשיאה גבוה:</strong>&nbsp;מתוכנן לעומסים של עד&nbsp;<strong>150 ק\"ג למדף</strong>&nbsp;(בחלוקה שווה)</li><li class=\"ql-align-right\"><strong>עמידות מקסימלית:</strong>&nbsp;עשוי פלדה מגולוונת באיכות פרימיום נגד קורוזיה</li><li class=\"ql-align-right\"><strong>גמישות מלאה:</strong>&nbsp;ניתן לשינוי גבהים והוספת יחידות המשך בקלות</li><li class=\"ql-align-right\"><strong>אחריות יצרן:</strong>&nbsp;מוצר איטלקי מקורי מבית METALSISTEM</li></ul><p class=\"ql-align-right\">מדפים אלו תוכננו במיוחד עבור אלו שלא מתפשרים על איכות. המערכת המודולרית מאפשרת לכם לתכנן את שטח האחסון בדיוק לפי המידות שלכם, עם אפשרות להתאמה אישית של גובה המדפים לניצול מקסימלי של החלל.</p><p class=\"ql-align-right\"><strong>חשוב!</strong>&nbsp;יש לקבע את המדפים לקיר להבטחת יציבות מקסימלית.</p>",
-      "short_description": null,
+      "short_description": "סט מדפים מודלרים באורך 120 ס\"מ (128 ס\"מ כולל מסגרות), גובה 250 ס\"מ, עומק 80 ס\"מ, 5 מדפים בעומס מפולג 140 ק\"ג למדף.",
       "sku": null,
       "brand": "METALSISTEM ",
       "price": 1294,
@@ -30,11 +30,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/st-mdpym-mvdlrym-12080250h-wp6er4",
+      "url": "https://mutzagim.co.il/product/st-mdpym-mvdlrym-12080250h-bh8dpt",
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-14T10:35:08.096Z"
+      "updated_at": "2026-05-14T10:36:08.879Z"
     },
     {
       "id": "ec9f5370-1ffb-427e-8bbe-09107d475a8b",
