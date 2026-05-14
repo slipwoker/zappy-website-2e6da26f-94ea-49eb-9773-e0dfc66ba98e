@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-14T10:37:26.118Z",
+  "generated_at": "2026-05-14T10:38:26.709Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 19,
@@ -71,7 +71,12 @@
       "id": "3a228cc4-6965-446f-9199-f2c116e399d2",
       "slug": "st-mdpym-mvdlrym-15080197h-copy-y8c7cb",
       "name": "סט מדפים מודלרים 150/80/197H (Copy)",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "طقم أرفف معيارية 150/80/197H (نسخة)",
+        "en": "Modular Shelving Set 150/80/197H (Copy)",
+        "he": "סט מדפים מודלרים 150/80/197H (Copy)",
+        "ru": "Набор модульных полок 150/80/197H (Copy)"
+      },
       "description": "<p class=\"ql-align-right\">מדפי מתכת מודולריים למחסן Super 1-2-3 מבית METALSISTEM איטליה</p><p class=\"ql-align-right\">כוננית מדפים מודולרית מפלדה מגולוונת, קלה להרכבה ומתאימה למגוון שימושים רחב: מדפים למחסן הביתי, למשרד, לבתי עסק, למוסכים ולאחסון לוגיסטי מתקדם.</p><p class=\"ql-align-right\">מערכת ה-<strong>Super 1-2-3</strong>&nbsp;מיוצרת באיטליה בטכנולוגיה מתקדמת, המעניקה למדפים חוזק מבני יוצא דופן לצד מראה נקי ומקצועי. המדפים עמידים בפני חלודה ומתאימים לעבודה בתנאים מאתגרים לאורך שנים.</p><ul><li class=\"ql-align-right\"><strong>כוננית מדף מודולרית ללא ברגים (שיטת הקליק)</strong></li><li class=\"ql-align-right\"><strong>הרכבה עצמית קלה, מהירה ובטיחותית</strong></li><li class=\"ql-align-right\"><strong>כושר נשיאה גבוה:</strong>&nbsp;מתוכנן לעומסים של עד&nbsp;<strong>150 ק\"ג למדף</strong>&nbsp;(בחלוקה שווה)</li><li class=\"ql-align-right\"><strong>עמידות מקסימלית:</strong>&nbsp;עשוי פלדה מגולוונת באיכות פרימיום נגד קורוזיה</li><li class=\"ql-align-right\"><strong>גמישות מלאה:</strong>&nbsp;ניתן לשינוי גבהים והוספת יחידות המשך בקלות</li><li class=\"ql-align-right\"><strong>אחריות יצרן:</strong>&nbsp;מוצר איטלקי מקורי מבית METALSISTEM</li></ul><p class=\"ql-align-right\">מדפים אלו תוכננו במיוחד עבור אלו שלא מתפשרים על איכות. המערכת המודולרית מאפשרת לכם לתכנן את שטח האחסון בדיוק לפי המידות שלכם, עם אפשרות להתאמה אישית של גובה המדפים לניצול מקסימלי של החלל.</p><p class=\"ql-align-right\"><strong>חשוב!</strong>&nbsp;יש לקבע את המדפים לקיר להבטחת יציבות מקסימלית.</p><p><br></p>",
       "short_description": null,
       "sku": null,
@@ -91,7 +96,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-14T10:36:54.671Z"
+      "updated_at": "2026-05-14T10:37:55.885Z"
     },
     {
       "id": "091632a5-7ab2-4e1b-8d14-072b0ea1bd25",
