@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-17T07:21:01.833Z",
+  "generated_at": "2026-05-17T07:21:50.818Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 20,
   "products": [
     {
       "id": "25878538-5e70-4c0f-8e2f-40577d6d5eca",
-      "slug": "achsvnytarklyt-ms-1-tsba-kchvl-r1wo3t",
+      "slug": "achsvnytarklyt-ms-1-tsba-kchvl-iginrn",
       "name": "אחסונית/ארקלית מס' 1 צבע כחול",
       "name_translations": {
         "ar": "صندوق تخزين/علبة رقم 1 لون أزرق",
@@ -31,12 +31,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-r1wo3t",
+      "url": "https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-iginrn",
       "categories": [
         "����� ������ ������ �����",
         "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-05-17T07:20:30.726Z"
+      "updated_at": "2026-05-17T07:21:45.765Z"
     },
     {
       "id": "de02fd51-f52e-47d6-a139-931d1ce64e71",
