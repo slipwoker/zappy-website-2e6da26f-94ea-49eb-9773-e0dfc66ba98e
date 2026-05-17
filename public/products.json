@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-17T07:20:01.859Z",
+  "generated_at": "2026-05-17T07:21:01.833Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 20,
   "products": [
     {
       "id": "25878538-5e70-4c0f-8e2f-40577d6d5eca",
-      "slug": "achsvnytarklyt-ms-1-tsba-kchvl-wmp3ot",
+      "slug": "achsvnytarklyt-ms-1-tsba-kchvl-r1wo3t",
       "name": "אחסונית/ארקלית מס' 1 צבע כחול",
       "name_translations": {
         "ar": "صندوق تخزين/علبة رقم 1 لون أزرق",
@@ -15,7 +15,7 @@
         "he": "אחסונית/ארקלית מס' 1 צבע כחול",
         "ru": "Контейнер для хранения/ящик № 1 синего цвета"
       },
-      "description": "<p class=\"ql-align-right\"> מידות תא האחסון : רוחב 305 ממ, עומק 500 ממ, גובה 205 ממ. </p><p class=\"ql-align-right\"><br></p>",
+      "description": "<p class=\"ql-align-right\">מידות תא האחסון : רוחב 305 ממ, עומק 500 ממ, גובה 205 ממ.</p><p class=\"ql-align-right\"><br></p>",
       "short_description": "אחסונית/ארקלית מס' 1 צבע כחול\n",
       "sku": null,
       "brand": null,
@@ -31,12 +31,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-wmp3ot",
+      "url": "https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-r1wo3t",
       "categories": [
         "����� ������ ������ �����",
         "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-05-17T07:19:30.988Z"
+      "updated_at": "2026-05-17T07:20:30.726Z"
     },
     {
       "id": "de02fd51-f52e-47d6-a139-931d1ce64e71",
