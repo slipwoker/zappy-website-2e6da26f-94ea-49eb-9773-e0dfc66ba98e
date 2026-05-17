@@ -1,10 +1,42 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-14T10:39:20.584Z",
+  "generated_at": "2026-05-17T07:13:03.822Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
-  "count": 19,
+  "count": 20,
   "products": [
+    {
+      "id": "25878538-5e70-4c0f-8e2f-40577d6d5eca",
+      "slug": "1-x4ywyf",
+      "name": "�������/������ ��' 1 ��� ����",
+      "name_translations": {
+        "ar": "منصة/رف رقم 1 للعرض",
+        "en": "�������/������ ��' 1 ��� ����",
+        "he": "מחיצות/מחסנים מס' 1 עבור חלקים",
+        "ru": "Стеллаж/Витрина №1 для обуви"
+      },
+      "description": "",
+      "short_description": "�������/������ ��' 1 ��� ����",
+      "sku": null,
+      "brand": null,
+      "price": 90,
+      "base_price": 90,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1779001946474-v9rtug.webp",
+        "https://mutzagim.co.il/assets/product-1779001946497-pprn1y.webp",
+        "https://mutzagim.co.il/assets/product-1779001946517-c3v2q.webp",
+        "https://mutzagim.co.il/assets/product-1779001946537-dak066.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/1-x4ywyf",
+      "categories": [
+        "����� ������ ������ �����"
+      ],
+      "updated_at": "2026-05-17T07:12:32.967Z"
+    },
     {
       "id": "de02fd51-f52e-47d6-a139-931d1ce64e71",
       "slug": "st-mdpym-mvdlrym-12080250h-bh8dpt",
