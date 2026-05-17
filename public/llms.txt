@@ -130,13 +130,14 @@ Information about WCAG compliance and accessibility features.
 
 **Total active products: 20**
 
-### אחסונית/ארקלית מס' 1 צבע כחול
-https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-iginrn
-- Price: 95.00 USD
+### סט קיט מדפים ERREX תוצרת איטליה
+https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp
+- Price: 531.00 USD (sale, was 650.00 USD)
 - Availability: In stock
-- Category: ����� ������ ������ �����
-- Description: אחסונית/ארקלית מס' 1 צבע כחול
-- Image: https://mutzagim.co.il/assets/product-1779001946474-v9rtug.webp
+- Category: מידוף מחסן לעומס קל ובינוני
+- Brand: Dalmine
+- Description: קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק"ג למדף
+- Image: https://mutzagim.co.il/assets/product-1777982140101-repjrb.webp
 
 ### סט מדפים מודלרים 120/80/250H 
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-12080250h-lj8d7a
@@ -293,6 +294,14 @@ https://mutzagim.co.il/product/markt-ryhvt-pyntyt-mvdvlryt-garage086-lnytsvl-mks
 - Description: עמדת עבודה וריהוט פינתי GARAGE086
 - Image: https://mutzagim.co.il/assets/product-1778578809385-33y46d.webp
 
+### אחסונית/ארקלית מס' 1 צבע כחול
+https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-iginrn
+- Price: 95.00 USD
+- Availability: In stock
+- Category: ����� ������ ������ �����
+- Description: אחסונית/ארקלית מס' 1 צבע כחול
+- Image: https://mutzagim.co.il/assets/product-1779001946474-v9rtug.webp
+
 ### הקטגוריות באתר בתהליך הקמה - חזרו שוב בקרוב 
 https://mutzagim.co.il/product/hktgvryvt-batr-bthlyk-hkmh-chzrv-shvb-bkrvb-tr9r3p
 - Price: 0.00 USD
@@ -300,15 +309,6 @@ https://mutzagim.co.il/product/hktgvryvt-batr-bthlyk-hkmh-chzrv-shvb-bkrvb-tr9r3
 - Category: מידוף מחסן לעומס כבד ומשטחים
 - Description: אנחנו משדרגים את האתר ומעדכנים מוצרים חדשים מדי יום, בכל שאלה מוזמנים ליצור אתנו קשר בטלפון או במייל
 - Image: https://mutzagim.co.il/assets/image-product-image-1778161336192-3v7vxo.webp
-
-### סט קיט מדפים ERREX תוצרת איטליה
-https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp
-- Price: 531.00 USD (sale, was 650.00 USD)
-- Availability: In stock
-- Category: מידוף מחסן לעומס קל ובינוני
-- Brand: Dalmine
-- Description: קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק"ג למדף
-- Image: https://mutzagim.co.il/assets/product-1777982140101-repjrb.webp
 
 ---
 

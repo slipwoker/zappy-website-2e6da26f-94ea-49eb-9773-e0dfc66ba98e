@@ -1,42 +1,38 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-17T07:25:16.576Z",
+  "generated_at": "2026-05-17T07:25:59.149Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 20,
   "products": [
     {
-      "id": "25878538-5e70-4c0f-8e2f-40577d6d5eca",
-      "slug": "achsvnytarklyt-ms-1-tsba-kchvl-iginrn",
-      "name": "אחסונית/ארקלית מס' 1 צבע כחול",
+      "id": "781e91fe-8967-44c7-98f4-f394a18f64bf",
+      "slug": "st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp",
+      "name": "סט קיט מדפים ERREX תוצרת איטליה",
       "name_translations": {
-        "ar": "صندوق تخزين/علبة رقم 1 لون أزرق",
-        "en": "Storage Bin/Arklit No. 1 Blue Color",
-        "he": "אחסונית/ארקלית מס' 1 צבע כחול",
-        "ru": "Контейнер для хранения/ящик № 1 синего цвета"
+        "ar": "طقم رفوف ERREX صناعة إيطالية",
+        "en": "ERREX Shelving Kit Set Made in Italy",
+        "he": "סט קיט מדפים ERREX תוצרת איטליה",
+        "ru": "Комплект стеллажных полок ERREX производства Италии"
       },
-      "description": "<p class=\"ql-align-right\">מידות תא האחסון : רוחב 305 ממ, עומק 500 ממ, גובה 205 ממ.</p><p class=\"ql-align-right\"><br></p>",
-      "short_description": "אחסונית/ארקלית מס' 1 צבע כחול\n",
+      "description": "<p class=\"ql-align-right\">קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק\"ג למדף</p><p class=\"ql-align-right\">מידות 100/40/180 ס\"מ, 5 מדפים בעומק 40 ס\"מ</p><p class=\"ql-align-right\"><br></p><p><br></p><p>Kit ERREX1® is the ideal choice when you need strong and functional shelving: Kit ERREX1® •Materials: galvanized steel for increased durability. • Load capacity: up to 170 kgs for each shelf according to its depth (30 cm or 40 cm). • Design: stylish and durable, fit for industrial and commercial applications. •Modular: each starting module can be easily extended by purchasing add-on units for all your needs changing over time. • Ease of assembly: entirely flat-pack including detailed assembly instructions</p>",
+      "short_description": "קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק\"ג למדף",
       "sku": null,
-      "brand": null,
-      "price": 95,
-      "base_price": 95,
-      "sale_price": null,
+      "brand": "Dalmine",
+      "price": 531,
+      "base_price": 650,
+      "sale_price": 531,
       "currency": "USD",
       "images": [
-        "https://mutzagim.co.il/assets/product-1779001946474-v9rtug.webp",
-        "https://mutzagim.co.il/assets/product-1779001946497-pprn1y.webp",
-        "https://mutzagim.co.il/assets/product-1779001946517-c3v2q.webp",
-        "https://mutzagim.co.il/assets/product-1779001946537-dak066.webp"
+        "https://mutzagim.co.il/assets/product-1777982140101-repjrb.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-iginrn",
+      "url": "https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp",
       "categories": [
-        "����� ������ ������ �����",
-        "ארגזי פלסטיק ומיכלי אחסון "
+        "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-17T07:21:45.765Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "de02fd51-f52e-47d6-a139-931d1ce64e71",
@@ -46,7 +42,7 @@
         "ar": "طقم أرفف معيارية 120/80/250H",
         "en": "Modular Shelving Set 120/80/250H",
         "he": "סט מדפים מודלרים 120/80/250H ",
-        "ru": "Комплект модульных полок 120/80/250H"
+        "ru": "Набор модульных полок 120/80/250H"
       },
       "description": "<p class=\"ql-align-right\">מדפי מתכת מודולריים למחסן Super 1-2-3 מבית METALSISTEM איטליה</p><p class=\"ql-align-right\">כוננית מדפים מודולרית מפלדה מגולוונת, קלה להרכבה ומתאימה למגוון שימושים רחב: מדפים למחסן הביתי, למשרד, לבתי עסק, למוסכים ולאחסון לוגיסטי מתקדם.</p><p class=\"ql-align-right\">מערכת ה-<strong>Super 1-2-3</strong>&nbsp;מיוצרת באיטליה בטכנולוגיה מתקדמת, המעניקה למדפים חוזק מבני יוצא דופן לצד מראה נקי ומקצועי. המדפים עמידים בפני חלודה ומתאימים לעבודה בתנאים מאתגרים לאורך שנים.</p><ul><li class=\"ql-align-right\"><strong>כוננית מדף מודולרית ללא ברגים (שיטת הקליק)</strong></li><li class=\"ql-align-right\"><strong>הרכבה עצמית קלה, מהירה ובטיחותית</strong></li><li class=\"ql-align-right\"><strong>כושר נשיאה גבוה:</strong>&nbsp;מתוכנן לעומסים של עד&nbsp;<strong>150 ק\"ג למדף</strong>&nbsp;(בחלוקה שווה)</li><li class=\"ql-align-right\"><strong>עמידות מקסימלית:</strong>&nbsp;עשוי פלדה מגולוונת באיכות פרימיום נגד קורוזיה</li><li class=\"ql-align-right\"><strong>גמישות מלאה:</strong>&nbsp;ניתן לשינוי גבהים והוספת יחידות המשך בקלות</li><li class=\"ql-align-right\"><strong>אחריות יצרן:</strong>&nbsp;מוצר איטלקי מקורי מבית METALSISTEM</li></ul><p class=\"ql-align-right\">מדפים אלו תוכננו במיוחד עבור אלו שלא מתפשרים על איכות. המערכת המודולרית מאפשרת לכם לתכנן את שטח האחסון בדיוק לפי המידות שלכם, עם אפשרות להתאמה אישית של גובה המדפים לניצול מקסימלי של החלל.</p><p class=\"ql-align-right\"><strong>חשוב!</strong>&nbsp;יש לקבע את המדפים לקיר להבטחת יציבות מקסימלית.</p>",
       "short_description": "סט מדפים מודלרים באורך 120 ס\"מ (128 ס\"מ כולל מסגרות), גובה 250 ס\"מ, עומק 80 ס\"מ, 5 מדפים בעומס מפולג 140 ק\"ג למדף.",
@@ -67,7 +63,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-17T07:24:58.399Z"
+      "updated_at": "2026-05-17T07:25:58.923Z"
     },
     {
       "id": "ec9f5370-1ffb-427e-8bbe-09107d475a8b",
@@ -98,7 +94,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "3a228cc4-6965-446f-9199-f2c116e399d2",
@@ -129,7 +125,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-14T10:38:49.621Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "091632a5-7ab2-4e1b-8d14-072b0ea1bd25",
@@ -160,7 +156,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "edb0fcd1-27ba-4f2c-addf-e5ddc13008ca",
@@ -191,7 +187,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "4ee62b71-25b0-48da-abba-7ce37f074982",
@@ -224,7 +220,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "ed613725-7f84-4fba-9c41-fdc433c2edba",
@@ -257,7 +253,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-17T07:24:45.694Z"
+      "updated_at": "2026-05-17T07:25:54.692Z"
     },
     {
       "id": "da5d562e-ec5f-4e17-bbeb-ac180650bc94",
@@ -290,7 +286,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "e4721516-cd6a-4ffc-a809-85eecc507c54",
@@ -321,7 +317,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "34166268-8c75-4586-b132-1f3f69ee3526",
@@ -354,7 +350,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "6cef7a4f-e2ee-497f-9a7a-680a24bd5443",
@@ -387,7 +383,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "b3ed7462-7bcd-425f-b725-6a779cc1e5dc",
@@ -420,14 +416,14 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-14T10:27:54.654Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "2e04b5e9-632a-4688-bf9d-18da0757f296",
       "slug": "st-mdpym-mvdlrym-15032250h-qoeb88",
       "name": "סט מדפים מודלרים 150/32/250H",
       "name_translations": {
-        "ar": "طقم أرفف معيارية 150/32/250H",
+        "ar": "طقم رفوف معيارية 150/32/250H",
         "en": "Modular Shelving Set 150/32/250H",
         "he": "סט מדפים מודלרים 150/32/250H",
         "ru": "Набор модульных полок 150/32/250H"
@@ -453,7 +449,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-17T07:24:25.259Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "0ec1a373-687e-4947-bca7-317b77c6857b",
@@ -487,7 +483,7 @@
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-12T16:30:03.656Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "367188fa-0b52-48e9-a5fe-26f84eb502da",
@@ -520,7 +516,7 @@
       "categories": [
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "8635b11a-1fc3-4733-8fa9-48c3ad5b168a",
@@ -553,7 +549,7 @@
       "categories": [
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "4c4b81ec-22c8-4575-b684-4cf08b137d3c",
@@ -582,7 +578,40 @@
       "categories": [
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
+    },
+    {
+      "id": "25878538-5e70-4c0f-8e2f-40577d6d5eca",
+      "slug": "achsvnytarklyt-ms-1-tsba-kchvl-iginrn",
+      "name": "אחסונית/ארקלית מס' 1 צבע כחול",
+      "name_translations": {
+        "ar": "صندوق تخزين/علبة رقم 1 لون أزرق",
+        "en": "Storage Bin/Arklit No. 1 Blue Color",
+        "he": "אחסונית/ארקלית מס' 1 צבע כחול",
+        "ru": "Контейнер для хранения/ящик № 1 синего цвета"
+      },
+      "description": "<p class=\"ql-align-right\">מידות תא האחסון : רוחב 305 ממ, עומק 500 ממ, גובה 205 ממ.</p><p class=\"ql-align-right\"><br></p>",
+      "short_description": "אחסונית/ארקלית מס' 1 צבע כחול\n",
+      "sku": null,
+      "brand": null,
+      "price": 95,
+      "base_price": 95,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1779001946474-v9rtug.webp",
+        "https://mutzagim.co.il/assets/product-1779001946497-pprn1y.webp",
+        "https://mutzagim.co.il/assets/product-1779001946517-c3v2q.webp",
+        "https://mutzagim.co.il/assets/product-1779001946537-dak066.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-iginrn",
+      "categories": [
+        "����� ������ ������ �����",
+        "ארגזי פלסטיק ומיכלי אחסון "
+      ],
+      "updated_at": "2026-05-17T07:25:54.492Z"
     },
     {
       "id": "3e349ad4-b1c1-4d53-8b40-ad3a5c258ac8",
@@ -621,36 +650,7 @@
         "מדפי תצוגה לחנויות וסופרמרקטים ",
         "פתרונות אחסנה ביתיים "
       ],
-      "updated_at": "2026-05-12T16:27:50.353Z"
-    },
-    {
-      "id": "781e91fe-8967-44c7-98f4-f394a18f64bf",
-      "slug": "st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp",
-      "name": "סט קיט מדפים ERREX תוצרת איטליה",
-      "name_translations": {
-        "ar": "طقم رفوف ERREX صناعة إيطالية",
-        "en": "ERREX Shelving Kit Set Made in Italy",
-        "he": "סט קיט מדפים ERREX תוצרת איטליה",
-        "ru": "Комплект стеллажных полок ERREX производства Италии"
-      },
-      "description": "<p class=\"ql-align-right\">קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק\"ג למדף</p><p class=\"ql-align-right\">מידות 100/40/180 ס\"מ, 5 מדפים בעומק 40 ס\"מ</p><p class=\"ql-align-right\"><br></p><p><br></p><p>Kit ERREX1® is the ideal choice when you need strong and functional shelving: Kit ERREX1® •Materials: galvanized steel for increased durability. • Load capacity: up to 170 kgs for each shelf according to its depth (30 cm or 40 cm). • Design: stylish and durable, fit for industrial and commercial applications. •Modular: each starting module can be easily extended by purchasing add-on units for all your needs changing over time. • Ease of assembly: entirely flat-pack including detailed assembly instructions</p>",
-      "short_description": "קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק\"ג למדף",
-      "sku": null,
-      "brand": "Dalmine",
-      "price": 531,
-      "base_price": 650,
-      "sale_price": 531,
-      "currency": "USD",
-      "images": [
-        "https://mutzagim.co.il/assets/product-1777982140101-repjrb.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp",
-      "categories": [
-        "מידוף מחסן לעומס קל ובינוני"
-      ],
-      "updated_at": "2026-05-12T16:25:38.730Z"
+      "updated_at": "2026-05-17T07:25:54.492Z"
     }
   ]
 }
