@@ -1,26 +1,26 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-17T07:14:38.236Z",
+  "generated_at": "2026-05-17T07:20:01.859Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 20,
   "products": [
     {
       "id": "25878538-5e70-4c0f-8e2f-40577d6d5eca",
-      "slug": "1-x4ywyf",
-      "name": "�������/������ ��' 1 ��� ����",
+      "slug": "achsvnytarklyt-ms-1-tsba-kchvl-wmp3ot",
+      "name": "אחסונית/ארקלית מס' 1 צבע כחול",
       "name_translations": {
-        "ar": "منصة/رف رقم 1 للعرض",
-        "en": "�������/������ ��' 1 ��� ����",
-        "he": "מחיצות/מחסנים מס' 1 עבור חלקים",
-        "ru": "Стеллаж/Витрина №1 для обуви"
+        "ar": "صندوق تخزين/علبة رقم 1 لون أزرق",
+        "en": "Storage Bin/Arklit No. 1 Blue Color",
+        "he": "אחסונית/ארקלית מס' 1 צבע כחול",
+        "ru": "Контейнер для хранения/ящик № 1 синего цвета"
       },
-      "description": "",
-      "short_description": "�������/������ ��' 1 ��� ����",
+      "description": "<p class=\"ql-align-right\"> מידות תא האחסון : רוחב 305 ממ, עומק 500 ממ, גובה 205 ממ. </p><p class=\"ql-align-right\"><br></p>",
+      "short_description": "אחסונית/ארקלית מס' 1 צבע כחול\n",
       "sku": null,
       "brand": null,
-      "price": 90,
-      "base_price": 90,
+      "price": 95,
+      "base_price": 95,
       "sale_price": null,
       "currency": "USD",
       "images": [
@@ -31,11 +31,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/1-x4ywyf",
+      "url": "https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-wmp3ot",
       "categories": [
-        "����� ������ ������ �����"
+        "����� ������ ������ �����",
+        "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-05-17T07:12:32.967Z"
+      "updated_at": "2026-05-17T07:19:30.988Z"
     },
     {
       "id": "de02fd51-f52e-47d6-a139-931d1ce64e71",
