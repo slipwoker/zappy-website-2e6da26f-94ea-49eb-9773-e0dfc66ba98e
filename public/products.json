@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-17T07:24:56.113Z",
+  "generated_at": "2026-05-17T07:25:16.576Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 20,
@@ -40,7 +40,7 @@
     },
     {
       "id": "de02fd51-f52e-47d6-a139-931d1ce64e71",
-      "slug": "st-mdpym-mvdlrym-12080250h-bh8dpt",
+      "slug": "st-mdpym-mvdlrym-12080250h-lj8d7a",
       "name": "סט מדפים מודלרים 120/80/250H ",
       "name_translations": {
         "ar": "طقم أرفف معيارية 120/80/250H",
@@ -63,11 +63,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/st-mdpym-mvdlrym-12080250h-bh8dpt",
+      "url": "https://mutzagim.co.il/product/st-mdpym-mvdlrym-12080250h-lj8d7a",
       "categories": [
         "מידוף מחסן לעומס קל ובינוני"
       ],
-      "updated_at": "2026-05-14T10:36:49.219Z"
+      "updated_at": "2026-05-17T07:24:58.399Z"
     },
     {
       "id": "ec9f5370-1ffb-427e-8bbe-09107d475a8b",
