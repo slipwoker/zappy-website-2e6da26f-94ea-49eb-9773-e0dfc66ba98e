@@ -204,6 +204,8 @@
       "new_h2_443": "3. מוצר פגום",
       "new_h2_445": "4. יצירת קשר",
       "new_h2_449": "עגלת הקניות שלך",
+      "new_h2_544": "כותרת חדשה",
+      "new_h2_545": "סדרת Linea391 - אחריות ל-5 שנים",
       "new_h3_395": "הוסף כתובת",
       "new_li_435": "לאזרחים ותיקים, עולים חדשים ואנשים עם מוגבלות - תקופת הביטול היא 4 חודשים",
       "new_li_436": "יש להחזיר את המוצר באריזתו המקורית",
@@ -2276,6 +2278,7 @@
       "new_text_455_0": "<span><span><span>נוצר בשמחה על ידי&nbsp;</span></span></span><a href=\"https://",
       "new_text_456_0": "<span><span><span>נוצר באמצעות&nbsp;</span></span></span><a href=\"https://",
       "new_text_542_0": "<span><span>נוצר באהבה על ידי&nbsp;</span></span><a href=\"https://",
+      "new_text_543_0": "<span><span>נוצר באהבה על ידי&nbsp;</span></span><a href=\"https://",
       "new_text_457_0": "<span><span>נוצר בשמחה על ידי&nbsp;</span></span><a href=\"https://"
     }
   },
@@ -2484,6 +2487,8 @@
       "new_h2_443": "3. المنتج المعيب",
       "new_h2_445": "4. التواصل",
       "new_h2_449": "سلة التسوق الخاصة بك",
+      "new_h2_544": "عنوان جديد",
+      "new_h2_545": "سلسلة Linea391 - ضمان لمدة 5 سنوات",
       "new_h3_395": "إضافة عنوان",
       "new_li_435": "للمواطنين المسنين والمهاجرين الجدد والأشخاص ذوي الإعاقة - فترة الإلغاء هي 4 أشهر",
       "new_li_436": "يجب إرجاع المنتج في عبوته الأصلية",
@@ -4556,6 +4561,7 @@
       "new_text_455_0": "<span><span><span>تم إنشاؤه بسعادة بواسطة&nbsp;</span></span></span><a href=\"https://",
       "new_text_456_0": "<span><span><span>تم إنشاؤه بواسطة&nbsp;</span></span></span><a href=\"https://",
       "new_text_542_0": "<span><span>تم إنشاؤه بسعادة بواسطة&nbsp;</span></span><a href=\"https://",
+      "new_text_543_0": "<span><span>تم إنشاؤه بسعادة بواسطة&nbsp;</span></span><a href=\"https://",
       "new_text_457_0": "<span><span>تم إنشاؤه بسعادة بواسطة&nbsp;</span></span><a href=\"https://"
     }
   },
@@ -4764,6 +4770,8 @@
       "new_h2_443": "3. Дефектный товар",
       "new_h2_445": "4. Связь с нами",
       "new_h2_449": "Ваша корзина",
+      "new_h2_544": "Новый заголовок",
+      "new_h2_545": "Серия Linea391 - гарантия на 5 лет",
       "new_h3_395": "Добавить адрес",
       "new_li_435": "Для пожилых граждан, новых репатриантов и людей с ограниченными возможностями - период отмены составляет 4 месяца",
       "new_li_436": "Товар необходимо вернуть в оригинальной упаковке",
@@ -6836,6 +6844,7 @@
       "new_text_455_0": "<span><span><span>С радостью создано&nbsp;</span></span></span><a href=\"https://",
       "new_text_456_0": "<span><span><span>Создано с помощью&nbsp;</span></span></span><a href=\"https://",
       "new_text_542_0": "<span><span>С радостью создано&nbsp;</span></span><a href=\"https://",
+      "new_text_543_0": "<span><span>С радостью создано&nbsp;</span></span><a href=\"https://",
       "new_text_457_0": "<span><span>С радостью создано&nbsp;</span></span><a href=\"https://"
     }
   },
@@ -7044,6 +7053,8 @@
       "new_h2_443": "3. Defective Product",
       "new_h2_445": "4. Contact",
       "new_h2_449": "Your Shopping Cart",
+      "new_h2_544": "New Heading",
+      "new_h2_545": "Linea391 Series - 5 Year Warranty",
       "new_h3_395": "Add Address",
       "new_li_435": "For senior citizens, new immigrants and people with disabilities - the cancellation period is 4 months",
       "new_li_436": "The product must be returned in its original packaging",
@@ -9116,6 +9127,7 @@
       "new_text_455_0": "<span><span><span>Happily created by&nbsp;</span></span></span><a href=\"https://",
       "new_text_456_0": "<span><span><span>נוצר באמצעות&nbsp;</span></span></span><a href=\"https://",
       "new_text_542_0": "<span><span>Happily created by&nbsp;</span></span><a href=\"https://",
+      "new_text_543_0": "<span><span>Happily created by&nbsp;</span></span><a href=\"https://",
       "new_text_457_0": "<span><span>Happily created by&nbsp;</span></span><a href=\"https://"
     }
   }
