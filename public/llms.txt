@@ -139,6 +139,36 @@ https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp
 - Description: קיט מדפים ארוז בקרטון קל ונוח להובלה והרכבה, עומס 170 ק"ג למדף
 - Image: https://mutzagim.co.il/assets/product-1777982140101-repjrb.webp
 
+### מערכת ריהוט פינתית מודולרית GARAGE086 – לניצול מקסימלי של שטח הסדנה
+https://mutzagim.co.il/product/markt-ryhvt-pyntyt-mvdvlryt-garage086-lnytsvl-mksymly-shl-shtch-hsdnh-imgp5y
+- Price: 36415.00 USD
+- Availability: Out of stock
+- Category: ריהוט תעשייתי מתקדם 
+- SKU: GARAGE086
+- Brand: FAMI
+- Description: עמדת עבודה וריהוט פינתי GARAGE086
+- Image: https://mutzagim.co.il/assets/product-1778578809385-33y46d.webp
+
+### מערכת ריהוט תעשייתית משולבת GARAGE081 – פתרון אחסון ועבודה מושלם
+https://mutzagim.co.il/product/markt-ryhvt-tashyytyt-mshvlbt-garage081-ptrvn-achsvn-vabvdh-mvshlm-zkp7h3
+- Price: 8551.00 USD
+- Availability: Out of stock
+- Category: ריהוט תעשייתי מתקדם 
+- SKU: 391G01
+- Brand: FAMI
+- Description: עמדת עבודה ותצוגה דגם GARAGE081 FAMI
+- Image: https://mutzagim.co.il/assets/product-1778580291180-39p7d8.webp
+
+### עמדת עבודה משולבת Garage 391 – גוון אפור אנתרציט
+https://mutzagim.co.il/product/amdt-abvdh-mshvlbt-garage-391-gvvn-apvr-antrtsyt-dzyqvq
+- Price: 4999.00 USD
+- Availability: Out of stock
+- Category: ריהוט תעשייתי מתקדם 
+- SKU: 391G02
+- Brand: FAMI
+- Description: מערכת ריהוט מודולרית לסדנאות Garage 391 – דגם 391G02
+- Image: https://mutzagim.co.il/assets/product-1778585018163-69muh.webp
+
 ### סט מדפים מודלרים 150/50/197H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15050197h-au0oco
 - Price: 965.00 USD
@@ -263,36 +293,6 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15032197h-0bb5ap
 - Brand: METALSISTEM
 - Description: סט מדפים מודלרים באורך 150 ס"מ (158 ס"מ כולל מסגרות), גובה 197 ס"מ, עומק 32 ס"מ, 4 מדפים בעומס מפולג 140 ק"ג למדף. אופציה ליח' המשך
 - Image: https://mutzagim.co.il/assets/product-1778602867603-bnuacd.webp
-
-### עמדת עבודה משולבת Garage 391 – גוון אפור אנתרציט
-https://mutzagim.co.il/product/amdt-abvdh-mshvlbt-garage-391-gvvn-apvr-antrtsyt-dzyqvq
-- Price: 4999.00 USD
-- Availability: Out of stock
-- Category: ריהוט תעשייתי מתקדם 
-- SKU: 391G02
-- Brand: FAMI
-- Description: מערכת ריהוט מודולרית לסדנאות Garage 391 – דגם 391G02
-- Image: https://mutzagim.co.il/assets/product-1778585018163-69muh.webp
-
-### מערכת ריהוט תעשייתית משולבת GARAGE081 – פתרון אחסון ועבודה מושלם
-https://mutzagim.co.il/product/markt-ryhvt-tashyytyt-mshvlbt-garage081-ptrvn-achsvn-vabvdh-mvshlm-zkp7h3
-- Price: 8551.00 USD
-- Availability: Out of stock
-- Category: ריהוט תעשייתי מתקדם 
-- SKU: 391G01
-- Brand: FAMI
-- Description: עמדת עבודה ותצוגה דגם GARAGE081 FAMI
-- Image: https://mutzagim.co.il/assets/product-1778580291180-39p7d8.webp
-
-### מערכת ריהוט פינתית מודולרית GARAGE086 – לניצול מקסימלי של שטח הסדנה
-https://mutzagim.co.il/product/markt-ryhvt-pyntyt-mvdvlryt-garage086-lnytsvl-mksymly-shl-shtch-hsdnh-imgp5y
-- Price: 36415.00 USD
-- Availability: Out of stock
-- Category: ריהוט תעשייתי מתקדם 
-- SKU: GARAGE086
-- Brand: FAMI
-- Description: עמדת עבודה וריהוט פינתי GARAGE086
-- Image: https://mutzagim.co.il/assets/product-1778578809385-33y46d.webp
 
 ### אחסונית/ארקלית מס' 1 צבע כחול
 https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-iginrn
