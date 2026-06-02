@@ -1698,17 +1698,19 @@ html[dir="rtl"] body {
 
     <li class="menu-item-has-children zappy-products-dropdown">
       <a href="/products">
-        קטלוג ומחירים
-        
+        מוצרים
         <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M6 9l6 6 6-6"></path>
         </svg>
       </a>
       <ul class="sub-menu" id="zappy-nav-category-links">
-        <li><a href="/products" data-i18n="new_a_108">כל המוצרים</a></li>
+        <li><a href="/products" data-i18n="ecom_products">מוצרים</a></li>
         <!-- Categories will be loaded dynamically -->
       </ul>
     </li>
+  
+
+    
   <li class="menu-group-item"><span class="menu-group-title" data-i18n="home_nav_46">קטגורית מוצרים</span><ul class="sub-menu"><li><a href="/light-and-medium-shelving" class="nav-link" data-i18n="home_nav_47">מידוף קל ובינוני</a></li><li><a href="/heavy-duty-shelving" data-i18n="home_nav_48">מידוף כבד | פתרונות אחסון תעשייתי למפעלים ולוגיסטיקה</a></li><li><a href="/advanced-industrial-furniture" data-i18n="home_nav_49">ריהוט תעשייתי מתקדם | פתרונות אחסון למפעלים</a></li><li><a href="/compactus-systems" data-i18n="home_nav_50">מתקני קומפקטוס | פתרונות אחסון חכם וחיסכון במקום</a></li><li><a href="/vehicle-equipment" data-i18n="home_nav_51">זיווד רכבים | פתרונות אחסון וסדנה ניידת לרכבים מסחריים</a></li><li><a href="/plastic-storage-containers-977433" data-i18n="home_nav_52">ארגזי פלסטיק ומיכלים לאחסון | פתרונות תעשייתיים</a></li><li><a href="/esd-containers" data-i18n="home_nav_53">מיכלים וארגזים אנטי סטטיים (ESD) | פתרונות אחסון לתעשייה</a></li><li><a href="/supermarket-shelving" class="nav-link" data-i18n="home_nav_54">מדפים לסופרמקטים</a></li><li><a href="/storage-mezzanines" data-i18n="home_nav_55">גלריות אחסון ורצפות גלריה | פתרונות להכפלת שטח</a></li><li style="display: none !important;" class="zappy-hidden-menu-item"><a href="/shelving-solutions-north" data-i18n="home_nav_56">פתרונות מידוף לעסק ולבית בצפון | מוצגים</a></li><li><a href="/vlm-vertical-storage" class="nav-link" data-i18n="home_nav_57">אחסון ורטיקלי VLM</a></li><li><a href="/dalmine-ls-modular-shelving" class="nav-link" data-i18n="home_nav_58">מדפים מודולריים</a></li><li style="display: none !important;" class="zappy-hidden-menu-item"><a href="/cold-room-shelving" class="nav-link" data-i18n="home_nav_59">מידוף קירור</a></li><li><a href="/cold-room-freezer-shelving-tonon" class="nav-link" data-i18n="home_nav_60">מדפים לחדרי קירור</a></li></ul></li><li><a href="/services" data-i18n="home_nav_61">שירותים</a></li><li><a href="/about" data-i18n="home_nav_63">אודות</a></li><li class="nav-cta-item-mobile"><a href="/contact-us" data-i18n="home_nav_64">צרו קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
@@ -2338,6 +2340,7 @@ html[dir="rtl"] body {
 
 
 
+
 <!-- i18next Multi-Language Support -->
 <script>
 (function() {
@@ -2347,6 +2350,7 @@ html[dir="rtl"] body {
   const resources = {
   "he": {
     "translation": {
+      "ecom_loading": "טוען…",
       "ecom_accountWelcome": "ברוך הבא",
       "ecom_addAddress": "הוסף כתובת",
       "ecom_addBundleToCart": "הוספת {count} מוצרים לעגלה",
@@ -2365,6 +2369,7 @@ html[dir="rtl"] body {
       "ecom_applyCoupon": "החל",
       "ecom_backToProducts": "חזרה למוצרים",
       "ecom_browseFavorites": "גלו את כל המוצרים שלנו",
+      "ecom_bundleDiscount": "הנחת חבילה",
       "ecom_bundleTotal": "סה\"כ לעגלה",
       "ecom_callNow": "התקשר עכשיו",
       "ecom_cancel": "ביטול",
@@ -2393,6 +2398,7 @@ html[dir="rtl"] body {
       "ecom_coursesDetailEnroll": "הוסף לעגלה",
       "ecom_coursesDetailResume": "המשך ללמוד",
       "ecom_coursesDigitalDelivery": "גישה דיגיטלית מקוונת",
+      "ecom_coursesLessonCompleted": "הושלם",
       "ecom_coursesLessonLoading": "טוען שיעור…",
       "ecom_coursesLessonMarkComplete": "סימון כהושלם",
       "ecom_coursesLessonNext": "הבא",
@@ -2408,6 +2414,11 @@ html[dir="rtl"] body {
       "ecom_coursesCertIssued": "הונפק",
       "ecom_coursesCertStudent": "תלמיד",
       "ecom_coursesCertValid": "מאומת",
+      "ecom_coursesCertIssuer": "הונפק על ידי",
+      "ecom_coursesCertCode": "קוד אימות",
+      "ecom_coursesViewCertificate": "צפייה בתעודה",
+      "ecom_coursesCertEarnedTitle": "הקורס הושלם!",
+      "ecom_coursesCertEarnedBody": "התעודה שלך מוכנה.",
       "ecom_coursesCurriculumEmpty": "תכנית הלימודים תגיע בקרוב.",
       "ecom_coursesFree": "חינם",
       "ecom_coursesJoinLive": "הצטרף בשידור חי",
@@ -2593,6 +2604,10 @@ html[dir="rtl"] body {
       "ecom_coursesAlreadyOwned": "כבר יש לך גישה לקורס זה.",
       "ecom_coursesAlreadyOwnedCheckout": "כבר נרשמת לקורס שבעגלת הקניות.",
       "ecom_coursesEnrollmentCheckFailed": "לא ניתן לאמת בעלות על הקורס. אנא נסה שוב.",
+      "ecom_coursesAlreadyEnrolledPrompt": "כבר נרשמת?",
+      "ecom_coursesLoginLink": "לכניסה",
+      "ecom_processing": "מעבד...",
+      "ecom_checkoutFailed": "שגיאה בתהליך התשלום. נסו שוב.",
       "home_h1_1": "<font color=\"#ffffff\">מדפי אחסון תעשייתי למפעלים שמשנים את חוקי המשחק</font>",
       "home_h2_2": "למה לבחור במדפי אחסון תעשייתי למפעלים שלנו?",
       "home_h2_3": "פתרונות האחסון התעשייתי שלנו",
@@ -2611,9 +2626,9 @@ html[dir="rtl"] body {
       "home_p_27": "כל המוצרים שלנו עומדים בתקני בטיחות ואיכות בינלאומיים מחמירים. אנו מחויבים לספק פתרונות אחסון בטוחים ואמינים לכל סוגי התעשיות.",
       "home_p_28": "מערכות מדפים תעשייתיות המיועדות לעמוד בעומסים של עד 2 טון למדף. אידיאלי למפעלי ייצור, מחסני חומרי גלם וחברות לוגיסטיקה. המדפים בנויים מפלדה מחוזקת ועוברים טיפול אנטי-קורוזיה.",
       "home_p_29": "מתקני קומפקטוס לעסקים המאפשרים אחסון אופטימלי תוך חיסכון משמעותי בשטח. מערכת הזזה חכמה המתאימה לארכיונים, מחסני ציוד ומרכזי לוגיסטיקה. פתרון מושלם לניצול מקסימלי של שטח יקר.",
-      "home_p_30": "ריהוט תעשייתי לחברות לוגיסטיקה הכולל מערכות משטחים מתקדמות, מדפי pick &amp; pack ופתרונות אחסון דינמיים. מותאם לעבודה עם מלגזות ומערכות אוטומציה, מאפשר זרימת עבודה יעילה ומהירה.",
+      "home_p_30": "ריהוט תעשייתי לחברות לוגיסטיקה הכולל מערכות משטחים מתקדמות, מדפי pick & pack ופתרונות אחסון דינמיים. מותאם לעבודה עם מלגזות ומערכות אוטומציה, מאפשר זרימת עבודה יעילה ומהירה.",
       "home_p_31": "פתרונות אחסון מותאמים למפעלי ייצור בכל הגדלים, כולל מדפי אחסון תעשייתי למפעלים עם דרישות עומס גבוהות במיוחד.",
-      "home_p_32": "ריהוט תעשייתי לחברות לוגיסטיקה הכולל מערכות pick &amp; pack, מדפי זרימה ופתרונות אחסון דינמיים לניהול מלאי יעיל.",
+      "home_p_32": "ריהוט תעשייתי לחברות לוגיסטיקה הכולל מערכות pick & pack, מדפי זרימה ופתרונות אחסון דינמיים לניהול מלאי יעיל.",
       "home_p_33": "מערכות אחסון מקיפות למחסנים גדולים ומרכזי חלוקה, כולל פתרונות אחסון למשקל כבד ומערכות גישה מהירה.",
       "home_p_34": "מתקני קומפקטוס לעסקים המחפשים לאחסן מסמכים וציוד משרדי בצורה מאורגנת ויעילה, תוך חיסכון משמעותי בשטח.",
       "home_p_35": "צוות המומחים שלנו ייתן לכם ייעוץ מקצועי ויעזור לכם למצוא את הפתרון המושלם למפעל או לעסק שלכם. קבלו הצעת מחיר מותאמת אישית תוך 24 שעות.",
@@ -2799,7 +2814,7 @@ html[dir="rtl"] body {
       "new_h2_544": "כותרת חדשה",
       "new_h2_545": "סדרת Linea391 - אחריות ל-5 שנים",
       "new_h2_548": "סדרת Linea391 – 8 שנים אחריות",
-      "new_h2_549": "סדרת&nbsp;\n\nLinea391 כולל 5 שנים אחריות",
+      "new_h2_549": "סדרת Linea391 אחריות 5 שנים",
       "new_h3_395": "הוסף כתובת",
       "new_h3_546": "פתרונות אחסון חכמים למשקל כבד, המשלבים ארגונומיה, מודולריות ועמידות קיצונית, לסביבת עבודה יעילה. השלמה למערך מדפי אחסון תעשייתי למפעלים ולמוסכים.",
       "new_h3_547": "מערכות המותאמות בדיוק לצרכי רצפת הייצור המודרנית.",
@@ -3195,8 +3210,8 @@ html[dir="rtl"] body {
       "services_li_47": "<i class=\"fas fa-check-circle\"></i> מערכת נעילה אוטומטית לבטיחות",
       "services_li_48": "<i class=\"fas fa-check-circle\"></i> אפשרות לשילוב מערכת ממוחשבת",
       "services_li_49": "<i class=\"fas fa-check-circle\"></i> מגוון גדלים וקונפיגורציות",
-      "services_li_50": "<i class=\"fas fa-check-circle\" data-element-type=\"icon\" data-element-id=\"icon-1769543237717-i1vcm81mz\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"></i> עמידות למשקל כבד עד 2 טון למדף מערכות פלטות מתקדמות\n\n&gt; עמידות למשקל כבד עד 2 טון למדף מערכות פלטות מתקדמות\n\n\n\n&gt; עמידות למשקל כבד עד 2 טון למדף מערכות פלטות מתקדמות\n\nעמידות למשקל כבד עד 2 טון למדף37717&nbsp;\n\nעמידות למשקל כבד עד 2 טון למדף מערכות פלטות מתקדמות&gt; עמידות למשקל כבד עד 2 טון למדף מערכות פלטות מתקדמות\n\nעמידות למשקל כבד עד 2 טון למדף37717-i1vcm81mz\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"&gt; עמידות למשקל כבד עד 2 טון למדף8743186636-8y472qaxx\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"&gt; מערכות פלטות מתקדמות",
-      "services_li_51": "<i class=\"fas fa-check-circle\" data-element-type=\"icon\" data-element-id=\"icon-1768743186636-87vzujcxc\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"></i> פתרונות pick &amp; pack יעילים",
+      "services_li_50": "<i class=\"fas fa-check-circle\" data-element-type=\"icon\" data-element-id=\"icon-1769543237717-i1vcm81mz\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"></i> עמידות למשקל כבד עד 2 טון למדף מערכות פלטות מתקדמות\n\n> עמידות למשקל כבד עד 2 טון למדף מערכות פלטות מתקדמות\n\n\n\n> עמידות למשקל כבד עד 2 טון למדף מערכות פלטות מתקדמות\n\nעמידות למשקל כבד עד 2 טון למדף37717&nbsp;\n\nעמידות למשקל כבד עד 2 טון למדף מערכות פלטות מתקדמות> עמידות למשקל כבד עד 2 טון למדף מערכות פלטות מתקדמות\n\nעמידות למשקל כבד עד 2 טון למדף37717-i1vcm81mz\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"> עמידות למשקל כבד עד 2 טון למדף8743186636-8y472qaxx\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"> מערכות פלטות מתקדמות",
+      "services_li_51": "<i class=\"fas fa-check-circle\" data-element-type=\"icon\" data-element-id=\"icon-1768743186636-87vzujcxc\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"></i> פתרונות pick & pack יעילים",
       "services_li_52": "<i class=\"fas fa-check-circle\" data-element-type=\"icon\" data-element-id=\"icon-1768743186636-ot4qgh5pr\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"></i> תאימות למלגזות ואוטומציה",
       "services_li_53": "<i class=\"fas fa-check-circle\" data-element-type=\"icon\" data-element-id=\"icon-1768743186636-azg16q5sa\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"></i> אופטימיזציה של זרימת עבודה",
       "services_li_54": "<i class=\"fas fa-check-circle\" data-element-type=\"icon\" data-element-id=\"icon-1768743186636-15bme88b6\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"></i> פתרונות אחסון דינמיים",
@@ -4668,7 +4683,7 @@ html[dir="rtl"] body {
       "vlm_vertical_storage_meta_description": "מערכת אחסון ורטיקלי VLM - מדפי אחסון תעשייתי למפעלים המאפשרים חיסכון של עד 90% בשטח. פתרונות אחסון למשקל כבד, ייעול תהליכי ליקוט וניהול מלאי חכם.",
       "catalog_and_pricing_seo_og_description": "צפו בקטלוג פתרונות האחסון שלנו. תפריט מלא של מדפי אחסון תעשייתי למפעלים, פתרונות למשקל כבד וציוד לוגיסטי במחירים אטרקטיביים.",
       "cold_room_freezer_shelving_tonon_h3_10": "סדרת Food Service",
-      "cold_room_freezer_shelving_tonon_h3_11": "סדרת Pharma &amp; Clean",
+      "cold_room_freezer_shelving_tonon_h3_11": "סדרת Pharma & Clean",
       "dalmine_ls_modular_shelving_page_title": "מערכת מדפים מודולרית Dalmine LS",
       "esd_containers_seo_twitter_description": "מגוון מיכלים, ארגזים וקופסאות אנטי סטטיים (ESD) להגנה על רכיבים אלקטרוניים. פתרונות אחסון ושינוע מוליכים לתעשיית ההייטק והאלקטרוניקה.",
       "heavy_duty_shelving_seo_og_description": "מערכות מידוף כבד למשקל גבוה - פתרונות אחסון תעשייתי למפעלים, מחסנים לוגיסטיים ומשטחים. מדפי משטחים, קנטיליבר וגלריות לעומסים כבדים.",
@@ -4880,6 +4895,7 @@ html[dir="rtl"] body {
   },
   "ar": {
     "translation": {
+      "ecom_loading": "جارٍ التحميل…",
       "ecom_accountWelcome": "Welcome",
       "ecom_addAddress": "Add Address",
       "ecom_addBundleToCart": "أضف {count} منتجات إلى السلة",
@@ -4898,6 +4914,7 @@ html[dir="rtl"] body {
       "ecom_applyCoupon": "Apply",
       "ecom_backToProducts": "Back to Products",
       "ecom_browseFavorites": "Discover all our products",
+      "ecom_bundleDiscount": "خصم الحزمة",
       "ecom_bundleTotal": "إجمالي الحزمة",
       "ecom_callNow": "Call Now",
       "ecom_cancel": "Cancel",
@@ -4926,6 +4943,7 @@ html[dir="rtl"] body {
       "ecom_coursesDetailEnroll": "أضف إلى السلة",
       "ecom_coursesDetailResume": "متابعة التعلم",
       "ecom_coursesDigitalDelivery": "الوصول الرقمي عبر الإنترنت",
+      "ecom_coursesLessonCompleted": "مكتمل",
       "ecom_coursesLessonLoading": "جاري تحميل الدرس…",
       "ecom_coursesLessonMarkComplete": "تحديد كمكتمل",
       "ecom_coursesLessonNext": "التالي",
@@ -4941,6 +4959,11 @@ html[dir="rtl"] body {
       "ecom_coursesCertIssued": "تاريخ الإصدار",
       "ecom_coursesCertStudent": "الطالب",
       "ecom_coursesCertValid": "تم التحقق",
+      "ecom_coursesCertIssuer": "صادر عن",
+      "ecom_coursesCertCode": "رمز التحقق",
+      "ecom_coursesViewCertificate": "عرض الشهادة",
+      "ecom_coursesCertEarnedTitle": "اكتملت الدورة!",
+      "ecom_coursesCertEarnedBody": "شهادتك جاهزة.",
       "ecom_coursesCurriculumEmpty": "المنهج قادم قريباً.",
       "ecom_coursesFree": "مجاني",
       "ecom_coursesJoinLive": "انضم مباشرة",
@@ -5126,6 +5149,10 @@ html[dir="rtl"] body {
       "ecom_coursesAlreadyOwned": "أنت مسجل بالفعل في هذه الدورة.",
       "ecom_coursesAlreadyOwnedCheckout": "أنت مسجل بالفعل في دورة في سلة التسوق.",
       "ecom_coursesEnrollmentCheckFailed": "لا يمكن التحقق من ملكية الدورة. يرجى المحاولة مرة أخرى.",
+      "ecom_coursesAlreadyEnrolledPrompt": "مسجل بالفعل؟",
+      "ecom_coursesLoginLink": "تسجيل الدخول",
+      "ecom_processing": "جارٍ المعالجة...",
+      "ecom_checkoutFailed": "فشل الدفع. يرجى المحاولة مرة أخرى.",
       "home_h1_1": "<font color=\"#ffffff\">أرفف التخزين الصناعي للمصانع التي تغير قواعد اللعبة</font>",
       "home_h2_2": "لماذا تختار أرفف التخزين الصناعي للمصانع الخاصة بنا؟",
       "home_h2_3": "حلول التخزين الصناعي لدينا",
@@ -5332,7 +5359,7 @@ html[dir="rtl"] body {
       "new_h2_544": "عنوان جديد",
       "new_h2_545": "سلسلة Linea391 - ضمان لمدة 5 سنوات",
       "new_h2_548": "سلسلة Linea391 – ضمان 8 سنوات",
-      "new_h2_549": "سلسلة&nbsp;\n\nLinea391 تشمل ضمان 5 سنوات",
+      "new_h2_549": "سلسلة Linea391 ضمان 5 سنوات",
       "new_h3_395": "إضافة عنوان",
       "new_h3_546": "حلول تخزين ذكية للأوزان الثقيلة، تجمع بين الهندسة البشرية والمرونة والمتانة الفائقة، لبيئة عمل فعالة. مكملة لمجموعة أرفف التخزين الصناعي للمصانع والورش.",
       "new_h3_547": "أنظمة مصممة بدقة لتلبية احتياجات أرضية الإنتاج الحديثة.",
@@ -7413,6 +7440,7 @@ html[dir="rtl"] body {
   },
   "ru": {
     "translation": {
+      "ecom_loading": "Загрузка…",
       "ecom_accountWelcome": "Welcome",
       "ecom_addAddress": "Add Address",
       "ecom_addBundleToCart": "Добавить {count} товаров в корзину",
@@ -7431,6 +7459,7 @@ html[dir="rtl"] body {
       "ecom_applyCoupon": "Apply",
       "ecom_backToProducts": "Back to Products",
       "ecom_browseFavorites": "Discover all our products",
+      "ecom_bundleDiscount": "Скидка за набор",
       "ecom_bundleTotal": "Итого набор",
       "ecom_callNow": "Call Now",
       "ecom_cancel": "Cancel",
@@ -7459,6 +7488,7 @@ html[dir="rtl"] body {
       "ecom_coursesDetailEnroll": "В корзину",
       "ecom_coursesDetailResume": "Продолжить обучение",
       "ecom_coursesDigitalDelivery": "Цифровой онлайн-доступ",
+      "ecom_coursesLessonCompleted": "Завершено",
       "ecom_coursesLessonLoading": "Загрузка урока…",
       "ecom_coursesLessonMarkComplete": "Отметить как завершенный",
       "ecom_coursesLessonNext": "Далее",
@@ -7474,6 +7504,11 @@ html[dir="rtl"] body {
       "ecom_coursesCertIssued": "Выдан",
       "ecom_coursesCertStudent": "Студент",
       "ecom_coursesCertValid": "Проверен",
+      "ecom_coursesCertIssuer": "Выдано",
+      "ecom_coursesCertCode": "Код проверки",
+      "ecom_coursesViewCertificate": "Посмотреть сертификат",
+      "ecom_coursesCertEarnedTitle": "Курс завершён!",
+      "ecom_coursesCertEarnedBody": "Ваш сертификат готов.",
       "ecom_coursesCurriculumEmpty": "Программа курса скоро появится.",
       "ecom_coursesFree": "Бесплатно",
       "ecom_coursesJoinLive": "Присоединиться к прямому эфиру",
@@ -7659,6 +7694,10 @@ html[dir="rtl"] body {
       "ecom_coursesAlreadyOwned": "У вас уже есть доступ к этому курсу.",
       "ecom_coursesAlreadyOwnedCheckout": "Вы уже записаны на курс из корзины.",
       "ecom_coursesEnrollmentCheckFailed": "Не удалось подтвердить владение курсом. Пожалуйста, попробуйте снова.",
+      "ecom_coursesAlreadyEnrolledPrompt": "Уже записаны?",
+      "ecom_coursesLoginLink": "Войти",
+      "ecom_processing": "Обработка...",
+      "ecom_checkoutFailed": "Ошибка оплаты. Пожалуйста, попробуйте снова.",
       "home_h1_1": "<font color=\"#ffffff\">Промышленные стеллажи для складов, которые меняют правила игры</font>",
       "home_h2_2": "Почему стоит выбрать наши промышленные стеллажи для складов?",
       "home_h2_3": "Наши решения для промышленного хранения",
@@ -7865,7 +7904,7 @@ html[dir="rtl"] body {
       "new_h2_544": "Новый заголовок",
       "new_h2_545": "Серия Linea391 - гарантия на 5 лет",
       "new_h2_548": "Серия Linea391 – 8 лет гарантии",
-      "new_h2_549": "Серия&nbsp;\n\nLinea391 включает 5 лет гарантии",
+      "new_h2_549": "Серия Linea391 гарантия 5 лет",
       "new_h3_395": "Добавить адрес",
       "new_h3_546": "Умные решения для хранения тяжелых грузов, сочетающие эргономику, модульность и экстремальную прочность для эффективной рабочей среды. Дополнение к системе промышленных стеллажей для заводов и мастерских.",
       "new_h3_547": "Системы, точно адаптированные к потребностям современного производственного цеха.",
@@ -8261,8 +8300,8 @@ html[dir="rtl"] body {
       "services_li_47": "Автоматическая система блокировки для безопасности",
       "services_li_48": "Возможность интеграции компьютерной системы",
       "services_li_49": "Широкий выбор размеров и конфигураций",
-      "services_li_50": "<i class=\"fas fa-check-circle\" data-element-type=\"icon\" data-element-id=\"icon-1769543237717-i1vcm81mz\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"></i> Выдерживает тяжелые нагрузки до 2 тонн на полку передовые паллетные системы\n\n&gt; Выдерживает тяжелые нагрузки до 2 тонн на полку передовые паллетные системы\n\n\n\n&gt; Выдерживает тяжелые нагрузки до 2 тонн на полку передовые паллетные системы\n\nВыдерживает тяжелые нагрузки до 2 тонн на полку37717&nbsp;\n\nВыдерживает тяжелые нагрузки до 2 тонн на полку передовые паллетные системы&gt; Выдерживает тяжелые нагрузки до 2 тонн на полку передовые паллетные системы\n\nВыдерживает тяжелые нагрузки до 2 тонн на полку37717-i1vcm81mz\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"&gt; Выдерживает тяжелые нагрузки до 2 тонн на полку8743186636-8y472qaxx\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"&gt; передовые паллетные системы",
-      "services_li_51": "<i class=\"fas fa-check-circle\" data-element-type=\"icon\" data-element-id=\"icon-1768743186636-87vzujcxc\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"></i> Эффективные решения pick &amp; pack",
+      "services_li_50": "<i class=\"fas fa-check-circle\" data-element-type=\"icon\" data-element-id=\"icon-1769543237717-i1vcm81mz\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"></i> Выдерживает тяжелые нагрузки до 2 тонн на полку передовые паллетные системы\n\n> Выдерживает тяжелые нагрузки до 2 тонн на полку передовые паллетные системы\n\n\n\n> Выдерживает тяжелые нагрузки до 2 тонн на полку передовые паллетные системы\n\nВыдерживает тяжелые нагрузки до 2 тонн на полку37717&nbsp;\n\nВыдерживает тяжелые нагрузки до 2 тонн на полку передовые паллетные системы> Выдерживает тяжелые нагрузки до 2 тонн на полку передовые паллетные системы\n\nВыдерживает тяжелые нагрузки до 2 тонн на полку37717-i1vcm81mz\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"> Выдерживает тяжелые нагрузки до 2 тонн на полку8743186636-8y472qaxx\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"> передовые паллетные системы",
+      "services_li_51": "<i class=\"fas fa-check-circle\" data-element-type=\"icon\" data-element-id=\"icon-1768743186636-87vzujcxc\" data-icon-type=\"fontawesome\" style=\"pointer-events: auto; cursor: pointer;\"></i> Эффективные решения pick & pack",
       "services_li_52": "Совместимость с погрузчиками и автоматизацией",
       "services_li_53": "Оптимизация рабочего процесса",
       "services_li_54": "Динамические решения для хранения",
@@ -9734,7 +9773,7 @@ html[dir="rtl"] body {
       "vlm_vertical_storage_meta_description": "Система вертикального хранения VLM - промышленные стеллажи для заводов, позволяющие экономить до 90% площади. Решения для хранения тяжелых грузов, оптимизация процессов комплектации и умное управление запасами.",
       "catalog_and_pricing_seo_og_description": "Ознакомьтесь с каталогом наших решений для хранения. Полный ассортимент промышленных стеллажей для заводов, решений для тяжелых грузов и логистического оборудования по привлекательным ценам.",
       "cold_room_freezer_shelving_tonon_h3_10": "Серия Food Service",
-      "cold_room_freezer_shelving_tonon_h3_11": "Серия Pharma &amp; Clean",
+      "cold_room_freezer_shelving_tonon_h3_11": "Серия Pharma & Clean",
       "dalmine_ls_modular_shelving_page_title": "Модульная стеллажная система Dalmine LS",
       "esd_containers_seo_twitter_description": "Широкий ассортимент антистатических (ESD) контейнеров, ящиков и коробок для защиты электронных компонентов. Проводящие решения для хранения и транспортировки для высокотехнологичной и электронной промышленности.",
       "heavy_duty_shelving_seo_og_description": "Системы тяжелых стеллажей для больших нагрузок - промышленные решения для хранения на заводах, логистических складах и площадках. Полочные стеллажи, консольные и галерейные системы для тяжелых грузов.",
@@ -9946,6 +9985,7 @@ html[dir="rtl"] body {
   },
   "en": {
     "translation": {
+      "ecom_loading": "Loading…",
       "ecom_accountWelcome": "Welcome",
       "ecom_addAddress": "Add Address",
       "ecom_addBundleToCart": "Add {count} items to cart",
@@ -9964,6 +10004,7 @@ html[dir="rtl"] body {
       "ecom_applyCoupon": "Apply",
       "ecom_backToProducts": "Back to Products",
       "ecom_browseFavorites": "Discover all our products",
+      "ecom_bundleDiscount": "Bundle Discount",
       "ecom_bundleTotal": "Bundle total",
       "ecom_callNow": "Call Now",
       "ecom_cancel": "Cancel",
@@ -9992,6 +10033,7 @@ html[dir="rtl"] body {
       "ecom_coursesDetailEnroll": "Add to Cart",
       "ecom_coursesDetailResume": "Resume learning",
       "ecom_coursesDigitalDelivery": "Digital online access",
+      "ecom_coursesLessonCompleted": "Completed",
       "ecom_coursesLessonLoading": "Loading lesson…",
       "ecom_coursesLessonMarkComplete": "Mark complete",
       "ecom_coursesLessonNext": "Next",
@@ -10007,6 +10049,11 @@ html[dir="rtl"] body {
       "ecom_coursesCertIssued": "Issued",
       "ecom_coursesCertStudent": "Student",
       "ecom_coursesCertValid": "Verified",
+      "ecom_coursesCertIssuer": "Issued by",
+      "ecom_coursesCertCode": "Verification code",
+      "ecom_coursesViewCertificate": "View certificate",
+      "ecom_coursesCertEarnedTitle": "Course complete!",
+      "ecom_coursesCertEarnedBody": "Your certificate is ready.",
       "ecom_coursesCurriculumEmpty": "Curriculum coming soon.",
       "ecom_coursesFree": "Free",
       "ecom_coursesJoinLive": "Join live",
@@ -10192,6 +10239,10 @@ html[dir="rtl"] body {
       "ecom_coursesAlreadyOwned": "You already own this course.",
       "ecom_coursesAlreadyOwnedCheckout": "You are already enrolled in a course in your cart.",
       "ecom_coursesEnrollmentCheckFailed": "Could not verify course ownership. Please try again.",
+      "ecom_coursesAlreadyEnrolledPrompt": "Already enrolled?",
+      "ecom_coursesLoginLink": "Log in",
+      "ecom_processing": "Processing...",
+      "ecom_checkoutFailed": "Checkout failed. Please try again.",
       "home_h1_1": "<font color=\"#ffffff\">Industrial Storage Shelving for Factories That Changes the Game</font>",
       "home_h2_2": "Why Choose Our Industrial Storage Shelving for Factories?",
       "home_h2_3": "Our Industrial Storage Solutions",
@@ -10398,7 +10449,7 @@ html[dir="rtl"] body {
       "new_h2_544": "New Heading",
       "new_h2_545": "Linea391 Series - 5 Year Warranty",
       "new_h2_548": "Linea391 Series – 8 Years Warranty",
-      "new_h2_549": "Linea391&nbsp;\n\nSeries includes 5 years warranty",
+      "new_h2_549": "Linea391 Series 5 Year Warranty",
       "new_h3_395": "Add Address",
       "new_h3_546": "Smart storage solutions for heavy loads, combining ergonomics, modularity and extreme durability, for an efficient work environment. A complement to industrial storage shelving systems for factories and garages.",
       "new_h3_547": "Systems precisely tailored to the needs of the modern production floor.",
@@ -12267,7 +12318,7 @@ html[dir="rtl"] body {
       "vlm_vertical_storage_meta_description": "VLM vertical storage system - industrial storage shelves for factories enabling up to 90% space savings. Heavy-duty storage solutions, picking process optimization and smart inventory management.",
       "catalog_and_pricing_seo_og_description": "View our storage solutions catalog. Complete menu of industrial storage shelves for factories, heavy-duty solutions and logistics equipment at attractive prices.",
       "cold_room_freezer_shelving_tonon_h3_10": "Food Service Series",
-      "cold_room_freezer_shelving_tonon_h3_11": "Pharma &amp; Clean Series",
+      "cold_room_freezer_shelving_tonon_h3_11": "Pharma & Clean Series",
       "dalmine_ls_modular_shelving_page_title": "Dalmine LS Modular Shelving System",
       "esd_containers_seo_twitter_description": "Wide range of anti-static (ESD) containers, boxes and cases for protecting electronic components. Conductive storage and transport solutions for high-tech and electronics industries.",
       "heavy_duty_shelving_seo_og_description": "Heavy-duty shelving systems for high loads - industrial storage solutions for factories, logistics warehouses and platforms. Platform shelves, cantilever and mezzanines for heavy loads.",
@@ -12553,6 +12604,29 @@ html[dir="rtl"] body {
         previewUrl.searchParams.set('lang', targetLang);
       }
       window.location.assign(previewUrl.pathname + previewUrl.search + previewUrl.hash);
+      return;
+    }
+
+    // COURSES DYNAMIC PAGES: paths like /courses/:slug, /lesson/:id,
+    // /my-learning, /certificate/:code are served by a single static
+    // template with Render rewrite rules. There are no physical
+    // /en/courses/:slug files — prepending /<lang>/ would 404. Instead,
+    // toggle ?lang= and let the i18n runtime translate in-place (same
+    // approach as preview mode).
+    var strippedPath = path;
+    var langPrefix = path.match(/^\/([a-z]{2})(?=\/|$)/i);
+    if (langPrefix && availableLanguages.includes(langPrefix[1].toLowerCase())) {
+      strippedPath = path.slice(langPrefix[0].length) || '/';
+    }
+    if (/^\/(courses(\/|$)|lesson\/|my-learning(\/|$)|certificate\/)/.test(strippedPath)) {
+      var dynUrl = new URL(window.location.href);
+      dynUrl.pathname = strippedPath;
+      if (targetLang === 'he') {
+        dynUrl.searchParams.delete('lang');
+      } else {
+        dynUrl.searchParams.set('lang', targetLang);
+      }
+      window.location.assign(dynUrl.pathname + dynUrl.search + dynUrl.hash);
       return;
     }
 
@@ -13574,6 +13648,14 @@ html[dir="rtl"] body {
   }
 })();
 </script>
+
+<div class="zappy-qv-overlay" id="zappy-qv-overlay" hidden=""></div>
+<div class="zappy-qv-modal" id="zappy-qv-modal" role="dialog" aria-modal="true" aria-label="תצוגה מהירה" hidden="">
+  <button type="button" class="zappy-qv-close" id="zappy-qv-close" aria-label="סגור">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+  </button>
+  <div class="zappy-qv-content" id="zappy-qv-content"></div>
+</div>
 
     <script src="/script.js"></script>
 
