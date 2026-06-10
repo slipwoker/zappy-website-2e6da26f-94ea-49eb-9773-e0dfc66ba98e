@@ -1,10 +1,170 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-02T18:18:42.219Z",
+  "generated_at": "2026-06-10T06:39:39.214Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
-  "count": 20,
+  "count": 27,
   "products": [
+    {
+      "id": "1cd051b4-aebb-4b15-a6cc-8fefc6a3708e",
+      "slug": "mkl-esd-mvlyk-sdrt-athena-600400-mm-h9qnk9",
+      "name": "מכל ESD מוליך סדרת ATHENA – 600×400 מ\"מ",
+      "name_translations": {},
+      "description": "מכל ESD גדול מסדרת ATHENA של iMilani. מידות 600×400 מ\"מ תואמות פאלט אירופאי. מתאים לאחסון לוחות PCB גדולים ומכלולים אלקטרוניים. קיים בשבעה גבהים (78 עד 430 מ\"מ). ניתן לצייד במערכות Megaprint/Miniprint לאחסון PCB, מחיצות ומכסים מוליכים. עמיד לטמפרטורות 20°C- עד +80°C. עומד בתקן EN 61340.",
+      "short_description": "מכל ESD מוליך גדול 600×400 מ\"מ – 7 גבהים לבחירה. לאחסון PCB גדולים. עומד בתקן EN 61340.",
+      "sku": "AT-6408",
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781073529182-vvvcnc.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-h9qnk9",
+      "categories": [
+        "מכלי ESD"
+      ],
+      "updated_at": "2026-06-10T06:38:52.354Z"
+    },
+    {
+      "id": "989b5bc1-10a3-4362-8811-9761444f6ba3",
+      "slug": "mkl-esd-mvlyk-sdrt-athena-300200-mm-4j0n8c",
+      "name": "מכל ESD מוליך סדרת ATHENA – 300×200 מ\"מ",
+      "name_translations": {},
+      "description": "מכל אחסון ESD מסדרת ATHENA של iMilani, עשוי פוליפרופילן מוליך המספק הגנה מלאה מפני פריקה אלקטרוסטטית (ESD). מתאים לאחסון ושינוע רכיבים אלקטרוניים רגישים, לוחות מעגלים ורכיבי SMD. עומד בתקן EN 61340, מאושר לאזורי EPA. קירות סגורים, תחתית מחוזקת, ניתן לערום תחת עומס מלא. תואם פאלט אירופאי.",
+      "short_description": "מכל ESD מוליך מפוליפרופילן שחור. מידות חיצוניות 300×200 מ\"מ. עומד בתקן EN 61340.",
+      "sku": "AT-3012",
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781073528998-b7v2b7.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-4j0n8c",
+      "categories": [
+        "מכלי ESD"
+      ],
+      "updated_at": "2026-06-10T06:38:52.227Z"
+    },
+    {
+      "id": "a320b09a-7b29-492b-8a28-40504babae39",
+      "slug": "mkl-esd-mvlyk-sdrt-athena-400300-mm-zxkpkx",
+      "name": "מכל ESD מוליך סדרת ATHENA – 400×300 מ\"מ",
+      "name_translations": {},
+      "description": "מכל אחסון ESD מסדרת ATHENA של iMilani. מידות 400×300 מ\"מ (Euronorm) תואמות פאלט אירופאי. מתאים לאחסון לוחות PCB, רכיבים אלקטרוניים ומכלולים רגישים לסטטיקה. קיים בשישה גבהים שונים לגמישות מקסימלית. ניתן לצייד במחיצות ומכסים מוליכים. עומד בתקן EN 61340, מאושר לאזורי EPA. עמיד לטמפרטורות 20°C- עד +80°C.",
+      "short_description": "מכל ESD מוליך 400×300 מ\"מ – Euronorm. 6 גבהים לבחירה. מתאים ל-PCB. עומד בתקן EN 61340.",
+      "sku": "AT-4305",
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781073528964-tc7ock.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-zxkpkx",
+      "categories": [
+        "מכלי ESD"
+      ],
+      "updated_at": "2026-06-10T06:38:51.902Z"
+    },
+    {
+      "id": "6f4d0cbf-1c48-4888-a6cc-86594c076e4a",
+      "slug": "tybt-esd-am-mchytsvt-sdrt-athena-uwq4f5",
+      "name": "תיבת ESD עם מחיצות – סדרת ATHENA",
+      "name_translations": {},
+      "description": "תיבת ESD עם מחיצות פנימיות מסדרת ATHENA של iMilani. עשויה פוליפרופילן מוליך שחור. מתאימה לאחסון ומיון רכיבים אלקטרוניים קטנים, ברגים, מחברים ו-C-Parts בסביבת EPA. מחיצות ממוקמות במרווחים של 20 מ\"מ לגמישות מקסימלית. קיימת עם 1, 2 או 4 מחיצות. מידות חיצוניות 256×178×90 מ\"מ. עומדת בתקן EN 61340.",
+      "short_description": "תיבת ESD שחורה עם מחיצות לאחסון C-Parts. מרווחי 20 מ\"מ. עומדת בתקן EN 61340.",
+      "sku": "AT43S15207",
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-uwq4f5",
+      "categories": [
+        "מכלי ESD"
+      ],
+      "updated_at": "2026-06-10T06:38:48.962Z"
+    },
+    {
+      "id": "05379ab1-353c-40e3-87ff-ca1490edaf9d",
+      "slug": "mksh-esd-mvlyk-lmkl-600400-mm-twdl5q",
+      "name": "מכסה ESD מוליך – למכל 600×400 מ\"מ",
+      "name_translations": {},
+      "description": "מכסה מוליך ESD מפוליפרופילן שחור למכלי ATHENA 600×400 מ\"מ. זמין כמכסה רגיל או עם ציר (Hinged Lid). מאושר לאזורי EPA. עומד בתקן EN 61340.",
+      "short_description": "מכסה ESD שחור למכלי ATHENA 600×400 מ\"מ. זמין עם ציר. עומד בתקן EN 61340.",
+      "sku": "AT-LID-600",
+      "brand": null,
+      "price": 43.2,
+      "base_price": 43.2,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-twdl5q",
+      "categories": [
+        "מכלי ESD"
+      ],
+      "updated_at": "2026-06-10T06:38:48.962Z"
+    },
+    {
+      "id": "ac9b86f6-e465-47d4-b697-828105a59e6a",
+      "slug": "mksh-esd-mvlyk-lmkl-300200-mm-7d7450",
+      "name": "מכסה ESD מוליך – למכל 300×200 מ\"מ",
+      "name_translations": {},
+      "description": "מכסה מוליך ESD מפוליפרופילן שחור למכלי ATHENA 300×200 מ\"מ. הגנה מפני אבק ופריקה אלקטרוסטטית. אידאלי לאחסון ארוך טווח ושינוע. עומד בתקן EN 61340.",
+      "short_description": "מכסה ESD שחור למכלי ATHENA 300×200 מ\"מ. עומד בתקן EN 61340.",
+      "sku": "AT-LID-300",
+      "brand": null,
+      "price": 22,
+      "base_price": 22,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-7d7450",
+      "categories": [
+        "מכלי ESD"
+      ],
+      "updated_at": "2026-06-10T06:38:48.961Z"
+    },
+    {
+      "id": "3043cd14-9bb0-4f87-a13e-12e9f9a2050c",
+      "slug": "mksh-esd-mvlyk-lmkl-400300-mm-llw5do",
+      "name": "מכסה ESD מוליך – למכל 400×300 מ\"מ",
+      "name_translations": {},
+      "description": "מכסה מוליך ESD מפוליפרופילן שחור למכלי ATHENA 400×300 מ\"מ. זמין גם עם ציר (Hinged Lid). הגנה מפני אבק ופריקה אלקטרוסטטית. עומד בתקן EN 61340.",
+      "short_description": "מכסה ESD שחור למכלי ATHENA 400×300 מ\"מ. זמין עם ציר. עומד בתקן EN 61340.",
+      "sku": "AT-LID-400",
+      "brand": null,
+      "price": 28.8,
+      "base_price": 28.8,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-llw5do",
+      "categories": [
+        "מכלי ESD"
+      ],
+      "updated_at": "2026-06-10T06:38:48.960Z"
+    },
     {
       "id": "781e91fe-8967-44c7-98f4-f394a18f64bf",
       "slug": "st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp",

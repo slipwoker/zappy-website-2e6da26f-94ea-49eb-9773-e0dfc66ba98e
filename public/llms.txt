@@ -128,7 +128,66 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 20**
+**Total active products: 27**
+
+### מכל ESD מוליך סדרת ATHENA – 600×400 מ"מ
+https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-h9qnk9
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מכלי ESD
+- SKU: AT-6408
+- Description: מכל ESD מוליך גדול 600×400 מ"מ – 7 גבהים לבחירה. לאחסון PCB גדולים. עומד בתקן EN 61340.
+- Image: https://mutzagim.co.il/assets/product-1781073529182-vvvcnc.webp
+
+### מכל ESD מוליך סדרת ATHENA – 300×200 מ"מ
+https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-4j0n8c
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מכלי ESD
+- SKU: AT-3012
+- Description: מכל ESD מוליך מפוליפרופילן שחור. מידות חיצוניות 300×200 מ"מ. עומד בתקן EN 61340.
+- Image: https://mutzagim.co.il/assets/product-1781073528998-b7v2b7.webp
+
+### מכל ESD מוליך סדרת ATHENA – 400×300 מ"מ
+https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-zxkpkx
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מכלי ESD
+- SKU: AT-4305
+- Description: מכל ESD מוליך 400×300 מ"מ – Euronorm. 6 גבהים לבחירה. מתאים ל-PCB. עומד בתקן EN 61340.
+- Image: https://mutzagim.co.il/assets/product-1781073528964-tc7ock.webp
+
+### תיבת ESD עם מחיצות – סדרת ATHENA
+https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-uwq4f5
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מכלי ESD
+- SKU: AT43S15207
+- Description: תיבת ESD שחורה עם מחיצות לאחסון C-Parts. מרווחי 20 מ"מ. עומדת בתקן EN 61340.
+
+### מכסה ESD מוליך – למכל 600×400 מ"מ
+https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-twdl5q
+- Price: 43.20 USD
+- Availability: In stock
+- Category: מכלי ESD
+- SKU: AT-LID-600
+- Description: מכסה ESD שחור למכלי ATHENA 600×400 מ"מ. זמין עם ציר. עומד בתקן EN 61340.
+
+### מכסה ESD מוליך – למכל 300×200 מ"מ
+https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-7d7450
+- Price: 22.00 USD
+- Availability: In stock
+- Category: מכלי ESD
+- SKU: AT-LID-300
+- Description: מכסה ESD שחור למכלי ATHENA 300×200 מ"מ. עומד בתקן EN 61340.
+
+### מכסה ESD מוליך – למכל 400×300 מ"מ
+https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-llw5do
+- Price: 28.80 USD
+- Availability: In stock
+- Category: מכלי ESD
+- SKU: AT-LID-400
+- Description: מכסה ESD שחור למכלי ATHENA 400×300 מ"מ. זמין עם ציר. עומד בתקן EN 61340.
 
 ### סט קיט מדפים ERREX תוצרת איטליה
 https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp
