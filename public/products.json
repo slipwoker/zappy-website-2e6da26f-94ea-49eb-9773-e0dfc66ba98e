@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T09:51:31.700Z",
+  "generated_at": "2026-06-10T09:53:34.139Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 57,
@@ -217,18 +217,18 @@
     },
     {
       "id": "2873afb7-8303-4058-b80c-6beb68d964cd",
-      "slug": "aglt-pykyng-linea-391-391c02-30e4bc",
-      "name": "עגלת פיקינג Linea 391 – 391C02",
+      "slug": "aglt-abvdh-linea-391-391c02-b1zi7x",
+      "name": "עגלת עבודה Linea 391 – 391C02",
       "name_translations": {
-        "ar": "عربة انتقاء Linea 391 – 391C02",
-        "en": "Picking Cart Linea 391 – 391C02",
-        "he": "עגלת פיקינג Linea 391 – 391C02",
-        "ru": "Тележка для комплектации Linea 391 – 391C02"
+        "ar": "عربة عمل Linea 391 – 391C02",
+        "en": "Linea 391 Work Cart – 391C02",
+        "he": "עגלת עבודה Linea 391 – 391C02",
+        "ru": "Рабочая тележка Linea 391 – 391C02"
       },
-      "description": "עגלת פיקינג מסדרת Linea 391 של Fami לפעולות לוגיסטיקה ואיסוף. פלדה אנתרציט RAL7016. לוחות פרפורטים. גלגלים עם בלמים. מידות: 1099×578×1481 מ\"מ. אחריות 5 שנים.",
-      "short_description": "עגלת פיקינג Linea 391, 1099×578×1481 מ\"מ. אנתרציט. אחריות 5 שנים.",
+      "description": "<p>עגלת פיקינג מסדרת Linea 391 של Fami לפעולות לוגיסטיקה ואיסוף. פלדה אנתרציט RAL7016. לוחות פרפורטים. גלגלים עם בלמים. מידות: 1099×578×1481 מ\"מ. אחריות 5 שנים.</p>",
+      "short_description": "עגלת עבודה Linea 391, 1099×578×1481 מ\"מ. אנתרציט. אחריות 5 שנים.",
       "sku": "391C02",
-      "brand": null,
+      "brand": "Fami ",
       "price": 1809,
       "base_price": 1809,
       "sale_price": null,
@@ -236,28 +236,29 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781084788327-u6l2zm.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/aglt-pykyng-linea-391-391c02-30e4bc",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/aglt-abvdh-linea-391-391c02-b1zi7x",
       "categories": [
-        "עגלות Fami Linea 391"
+        "עגלות Fami Linea 391",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:47:16.695Z"
+      "updated_at": "2026-06-10T09:52:06.487Z"
     },
     {
       "id": "e286afd4-891d-4c58-9f7a-93ddf9c5093f",
-      "slug": "ksttyyrh-7-mgyrvt-5427-linea-391-391a05-rvmtvn",
-      "name": "קסטטיירה 7 מגירות 54×27 Linea 391 – 391A05",
+      "slug": "arvn-7-mgyrvt-5427-linea-391-391a05-csryqi",
+      "name": "ארון 7 מגירות 54×27 Linea 391 – 391A05",
       "name_translations": {
-        "ar": "خزانة أدراج 7 أدراج 54×27 Linea 391 – 391A05",
-        "en": "Tool Cabinet 7 Drawers 54×27 Linea 391 – 391A05",
-        "he": "קסטטיירה 7 מגירות 54×27 Linea 391 – 391A05",
-        "ru": "Кассетница 7 ящиков 54×27 Linea 391 – 391A05"
+        "ar": "خزانة 7 أدراج 54×27 Linea 391 – 391A05",
+        "en": "7-Drawer Cabinet 54×27 Linea 391 – 391A05",
+        "he": "ארון 7 מגירות 54×27 Linea 391 – 391A05",
+        "ru": "Шкаф 7 ящиков 54×27 Linea 391 – 391A05"
       },
-      "description": "קסטטיירה לסדנה מסדרת Linea 391 של Fami עם 7 מגירות EH 54×27. פלדה אנתרציט RAL7016. שחרור מלא. עומס 900 ק\"ג. אנטי-הפיכה. מנעול מרכזי. מידות: 1023×600×1002 מ\"מ. אחריות 5 שנים.",
+      "description": "<p>קסטטיירה לסדנה מסדרת Linea 391 של Fami עם 7 מגירות EH 54×27. פלדה אנתרציט RAL7016. שחרור מלא. עומס 900 ק\"ג. אנטי-הפיכה. מנעול מרכזי. מידות: 1023×600×1002 מ\"מ. אחריות 5 שנים.</p>",
       "short_description": "קסטטיירה Linea 391 – 7 מגירות EH54×27, 1023×600×1002 מ\"מ. עומס 900 ק\"ג. אחריות 5 שנים.",
       "sku": "391A05",
-      "brand": null,
+      "brand": "Fami ",
       "price": 4124,
       "base_price": 4124,
       "sale_price": null,
@@ -265,28 +266,29 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781084788327-4sg56g.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ksttyyrh-7-mgyrvt-5427-linea-391-391a05-rvmtvn",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/arvn-7-mgyrvt-5427-linea-391-391a05-csryqi",
       "categories": [
-        "ארונות Fami Linea 391"
+        "ארונות Fami Linea 391",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:47:16.125Z"
+      "updated_at": "2026-06-10T09:52:33.770Z"
     },
     {
       "id": "08a2fe67-b0ff-4746-b297-f92673f0a0c4",
-      "slug": "aglt-sdnh-xl-linea-391-391c05-g9hjd7",
+      "slug": "aglt-sdnh-xl-linea-391-391c05-blgjvs",
       "name": "עגלת סדנה XL Linea 391 – 391C05",
       "name_translations": {
         "ar": "عربة ورشة XL Linea 391 – 391C05",
         "en": "XL Workshop Cart Linea 391 – 391C05",
         "he": "עגלת סדנה XL Linea 391 – 391C05",
-        "ru": "Тележка мастерская XL Linea 391 – 391C05"
+        "ru": "Тележка мастерской XL Linea 391 – 391C05"
       },
-      "description": "עגלת סדנה גדולה XL מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. קיבולת גדולה. גלגלים עם בלמים. מידות: 1028×615×846 מ\"מ. אחריות 5 שנים.",
+      "description": "<p>עגלת סדנה גדולה XL מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. קיבולת גדולה. גלגלים עם בלמים. מידות: 1028×615×846 מ\"מ. אחריות 5 שנים.</p>",
       "short_description": "עגלת סדנה XL Linea 391, 1028×615×846 מ\"מ. קיבולת גדולה. אחריות 5 שנים.",
       "sku": "391C05",
-      "brand": null,
+      "brand": "Fami",
       "price": 895,
       "base_price": 895,
       "sale_price": null,
@@ -294,28 +296,29 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781084788327-gub5go.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/aglt-sdnh-xl-linea-391-391c05-g9hjd7",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/aglt-sdnh-xl-linea-391-391c05-blgjvs",
       "categories": [
-        "עגלות Fami Linea 391"
+        "עגלות Fami Linea 391",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:47:14.082Z"
+      "updated_at": "2026-06-10T09:53:01.896Z"
     },
     {
       "id": "edefd003-7ec9-48c1-b0f5-ce886ead01e7",
-      "slug": "aglt-sdnh-xs-linea-391-391c04-nyzdyw",
+      "slug": "aglt-sdnh-xs-linea-391-391c04-w79108",
       "name": "עגלת סדנה XS Linea 391 – 391C04",
       "name_translations": {
         "ar": "عربة ورشة XS Linea 391 – 391C04",
         "en": "XS Workshop Cart Linea 391 – 391C04",
         "he": "עגלת סדנה XS Linea 391 – 391C04",
-        "ru": "Мастерская тележка XS Linea 391 – 391C04"
+        "ru": "Тележка мастерской XS Linea 391 – 391C04"
       },
-      "description": "עגלת סדנה קומפקטית XS מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. קומפקטית לסביבות מצומצמות. גלגלים עם בלמים. מידות: 888×455×846 מ\"מ. אחריות 5 שנים.",
+      "description": "<p>עגלת סדנה קומפקטית XS מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. קומפקטית לסביבות מצומצמות. גלגלים עם בלמים. מידות: 888×455×846 מ\"מ. אחריות 5 שנים.</p>",
       "short_description": "עגלת סדנה XS Linea 391, 888×455×846 מ\"מ. קומפקטית. אחריות 5 שנים.",
       "sku": "391C04",
-      "brand": null,
+      "brand": "Fami",
       "price": 744,
       "base_price": 744,
       "sale_price": null,
@@ -323,17 +326,18 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781084788296-g26m8f.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/aglt-sdnh-xs-linea-391-391c04-nyzdyw",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/aglt-sdnh-xs-linea-391-391c04-w79108",
       "categories": [
-        "עגלות Fami Linea 391"
+        "עגלות Fami Linea 391",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:47:15.311Z"
+      "updated_at": "2026-06-10T09:53:26.597Z"
     },
     {
       "id": "4f6c4e91-1e84-402e-a916-5658774d6d4d",
-      "slug": "aglt-chlkym-ktnym-linea-391-391c01-ch27w3",
+      "slug": "aglt-chlkym-ktnym-linea-391-391c01-a8r85r",
       "name": "עגלת חלקים קטנים Linea 391 – 391C01",
       "name_translations": {
         "ar": "عربة قطع صغيرة Linea 391 – 391C01",
@@ -341,10 +345,10 @@
         "he": "עגלת חלקים קטנים Linea 391 – 391C01",
         "ru": "Тележка для мелких деталей Linea 391 – 391C01"
       },
-      "description": "עגלת סדנה לחלקים קטנים מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. מגירות ומדפים. גלגלים עם בלמים. מידות: 1099×577×1355 מ\"מ. אחריות 5 שנים.",
+      "description": "<p>עגלת סדנה לחלקים קטנים מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. מגירות ומדפים. גלגלים עם בלמים. מידות: 1099×577×1355 מ\"מ. אחריות 5 שנים.</p>",
       "short_description": "עגלת חלקים קטנים Linea 391, 1099×577×1355 מ\"מ. אנתרציט. אחריות 5 שנים.",
       "sku": "391C01",
-      "brand": null,
+      "brand": "Fami",
       "price": 2482,
       "base_price": 2482,
       "sale_price": null,
@@ -352,13 +356,14 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781084788291-tbaw8a.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c01-ch27w3",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c01-a8r85r",
       "categories": [
-        "עגלות Fami Linea 391"
+        "עגלות Fami Linea 391",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:47:17.050Z"
+      "updated_at": "2026-06-10T09:53:21.300Z"
     },
     {
       "id": "41266fd1-24a1-4097-a76a-2ba97eb90e16",

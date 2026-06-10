@@ -196,48 +196,53 @@ https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-bnje56
 - Description: ארון תעשייתי Linea 391, 912×496×1900 מ"מ. אנתרציט. מדפים מתכווננים. אחריות 5 שנים.
 - Image: https://mutzagim.co.il/assets/product-1781084788326-m5hmtm.webp
 
-### עגלת פיקינג Linea 391 – 391C02
-https://mutzagim.co.il/product/aglt-pykyng-linea-391-391c02-30e4bc
+### עגלת עבודה Linea 391 – 391C02
+https://mutzagim.co.il/product/aglt-abvdh-linea-391-391c02-b1zi7x
 - Price: 1809.00 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: עגלות Fami Linea 391
 - SKU: 391C02
-- Description: עגלת פיקינג Linea 391, 1099×578×1481 מ"מ. אנתרציט. אחריות 5 שנים.
+- Brand: Fami 
+- Description: עגלת עבודה Linea 391, 1099×578×1481 מ"מ. אנתרציט. אחריות 5 שנים.
 - Image: https://mutzagim.co.il/assets/product-1781084788327-u6l2zm.webp
 
-### קסטטיירה 7 מגירות 54×27 Linea 391 – 391A05
-https://mutzagim.co.il/product/ksttyyrh-7-mgyrvt-5427-linea-391-391a05-rvmtvn
+### ארון 7 מגירות 54×27 Linea 391 – 391A05
+https://mutzagim.co.il/product/arvn-7-mgyrvt-5427-linea-391-391a05-csryqi
 - Price: 4124.00 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: ארונות Fami Linea 391
 - SKU: 391A05
+- Brand: Fami 
 - Description: קסטטיירה Linea 391 – 7 מגירות EH54×27, 1023×600×1002 מ"מ. עומס 900 ק"ג. אחריות 5 שנים.
 - Image: https://mutzagim.co.il/assets/product-1781084788327-4sg56g.webp
 
 ### עגלת סדנה XL Linea 391 – 391C05
-https://mutzagim.co.il/product/aglt-sdnh-xl-linea-391-391c05-g9hjd7
+https://mutzagim.co.il/product/aglt-sdnh-xl-linea-391-391c05-blgjvs
 - Price: 895.00 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: עגלות Fami Linea 391
 - SKU: 391C05
+- Brand: Fami
 - Description: עגלת סדנה XL Linea 391, 1028×615×846 מ"מ. קיבולת גדולה. אחריות 5 שנים.
 - Image: https://mutzagim.co.il/assets/product-1781084788327-gub5go.webp
 
 ### עגלת סדנה XS Linea 391 – 391C04
-https://mutzagim.co.il/product/aglt-sdnh-xs-linea-391-391c04-nyzdyw
+https://mutzagim.co.il/product/aglt-sdnh-xs-linea-391-391c04-w79108
 - Price: 744.00 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: עגלות Fami Linea 391
 - SKU: 391C04
+- Brand: Fami
 - Description: עגלת סדנה XS Linea 391, 888×455×846 מ"מ. קומפקטית. אחריות 5 שנים.
 - Image: https://mutzagim.co.il/assets/product-1781084788296-g26m8f.webp
 
 ### עגלת חלקים קטנים Linea 391 – 391C01
-https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c01-ch27w3
+https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c01-a8r85r
 - Price: 2482.00 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: עגלות Fami Linea 391
 - SKU: 391C01
+- Brand: Fami
 - Description: עגלת חלקים קטנים Linea 391, 1099×577×1355 מ"מ. אנתרציט. אחריות 5 שנים.
 - Image: https://mutzagim.co.il/assets/product-1781084788291-tbaw8a.webp
 
