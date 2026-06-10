@@ -9382,7 +9382,7 @@ Brand: Fami
 ---
 
 ### עגלת כלי עבודה 6 מגירות Linea 391 – 391C08
-URL: https://mutzagim.co.il/product/aglt-kly-abvdh-6-mgyrvt-linea-391-391c08-jpzsfy
+URL: https://mutzagim.co.il/product/aglt-kly-abvdh-6-mgyrvt-linea-391-391c08-s61861
 Price: 2899.00 USD
 Availability: Out of stock
 SKU: 391C08
@@ -9393,10 +9393,11 @@ Brand: Fami
 ---
 
 ### עגלת כלי עבודה 4 מגירות Linea 391 – 391C06
-URL: https://mutzagim.co.il/product/aglt-kly-abvdh-4-mgyrvt-linea-391-391c06-vz27fd
+URL: https://mutzagim.co.il/product/aglt-kly-abvdh-4-mgyrvt-linea-391-391c06-xwjftu
 Price: 2409.00 USD
-Availability: In stock
+Availability: Out of stock
 SKU: 391C06
+Brand: Fami 
 
 עגלת כלי עבודה מסדרת Linea 391 של Fami עם 4 מגירות שחרור מלא. פלדה אנתרציט RAL7016. גלגלים עם בלמים, מנעול מרכזי. מידות: 790×455×876 מ"מ. אחריות 5 שנים.
 
