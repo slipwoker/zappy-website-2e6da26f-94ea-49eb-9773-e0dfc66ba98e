@@ -8981,10 +8981,11 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 ## Product Catalog
 
 ### ריהוט סדנה מלא Linea 391 – L1824 מ"מ
-URL: https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l1824-mm-51yqqq
-Price: 6098.32 USD
-Availability: In stock
+URL: https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l1824-mm-re3gmg
+Price: 7197.00 USD
+Availability: Out of stock
 SKU: 8052693946877
+Brand: Fami
 
 ריהוט סדנה מודולרי Linea 391 של Fami. כולל: ארון שירות עם פח ונייר, קסטטיירה 6 מגירות, ארון 1 דלת. כולל לוחות כלים ופנסיליות. מידות: 1824×495×1900 מ"מ. עצמאי, לא דורש קיבוע לקיר. אחריות 5 שנים.
 
