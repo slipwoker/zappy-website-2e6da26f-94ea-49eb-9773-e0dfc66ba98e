@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T07:00:40.188Z",
+  "generated_at": "2026-06-10T07:02:40.535Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 27,
@@ -36,7 +36,7 @@
     },
     {
       "id": "989b5bc1-10a3-4362-8811-9761444f6ba3",
-      "slug": "mkl-esd-mvlyk-sdrt-athena-300200-mm-43chob",
+      "slug": "mkl-esd-mvlyk-sdrt-athena-300200-mm-5lun01",
       "name": "מכל ESD מוליך סדרת ATHENA – 300×200 מ\"מ",
       "name_translations": {
         "ar": "حاوية ESD موصلة سلسلة ATHENA – 300×200 مم",
@@ -53,16 +53,15 @@
       "sale_price": null,
       "currency": "USD",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781073528998-b7v2b7.webp"
+        "https://mutzagim.co.il/assets/product-1781074905166-kqi7b9.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-43chob",
+      "url": "https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-5lun01",
       "categories": [
-        "מכלי ESD",
         "מיכלים וארגזים אנטי סטטיים (ESD)"
       ],
-      "updated_at": "2026-06-10T06:42:47.465Z"
+      "updated_at": "2026-06-10T07:02:09.505Z"
     },
     {
       "id": "a320b09a-7b29-492b-8a28-40504babae39",
