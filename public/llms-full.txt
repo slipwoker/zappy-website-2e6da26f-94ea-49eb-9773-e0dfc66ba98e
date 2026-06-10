@@ -9049,7 +9049,7 @@ Brand: iMilani
 ### מיכל ZEUS – סדרה 272-2
 URL: https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-e7998r
 Price: 14.07 USD
-Availability: In stock
+Availability: Out of stock
 SKU: ZEZ0025101
 Brand: iMilani 
 
@@ -9058,10 +9058,11 @@ Brand: iMilani
 ---
 
 ### יחידת מגירות PRACTIBOX – 6 מגירות שקופות
-URL: https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-sdhxgv
+URL: https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-mgej6s
 Price: 89.60 USD
 Availability: In stock
 SKU: PR61120001
+Brand: iMilani 
 
 יחידת מגירות PRACTIBOX של iMilani עם 6 מגירות שקופות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף. מידות מגירה: 87×66×100 מ"מ. רוחב סטנדרטי 600 מ"מ. כולל גיליון 6 מדבקות. ניתן לערום עם יחידות נוספות לגמישות מרבית.
 

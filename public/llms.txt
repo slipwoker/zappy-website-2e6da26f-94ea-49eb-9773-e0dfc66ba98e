@@ -185,7 +185,7 @@ https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-7891af
 ### מיכל ZEUS – סדרה 272-2
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-e7998r
 - Price: 14.07 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: מגירות ויחידות קטנות
 - SKU: ZEZ0025101
 - Brand: iMilani 
@@ -193,12 +193,14 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-e7998r
 - Image: https://mutzagim.co.il/assets/product-1781078625945-79mck.webp
 
 ### יחידת מגירות PRACTIBOX – 6 מגירות שקופות
-https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-sdhxgv
+https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-mgej6s
 - Price: 89.60 USD
 - Availability: In stock
 - Category: מגירות ויחידות קטנות
 - SKU: PR61120001
+- Brand: iMilani 
 - Description: יחידת מגירות PRACTIBOX – 6 מגירות שקופות. מגירה: 87×66×100 מ"מ. מבנה ABS אפור.
+- Image: https://mutzagim.co.il/assets/product-1781078734728-ipcwal.webp
 
 ### מיכל קטן ZEUS – סדרה 701
 https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-701-ynsv2d

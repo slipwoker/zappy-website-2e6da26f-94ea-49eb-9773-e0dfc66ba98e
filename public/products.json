@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:05:22.552Z",
+  "generated_at": "2026-06-10T08:06:35.156Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
@@ -153,7 +153,7 @@
         "מגירות ויחידות קטנות",
         "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T08:01:02.778Z"
+      "updated_at": "2026-06-10T08:06:10.787Z"
     },
     {
       "id": "34184bf7-69d4-494b-b47d-82fecb09cbed",
@@ -206,18 +206,18 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781078625945-79mck.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-e7998r",
       "categories": [
         "מגירות ויחידות קטנות",
         "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T08:04:51.407Z"
+      "updated_at": "2026-06-10T08:06:18.370Z"
     },
     {
       "id": "7799e95f-197f-4a84-8a1a-ac25bfb22da6",
-      "slug": "ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-sdhxgv",
+      "slug": "ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-mgej6s",
       "name": "יחידת מגירות PRACTIBOX – 6 מגירות שקופות",
       "name_translations": {
         "ar": "وحدة أدراج PRACTIBOX - 6 أدراج شفافة",
@@ -225,22 +225,25 @@
         "he": "יחידת מגירות PRACTIBOX – 6 מגירות שקופות",
         "ru": "Блок ящиков PRACTIBOX – 6 прозрачных ящиков"
       },
-      "description": "יחידת מגירות PRACTIBOX של iMilani עם 6 מגירות שקופות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף. מידות מגירה: 87×66×100 מ\"מ. רוחב סטנדרטי 600 מ\"מ. כולל גיליון 6 מדבקות. ניתן לערום עם יחידות נוספות לגמישות מרבית.",
+      "description": "<p>יחידת מגירות PRACTIBOX של iMilani עם 6 מגירות שקופות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף. מידות מגירה: 87×66×100 מ\"מ. רוחב סטנדרטי 600 מ\"מ. כולל גיליון 6 מדבקות. ניתן לערום עם יחידות נוספות לגמישות מרבית.</p>",
       "short_description": "יחידת מגירות PRACTIBOX – 6 מגירות שקופות. מגירה: 87×66×100 מ\"מ. מבנה ABS אפור.",
       "sku": "PR61120001",
-      "brand": null,
+      "brand": "iMilani ",
       "price": 89.6,
       "base_price": 89.6,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781078734728-ipcwal.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-sdhxgv",
+      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-mgej6s",
       "categories": [
-        "מגירות ויחידות קטנות"
+        "מגירות ויחידות קטנות",
+        "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T07:45:57.864Z"
+      "updated_at": "2026-06-10T08:06:21.640Z"
     },
     {
       "id": "e8920631-210d-4650-9708-e24b31eb86b0",
