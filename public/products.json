@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T07:59:23.939Z",
+  "generated_at": "2026-06-10T08:01:03.235Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
@@ -127,7 +127,7 @@
     },
     {
       "id": "29f4995b-781f-45ef-91c3-0631fbd7e88f",
-      "slug": "ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-qieayn",
+      "slug": "ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-eqfwaj",
       "name": "יחידת מגירות PRACTIBOX – 5 מגירות שקופות",
       "name_translations": {
         "ar": "وحدة أدراج PRACTIBOX – 5 أدراج شفافة",
@@ -148,12 +148,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-qieayn",
+      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-eqfwaj",
       "categories": [
         "מגירות ויחידות קטנות",
         "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T07:58:52.922Z"
+      "updated_at": "2026-06-10T08:01:02.778Z"
     },
     {
       "id": "34184bf7-69d4-494b-b47d-82fecb09cbed",
