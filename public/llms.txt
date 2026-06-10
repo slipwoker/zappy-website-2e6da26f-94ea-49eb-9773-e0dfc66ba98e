@@ -124,7 +124,87 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 57**
+**Total active products: 67**
+
+### ארון PICK עם דלתות ומנעול – H1655 מ"מ, אפור בהיר RAL7035
+https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-k7z0kf
+- Price: 3.00 USD
+- Availability: Out of stock
+- Category: 700×270×1655
+- SKU: PK1655D108
+- Description: ארון PICK עם דלתות ומנעול, H1655 מ"מ, אפור בהיר RAL7035. 42+24 קופסאות.
+
+### ארון מחזיק קופסאות PICK – H2000 מ"מ, אפור בהיר RAL7035
+https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-bhyr-ral7035-caskfh
+- Price: 0.00 USD
+- Availability: Out of stock
+- Category: 700×270×2000
+- SKU: PK2000108
+- Description: ארון PICK לחלקים קטנים, H2000 מ"מ, אפור בהיר RAL7035. 54+28 קופסאות, 15 מדפים.
+
+### ארון מחזיק קופסאות PICK – H2000 מ"מ, אפור RAL7000
+https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-ral7000-i22kwa
+- Price: 0.00 USD
+- Availability: Out of stock
+- Category: 700×270×2000
+- SKU: PK2000101
+- Description: ארון PICK לחלקים קטנים, H2000 מ"מ, אפור RAL7000. 54+28 קופסאות, 15 מדפים.
+
+### ארון מחזיק קופסאות PICK – H1655 מ"מ, אפור בהיר RAL7035
+https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-apvr-bhyr-ral7035-81xrvn
+- Price: 2.00 USD
+- Availability: Out of stock
+- Category: 700×270×1655
+- SKU: PK1655108
+- Description: ארון PICK לחלקים קטנים, H1655 מ"מ, אפור בהיר RAL7035. 42+24 קופסאות, 12 מדפים.
+
+### ארון מחזיק קופסאות PICK – H2001 מ"מ, כחול RAL5012
+https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2001-mm-kchvl-ral5012-xjxpcx
+- Price: 2514.84 USD
+- Availability: Out of stock
+- Category: 700×270×2000
+- SKU: PK2001104
+- Description: ארון PICK לחלקים קטנים H2001 מ"מ, כחול RAL5012. קיבולת מורחבת.
+
+### ארון מחזיק קופסאות PICK – סדרה 2001-2, כחול RAL5012
+https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-sdrh-2001-2-kchvl-ral5012-i39b0r
+- Price: 2741.16 USD
+- Availability: Out of stock
+- Category: 700×270×2000
+- SKU: PK2001204
+- Description: ארון PICK סדרה 2001-2, כחול RAL5012. קיבולת גבוהה.
+
+### ארון מחזיק קופסאות PICK – H2000 מ"מ, כחול RAL5012
+https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-kchvl-ral5012-0bumiv
+- Price: 2028.40 USD
+- Availability: Out of stock
+- Category: 700×270×2000
+- SKU: PK2000104
+- Description: ארון PICK לחלקים קטנים, H2000 מ"מ, כחול RAL5012. 54+28 קופסאות, 15 מדפים.
+
+### ארון מחזיק קופסאות PICK – H1655 מ"מ, כחול RAL5012
+https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-kchvl-ral5012-s6k22c
+- Price: 1.00 USD
+- Availability: Out of stock
+- Category: 700×270×1655
+- SKU: PK1655104
+- Description: ארון PICK לחלקים קטנים, H1655 מ"מ, כחול RAL5012. 42+24 קופסאות, 12 מדפים.
+
+### ארון מחזיק קופסאות PICK – H1655 מ"מ, אפור RAL7000
+https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-apvr-ral7000-s7y8vz
+- Price: 0.00 USD
+- Availability: Out of stock
+- Category: 700×270×1655
+- SKU: PK1655101
+- Description: ארון PICK לחלקים קטנים, H1655 מ"מ, אפור RAL7000. 42+24 קופסאות, 12 מדפים.
+
+### ארון מחזיק קופסאות PICK – H1655 מ"מ, ירוק RAL6011
+https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-yrvk-ral6011-afhll6
+- Price: 0.00 USD
+- Availability: Out of stock
+- Category: 700×270×1655
+- SKU: PK1655102
+- Description: ארון PICK לחלקים קטנים, H1655 מ"מ, ירוק RAL6011. 42+24 קופסאות, 12 מדפים.
 
 ### עגלת כלי עבודה 5 מגירות Linea 391 – 391C07
 https://mutzagim.co.il/product/aglt-kly-abvdh-5-mgyrvt-linea-391-391c07-m7g4s0
