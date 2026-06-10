@@ -151,10 +151,10 @@ https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-5lun01
 - Image: https://mutzagim.co.il/assets/product-1781074905166-kqi7b9.webp
 
 ### מכל ESD מוליך סדרת ATHENA – 400×300 מ"מ
-https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-eamb65
+https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-pojisc
 - Price: 0.00 USD
 - Availability: Out of stock
-- Category: מכלי ESD
+- Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT-4305
 - Brand: iMilani
 - Description: מכל ESD מוליך 400×300 מ"מ – Euronorm. 6 גבהים לבחירה. מתאים ל-PCB. עומד בתקן EN 61340.
