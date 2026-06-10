@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T16:54:14.832Z",
+  "generated_at": "2026-06-10T16:57:35.577Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -98,7 +98,7 @@
     },
     {
       "id": "f4fdddec-a34a-4ff5-b7f6-8a25fddb0513",
-      "slug": "mdp-chbylvt-mercedes-benz-sprinter-ymyn-yosu5u",
+      "slug": "mdp-chbylvt-mercedes-benz-sprinter-ymyn-x9kfgc",
       "name": "מדף חבילות Mercedes-Benz Sprinter – ימין",
       "name_translations": {
         "ar": "رف الطرود Mercedes-Benz Sprinter – يمين",
@@ -106,22 +106,27 @@
         "he": "מדף חבילות Mercedes-Benz Sprinter – ימין",
         "ru": "Полка для посылок Mercedes-Benz Sprinter – правая"
       },
-      "description": "מדף חבילות/פוסט StoreVan למרצדס-בנץ ספרינטר, Sprinter | ימין. מותאם לאספקת חבילות יעילה. מבנה אלומיניום חזק. מידות מותאמות לדגם הרכב. אחריות 8 שנים.",
+      "description": "<p>מדף חבילות/פוסט StoreVan למרצדס-בנץ ספרינטר, Sprinter | ימין. מותאם לאספקת חבילות יעילה. מבנה אלומיניום חזק. מידות מותאמות לדגם הרכב. אחריות 8 שנים.</p>",
       "short_description": "מדף חבילות Sprinter Sprinter | ימין. StoreVan. אלומיניום. אחריות 8 שנים.",
       "sku": "postpakketrek-mb-sprinter-rechts",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 7777.84,
       "base_price": 7777.84,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-ymyn-yosu5u",
-      "categories": [
-        "מדפי חבילות (פוסט/דיוור)"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781110575311-ziqyjd.webp",
+        "https://mutzagim.co.il/assets/product-1781110569249-4z2dxl.webp",
+        "https://mutzagim.co.il/assets/product-1781110580893-koldep.webp"
       ],
-      "updated_at": "2026-06-10T16:42:47.649Z"
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-ymyn-x9kfgc",
+      "categories": [
+        "מדפי חבילות (פוסט/דיוור)",
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-10T16:57:03.973Z"
     },
     {
       "id": "757733f5-6411-4e2d-958b-121b47768ee0",
