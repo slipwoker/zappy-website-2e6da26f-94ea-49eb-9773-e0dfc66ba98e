@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T07:54:20.211Z",
+  "generated_at": "2026-06-10T07:58:51.184Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
@@ -127,7 +127,7 @@
     },
     {
       "id": "29f4995b-781f-45ef-91c3-0631fbd7e88f",
-      "slug": "ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-4ige00",
+      "slug": "ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-qieayn",
       "name": "יחידת מגירות PRACTIBOX – 5 מגירות שקופות",
       "name_translations": {
         "ar": "وحدة أدراج PRACTIBOX - 5 أدراج شفافة",
@@ -135,22 +135,25 @@
         "he": "יחידת מגירות PRACTIBOX – 5 מגירות שקופות",
         "ru": "Блок ящиков PRACTIBOX – 5 прозрачных ящиков"
       },
-      "description": "יחידת מגירות PRACTIBOX של iMilani עם 5 מגירות שקופות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף. מידות מגירה: 113×100×150 מ\"מ. כולל גיליון 5 מדבקות. מידות יחידה: 600×141×164 מ\"מ. ניתן לשילוב עם מדפי Practibox.",
+      "description": "<p>יחידת מגירות PRACTIBOX של iMilani עם 5 מגירות שקופות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף. מידות מגירה: 113×100×150 מ\"מ. כולל גיליון 5 מדבקות. מידות יחידה: 600×141×164 מ\"מ. ניתן לשילוב עם מדפי Practibox.</p>",
       "short_description": "יחידת מגירות PRACTIBOX – 5 מגירות שקופות. מגירה: 113×100×150 מ\"מ. מבנה ABS אפור.",
       "sku": "PR51640001",
-      "brand": null,
+      "brand": "iMilani ",
       "price": 142.4,
       "base_price": 142.4,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781078261235-kgfg9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-4ige00",
+      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-qieayn",
       "categories": [
-        "מגירות ויחידות קטנות"
+        "מגירות ויחידות קטנות",
+        "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T07:45:59.420Z"
+      "updated_at": "2026-06-10T07:58:19.814Z"
     },
     {
       "id": "34184bf7-69d4-494b-b47d-82fecb09cbed",
