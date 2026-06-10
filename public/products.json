@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T14:25:19.640Z",
+  "generated_at": "2026-06-10T14:25:50.851Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 67,
@@ -66,7 +66,7 @@
     },
     {
       "id": "cffda462-9699-4456-9882-3ba2ed41421a",
-      "slug": "arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-ral7000-m9klvq",
+      "slug": "arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-ral7000-zoe8jx",
       "name": "ארון מחזיק קופסאות PICK – H2000 מ\"מ, אפור RAL7000",
       "name_translations": {
         "ar": "خزانة حاملة صناديق PICK – H2000 مم، رمادي RAL7000",
@@ -76,7 +76,7 @@
       },
       "description": "<p>ארון תעשייתי מחזיק קופסאות PICK של iMilani. מבנה פלדה עם מדפים מתכווננים (פסיעה 25 מ\"מ). כולל 54 COMPAT גדל.1 + 28 COMPAT גדל.2 + 15 מדפים + 9 עוצרי קופסאות. קיבוע לרצפה או קיר חובה. מידות: 700×270×2000 מ\"מ.</p>",
       "short_description": "ארון PICK לחלקים קטנים, H2000 מ\"מ, אפור RAL7000. 54+28 קופסאות, 15 מדפים.",
-      "sku": "PK2000101",
+      "sku": "PK2001101",
       "brand": "iMilani",
       "price": 0,
       "base_price": 0,
@@ -85,11 +85,11 @@
       "images": [],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-ral7000-m9klvq",
+      "url": "https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-ral7000-zoe8jx",
       "categories": [
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T14:24:48.445Z"
+      "updated_at": "2026-06-10T14:25:19.708Z"
     },
     {
       "id": "5672d504-1618-4ee0-8691-18bf52406483",
