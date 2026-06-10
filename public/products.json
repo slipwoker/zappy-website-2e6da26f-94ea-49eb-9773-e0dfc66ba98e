@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:39:58.440Z",
+  "generated_at": "2026-06-10T08:42:14.332Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 47,
@@ -67,7 +67,7 @@
     },
     {
       "id": "a71f48a6-c07a-4406-9083-3fe6ddb0b790",
-      "slug": "ryhvt-sdnh-mla-linea-391-l3040-mm-x3mmkb",
+      "slug": "ryhvt-sdnh-mla-linea-391-l3040-mm-h4nxlw",
       "name": "ריהוט סדנה מלא Linea 391 – L3040 מ\"מ",
       "name_translations": {
         "ar": "أثاث ورشة كامل Linea 391 – L3040 مم",
@@ -75,24 +75,25 @@
         "he": "ריהוט סדנה מלא Linea 391 – L3040 מ\"מ",
         "ru": "Полная мебель для мастерской Linea 391 – L3040 мм"
       },
-      "description": "ריהוט סדנה מודולרי Linea 391 של Fami. כולל: 2 ארונות 2 דלתות, קסטטיירה 6 מגירות, קארלו לוחות כלים, ארון שירות. כולל לוחות כלים ופנסיליות. מידות: 3040×495×1900 מ\"מ. עצמאי, לא דורש קיבוע לקיר. אחריות 5 שנים.",
+      "description": "<p>ריהוט סדנה מודולרי Linea 391 של Fami. כולל: 2 ארונות 2 דלתות, קסטטיירה 6 מגירות, קארלו לוחות כלים, ארון שירות. כולל לוחות כלים ופנסיליות. מידות: 3040×495×1900 מ\"מ. עצמאי, לא דורש קיבוע לקיר. אחריות 5 שנים.</p>",
       "short_description": "ריהוט סדנה Linea 391, L3040×495×1900 מ\"מ. 2 ארונות + קסטטיירה + קארלו + ארון שירות + לוחות כלים.",
-      "sku": "8052693946921",
-      "brand": null,
-      "price": 9158.64,
-      "base_price": 9158.64,
+      "sku": "391G15",
+      "brand": "Fami",
+      "price": 11538,
+      "base_price": 11538,
       "sale_price": null,
       "currency": "USD",
       "images": [
         "https://mutzagim.co.il/assets/product-1781080396688-mtlfza.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l3040-mm-x3mmkb",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l3040-mm-h4nxlw",
       "categories": [
-        "ריהוט גראז' Linea 391"
+        "ריהוט גראז' Linea 391",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T08:33:49.400Z"
+      "updated_at": "2026-06-10T08:41:43.336Z"
     },
     {
       "id": "6641bd68-f58b-437d-a4b8-985358697b80",
