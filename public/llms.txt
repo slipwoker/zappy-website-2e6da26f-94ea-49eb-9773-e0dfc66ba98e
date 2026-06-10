@@ -126,7 +126,7 @@ Information about WCAG compliance and accessibility features.
 https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l1824-mm-klw8al
 - Price: 7683.00 USD
 - Availability: Out of stock
-- Category: ריהוט גראז' Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391G10
 - Brand: Fami
 - Description: ריהוט סדנה Linea 391, L1824×495×1900 מ"מ. ארון שירות + קסטטיירה + ארון 1 דלת + לוחות כלים.
@@ -136,7 +136,7 @@ https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l1824-mm-klw8al
 https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l4560-mm-1s99gw
 - Price: 16765.00 USD
 - Availability: Out of stock
-- Category: ריהוט גראז' Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391G13
 - Brand: Fami
 - Description: ריהוט סדנה Linea 391, L4560×495×1900 מ"מ. ארונות + קסטטיירה + קארלו + ארון שירות + 5 לוחות כלים.
@@ -146,7 +146,7 @@ https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l4560-mm-1s99gw
 https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l3040-mm-h4nxlw
 - Price: 11538.00 USD
 - Availability: Out of stock
-- Category: ריהוט גראז' Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391G15
 - Brand: Fami
 - Description: ריהוט סדנה Linea 391, L3040×495×1900 מ"מ. 2 ארונות + קסטטיירה + קארלו + ארון שירות + לוחות כלים.
@@ -156,7 +156,7 @@ https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l3040-mm-h4nxlw
 https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l2000-mm-a1l3e2
 - Price: 1041.60 USD
 - Availability: Out of stock
-- Category: שולחנות עבודה
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 8052693947423
 - Brand: Fami
 - Description: שולחן עבודה פלדה Linea 391 עם לוח עץ, L2000×750×877 מ"מ. אנתרציט. אחריות 5 שנים.
@@ -166,7 +166,7 @@ https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l2000-mm-a1l3e2
 https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1024-mm-cq9pwu
 - Price: 937.00 USD
 - Availability: Out of stock
-- Category: שולחנות עבודה
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391B01
 - Brand: Fami
 - Description: שולחן עבודה פלדה Linea 391 עם לוח עץ, L1024×750×877 מ"מ. אנתרציט. אחריות 5 שנים.
@@ -176,7 +176,7 @@ https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1024-mm-cq9pwu
 https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1500-mm-yumiyi
 - Price: 1156.00 USD
 - Availability: Out of stock
-- Category: שולחנות עבודה
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391B02
 - Brand: Fami
 - Description: שולחן עבודה פלדה Linea 391 עם לוח עץ, L1500×750×877 מ"מ. אנתרציט. אחריות 5 שנים.

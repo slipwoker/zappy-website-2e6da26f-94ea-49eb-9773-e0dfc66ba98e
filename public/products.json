@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:48:41.589Z",
+  "generated_at": "2026-06-10T08:50:12.354Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 47,
@@ -30,7 +30,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l1824-mm-klw8al",
       "categories": [
-        "ריהוט גראז' Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T08:43:19.379Z"
@@ -60,7 +59,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l4560-mm-1s99gw",
       "categories": [
-        "ריהוט גראז' Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T08:44:21.980Z"
@@ -90,7 +88,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l3040-mm-h4nxlw",
       "categories": [
-        "ריהוט גראז' Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T08:42:14.722Z"
@@ -120,7 +117,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l2000-mm-a1l3e2",
       "categories": [
-        "שולחנות עבודה",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T08:45:20.240Z"
@@ -150,7 +146,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1024-mm-cq9pwu",
       "categories": [
-        "שולחנות עבודה",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T08:47:05.847Z"
@@ -180,7 +175,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1500-mm-yumiyi",
       "categories": [
-        "שולחנות עבודה",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T08:48:10.578Z"
