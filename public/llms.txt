@@ -133,19 +133,22 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4-2anttx
 - Image: https://mutzagim.co.il/assets/product-1781077581747-q7jqk.webp
 
 ### מיכל ZEUS – סדרה 272-4A5
-https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a5-8a70dx
+https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a5-721v7x
 - Price: 0.00 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: מגירות ויחידות קטנות
 - SKU: ZEZ4A55101
+- Brand: iMilani 
 - Description: מיכל ZEUS 465×315×300 מ"מ. 5 צבעים. נפח 40.5 ל. ניתן לערימה.
+- Image: https://mutzagim.co.il/assets/product-1781077810090-o233qq.webp
 
 ### מיכל ZEUS – סדרה 272-5
-https://mutzagim.co.il/product/mykl-zeus-sdrh-272-5-cpldnv
+https://mutzagim.co.il/product/mykl-zeus-sdrh-272-5-4qwlnc
 - Price: 0.00 USD
 - Availability: In stock
 - Category: מגירות ויחידות קטנות
 - SKU: ZEZ0055101
+- Brand: iMilani 
 - Description: מיכל ZEUS 655×470×300 מ"מ. 5 צבעים. נפח 85 ל. ניתן לערימה.
 
 ### מיכל ZEUS – סדרה 272-4A2
