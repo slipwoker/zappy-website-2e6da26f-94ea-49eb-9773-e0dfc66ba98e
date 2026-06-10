@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:04:36.591Z",
+  "generated_at": "2026-06-10T08:05:09.656Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
@@ -187,7 +187,7 @@
     },
     {
       "id": "49999691-74b5-410a-b1b6-e0055ae796bd",
-      "slug": "mykl-zeus-sdrh-272-2-0lxglx",
+      "slug": "mykl-zeus-sdrh-272-2-e7998r",
       "name": "מיכל ZEUS – סדרה 272-2",
       "name_translations": {
         "ar": "حاوية ZEUS – سلسلة 272-2",
@@ -208,12 +208,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-0lxglx",
+      "url": "https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-e7998r",
       "categories": [
         "מגירות ויחידות קטנות",
         "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T08:04:05.594Z"
+      "updated_at": "2026-06-10T08:04:51.407Z"
     },
     {
       "id": "7799e95f-197f-4a84-8a1a-ac25bfb22da6",
