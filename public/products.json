@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T09:49:49.160Z",
+  "generated_at": "2026-06-10T09:49:58.109Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 57,
@@ -127,7 +127,7 @@
     },
     {
       "id": "60ec41f5-e3b2-4a21-a978-67e64ed34a6e",
-      "slug": "arvn-btychvt-lpytvsnytrym-linea-391-391a02-161bqe",
+      "slug": "arvn-btychvt-lpytvsnytrym-linea-391-391a02-fdn9y4",
       "name": "ארון בטיחות לפיטוסניטרים Linea 391 – 391A02",
       "name_translations": {
         "ar": "خزانة أمان للمبيدات النباتية Linea 391 – 391A02",
@@ -135,10 +135,10 @@
         "he": "ארון בטיחות לפיטוסניטרים Linea 391 – 391A02",
         "ru": "Шкаф безопасности для фитосанитарных средств Linea 391 – 391A02"
       },
-      "description": "ארון בטיחות לפיטוסניטרים, חומרי הדברה ומוצרים כימיים מסדרת Linea 391 של Fami. פלדה RAL7016+RAL6011. 4 דלתות בטרנט, מנעול צילינדר, 2 מדפים, ספל אטום חיצוני. מידות: 944×540×1900 מ\"מ. אחריות 5 שנים.",
+      "description": "<p>ארון בטיחות לפיטוסניטרים, חומרי הדברה ומוצרים כימיים מסדרת Linea 391 של Fami. פלדה RAL7016+RAL6011. 4 דלתות בטרנט, מנעול צילינדר, 2 מדפים, ספל אטום חיצוני. מידות: 944×540×1900 מ\"מ. אחריות 5 שנים.</p>",
       "short_description": "ארון בטיחות לפיטוסניטרים Linea 391, 944×540×1900 מ\"מ. אנתרציט+ירוק. אחריות 5 שנים.",
       "sku": "391A02",
-      "brand": null,
+      "brand": "Fami",
       "price": 2499,
       "base_price": 2499,
       "sale_price": null,
@@ -146,13 +146,14 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781084788327-8iq7mh.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/arvn-btychvt-lpytvsnytrym-linea-391-391a02-161bqe",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/arvn-btychvt-lpytvsnytrym-linea-391-391a02-fdn9y4",
       "categories": [
-        "ארונות Fami Linea 391"
+        "ארונות Fami Linea 391",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:47:19.657Z"
+      "updated_at": "2026-06-10T09:49:57.847Z"
     },
     {
       "id": "8a363950-a62e-4d5c-807e-c2829f5bcc51",
