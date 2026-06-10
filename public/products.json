@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T14:34:29.992Z",
+  "generated_at": "2026-06-10T14:35:20.175Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 67,
@@ -178,11 +178,11 @@
       "categories": [
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T14:33:58.297Z"
+      "updated_at": "2026-06-10T14:34:48.662Z"
     },
     {
       "id": "b208a8e7-d77e-4229-93f1-5acb4dc0e8be",
-      "slug": "arvn-mchzyk-kvpsavt-pick-h2000-mm-kchvl-ral5012-0bumiv",
+      "slug": "arvn-mchzyk-kvpsavt-pick-h2000-mm-kchvl-ral5012-7pdt7s",
       "name": "ארון מחזיק קופסאות PICK – H2000 מ\"מ, כחול RAL5012",
       "name_translations": {
         "ar": "خزانة حاملة صناديق PICK – H2000 مم، أزرق RAL5012",
@@ -190,22 +190,24 @@
         "he": "ארון מחזיק קופסאות PICK – H2000 מ\"מ, כחול RAL5012",
         "ru": "Шкаф для хранения коробок PICK – H2000 мм, синий RAL5012"
       },
-      "description": "ארון תעשייתי מחזיק קופסאות PICK של iMilani. מבנה פלדה עם מדפים מתכווננים (פסיעה 25 מ\"מ). כולל 54 COMPAT גדל.1 + 28 COMPAT גדל.2 + 15 מדפים + 9 עוצרי קופסאות. קיבוע לרצפה או קיר חובה. מידות: 700×270×2000 מ\"מ.",
+      "description": "<p>ארון תעשייתי מחזיק קופסאות PICK של iMilani. מבנה פלדה עם מדפים מתכווננים (פסיעה 25 מ\"מ). כולל 54 COMPAT גדל.1 + 28 COMPAT גדל.2 + 15 מדפים + 9 עוצרי קופסאות. קיבוע לרצפה או קיר חובה. מידות: 700×270×2000 מ\"מ.</p>",
       "short_description": "ארון PICK לחלקים קטנים, H2000 מ\"מ, כחול RAL5012. 54+28 קופסאות, 15 מדפים.",
       "sku": "PK2000104",
-      "brand": null,
-      "price": 2028.4,
-      "base_price": 2028.4,
+      "brand": "iMilani",
+      "price": 0,
+      "base_price": 0,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781102098677-4j49r8.webp"
+      ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-kchvl-ral5012-0bumiv",
+      "url": "https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-kchvl-ral5012-7pdt7s",
       "categories": [
-        "700×270×2000"
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T14:00:11.208Z"
+      "updated_at": "2026-06-10T14:35:10.944Z"
     },
     {
       "id": "cf43f33a-3f61-4e2f-96c1-d74617c0b60b",
