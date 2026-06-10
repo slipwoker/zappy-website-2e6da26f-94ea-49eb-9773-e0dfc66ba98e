@@ -9047,8 +9047,8 @@ Brand: iMilani
 ---
 
 ### מיכל ZEUS – סדרה 272-2
-URL: https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-e7998r
-Price: 14.07 USD
+URL: https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-2rje9i
+Price: 0.00 USD
 Availability: Out of stock
 SKU: ZEZ0025101
 Brand: iMilani 
@@ -9069,8 +9069,8 @@ Brand: iMilani
 ---
 
 ### מיכל קטן ZEUS – סדרה 701
-URL: https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-701-1nb8ch
-Price: 6.14 USD
+URL: https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-701-oyjhfw
+Price: 0.00 USD
 Availability: Out of stock
 SKU: ZEZ7015101
 Brand: iMilani 
@@ -9080,8 +9080,8 @@ Brand: iMilani
 ---
 
 ### מיכל קטן ZEUS – סדרה 702
-URL: https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-702-8cjnn4
-Price: 7.11 USD
+URL: https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-702-bhl3hq
+Price: 0.00 USD
 Availability: Out of stock
 SKU: ZEZ7025101
 Brand: iMilani 
@@ -9091,10 +9091,11 @@ Brand: iMilani
 ---
 
 ### מיכל ZEUS – סדרה 272-3A2
-URL: https://mutzagim.co.il/product/mykl-zeus-sdrh-272-3a2-rs9ej5
+URL: https://mutzagim.co.il/product/mykl-zeus-sdrh-272-3a2-21vfut
 Price: 0.00 USD
-Availability: In stock
+Availability: Out of stock
 SKU: ZEZ3A25101
+Brand: iMilani 
 
 מיכל אחסון ZEUS של iMilani לחלקים קטנים ובינוניים. פנים חלקים. ידיות נוחות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 310×210×145 מ"מ. מידות פנימיות: 284×184×142 מ"מ. נפח 8.7 ל. עומס ערימה עד 120 ק"ג.
 
