@@ -120,7 +120,61 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 41**
+**Total active products: 47**
+
+### ריהוט סדנה מלא Linea 391 – L1824 מ"מ
+https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l1824-mm-51yqqq
+- Price: 6098.32 USD
+- Availability: In stock
+- Category: ריהוט גראז' Linea 391
+- SKU: 8052693946877
+- Description: ריהוט סדנה Linea 391, L1824×495×1900 מ"מ. ארון שירות + קסטטיירה + ארון 1 דלת + לוחות כלים.
+- Image: https://mutzagim.co.il/assets/product-1781080396828-55ks37.webp
+
+### ריהוט סדנה מלא Linea 391 – L4560 מ"מ
+https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l4560-mm-0gbw47
+- Price: 13307.68 USD
+- Availability: In stock
+- Category: ריהוט גראז' Linea 391
+- SKU: 8052693946907
+- Description: ריהוט סדנה Linea 391, L4560×495×1900 מ"מ. ארונות + קסטטיירה + קארלו + ארון שירות + 5 לוחות כלים.
+- Image: https://mutzagim.co.il/assets/product-1781080396711-e49rbp.webp
+
+### ריהוט סדנה מלא Linea 391 – L3040 מ"מ
+https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l3040-mm-x3mmkb
+- Price: 9158.64 USD
+- Availability: In stock
+- Category: ריהוט גראז' Linea 391
+- SKU: 8052693946921
+- Description: ריהוט סדנה Linea 391, L3040×495×1900 מ"מ. 2 ארונות + קסטטיירה + קארלו + ארון שירות + לוחות כלים.
+- Image: https://mutzagim.co.il/assets/product-1781080396688-mtlfza.webp
+
+### שולחן עבודה קבוע Linea 391 – L2000 מ"מ
+https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l2000-mm-hgt4ws
+- Price: 1041.60 USD
+- Availability: In stock
+- Category: שולחנות עבודה
+- SKU: 8052693947423
+- Description: שולחן עבודה פלדה Linea 391 עם לוח עץ, L2000×750×877 מ"מ. אנתרציט. אחריות 5 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781080396526-mhysgv.webp
+
+### שולחן עבודה קבוע Linea 391 – L1024 מ"מ
+https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1024-mm-kqguf7
+- Price: 744.00 USD
+- Availability: In stock
+- Category: שולחנות עבודה
+- SKU: 8052693947409
+- Description: שולחן עבודה פלדה Linea 391 עם לוח עץ, L1024×750×877 מ"מ. אנתרציט. אחריות 5 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781080396528-iu61e.webp
+
+### שולחן עבודה קבוע Linea 391 – L1500 מ"מ
+https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1500-mm-8wai84
+- Price: 917.60 USD
+- Availability: In stock
+- Category: שולחנות עבודה
+- SKU: 8052693947416
+- Description: שולחן עבודה פלדה Linea 391 עם לוח עץ, L1500×750×877 מ"מ. אנתרציט. אחריות 5 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781080396524-v6n2w.webp
 
 ### מיכל ZEUS – סדרה 272-4
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4-2anttx

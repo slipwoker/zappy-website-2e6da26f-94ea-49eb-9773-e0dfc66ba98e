@@ -1,10 +1,184 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:30:11.831Z",
+  "generated_at": "2026-06-10T08:34:31.865Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
-  "count": 41,
+  "count": 47,
   "products": [
+    {
+      "id": "e5f8477d-09dc-4199-b8a6-7239a4dd47ee",
+      "slug": "ryhvt-sdnh-mla-linea-391-l1824-mm-51yqqq",
+      "name": "ריהוט סדנה מלא Linea 391 – L1824 מ\"מ",
+      "name_translations": {
+        "ar": "أثاث ورشة كامل Linea 391 – L1824 مم",
+        "en": "Complete Workshop Furniture Linea 391 – L1824 mm",
+        "he": "ריהוט סדנה מלא Linea 391 – L1824 מ\"מ",
+        "ru": "Полная мебель для мастерской Linea 391 – L1824 мм"
+      },
+      "description": "ריהוט סדנה מודולרי Linea 391 של Fami. כולל: ארון שירות עם פח ונייר, קסטטיירה 6 מגירות, ארון 1 דלת. כולל לוחות כלים ופנסיליות. מידות: 1824×495×1900 מ\"מ. עצמאי, לא דורש קיבוע לקיר. אחריות 5 שנים.",
+      "short_description": "ריהוט סדנה Linea 391, L1824×495×1900 מ\"מ. ארון שירות + קסטטיירה + ארון 1 דלת + לוחות כלים.",
+      "sku": "8052693946877",
+      "brand": null,
+      "price": 6098.32,
+      "base_price": 6098.32,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781080396828-55ks37.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l1824-mm-51yqqq",
+      "categories": [
+        "ריהוט גראז' Linea 391"
+      ],
+      "updated_at": "2026-06-10T08:33:53.660Z"
+    },
+    {
+      "id": "f501ebc4-abc2-4636-b02a-3c1c47891f72",
+      "slug": "ryhvt-sdnh-mla-linea-391-l4560-mm-0gbw47",
+      "name": "ריהוט סדנה מלא Linea 391 – L4560 מ\"מ",
+      "name_translations": {
+        "ar": "أثاث ورشة كامل Linea 391 – L4560 مم",
+        "en": "Complete Workshop Furniture Linea 391 – L4560 mm",
+        "he": "ריהוט סדנה מלא Linea 391 – L4560 מ\"מ",
+        "ru": "Полная мебель для мастерской Linea 391 – L4560 мм"
+      },
+      "description": "ריהוט סדנה מודולרי Linea 391 של Fami. הרכב גדול: ארונות 2+1 דלת, קסטטיירה 6 מגירות, קארלו לוחות כלים, ארון שירות + 2 ארונות 2 דלתות. כולל 5 לוחות כלים ו-4 פנסיליות. מידות: 4560×495×1900 מ\"מ. עצמאי. אחריות 5 שנים.",
+      "short_description": "ריהוט סדנה Linea 391, L4560×495×1900 מ\"מ. ארונות + קסטטיירה + קארלו + ארון שירות + 5 לוחות כלים.",
+      "sku": "8052693946907",
+      "brand": null,
+      "price": 13307.68,
+      "base_price": 13307.68,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781080396711-e49rbp.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l4560-mm-0gbw47",
+      "categories": [
+        "ריהוט גראז' Linea 391"
+      ],
+      "updated_at": "2026-06-10T08:33:53.584Z"
+    },
+    {
+      "id": "a71f48a6-c07a-4406-9083-3fe6ddb0b790",
+      "slug": "ryhvt-sdnh-mla-linea-391-l3040-mm-x3mmkb",
+      "name": "ריהוט סדנה מלא Linea 391 – L3040 מ\"מ",
+      "name_translations": {
+        "ar": "أثاث ورشة كامل Linea 391 – L3040 مم",
+        "en": "Complete Workshop Furniture Linea 391 – L3040 mm",
+        "he": "ריהוט סדנה מלא Linea 391 – L3040 מ\"מ",
+        "ru": "Полная мебель для мастерской Linea 391 – L3040 мм"
+      },
+      "description": "ריהוט סדנה מודולרי Linea 391 של Fami. כולל: 2 ארונות 2 דלתות, קסטטיירה 6 מגירות, קארלו לוחות כלים, ארון שירות. כולל לוחות כלים ופנסיליות. מידות: 3040×495×1900 מ\"מ. עצמאי, לא דורש קיבוע לקיר. אחריות 5 שנים.",
+      "short_description": "ריהוט סדנה Linea 391, L3040×495×1900 מ\"מ. 2 ארונות + קסטטיירה + קארלו + ארון שירות + לוחות כלים.",
+      "sku": "8052693946921",
+      "brand": null,
+      "price": 9158.64,
+      "base_price": 9158.64,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781080396688-mtlfza.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l3040-mm-x3mmkb",
+      "categories": [
+        "ריהוט גראז' Linea 391"
+      ],
+      "updated_at": "2026-06-10T08:33:49.400Z"
+    },
+    {
+      "id": "6641bd68-f58b-437d-a4b8-985358697b80",
+      "slug": "shvlchn-abvdh-kbva-linea-391-l2000-mm-hgt4ws",
+      "name": "שולחן עבודה קבוע Linea 391 – L2000 מ\"מ",
+      "name_translations": {
+        "ar": "طاولة عمل ثابتة Linea 391 – L2000 مم",
+        "en": "Fixed Workbench Linea 391 – L2000 mm",
+        "he": "שולחן עבודה קבוע Linea 391 – L2000 מ\"מ",
+        "ru": "Рабочий стол стационарный Linea 391 – L2000 мм"
+      },
+      "description": "שולחן עבודה לגראז' וסדנה מסדרת Linea 391 של Fami. מבנה פלדה עם לוח עבודה רב-שכבתי אגוז עובי 25 מ\"מ. ניתן לצרף מגירות ולוחות כלים. מידות: 2000×750×877 מ\"מ. צבע אנתרציט RAL 7016. אחריות 5 שנים.",
+      "short_description": "שולחן עבודה פלדה Linea 391 עם לוח עץ, L2000×750×877 מ\"מ. אנתרציט. אחריות 5 שנים.",
+      "sku": "8052693947423",
+      "brand": null,
+      "price": 1041.6,
+      "base_price": 1041.6,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781080396526-mhysgv.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l2000-mm-hgt4ws",
+      "categories": [
+        "שולחנות עבודה"
+      ],
+      "updated_at": "2026-06-10T08:33:49.385Z"
+    },
+    {
+      "id": "f7866bf9-1468-44bd-bf97-2bf071a298f8",
+      "slug": "shvlchn-abvdh-kbva-linea-391-l1024-mm-kqguf7",
+      "name": "שולחן עבודה קבוע Linea 391 – L1024 מ\"מ",
+      "name_translations": {
+        "ar": "طاولة عمل ثابتة Linea 391 – L1024 مم",
+        "en": "Fixed Workbench Linea 391 – L1024 mm",
+        "he": "שולחן עבודה קבוע Linea 391 – L1024 מ\"מ",
+        "ru": "Стационарный рабочий стол Linea 391 – L1024 мм"
+      },
+      "description": "שולחן עבודה לגראז' וסדנה מסדרת Linea 391 של Fami. מבנה פלדה יציב עם לוח עבודה עשוי רב-שכבתי אגוז עובי 25 מ\"מ. ניתן לצרף מגירות ולוחות כלים. מידות: 1024×750×877 מ\"מ. צבע אנתרציט RAL 7016. אחריות 5 שנים.",
+      "short_description": "שולחן עבודה פלדה Linea 391 עם לוח עץ, L1024×750×877 מ\"מ. אנתרציט. אחריות 5 שנים.",
+      "sku": "8052693947409",
+      "brand": null,
+      "price": 744,
+      "base_price": 744,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781080396528-iu61e.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1024-mm-kqguf7",
+      "categories": [
+        "שולחנות עבודה"
+      ],
+      "updated_at": "2026-06-10T08:34:00.872Z"
+    },
+    {
+      "id": "e80aeef3-a929-4ec1-a42e-aa025a67f212",
+      "slug": "shvlchn-abvdh-kbva-linea-391-l1500-mm-8wai84",
+      "name": "שולחן עבודה קבוע Linea 391 – L1500 מ\"מ",
+      "name_translations": {
+        "ar": "طاولة عمل ثابتة Linea 391 – L1500 مم",
+        "en": "Fixed Workbench Linea 391 – L1500 mm",
+        "he": "שולחן עבודה קבוע Linea 391 – L1500 מ\"מ",
+        "ru": "Рабочий стол стационарный Linea 391 – L1500 мм"
+      },
+      "description": "שולחן עבודה לגראז' וסדנה מסדרת Linea 391 של Fami. מבנה פלדה עם לוח עבודה רב-שכבתי אגוז עובי 25 מ\"מ. ניתן לצרף מגירות ולוחות כלים. מידות: 1500×750×877 מ\"מ. צבע אנתרציט RAL 7016. אחריות 5 שנים.",
+      "short_description": "שולחן עבודה פלדה Linea 391 עם לוח עץ, L1500×750×877 מ\"מ. אנתרציט. אחריות 5 שנים.",
+      "sku": "8052693947416",
+      "brand": null,
+      "price": 917.6,
+      "base_price": 917.6,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781080396524-v6n2w.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1500-mm-8wai84",
+      "categories": [
+        "שולחנות עבודה"
+      ],
+      "updated_at": "2026-06-10T08:33:49.859Z"
+    },
     {
       "id": "88c6e9d8-9614-4dcd-9850-2b99d72bd296",
       "slug": "mykl-zeus-sdrh-272-4-2anttx",
