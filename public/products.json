@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T16:57:35.577Z",
+  "generated_at": "2026-06-10T17:02:33.981Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -130,30 +130,35 @@
     },
     {
       "id": "757733f5-6411-4e2d-958b-121b47768ee0",
-      "slug": "mdp-chbylvt-mercedes-benz-sprinter-shmal-y0ncaz",
+      "slug": "mdp-chbylvt-mercedes-benz-sprinter-shmal-9xd3bk",
       "name": "מדף חבילות Mercedes-Benz Sprinter – שמאל",
       "name_translations": {
         "ar": "رف الطرود Mercedes-Benz Sprinter – يسار",
-        "en": "Mercedes-Benz Sprinter Package Shelf - Left",
+        "en": "Mercedes-Benz Sprinter Package Shelf – Left",
         "he": "מדף חבילות Mercedes-Benz Sprinter – שמאל",
         "ru": "Полка для посылок Mercedes-Benz Sprinter – левая"
       },
-      "description": "מדף חבילות/פוסט StoreVan למרצדס-בנץ ספרינטר, Sprinter | שמאל. מותאם לאספקת חבילות יעילה. מבנה אלומיניום חזק. מידות מותאמות לדגם הרכב. אחריות 8 שנים.",
+      "description": "<p>מדף חבילות/פוסט StoreVan למרצדס-בנץ ספרינטר, Sprinter | שמאל. מותאם לאספקת חבילות יעילה. מבנה אלומיניום חזק. מידות מותאמות לדגם הרכב. אחריות 8 שנים.</p>",
       "short_description": "מדף חבילות Sprinter Sprinter | שמאל. StoreVan. אלומיניום. אחריות 8 שנים.",
       "sku": "postpakketrek-mb-sprinter-links",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 15111.76,
       "base_price": 15111.76,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-shmal-y0ncaz",
-      "categories": [
-        "מדפי חבילות (פוסט/דיוור)"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781110870476-saty4.webp",
+        "https://mutzagim.co.il/assets/product-1781110864510-k9hi7l.webp",
+        "https://mutzagim.co.il/assets/product-1781110876815-zvyvts.webp"
       ],
-      "updated_at": "2026-06-10T16:42:47.239Z"
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-shmal-9xd3bk",
+      "categories": [
+        "מדפי חבילות (פוסט/דיוור)",
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-10T17:02:02.926Z"
     },
     {
       "id": "e3bd609e-620b-457c-817d-bee1653eba48",
