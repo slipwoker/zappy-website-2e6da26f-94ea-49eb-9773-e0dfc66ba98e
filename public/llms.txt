@@ -171,13 +171,14 @@ https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-qdl4lq
 - Image: https://mutzagim.co.il/assets/product-1781073980358-29ml9u.webp
 
 ### מכסה ESD מוליך – למכל 600×400 מ"מ
-https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-50ake1
+https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-rk5atk
 - Price: 43.20 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: מכלי ESD
-- SKU: AT-LID-600
+- SKU: AT64HG5401
 - Brand: iMilani
 - Description: מכסה ESD שחור למכלי ATHENA 600×400 מ"מ. זמין עם ציר. עומד בתקן EN 61340.
+- Image: https://mutzagim.co.il/assets/product-1781074323922-mhj0zi.webp
 
 ### מכסה ESD מוליך – למכל 300×200 מ"מ
 https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-7d7450

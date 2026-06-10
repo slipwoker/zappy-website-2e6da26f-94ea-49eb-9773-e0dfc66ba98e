@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T06:50:08.387Z",
+  "generated_at": "2026-06-10T06:52:58.723Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 27,
@@ -127,31 +127,33 @@
     },
     {
       "id": "05379ab1-353c-40e3-87ff-ca1490edaf9d",
-      "slug": "mksh-esd-mvlyk-lmkl-600400-mm-50ake1",
+      "slug": "mksh-esd-mvlyk-lmkl-600400-mm-rk5atk",
       "name": "מכסה ESD מוליך – למכל 600×400 מ\"מ",
       "name_translations": {
-        "ar": "غطاء ESD موصل – لحاوية 600×400 مم",
-        "en": "ESD Conductive Lid – for 600×400 mm Container",
+        "ar": "غطاء ESD موصل - لحاوية 600×400 مم",
+        "en": "ESD Conductive Lid - for 600×400 mm Container",
         "he": "מכסה ESD מוליך – למכל 600×400 מ\"מ",
         "ru": "Крышка ESD проводящая – для контейнера 600×400 мм"
       },
       "description": "<p>מכסה מוליך ESD מפוליפרופילן שחור למכלי ATHENA 600×400 מ\"מ. זמין כמכסה רגיל או עם ציר (Hinged Lid). מאושר לאזורי EPA. עומד בתקן EN 61340.</p>",
       "short_description": "מכסה ESD שחור למכלי ATHENA 600×400 מ\"מ. זמין עם ציר. עומד בתקן EN 61340.",
-      "sku": "AT-LID-600",
+      "sku": "AT64HG5401",
       "brand": "iMilani",
       "price": 43.2,
       "base_price": 43.2,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-50ake1",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781074323922-mhj0zi.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-rk5atk",
       "categories": [
         "מכלי ESD",
         "מיכלים וארגזים אנטי סטטיים (ESD)"
       ],
-      "updated_at": "2026-06-10T06:49:37.176Z"
+      "updated_at": "2026-06-10T06:52:46.102Z"
     },
     {
       "id": "ac9b86f6-e465-47d4-b697-828105a59e6a",
