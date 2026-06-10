@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:15:12.730Z",
+  "generated_at": "2026-06-10T08:15:44.202Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
@@ -361,10 +361,10 @@
     },
     {
       "id": "e23d3b45-b57d-4f79-b52f-0bea2d629f07",
-      "slug": "ychydt-mgyrvt-practibox-4-mgyrvt-shkvpvt-xzsp5w",
+      "slug": "ychydt-mgyrvt-practibox-4-mgyrvt-shkvpvt-t978br",
       "name": "יחידת מגירות PRACTIBOX – 4 מגירות שקופות",
       "name_translations": {
-        "ar": "وحدة أدراج PRACTIBOX - 4 أدراج شفافة",
+        "ar": "وحدة أدراج PRACTIBOX – 4 أدراج شفافة",
         "en": "PRACTIBOX Drawer Unit – 4 Transparent Drawers",
         "he": "יחידת מגירות PRACTIBOX – 4 מגירות שקופות",
         "ru": "Блок ящиков PRACTIBOX – 4 прозрачных ящика"
@@ -377,14 +377,16 @@
       "base_price": 187.2,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781079300828-5wzhps.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-4-mgyrvt-shkvpvt-xzsp5w",
+      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-4-mgyrvt-shkvpvt-t978br",
       "categories": [
         "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T08:14:41.563Z"
+      "updated_at": "2026-06-10T08:15:43.301Z"
     },
     {
       "id": "0e3fa481-dc1e-4e7b-a523-cbd36a2fb7f0",
