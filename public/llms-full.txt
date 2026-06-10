@@ -8919,10 +8919,11 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 ## Product Catalog
 
 ### ארון PICK עם דלתות ומנעול – H1655 מ"מ, אפור בהיר RAL7035
-URL: https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-k7z0kf
-Price: 3.00 USD
+URL: https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-dbuawj
+Price: 0.00 USD
 Availability: Out of stock
-SKU: PK1655D108
+SKU: PK1651108
+Brand: iMilani
 
 ארון תעשייתי מחזיק קופסאות PICK עם דלתות ומנעול של iMilani. מבנה פלדה עם מדפים מתכווננים (פסיעה 25 מ"מ). כולל 42 COMPAT גדל.1 + 24 COMPAT גדל.2 + 12 מדפים + 7 עוצרי קופסאות. דלתות עם מנעול לאבטחת תכולה. קיבוע לרצפה או קיר חובה. מידות: 700×270×1655 מ"מ.
 

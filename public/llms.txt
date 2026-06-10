@@ -127,12 +127,14 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 67**
 
 ### ארון PICK עם דלתות ומנעול – H1655 מ"מ, אפור בהיר RAL7035
-https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-k7z0kf
-- Price: 3.00 USD
+https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-dbuawj
+- Price: 0.00 USD
 - Availability: Out of stock
 - Category: 700×270×1655
-- SKU: PK1655D108
+- SKU: PK1651108
+- Brand: iMilani
 - Description: ארון PICK עם דלתות ומנעול, H1655 מ"מ, אפור בהיר RAL7035. 42+24 קופסאות.
+- Image: https://mutzagim.co.il/assets/product-1781100208354-zbvbpi.webp
 
 ### ארון מחזיק קופסאות PICK – H2000 מ"מ, אפור בהיר RAL7035
 https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-bhyr-ral7035-caskfh

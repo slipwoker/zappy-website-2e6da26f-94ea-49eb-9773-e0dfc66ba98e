@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T14:01:43.870Z",
+  "generated_at": "2026-06-10T14:04:33.434Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 67,
   "products": [
     {
       "id": "a6692fd2-4d56-4f39-a4e7-72b4625eccf1",
-      "slug": "arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-k7z0kf",
+      "slug": "arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-dbuawj",
       "name": "ארון PICK עם דלתות ומנעול – H1655 מ\"מ, אפור בהיר RAL7035",
       "name_translations": {
         "ar": "خزانة PICK مع أبواب وقفل – H1655 مم، رمادي فاتح RAL7035",
@@ -15,22 +15,25 @@
         "he": "ארון PICK עם דלתות ומנעול – H1655 מ\"מ, אפור בהיר RAL7035",
         "ru": "Шкаф PICK с дверцами и замком – H1655 мм, светло-серый RAL7035"
       },
-      "description": "ארון תעשייתי מחזיק קופסאות PICK עם דלתות ומנעול של iMilani. מבנה פלדה עם מדפים מתכווננים (פסיעה 25 מ\"מ). כולל 42 COMPAT גדל.1 + 24 COMPAT גדל.2 + 12 מדפים + 7 עוצרי קופסאות. דלתות עם מנעול לאבטחת תכולה. קיבוע לרצפה או קיר חובה. מידות: 700×270×1655 מ\"מ.",
+      "description": "<p>ארון תעשייתי מחזיק קופסאות PICK עם דלתות ומנעול של iMilani. מבנה פלדה עם מדפים מתכווננים (פסיעה 25 מ\"מ). כולל 42 COMPAT גדל.1 + 24 COMPAT גדל.2 + 12 מדפים + 7 עוצרי קופסאות. דלתות עם מנעול לאבטחת תכולה. קיבוע לרצפה או קיר חובה. מידות: 700×270×1655 מ\"מ.</p>",
       "short_description": "ארון PICK עם דלתות ומנעול, H1655 מ\"מ, אפור בהיר RAL7035. 42+24 קופסאות.",
-      "sku": "PK1655D108",
-      "brand": null,
-      "price": 3,
-      "base_price": 3,
+      "sku": "PK1651108",
+      "brand": "iMilani",
+      "price": 0,
+      "base_price": 0,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781100208354-zbvbpi.webp"
+      ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-k7z0kf",
+      "url": "https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-dbuawj",
       "categories": [
-        "700×270×1655"
+        "700×270×1655",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T14:00:37.697Z"
+      "updated_at": "2026-06-10T14:04:01.885Z"
     },
     {
       "id": "1d215298-be94-4859-8a81-ab98003b229a",
