@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T09:50:29.525Z",
+  "generated_at": "2026-06-10T09:51:00.630Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 57,
@@ -187,7 +187,7 @@
     },
     {
       "id": "a4bdee05-93e0-48b5-83a8-9230568bb24c",
-      "slug": "arvn-tashyyty-linea-391-391a03-rs2w9h",
+      "slug": "arvn-tashyyty-linea-391-391a03-bnje56",
       "name": "ארון תעשייתי Linea 391 – 391A03",
       "name_translations": {
         "ar": "خزانة صناعية Linea 391 – 391A03",
@@ -195,10 +195,10 @@
         "he": "ארון תעשייתי Linea 391 – 391A03",
         "ru": "Промышленный шкаф Linea 391 – 391A03"
       },
-      "description": "ארון תעשייתי רב-שימושי מסדרת Linea 391 של Fami לסדנה, מחסן ומעבדה. פלדה אנתרציט RAL7016. דלתות בטרנט, מנעול צילינדר, מדפים מתכווננים. חורים 10×10 מ\"מ פסיעה 38 לאחיזת אביזרי Iron Team. מידות: 912×496×1900 מ\"מ. אחריות 5 שנים.",
+      "description": "<p>ארון תעשייתי רב-שימושי מסדרת Linea 391 של Fami לסדנה, מחסן ומעבדה. פלדה אנתרציט RAL7016. דלתות בטרנט, מנעול צילינדר, מדפים מתכווננים. חורים 10×10 מ\"מ פסיעה 38 לאחיזת אביזרי Iron Team. מידות: 912×496×1900 מ\"מ. אחריות 5 שנים.</p>",
       "short_description": "ארון תעשייתי Linea 391, 912×496×1900 מ\"מ. אנתרציט. מדפים מתכווננים. אחריות 5 שנים.",
       "sku": "391A03",
-      "brand": null,
+      "brand": "Fami ",
       "price": 2084,
       "base_price": 2084,
       "sale_price": null,
@@ -206,13 +206,14 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781084788326-m5hmtm.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-rs2w9h",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-bnje56",
       "categories": [
-        "ארונות Fami Linea 391"
+        "ארונות Fami Linea 391",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:47:18.337Z"
+      "updated_at": "2026-06-10T09:50:53.154Z"
     },
     {
       "id": "2873afb7-8303-4058-b80c-6beb68d964cd",

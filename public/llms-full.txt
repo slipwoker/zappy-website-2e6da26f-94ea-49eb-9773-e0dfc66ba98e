@@ -9437,10 +9437,11 @@ Brand: Fami
 ---
 
 ### ארון תעשייתי Linea 391 – 391A03
-URL: https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-rs2w9h
+URL: https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-bnje56
 Price: 2084.00 USD
-Availability: In stock
+Availability: Out of stock
 SKU: 391A03
+Brand: Fami 
 
 ארון תעשייתי רב-שימושי מסדרת Linea 391 של Fami לסדנה, מחסן ומעבדה. פלדה אנתרציט RAL7016. דלתות בטרנט, מנעול צילינדר, מדפים מתכווננים. חורים 10×10 מ"מ פסיעה 38 לאחיזת אביזרי Iron Team. מידות: 912×496×1900 מ"מ. אחריות 5 שנים.
 
