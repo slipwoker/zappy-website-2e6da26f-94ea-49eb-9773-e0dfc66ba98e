@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T09:49:58.109Z",
+  "generated_at": "2026-06-10T09:50:29.525Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 57,
@@ -123,7 +123,7 @@
         "ארונות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:49:27.015Z"
+      "updated_at": "2026-06-10T09:49:58.319Z"
     },
     {
       "id": "60ec41f5-e3b2-4a21-a978-67e64ed34a6e",
@@ -153,22 +153,22 @@
         "ארונות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:49:57.847Z"
+      "updated_at": "2026-06-10T09:50:26.783Z"
     },
     {
       "id": "8a363950-a62e-4d5c-807e-c2829f5bcc51",
-      "slug": "ksttyyrh-7-mgyrvt-3627-linea-391-391a04-my4swo",
-      "name": "קסטטיירה 7 מגירות 36×27 Linea 391 – 391A04",
+      "slug": "arvn-7-mgyrvt-3627-linea-391-391a04-k7cmhp",
+      "name": "ארון 7 מגירות 36×27 Linea 391 – 391A04",
       "name_translations": {
         "ar": "خزانة أدراج 7 أدراج 36×27 Linea 391 – 391A04",
         "en": "Drawer Cabinet 7 Drawers 36×27 Linea 391 – 391A04",
         "he": "קסטטיירה 7 מגירות 36×27 Linea 391 – 391A04",
         "ru": "Кассетница 7 ящиков 36×27 Linea 391 – 391A04"
       },
-      "description": "קסטטיירה לסדנה מסדרת Linea 391 של Fami עם 7 מגירות EH 36×27. פלדה אנתרציט RAL7016. שחרור מלא. עומס 900 ק\"ג. אנטי-הפיכה. מנעול מרכזי. מידות: 717×600×1002 מ\"מ. אחריות 5 שנים.",
+      "description": "<p>קסטטיירה לסדנה מסדרת Linea 391 של Fami עם 7 מגירות EH 36×27. פלדה אנתרציט RAL7016. שחרור מלא. עומס 900 ק\"ג. אנטי-הפיכה. מנעול מרכזי. מידות: 717×600×1002 מ\"מ. אחריות 5 שנים.</p>",
       "short_description": "קסטטיירה Linea 391 – 7 מגירות EH36×27, 717×600×1002 מ\"מ. עומס 900 ק\"ג. אחריות 5 שנים.",
       "sku": "391A04",
-      "brand": null,
+      "brand": "Fami ",
       "price": 3305,
       "base_price": 3305,
       "sale_price": null,
@@ -176,13 +176,14 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781084788288-iuenn8.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ksttyyrh-7-mgyrvt-3627-linea-391-391a04-my4swo",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/arvn-7-mgyrvt-3627-linea-391-391a04-k7cmhp",
       "categories": [
-        "ארונות Fami Linea 391"
+        "ארונות Fami Linea 391",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:47:18.033Z"
+      "updated_at": "2026-06-10T09:50:29.342Z"
     },
     {
       "id": "a4bdee05-93e0-48b5-83a8-9230568bb24c",
