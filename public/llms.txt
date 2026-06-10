@@ -126,7 +126,7 @@ Information about WCAG compliance and accessibility features.
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4-2anttx
 - Price: 0.00 USD
 - Availability: Out of stock
-- Category: מגירות ויחידות קטנות
+- Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ0045101
 - Brand: iMilani 
 - Description: מיכל ZEUS 465×315×200 מ"מ. 5 צבעים. נפח 27 ל. ניתן לערימה.
@@ -136,7 +136,7 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4-2anttx
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a5-721v7x
 - Price: 0.00 USD
 - Availability: Out of stock
-- Category: מגירות ויחידות קטנות
+- Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ4A55101
 - Brand: iMilani 
 - Description: מיכל ZEUS 465×315×300 מ"מ. 5 צבעים. נפח 40.5 ל. ניתן לערימה.
@@ -146,7 +146,7 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a5-721v7x
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-5-4v0r2w
 - Price: 0.00 USD
 - Availability: Out of stock
-- Category: מגירות ויחידות קטנות
+- Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ0055101
 - Brand: iMilani 
 - Description: מיכל ZEUS 655×470×300 מ"מ. 5 צבעים. נפח 85 ל. ניתן לערימה.
@@ -156,7 +156,7 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-5-4v0r2w
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a2-12xgh2
 - Price: 0.00 USD
 - Availability: Out of stock
-- Category: מגירות ויחידות קטנות
+- Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ4A25101
 - Brand: iMilani
 - Description: מיכל ZEUS 465×315×120 מ"מ. 5 צבעים. נפח 16.2 ל. ניתן לערימה.
@@ -166,7 +166,7 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a2-12xgh2
 https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-eqfwaj
 - Price: 142.40 USD
 - Availability: In stock
-- Category: מגירות ויחידות קטנות
+- Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: PR51640001
 - Brand: iMilani 
 - Description: יחידת מגירות PRACTIBOX – 5 מגירות שקופות. מגירה: 113×100×150 מ"מ. מבנה ABS אפור.
@@ -176,7 +176,7 @@ https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-eqfwaj
 https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-7891af
 - Price: 340.00 USD
 - Availability: In stock
-- Category: מגירות ויחידות קטנות
+- Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: PR23530001
 - Brand: iMilani 
 - Description: יחידת מגירות PRACTIBOX – 2 מגירות שקופות גדולות. מגירה: 285×219×337 מ"מ. מבנה ABS אפור.
@@ -186,7 +186,7 @@ https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-7891af
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-2rje9i
 - Price: 0.00 USD
 - Availability: Out of stock
-- Category: מגירות ויחידות קטנות
+- Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ0025101
 - Brand: iMilani 
 - Description: מיכל ZEUS 210×150×125 מ"מ. 5 צבעים. ניתן לערימה. מחזיק מדבקה.
@@ -196,7 +196,7 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-2rje9i
 https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-mgej6s
 - Price: 89.60 USD
 - Availability: In stock
-- Category: מגירות ויחידות קטנות
+- Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: PR61120001
 - Brand: iMilani 
 - Description: יחידת מגירות PRACTIBOX – 6 מגירות שקופות. מגירה: 87×66×100 מ"מ. מבנה ABS אפור.
