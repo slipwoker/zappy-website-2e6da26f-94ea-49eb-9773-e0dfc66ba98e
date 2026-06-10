@@ -130,7 +130,7 @@ Information about WCAG compliance and accessibility features.
 https://mutzagim.co.il/product/aglt-kly-abvdh-5-mgyrvt-linea-391-391c07-m7g4s0
 - Price: 2604.00 USD
 - Availability: Out of stock
-- Category: עגלות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C07
 - Brand: Fami 
 - Description: עגלת כלים Linea 391 – 5 מגירות, 790×455×876 מ"מ. אנתרציט. אחריות 5 שנים.
@@ -140,7 +140,7 @@ https://mutzagim.co.il/product/aglt-kly-abvdh-5-mgyrvt-linea-391-391c07-m7g4s0
 https://mutzagim.co.il/product/aglt-kly-abvdh-6-mgyrvt-linea-391-391c08-s61861
 - Price: 2899.00 USD
 - Availability: Out of stock
-- Category: עגלות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C08
 - Brand: Fami 
 - Description: עגלת כלים Linea 391 – 6 מגירות, 790×455×876 מ"מ. אנתרציט. אחריות 5 שנים.
@@ -150,7 +150,7 @@ https://mutzagim.co.il/product/aglt-kly-abvdh-6-mgyrvt-linea-391-391c08-s61861
 https://mutzagim.co.il/product/aglt-kly-abvdh-4-mgyrvt-linea-391-391c06-xwjftu
 - Price: 2409.00 USD
 - Availability: Out of stock
-- Category: עגלות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C06
 - Brand: Fami 
 - Description: עגלת כלים Linea 391 – 4 מגירות, 790×455×876 מ"מ. אנתרציט. אחריות 5 שנים.
@@ -160,7 +160,7 @@ https://mutzagim.co.il/product/aglt-kly-abvdh-4-mgyrvt-linea-391-391c06-xwjftu
 https://mutzagim.co.il/product/arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-q8iyui
 - Price: 2499.00 USD
 - Availability: Out of stock
-- Category: ארונות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391A01
 - Brand: Fami
 - Description: ארון בטיחות לחומרים דליקים Linea 391, 944×540×1900 מ"מ. ספל 62 ל'. אנתרציט+צהוב.
@@ -170,7 +170,7 @@ https://mutzagim.co.il/product/arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-q8i
 https://mutzagim.co.il/product/arvn-btychvt-lpytvsnytrym-linea-391-391a02-fdn9y4
 - Price: 2499.00 USD
 - Availability: Out of stock
-- Category: ארונות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391A02
 - Brand: Fami
 - Description: ארון בטיחות לפיטוסניטרים Linea 391, 944×540×1900 מ"מ. אנתרציט+ירוק. אחריות 5 שנים.
@@ -180,7 +180,7 @@ https://mutzagim.co.il/product/arvn-btychvt-lpytvsnytrym-linea-391-391a02-fdn9y4
 https://mutzagim.co.il/product/arvn-7-mgyrvt-3627-linea-391-391a04-k7cmhp
 - Price: 3305.00 USD
 - Availability: Out of stock
-- Category: ארונות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391A04
 - Brand: Fami 
 - Description: קסטטיירה Linea 391 – 7 מגירות EH36×27, 717×600×1002 מ"מ. עומס 900 ק"ג. אחריות 5 שנים.
@@ -190,7 +190,7 @@ https://mutzagim.co.il/product/arvn-7-mgyrvt-3627-linea-391-391a04-k7cmhp
 https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-bnje56
 - Price: 2084.00 USD
 - Availability: Out of stock
-- Category: ארונות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391A03
 - Brand: Fami 
 - Description: ארון תעשייתי Linea 391, 912×496×1900 מ"מ. אנתרציט. מדפים מתכווננים. אחריות 5 שנים.
@@ -200,7 +200,7 @@ https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-bnje56
 https://mutzagim.co.il/product/aglt-abvdh-linea-391-391c02-b1zi7x
 - Price: 1809.00 USD
 - Availability: Out of stock
-- Category: עגלות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C02
 - Brand: Fami 
 - Description: עגלת עבודה Linea 391, 1099×578×1481 מ"מ. אנתרציט. אחריות 5 שנים.
@@ -210,7 +210,7 @@ https://mutzagim.co.il/product/aglt-abvdh-linea-391-391c02-b1zi7x
 https://mutzagim.co.il/product/arvn-7-mgyrvt-5427-linea-391-391a05-csryqi
 - Price: 4124.00 USD
 - Availability: Out of stock
-- Category: ארונות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391A05
 - Brand: Fami 
 - Description: קסטטיירה Linea 391 – 7 מגירות EH54×27, 1023×600×1002 מ"מ. עומס 900 ק"ג. אחריות 5 שנים.
@@ -220,7 +220,7 @@ https://mutzagim.co.il/product/arvn-7-mgyrvt-5427-linea-391-391a05-csryqi
 https://mutzagim.co.il/product/aglt-sdnh-xl-linea-391-391c05-blgjvs
 - Price: 895.00 USD
 - Availability: Out of stock
-- Category: עגלות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C05
 - Brand: Fami
 - Description: עגלת סדנה XL Linea 391, 1028×615×846 מ"מ. קיבולת גדולה. אחריות 5 שנים.
@@ -230,7 +230,7 @@ https://mutzagim.co.il/product/aglt-sdnh-xl-linea-391-391c05-blgjvs
 https://mutzagim.co.il/product/aglt-sdnh-xs-linea-391-391c04-w79108
 - Price: 744.00 USD
 - Availability: Out of stock
-- Category: עגלות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C04
 - Brand: Fami
 - Description: עגלת סדנה XS Linea 391, 888×455×846 מ"מ. קומפקטית. אחריות 5 שנים.
@@ -240,18 +240,19 @@ https://mutzagim.co.il/product/aglt-sdnh-xs-linea-391-391c04-w79108
 https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c01-a8r85r
 - Price: 2482.00 USD
 - Availability: Out of stock
-- Category: עגלות Fami Linea 391
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C01
 - Brand: Fami
 - Description: עגלת חלקים קטנים Linea 391, 1099×577×1355 מ"מ. אנתרציט. אחריות 5 שנים.
 - Image: https://mutzagim.co.il/assets/product-1781084788291-tbaw8a.webp
 
 ### עגלת חלקים קטנים Linea 391 – 391C03
-https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c03-1qtvf0
+https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c03-q6e0qi
 - Price: 1935.00 USD
-- Availability: In stock
-- Category: עגלות Fami Linea 391
+- Availability: Out of stock
+- Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C03
+- Brand: Fami
 - Description: עגלת חלקים קטנים Linea 391, 1099×580×1473 מ"מ. אנתרציט. אחריות 5 שנים.
 - Image: https://mutzagim.co.il/assets/product-1781084788288-nknyf8.webp
 

@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T09:53:34.139Z",
+  "generated_at": "2026-06-10T09:54:56.214Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 57,
@@ -30,7 +30,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/aglt-kly-abvdh-5-mgyrvt-linea-391-391c07-m7g4s0",
       "categories": [
-        "עגלות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T09:47:42.996Z"
@@ -60,7 +59,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/aglt-kly-abvdh-6-mgyrvt-linea-391-391c08-s61861",
       "categories": [
-        "עגלות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T09:48:51.684Z"
@@ -90,7 +88,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/aglt-kly-abvdh-4-mgyrvt-linea-391-391c06-xwjftu",
       "categories": [
-        "עגלות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T09:49:18.145Z"
@@ -120,7 +117,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-q8iyui",
       "categories": [
-        "ארונות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T09:49:58.319Z"
@@ -150,7 +146,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/arvn-btychvt-lpytvsnytrym-linea-391-391a02-fdn9y4",
       "categories": [
-        "ארונות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T09:50:26.783Z"
@@ -180,7 +175,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/arvn-7-mgyrvt-3627-linea-391-391a04-k7cmhp",
       "categories": [
-        "ארונות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T09:51:00.566Z"
@@ -210,7 +204,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-bnje56",
       "categories": [
-        "ארונות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T09:51:20.312Z"
@@ -240,7 +233,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/aglt-abvdh-linea-391-391c02-b1zi7x",
       "categories": [
-        "עגלות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T09:52:06.487Z"
@@ -270,7 +262,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/arvn-7-mgyrvt-5427-linea-391-391a05-csryqi",
       "categories": [
-        "ארונות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T09:52:33.770Z"
@@ -300,7 +291,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/aglt-sdnh-xl-linea-391-391c05-blgjvs",
       "categories": [
-        "עגלות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T09:53:01.896Z"
@@ -330,7 +320,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/aglt-sdnh-xs-linea-391-391c04-w79108",
       "categories": [
-        "עגלות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
       "updated_at": "2026-06-10T09:53:26.597Z"
@@ -340,7 +329,7 @@
       "slug": "aglt-chlkym-ktnym-linea-391-391c01-a8r85r",
       "name": "עגלת חלקים קטנים Linea 391 – 391C01",
       "name_translations": {
-        "ar": "عربة قطع صغيرة Linea 391 – 391C01",
+        "ar": "عربة القطع الصغيرة Linea 391 – 391C01",
         "en": "Small Parts Cart Linea 391 – 391C01",
         "he": "עגלת חלקים קטנים Linea 391 – 391C01",
         "ru": "Тележка для мелких деталей Linea 391 – 391C01"
@@ -360,14 +349,13 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c01-a8r85r",
       "categories": [
-        "עגלות Fami Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:53:21.300Z"
+      "updated_at": "2026-06-10T09:53:46.562Z"
     },
     {
       "id": "41266fd1-24a1-4097-a76a-2ba97eb90e16",
-      "slug": "aglt-chlkym-ktnym-linea-391-391c03-1qtvf0",
+      "slug": "aglt-chlkym-ktnym-linea-391-391c03-q6e0qi",
       "name": "עגלת חלקים קטנים Linea 391 – 391C03",
       "name_translations": {
         "ar": "عربة قطع صغيرة Linea 391 – 391C03",
@@ -375,10 +363,10 @@
         "he": "עגלת חלקים קטנים Linea 391 – 391C03",
         "ru": "Тележка для мелких деталей Linea 391 – 391C03"
       },
-      "description": "עגלת סדנה לחלקים קטנים מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. מגירות ומדפים. גלגלים עם בלמים. מידות: 1099×580×1473 מ\"מ. אחריות 5 שנים.",
+      "description": "<p>עגלת סדנה לחלקים קטנים מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. מגירות ומדפים. גלגלים עם בלמים. מידות: 1099×580×1473 מ\"מ. אחריות 5 שנים.</p>",
       "short_description": "עגלת חלקים קטנים Linea 391, 1099×580×1473 מ\"מ. אנתרציט. אחריות 5 שנים.",
       "sku": "391C03",
-      "brand": null,
+      "brand": "Fami",
       "price": 1935,
       "base_price": 1935,
       "sale_price": null,
@@ -386,13 +374,13 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781084788288-nknyf8.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c03-1qtvf0",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c03-q6e0qi",
       "categories": [
-        "עגלות Fami Linea 391"
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:47:15.235Z"
+      "updated_at": "2026-06-10T09:54:19.089Z"
     },
     {
       "id": "e5f8477d-09dc-4199-b8a6-7239a4dd47ee",
