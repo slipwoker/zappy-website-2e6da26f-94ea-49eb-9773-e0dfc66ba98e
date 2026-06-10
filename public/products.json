@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T17:02:33.981Z",
+  "generated_at": "2026-06-10T17:04:52.238Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -162,7 +162,7 @@
     },
     {
       "id": "e3bd609e-620b-457c-817d-bee1653eba48",
-      "slug": "ryhvt-rkb-mschry-mla-medium-r6sin2",
+      "slug": "ryhvt-rkb-mschry-mla-medium-pvr01w",
       "name": "ריהוט רכב מסחרי מלא – Medium",
       "name_translations": {
         "ar": "أثاث مركبة تجارية كامل – Medium",
@@ -170,22 +170,26 @@
         "he": "ריהוט רכב מסחרי מלא – Medium",
         "ru": "Полная мебель для коммерческого автомобиля – Medium"
       },
-      "description": "ריהוט רכב מסחרי מלא StoreVan – גרסת Medium. מתאים ל-Ford Transit Custom, Fiat Talento, Volkswagen Transporter וכד'. כולל מודולים מאלומיניום, מדפים ואביזרים. התקנה ללא קידוח. אחריות 8 שנים.",
+      "description": "<p>ריהוט רכב מסחרי מלא StoreVan – גרסת Medium. מתאים ל-Ford Transit Custom, Fiat Talento, Volkswagen Transporter וכד'. כולל מודולים מאלומיניום, מדפים ואביזרים. התקנה ללא קידוח. אחריות 8 שנים.</p>",
       "short_description": "ריהוט מלא StoreVan – Medium. מתאים ל-Ford Transit Custom, Fiat Talento, Volkswagen Transporter וכד'.",
       "sku": "INRICHTING-MEDIUM",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 15990.48,
       "base_price": 15990.48,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-r6sin2",
-      "categories": [
-        "ריהוט רכב מסחרי מלא"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781111020771-pp04it.webp",
+        "https://mutzagim.co.il/assets/product-1781111026291-r3dl3i.webp"
       ],
-      "updated_at": "2026-06-10T16:42:50.081Z"
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-pvr01w",
+      "categories": [
+        "ריהוט רכב מסחרי מלא",
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-10T17:04:21.009Z"
     },
     {
       "id": "f68fbfc6-c607-40cc-b7eb-f6e66b1729ce",

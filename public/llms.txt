@@ -177,12 +177,14 @@ https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-shmal-9xd3bk
 - Image: https://mutzagim.co.il/assets/product-1781110870476-saty4.webp
 
 ### ריהוט רכב מסחרי מלא – Medium
-https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-r6sin2
+https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-pvr01w
 - Price: 15990.48 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: ריהוט רכב מסחרי מלא
 - SKU: INRICHTING-MEDIUM
+- Brand: StoreVan 
 - Description: ריהוט מלא StoreVan – Medium. מתאים ל-Ford Transit Custom, Fiat Talento, Volkswagen Transporter וכד'.
+- Image: https://mutzagim.co.il/assets/product-1781111020771-pp04it.webp
 
 ### מסגרת מתרחבת בינונית 1,225×730 מ"מ
 https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225730-mm-08va28

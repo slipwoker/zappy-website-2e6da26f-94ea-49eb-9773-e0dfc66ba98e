@@ -8974,10 +8974,11 @@ Brand: StoreVan
 ---
 
 ### ריהוט רכב מסחרי מלא – Medium
-URL: https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-r6sin2
+URL: https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-pvr01w
 Price: 15990.48 USD
-Availability: In stock
+Availability: Out of stock
 SKU: INRICHTING-MEDIUM
+Brand: StoreVan 
 
 ריהוט רכב מסחרי מלא StoreVan – גרסת Medium. מתאים ל-Ford Transit Custom, Fiat Talento, Volkswagen Transporter וכד'. כולל מודולים מאלומיניום, מדפים ואביזרים. התקנה ללא קידוח. אחריות 8 שנים.
 
