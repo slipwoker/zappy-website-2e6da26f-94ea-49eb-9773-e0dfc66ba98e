@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T07:46:30.621Z",
+  "generated_at": "2026-06-10T07:47:20.508Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
   "products": [
     {
       "id": "88c6e9d8-9614-4dcd-9850-2b99d72bd296",
-      "slug": "mykl-zeus-sdrh-272-4-i5g957",
+      "slug": "mykl-zeus-sdrh-272-4-2anttx",
       "name": "מיכל ZEUS – סדרה 272-4",
       "name_translations": {
         "ar": "حاوية ZEUS – سلسلة 272-4",
@@ -15,22 +15,25 @@
         "he": "מיכל ZEUS – סדרה 272-4",
         "ru": "Контейнер ZEUS – серия 272-4"
       },
-      "description": "מיכל אחסון ZEUS של iMilani בגודל בינוני. פנים חלקים. ידיות נוחות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 465×315×200 מ\"מ. מידות פנימיות: 423×277×195 מ\"מ. נפח 27.0 ל. עומס ערימה עד 160 ק\"ג.",
+      "description": "<p>מיכל אחסון ZEUS של iMilani בגודל בינוני. פנים חלקים. ידיות נוחות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 465×315×200 מ\"מ. מידות פנימיות: 423×277×195 מ\"מ. נפח 27.0 ל. עומס ערימה עד 160 ק\"ג.</p>",
       "short_description": "מיכל ZEUS 465×315×200 מ\"מ. 5 צבעים. נפח 27 ל. ניתן לערימה.",
       "sku": "ZEZ0045101",
-      "brand": null,
+      "brand": "iMilani ",
       "price": 0,
       "base_price": 0,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781077581747-q7jqk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4-i5g957",
+      "url": "https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4-2anttx",
       "categories": [
-        "מגירות ויחידות קטנות"
+        "מגירות ויחידות קטנות",
+        "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T07:45:58.036Z"
+      "updated_at": "2026-06-10T07:46:49.532Z"
     },
     {
       "id": "73b6b441-9bcd-4809-b3b0-5ebaad54334d",
