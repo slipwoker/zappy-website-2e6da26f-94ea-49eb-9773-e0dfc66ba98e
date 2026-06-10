@@ -8919,10 +8919,11 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 ## Product Catalog
 
 ### ריהוט רכב מסחרי מלא – Large
-URL: https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-oq458b
+URL: https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-4ohgmo
 Price: 20943.04 USD
-Availability: In stock
+Availability: Out of stock
 SKU: INRICHTING-LARGE
+Brand: StoreVan 
 
 ריהוט רכב מסחרי מלא StoreVan – גרסת Large. מתאים ל-Mercedes-Benz Sprinter, Fiat Ducato, Ford Transit L וכד'. כולל מודולים מאלומיניום, מדפים ואביזרים. התקנה ללא קידוח. אחריות 8 שנים.
 

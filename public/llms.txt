@@ -127,12 +127,14 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 84**
 
 ### ריהוט רכב מסחרי מלא – Large
-https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-oq458b
+https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-4ohgmo
 - Price: 20943.04 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: ריהוט רכב מסחרי מלא
 - SKU: INRICHTING-LARGE
+- Brand: StoreVan 
 - Description: ריהוט מלא StoreVan – Large. מתאים ל-Mercedes-Benz Sprinter, Fiat Ducato, Ford Transit L וכד'.
+- Image: https://mutzagim.co.il/assets/product-1781110108008-xbnl9v.webp
 
 ### מחזיק פחיות ספריי StoreVan – 365 מ"מ
 https://mutzagim.co.il/product/mchzyk-pchyvt-spryy-storevan-365-mm-5l8zxe
