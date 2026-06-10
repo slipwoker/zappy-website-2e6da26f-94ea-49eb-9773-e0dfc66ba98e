@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T06:42:03.243Z",
+  "generated_at": "2026-06-10T06:43:43.203Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 27,
   "products": [
     {
       "id": "1cd051b4-aebb-4b15-a6cc-8fefc6a3708e",
-      "slug": "mkl-esd-mvlyk-sdrt-athena-600400-mm-h9qnk9",
+      "slug": "mkl-esd-mvlyk-sdrt-athena-600400-mm-0d000e",
       "name": "מכל ESD מוליך סדרת ATHENA – 600×400 מ\"מ",
       "name_translations": {
         "ar": "حاوية ESD موصلة سلسلة ATHENA – 600×400 مم",
@@ -15,10 +15,10 @@
         "he": "מכל ESD מוליך סדרת ATHENA – 600×400 מ\"מ",
         "ru": "Контейнер ESD проводящий серии ATHENA – 600×400 мм"
       },
-      "description": "מכל ESD גדול מסדרת ATHENA של iMilani. מידות 600×400 מ\"מ תואמות פאלט אירופאי. מתאים לאחסון לוחות PCB גדולים ומכלולים אלקטרוניים. קיים בשבעה גבהים (78 עד 430 מ\"מ). ניתן לצייד במערכות Megaprint/Miniprint לאחסון PCB, מחיצות ומכסים מוליכים. עמיד לטמפרטורות 20°C- עד +80°C. עומד בתקן EN 61340.",
+      "description": "<p>מכל ESD גדול מסדרת ATHENA של iMilani. מידות 600×400 מ\"מ תואמות פאלט אירופאי. מתאים לאחסון לוחות PCB גדולים ומכלולים אלקטרוניים. קיים בשבעה גבהים (78 עד 430 מ\"מ). ניתן לצייד במערכות Megaprint/Miniprint לאחסון PCB, מחיצות ומכסים מוליכים. עמיד לטמפרטורות 20°C- עד +80°C. עומד בתקן EN 61340.</p>",
       "short_description": "מכל ESD מוליך גדול 600×400 מ\"מ – 7 גבהים לבחירה. לאחסון PCB גדולים. עומד בתקן EN 61340.",
       "sku": "AT-6408",
-      "brand": null,
+      "brand": "iMilani",
       "price": 0,
       "base_price": 0,
       "sale_price": null,
@@ -28,15 +28,16 @@
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-h9qnk9",
+      "url": "https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-0d000e",
       "categories": [
-        "מכלי ESD"
+        "מכלי ESD",
+        "מיכלים וארגזים אנטי סטטיים (ESD)"
       ],
-      "updated_at": "2026-06-10T06:41:31.957Z"
+      "updated_at": "2026-06-10T06:43:12.072Z"
     },
     {
       "id": "989b5bc1-10a3-4362-8811-9761444f6ba3",
-      "slug": "mkl-esd-mvlyk-sdrt-athena-300200-mm-4j0n8c",
+      "slug": "mkl-esd-mvlyk-sdrt-athena-300200-mm-43chob",
       "name": "מכל ESD מוליך סדרת ATHENA – 300×200 מ\"מ",
       "name_translations": {
         "ar": "حاوية ESD موصلة سلسلة ATHENA – 300×200 مم",
@@ -44,10 +45,10 @@
         "he": "מכל ESD מוליך סדרת ATHENA – 300×200 מ\"מ",
         "ru": "Контейнер ESD проводящий серии ATHENA – 300×200 мм"
       },
-      "description": "מכל אחסון ESD מסדרת ATHENA של iMilani, עשוי פוליפרופילן מוליך המספק הגנה מלאה מפני פריקה אלקטרוסטטית (ESD). מתאים לאחסון ושינוע רכיבים אלקטרוניים רגישים, לוחות מעגלים ורכיבי SMD. עומד בתקן EN 61340, מאושר לאזורי EPA. קירות סגורים, תחתית מחוזקת, ניתן לערום תחת עומס מלא. תואם פאלט אירופאי.",
+      "description": "<p>מכל אחסון ESD מסדרת ATHENA של iMilani, עשוי פוליפרופילן מוליך המספק הגנה מלאה מפני פריקה אלקטרוסטטית (ESD). מתאים לאחסון ושינוע רכיבים אלקטרוניים רגישים, לוחות מעגלים ורכיבי SMD. עומד בתקן EN 61340, מאושר לאזורי EPA. קירות סגורים, תחתית מחוזקת, ניתן לערום תחת עומס מלא. תואם פאלט אירופאי.</p>",
       "short_description": "מכל ESD מוליך מפוליפרופילן שחור. מידות חיצוניות 300×200 מ\"מ. עומד בתקן EN 61340.",
       "sku": "AT-3012",
-      "brand": null,
+      "brand": "iMilani",
       "price": 0,
       "base_price": 0,
       "sale_price": null,
@@ -55,17 +56,18 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781073528998-b7v2b7.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-4j0n8c",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-43chob",
       "categories": [
-        "מכלי ESD"
+        "מכלי ESD",
+        "מיכלים וארגזים אנטי סטטיים (ESD)"
       ],
-      "updated_at": "2026-06-10T06:39:45.565Z"
+      "updated_at": "2026-06-10T06:42:47.465Z"
     },
     {
       "id": "a320b09a-7b29-492b-8a28-40504babae39",
-      "slug": "mkl-esd-mvlyk-sdrt-athena-400300-mm-zxkpkx",
+      "slug": "mkl-esd-mvlyk-sdrt-athena-400300-mm-eamb65",
       "name": "מכל ESD מוליך סדרת ATHENA – 400×300 מ\"מ",
       "name_translations": {
         "ar": "حاوية ESD موصلة سلسلة ATHENA – 400×300 مم",
@@ -73,10 +75,10 @@
         "he": "מכל ESD מוליך סדרת ATHENA – 400×300 מ\"מ",
         "ru": "Контейнер ESD проводящий серии ATHENA – 400×300 мм"
       },
-      "description": "מכל אחסון ESD מסדרת ATHENA של iMilani. מידות 400×300 מ\"מ (Euronorm) תואמות פאלט אירופאי. מתאים לאחסון לוחות PCB, רכיבים אלקטרוניים ומכלולים רגישים לסטטיקה. קיים בשישה גבהים שונים לגמישות מקסימלית. ניתן לצייד במחיצות ומכסים מוליכים. עומד בתקן EN 61340, מאושר לאזורי EPA. עמיד לטמפרטורות 20°C- עד +80°C.",
+      "description": "<p>מכל אחסון ESD מסדרת ATHENA של iMilani. מידות 400×300 מ\"מ (Euronorm) תואמות פאלט אירופאי. מתאים לאחסון לוחות PCB, רכיבים אלקטרוניים ומכלולים רגישים לסטטיקה. קיים בשישה גבהים שונים לגמישות מקסימלית. ניתן לצייד במחיצות ומכסים מוליכים. עומד בתקן EN 61340, מאושר לאזורי EPA. עמיד לטמפרטורות 20°C- עד +80°C.</p>",
       "short_description": "מכל ESD מוליך 400×300 מ\"מ – Euronorm. 6 גבהים לבחירה. מתאים ל-PCB. עומד בתקן EN 61340.",
       "sku": "AT-4305",
-      "brand": null,
+      "brand": "iMilani",
       "price": 0,
       "base_price": 0,
       "sale_price": null,
@@ -84,13 +86,14 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781073528964-tc7ock.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-zxkpkx",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-eamb65",
       "categories": [
-        "מכלי ESD"
+        "מכלי ESD",
+        "מיכלים וארגזים אנטי סטטיים (ESD)"
       ],
-      "updated_at": "2026-06-10T06:39:46.220Z"
+      "updated_at": "2026-06-10T06:43:22.366Z"
     },
     {
       "id": "6f4d0cbf-1c48-4888-a6cc-86594c076e4a",

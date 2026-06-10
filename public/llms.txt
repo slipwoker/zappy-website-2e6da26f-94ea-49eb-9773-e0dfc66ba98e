@@ -131,29 +131,32 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 27**
 
 ### מכל ESD מוליך סדרת ATHENA – 600×400 מ"מ
-https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-h9qnk9
+https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-0d000e
 - Price: 0.00 USD
 - Availability: Out of stock
 - Category: מכלי ESD
 - SKU: AT-6408
+- Brand: iMilani
 - Description: מכל ESD מוליך גדול 600×400 מ"מ – 7 גבהים לבחירה. לאחסון PCB גדולים. עומד בתקן EN 61340.
 - Image: https://mutzagim.co.il/assets/product-1781073529182-vvvcnc.webp
 
 ### מכל ESD מוליך סדרת ATHENA – 300×200 מ"מ
-https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-4j0n8c
+https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-43chob
 - Price: 0.00 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: מכלי ESD
 - SKU: AT-3012
+- Brand: iMilani
 - Description: מכל ESD מוליך מפוליפרופילן שחור. מידות חיצוניות 300×200 מ"מ. עומד בתקן EN 61340.
 - Image: https://mutzagim.co.il/assets/product-1781073528998-b7v2b7.webp
 
 ### מכל ESD מוליך סדרת ATHENA – 400×300 מ"מ
-https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-zxkpkx
+https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-eamb65
 - Price: 0.00 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: מכלי ESD
 - SKU: AT-4305
+- Brand: iMilani
 - Description: מכל ESD מוליך 400×300 מ"מ – Euronorm. 6 גבהים לבחירה. מתאים ל-PCB. עומד בתקן EN 61340.
 - Image: https://mutzagim.co.il/assets/product-1781073528964-tc7ock.webp
 
