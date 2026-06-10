@@ -120,7 +120,119 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 27**
+**Total active products: 41**
+
+### מיכל ZEUS – סדרה 272-4
+https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4-i5g957
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: ZEZ0045101
+- Description: מיכל ZEUS 465×315×200 מ"מ. 5 צבעים. נפח 27 ל. ניתן לערימה.
+
+### מיכל ZEUS – סדרה 272-4A5
+https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a5-8a70dx
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: ZEZ4A55101
+- Description: מיכל ZEUS 465×315×300 מ"מ. 5 צבעים. נפח 40.5 ל. ניתן לערימה.
+
+### מיכל ZEUS – סדרה 272-5
+https://mutzagim.co.il/product/mykl-zeus-sdrh-272-5-cpldnv
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: ZEZ0055101
+- Description: מיכל ZEUS 655×470×300 מ"מ. 5 צבעים. נפח 85 ל. ניתן לערימה.
+
+### מיכל ZEUS – סדרה 272-4A2
+https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a2-wrw8d1
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: ZEZ4A25101
+- Description: מיכל ZEUS 465×315×120 מ"מ. 5 צבעים. נפח 16.2 ל. ניתן לערימה.
+
+### יחידת מגירות PRACTIBOX – 5 מגירות שקופות
+https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-4ige00
+- Price: 142.40 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: PR51640001
+- Description: יחידת מגירות PRACTIBOX – 5 מגירות שקופות. מגירה: 113×100×150 מ"מ. מבנה ABS אפור.
+
+### יחידת מגירות PRACTIBOX – 2 מגירות שקופות
+https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-1928b7
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: PR23530001
+- Description: יחידת מגירות PRACTIBOX – 2 מגירות שקופות גדולות. מגירה: 285×219×337 מ"מ. מבנה ABS אפור.
+
+### מיכל ZEUS – סדרה 272-2
+https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-ilul6x
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: ZEZ0025101
+- Description: מיכל ZEUS 210×150×125 מ"מ. 5 צבעים. ניתן לערימה. מחזיק מדבקה.
+
+### יחידת מגירות PRACTIBOX – 6 מגירות שקופות
+https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-sdhxgv
+- Price: 89.60 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: PR61120001
+- Description: יחידת מגירות PRACTIBOX – 6 מגירות שקופות. מגירה: 87×66×100 מ"מ. מבנה ABS אפור.
+
+### מיכל קטן ZEUS – סדרה 701
+https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-701-ynsv2d
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: ZEZ7015101
+- Description: מיכל קטן ZEUS 145×90×70 מ"מ. 5 צבעים. ניתן לערימה. מחזיק מדבקה.
+
+### מיכל קטן ZEUS – סדרה 702
+https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-702-o52d8w
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: ZEZ7025101
+- Description: מיכל קטן ZEUS 145×140×70 מ"מ. 5 צבעים. ניתן לערימה. מחזיק מדבקה.
+
+### מיכל ZEUS – סדרה 272-3A2
+https://mutzagim.co.il/product/mykl-zeus-sdrh-272-3a2-rs9ej5
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: ZEZ3A25101
+- Description: מיכל ZEUS 310×210×145 מ"מ. 5 צבעים. ניתן לערימה. נפח 8.7 ל.
+
+### יחידת מגירות PRACTIBOX – 3 מגירות שקופות
+https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-3-mgyrvt-shkvpvt-w8rjoh
+- Price: 0.00 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: PR32400001
+- Description: יחידת מגירות PRACTIBOX – 3 מגירות שקופות גדולות. מגירה: 190×146×225 מ"מ. מבנה ABS אפור.
+
+### יחידת מגירות PRACTIBOX – 4 מגירות שקופות
+https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-4-mgyrvt-shkvpvt-8c0ft8
+- Price: 187.20 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: PR42060001
+- Description: יחידת מגירות PRACTIBOX – 4 מגירות שקופות. מידות: 600×174×206 מ"מ. מבנה ABS אפור.
+
+### יחידת מגירות PRACTIBOX – 9 מגירות שקופות
+https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-9-mgyrvt-shkvpvt-35tauh
+- Price: 73.20 USD
+- Availability: In stock
+- Category: מגירות ויחידות קטנות
+- SKU: PR90770001
+- Description: יחידת מגירות PRACTIBOX – 9 מגירות שקופות. מבנה ABS אפור. 600×69×77 מ"מ.
 
 ### מכל ESD מוליך סדרת ATHENA – 600×400 מ"מ
 https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-cwso1e
