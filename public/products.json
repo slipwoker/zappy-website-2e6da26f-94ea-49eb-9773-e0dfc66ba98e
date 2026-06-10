@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:01:33.843Z",
+  "generated_at": "2026-06-10T08:03:13.696Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
@@ -157,7 +157,7 @@
     },
     {
       "id": "34184bf7-69d4-494b-b47d-82fecb09cbed",
-      "slug": "ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-1928b7",
+      "slug": "ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-7891af",
       "name": "יחידת מגירות PRACTIBOX – 2 מגירות שקופות",
       "name_translations": {
         "ar": "وحدة أدراج PRACTIBOX - درجان شفافان",
@@ -165,22 +165,25 @@
         "he": "יחידת מגירות PRACTIBOX – 2 מגירות שקופות",
         "ru": "Блок ящиков PRACTIBOX – 2 прозрачных ящика"
       },
-      "description": "יחידת מגירות PRACTIBOX של iMilani עם 2 מגירות שקופות גדולות במיוחד. מבנה ABS אפור, מגירות פוליסטירן שקוף. מידות מגירה: 285×219×337 מ\"מ. מידות יחידה: 600×311×353 מ\"מ. כולל גיליון 2 מדבקות. מיועד לפריטים גדולים ובינוניים.",
+      "description": "<p>יחידת מגירות PRACTIBOX של iMilani עם 2 מגירות שקופות גדולות במיוחד. מבנה ABS אפור, מגירות פוליסטירן שקוף. מידות מגירה: 285×219×337 מ\"מ. מידות יחידה: 600×311×353 מ\"מ. כולל גיליון 2 מדבקות. מיועד לפריטים גדולים ובינוניים.</p>",
       "short_description": "יחידת מגירות PRACTIBOX – 2 מגירות שקופות גדולות. מגירה: 285×219×337 מ\"מ. מבנה ABS אפור.",
       "sku": "PR23530001",
-      "brand": null,
-      "price": 0,
-      "base_price": 0,
+      "brand": "iMilani ",
+      "price": 340,
+      "base_price": 340,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781078512193-lv9r8t.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-1928b7",
+      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-7891af",
       "categories": [
-        "מגירות ויחידות קטנות"
+        "מגירות ויחידות קטנות",
+        "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T07:45:59.594Z"
+      "updated_at": "2026-06-10T08:02:42.654Z"
     },
     {
       "id": "49999691-74b5-410a-b1b6-e0055ae796bd",
