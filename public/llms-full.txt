@@ -8941,10 +8941,11 @@ Brand: StoreVan
 ---
 
 ### ריהוט רכב מסחרי מלא – Small
-URL: https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-39s3rx
+URL: https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-5tslet
 Price: 9238.80 USD
-Availability: In stock
+Availability: Out of stock
 SKU: INRICHTING-SMALL
+Brand: StoreVan 
 
 ריהוט רכב מסחרי מלא StoreVan – גרסת Small. מתאים ל-Ford Transit Connect, Mercedes-Benz Citan, Renault Express וכד'. כולל מודולים מאלומיניום, מדפים ואביזרים. התקנה ללא קידוח. אחריות 8 שנים.
 

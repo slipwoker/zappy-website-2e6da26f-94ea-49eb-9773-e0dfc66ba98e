@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T16:51:42.923Z",
+  "generated_at": "2026-06-10T16:54:14.832Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -67,7 +67,7 @@
     },
     {
       "id": "ad78c466-c14e-4933-97bb-e0b76b15623b",
-      "slug": "ryhvt-rkb-mschry-mla-small-39s3rx",
+      "slug": "ryhvt-rkb-mschry-mla-small-5tslet",
       "name": "ריהוט רכב מסחרי מלא – Small",
       "name_translations": {
         "ar": "أثاث مركبة تجارية كامل – Small",
@@ -75,22 +75,26 @@
         "he": "ריהוט רכב מסחרי מלא – Small",
         "ru": "Полная мебель для коммерческого автомобиля – Small"
       },
-      "description": "ריהוט רכב מסחרי מלא StoreVan – גרסת Small. מתאים ל-Ford Transit Connect, Mercedes-Benz Citan, Renault Express וכד'. כולל מודולים מאלומיניום, מדפים ואביזרים. התקנה ללא קידוח. אחריות 8 שנים.",
+      "description": "<p>ריהוט רכב מסחרי מלא StoreVan – גרסת Small. מתאים ל-Ford Transit Connect, Mercedes-Benz Citan, Renault Express וכד'. כולל מודולים מאלומיניום, מדפים ואביזרים. התקנה ללא קידוח. אחריות 8 שנים.</p>",
       "short_description": "ריהוט מלא StoreVan – Small. מתאים ל-Ford Transit Connect, Mercedes-Benz Citan, Renault Express וכד'.",
       "sku": "INRICHTING-SMALL",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 9238.8,
       "base_price": 9238.8,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-39s3rx",
-      "categories": [
-        "ריהוט רכב מסחרי מלא"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781110379223-mavfvj.webp",
+        "https://mutzagim.co.il/assets/product-1781110373486-0sdzk.webp"
       ],
-      "updated_at": "2026-06-10T16:42:51.110Z"
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-5tslet",
+      "categories": [
+        "ריהוט רכב מסחרי מלא",
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-10T16:53:43.844Z"
     },
     {
       "id": "f4fdddec-a34a-4ff5-b7f6-8a25fddb0513",

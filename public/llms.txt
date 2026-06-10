@@ -147,12 +147,14 @@ https://mutzagim.co.il/product/mchzyk-pchyvt-spryy-storevan-365-mm-byh3u2
 - Image: https://mutzagim.co.il/assets/product-1781110234234-k4c9h.webp
 
 ### ריהוט רכב מסחרי מלא – Small
-https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-39s3rx
+https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-5tslet
 - Price: 9238.80 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: ריהוט רכב מסחרי מלא
 - SKU: INRICHTING-SMALL
+- Brand: StoreVan 
 - Description: ריהוט מלא StoreVan – Small. מתאים ל-Ford Transit Connect, Mercedes-Benz Citan, Renault Express וכד'.
+- Image: https://mutzagim.co.il/assets/product-1781110379223-mavfvj.webp
 
 ### מדף חבילות Mercedes-Benz Sprinter – ימין
 https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-ymyn-yosu5u
