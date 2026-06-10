@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T17:09:33.029Z",
+  "generated_at": "2026-06-10T17:10:05.554Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -197,7 +197,7 @@
       "name": "מסגרת מתרחבת בינונית 1,225×730 מ\"מ",
       "name_translations": {
         "ar": "إطار قابل للتمدد متوسط 1,225×730 مم",
-        "en": "Medium Expanding Frame 1,225×730 mm",
+        "en": "Medium Expandable Frame 1,225×730 mm",
         "he": "מסגרת מתרחבת בינונית 1,225×730 מ\"מ",
         "ru": "Раздвижная рама средняя 1,225×730 мм"
       },
@@ -222,7 +222,7 @@
         "מסגרות מתרחבות",
         "זיווד רכבים "
       ],
-      "updated_at": "2026-06-10T17:09:01.537Z"
+      "updated_at": "2026-06-10T17:09:34.271Z"
     },
     {
       "id": "16f3bb95-3c3a-423c-b280-41de181e959a",
