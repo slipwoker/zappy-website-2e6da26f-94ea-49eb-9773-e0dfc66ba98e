@@ -1,10 +1,389 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T09:37:16.061Z",
+  "generated_at": "2026-06-10T09:47:54.270Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
-  "count": 44,
+  "count": 57,
   "products": [
+    {
+      "id": "0237d5b2-eebf-4eeb-96f5-5ba627260e70",
+      "slug": "aglt-kly-abvdh-5-mgyrvt-linea-391-391c07-m7g4s0",
+      "name": "עגלת כלי עבודה 5 מגירות Linea 391 – 391C07",
+      "name_translations": {
+        "ar": "عربة أدوات 5 أدراج Linea 391 – 391C07",
+        "en": "Linea 391 5-Drawer Tool Cart – 391C07",
+        "he": "עגלת כלי עבודה 5 מגירות Linea 391 – 391C07",
+        "ru": "Тележка для инструментов 5 ящиков Linea 391 – 391C07"
+      },
+      "description": "<p>עגלת כלי עבודה מסדרת Linea 391 של Fami עם 5 מגירות שחרור מלא. פלדה אנתרציט RAL7016. גלגלים עם בלמים, מנעול מרכזי. מידות: 790×455×876 מ\"מ. אחריות 5 שנים.</p>",
+      "short_description": "עגלת כלים Linea 391 – 5 מגירות, 790×455×876 מ\"מ. אנתרציט. אחריות 5 שנים.",
+      "sku": "391C07",
+      "brand": "Fami ",
+      "price": 2604,
+      "base_price": 2604,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084791343-l16wh8.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/aglt-kly-abvdh-5-mgyrvt-linea-391-391c07-m7g4s0",
+      "categories": [
+        "עגלות Fami Linea 391",
+        "ריהוט תעשייתי מתקדם "
+      ],
+      "updated_at": "2026-06-10T09:47:42.996Z"
+    },
+    {
+      "id": "19b58e08-bb59-46bd-8bd7-91ef8ff79f35",
+      "slug": "aglt-kly-abvdh-6-mgyrvt-linea-391-391c08-jpzsfy",
+      "name": "עגלת כלי עבודה 6 מגירות Linea 391 – 391C08",
+      "name_translations": {
+        "ar": "عربة أدوات 6 أدراج Linea 391 – 391C08",
+        "en": "Linea 391 Tool Cart 6 Drawers – 391C08",
+        "he": "עגלת כלי עבודה 6 מגירות Linea 391 – 391C08",
+        "ru": "Тележка для инструментов 6 ящиков Linea 391 – 391C08"
+      },
+      "description": "<p>עגלת כלי עבודה מסדרת Linea 391 של Fami עם 6 מגירות שחרור מלא. פלדה אנתרציט RAL7016. גלגלים עם בלמים, מנעול מרכזי. מידות: 790×455×876 מ\"מ. אחריות 5 שנים.</p>",
+      "short_description": "עגלת כלים Linea 391 – 6 מגירות, 790×455×876 מ\"מ. אנתרציט. אחריות 5 שנים.",
+      "sku": "391C08",
+      "brand": "Fami ",
+      "price": 2899,
+      "base_price": 2899,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084791343-pm5ph.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/aglt-kly-abvdh-6-mgyrvt-linea-391-391c08-jpzsfy",
+      "categories": [
+        "עגלות Fami Linea 391",
+        "ריהוט תעשייתי מתקדם "
+      ],
+      "updated_at": "2026-06-10T09:47:46.995Z"
+    },
+    {
+      "id": "db87eee9-a58e-4f2f-9256-9e6838283a10",
+      "slug": "aglt-kly-abvdh-4-mgyrvt-linea-391-391c06-vz27fd",
+      "name": "עגלת כלי עבודה 4 מגירות Linea 391 – 391C06",
+      "name_translations": {
+        "ar": "عربة أدوات 4 أدراج Linea 391 – 391C06",
+        "en": "Linea 391 4-Drawer Tool Cart – 391C06",
+        "he": "עגלת כלי עבודה 4 מגירות Linea 391 – 391C06",
+        "ru": "Тележка для инструментов 4 ящика Linea 391 – 391C06"
+      },
+      "description": "עגלת כלי עבודה מסדרת Linea 391 של Fami עם 4 מגירות שחרור מלא. פלדה אנתרציט RAL7016. גלגלים עם בלמים, מנעול מרכזי. מידות: 790×455×876 מ\"מ. אחריות 5 שנים.",
+      "short_description": "עגלת כלים Linea 391 – 4 מגירות, 790×455×876 מ\"מ. אנתרציט. אחריות 5 שנים.",
+      "sku": "391C06",
+      "brand": null,
+      "price": 2409,
+      "base_price": 2409,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084791342-s0krpe.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/aglt-kly-abvdh-4-mgyrvt-linea-391-391c06-vz27fd",
+      "categories": [
+        "עגלות Fami Linea 391"
+      ],
+      "updated_at": "2026-06-10T09:47:23.068Z"
+    },
+    {
+      "id": "01034bac-7379-4650-86ca-15231bc1dc93",
+      "slug": "arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-ayu9j8",
+      "name": "ארון בטיחות לחומרים דליקים Linea 391 – 391A01",
+      "name_translations": {
+        "ar": "خزانة أمان للمواد القابلة للاشتعال Linea 391 – 391A01",
+        "en": "Flammable Materials Safety Cabinet Linea 391 – 391A01",
+        "he": "ארון בטיחות לחומרים דליקים Linea 391 – 391A01",
+        "ru": "Шкаф безопасности для горючих материалов Linea 391 – 391A01"
+      },
+      "description": "ארון בטיחות לחומרים דליקים מסדרת Linea 391 של Fami. עשוי פלדה RAL7016+RAL1004. 2 תאים, 4 דלתות בטרנט, מנעול צילינדר, 2 מדפים מתכווננים, ספל אטום חיצוני 62 ל' לאיסוף נוזלים. חורים 10×10 מ\"מ פסיעה 38. מידות: 944×540×1900 מ\"מ. אחריות 5 שנים.",
+      "short_description": "ארון בטיחות לחומרים דליקים Linea 391, 944×540×1900 מ\"מ. ספל 62 ל'. אנתרציט+צהוב.",
+      "sku": "391A01",
+      "brand": null,
+      "price": 2499,
+      "base_price": 2499,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084788636-7idrv.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-ayu9j8",
+      "categories": [
+        "ארונות Fami Linea 391"
+      ],
+      "updated_at": "2026-06-10T09:47:23.120Z"
+    },
+    {
+      "id": "60ec41f5-e3b2-4a21-a978-67e64ed34a6e",
+      "slug": "arvn-btychvt-lpytvsnytrym-linea-391-391a02-161bqe",
+      "name": "ארון בטיחות לפיטוסניטרים Linea 391 – 391A02",
+      "name_translations": {
+        "ar": "خزانة أمان للمبيدات النباتية Linea 391 – 391A02",
+        "en": "Safety Cabinet for Phytosanitary Products Linea 391 – 391A02",
+        "he": "ארון בטיחות לפיטוסניטרים Linea 391 – 391A02",
+        "ru": "Шкаф безопасности для фитосанитарных средств Linea 391 – 391A02"
+      },
+      "description": "ארון בטיחות לפיטוסניטרים, חומרי הדברה ומוצרים כימיים מסדרת Linea 391 של Fami. פלדה RAL7016+RAL6011. 4 דלתות בטרנט, מנעול צילינדר, 2 מדפים, ספל אטום חיצוני. מידות: 944×540×1900 מ\"מ. אחריות 5 שנים.",
+      "short_description": "ארון בטיחות לפיטוסניטרים Linea 391, 944×540×1900 מ\"מ. אנתרציט+ירוק. אחריות 5 שנים.",
+      "sku": "391A02",
+      "brand": null,
+      "price": 2499,
+      "base_price": 2499,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084788327-8iq7mh.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/arvn-btychvt-lpytvsnytrym-linea-391-391a02-161bqe",
+      "categories": [
+        "ארונות Fami Linea 391"
+      ],
+      "updated_at": "2026-06-10T09:47:19.657Z"
+    },
+    {
+      "id": "8a363950-a62e-4d5c-807e-c2829f5bcc51",
+      "slug": "ksttyyrh-7-mgyrvt-3627-linea-391-391a04-my4swo",
+      "name": "קסטטיירה 7 מגירות 36×27 Linea 391 – 391A04",
+      "name_translations": {
+        "ar": "خزانة أدراج 7 أدراج 36×27 Linea 391 – 391A04",
+        "en": "Drawer Cabinet 7 Drawers 36×27 Linea 391 – 391A04",
+        "he": "קסטטיירה 7 מגירות 36×27 Linea 391 – 391A04",
+        "ru": "Кассетница 7 ящиков 36×27 Linea 391 – 391A04"
+      },
+      "description": "קסטטיירה לסדנה מסדרת Linea 391 של Fami עם 7 מגירות EH 36×27. פלדה אנתרציט RAL7016. שחרור מלא. עומס 900 ק\"ג. אנטי-הפיכה. מנעול מרכזי. מידות: 717×600×1002 מ\"מ. אחריות 5 שנים.",
+      "short_description": "קסטטיירה Linea 391 – 7 מגירות EH36×27, 717×600×1002 מ\"מ. עומס 900 ק\"ג. אחריות 5 שנים.",
+      "sku": "391A04",
+      "brand": null,
+      "price": 3305,
+      "base_price": 3305,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084788288-iuenn8.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/ksttyyrh-7-mgyrvt-3627-linea-391-391a04-my4swo",
+      "categories": [
+        "ארונות Fami Linea 391"
+      ],
+      "updated_at": "2026-06-10T09:47:18.033Z"
+    },
+    {
+      "id": "a4bdee05-93e0-48b5-83a8-9230568bb24c",
+      "slug": "arvn-tashyyty-linea-391-391a03-rs2w9h",
+      "name": "ארון תעשייתי Linea 391 – 391A03",
+      "name_translations": {
+        "ar": "خزانة صناعية Linea 391 – 391A03",
+        "en": "Industrial Cabinet Linea 391 – 391A03",
+        "he": "ארון תעשייתי Linea 391 – 391A03",
+        "ru": "Промышленный шкаф Linea 391 – 391A03"
+      },
+      "description": "ארון תעשייתי רב-שימושי מסדרת Linea 391 של Fami לסדנה, מחסן ומעבדה. פלדה אנתרציט RAL7016. דלתות בטרנט, מנעול צילינדר, מדפים מתכווננים. חורים 10×10 מ\"מ פסיעה 38 לאחיזת אביזרי Iron Team. מידות: 912×496×1900 מ\"מ. אחריות 5 שנים.",
+      "short_description": "ארון תעשייתי Linea 391, 912×496×1900 מ\"מ. אנתרציט. מדפים מתכווננים. אחריות 5 שנים.",
+      "sku": "391A03",
+      "brand": null,
+      "price": 2084,
+      "base_price": 2084,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084788326-m5hmtm.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-rs2w9h",
+      "categories": [
+        "ארונות Fami Linea 391"
+      ],
+      "updated_at": "2026-06-10T09:47:18.337Z"
+    },
+    {
+      "id": "2873afb7-8303-4058-b80c-6beb68d964cd",
+      "slug": "aglt-pykyng-linea-391-391c02-30e4bc",
+      "name": "עגלת פיקינג Linea 391 – 391C02",
+      "name_translations": {
+        "ar": "عربة انتقاء Linea 391 – 391C02",
+        "en": "Picking Cart Linea 391 – 391C02",
+        "he": "עגלת פיקינג Linea 391 – 391C02",
+        "ru": "Тележка для комплектации Linea 391 – 391C02"
+      },
+      "description": "עגלת פיקינג מסדרת Linea 391 של Fami לפעולות לוגיסטיקה ואיסוף. פלדה אנתרציט RAL7016. לוחות פרפורטים. גלגלים עם בלמים. מידות: 1099×578×1481 מ\"מ. אחריות 5 שנים.",
+      "short_description": "עגלת פיקינג Linea 391, 1099×578×1481 מ\"מ. אנתרציט. אחריות 5 שנים.",
+      "sku": "391C02",
+      "brand": null,
+      "price": 1809,
+      "base_price": 1809,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084788327-u6l2zm.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/aglt-pykyng-linea-391-391c02-30e4bc",
+      "categories": [
+        "עגלות Fami Linea 391"
+      ],
+      "updated_at": "2026-06-10T09:47:16.695Z"
+    },
+    {
+      "id": "e286afd4-891d-4c58-9f7a-93ddf9c5093f",
+      "slug": "ksttyyrh-7-mgyrvt-5427-linea-391-391a05-rvmtvn",
+      "name": "קסטטיירה 7 מגירות 54×27 Linea 391 – 391A05",
+      "name_translations": {
+        "ar": "خزانة أدراج 7 أدراج 54×27 Linea 391 – 391A05",
+        "en": "Tool Cabinet 7 Drawers 54×27 Linea 391 – 391A05",
+        "he": "קסטטיירה 7 מגירות 54×27 Linea 391 – 391A05",
+        "ru": "Кассетница 7 ящиков 54×27 Linea 391 – 391A05"
+      },
+      "description": "קסטטיירה לסדנה מסדרת Linea 391 של Fami עם 7 מגירות EH 54×27. פלדה אנתרציט RAL7016. שחרור מלא. עומס 900 ק\"ג. אנטי-הפיכה. מנעול מרכזי. מידות: 1023×600×1002 מ\"מ. אחריות 5 שנים.",
+      "short_description": "קסטטיירה Linea 391 – 7 מגירות EH54×27, 1023×600×1002 מ\"מ. עומס 900 ק\"ג. אחריות 5 שנים.",
+      "sku": "391A05",
+      "brand": null,
+      "price": 4124,
+      "base_price": 4124,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084788327-4sg56g.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/ksttyyrh-7-mgyrvt-5427-linea-391-391a05-rvmtvn",
+      "categories": [
+        "ארונות Fami Linea 391"
+      ],
+      "updated_at": "2026-06-10T09:47:16.125Z"
+    },
+    {
+      "id": "08a2fe67-b0ff-4746-b297-f92673f0a0c4",
+      "slug": "aglt-sdnh-xl-linea-391-391c05-g9hjd7",
+      "name": "עגלת סדנה XL Linea 391 – 391C05",
+      "name_translations": {
+        "ar": "عربة ورشة XL Linea 391 – 391C05",
+        "en": "XL Workshop Cart Linea 391 – 391C05",
+        "he": "עגלת סדנה XL Linea 391 – 391C05",
+        "ru": "Тележка мастерская XL Linea 391 – 391C05"
+      },
+      "description": "עגלת סדנה גדולה XL מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. קיבולת גדולה. גלגלים עם בלמים. מידות: 1028×615×846 מ\"מ. אחריות 5 שנים.",
+      "short_description": "עגלת סדנה XL Linea 391, 1028×615×846 מ\"מ. קיבולת גדולה. אחריות 5 שנים.",
+      "sku": "391C05",
+      "brand": null,
+      "price": 895,
+      "base_price": 895,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084788327-gub5go.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/aglt-sdnh-xl-linea-391-391c05-g9hjd7",
+      "categories": [
+        "עגלות Fami Linea 391"
+      ],
+      "updated_at": "2026-06-10T09:47:14.082Z"
+    },
+    {
+      "id": "edefd003-7ec9-48c1-b0f5-ce886ead01e7",
+      "slug": "aglt-sdnh-xs-linea-391-391c04-nyzdyw",
+      "name": "עגלת סדנה XS Linea 391 – 391C04",
+      "name_translations": {
+        "ar": "عربة ورشة XS Linea 391 – 391C04",
+        "en": "XS Workshop Cart Linea 391 – 391C04",
+        "he": "עגלת סדנה XS Linea 391 – 391C04",
+        "ru": "Мастерская тележка XS Linea 391 – 391C04"
+      },
+      "description": "עגלת סדנה קומפקטית XS מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. קומפקטית לסביבות מצומצמות. גלגלים עם בלמים. מידות: 888×455×846 מ\"מ. אחריות 5 שנים.",
+      "short_description": "עגלת סדנה XS Linea 391, 888×455×846 מ\"מ. קומפקטית. אחריות 5 שנים.",
+      "sku": "391C04",
+      "brand": null,
+      "price": 744,
+      "base_price": 744,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084788296-g26m8f.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/aglt-sdnh-xs-linea-391-391c04-nyzdyw",
+      "categories": [
+        "עגלות Fami Linea 391"
+      ],
+      "updated_at": "2026-06-10T09:47:15.311Z"
+    },
+    {
+      "id": "4f6c4e91-1e84-402e-a916-5658774d6d4d",
+      "slug": "aglt-chlkym-ktnym-linea-391-391c01-ch27w3",
+      "name": "עגלת חלקים קטנים Linea 391 – 391C01",
+      "name_translations": {
+        "ar": "عربة قطع صغيرة Linea 391 – 391C01",
+        "en": "Small Parts Cart Linea 391 – 391C01",
+        "he": "עגלת חלקים קטנים Linea 391 – 391C01",
+        "ru": "Тележка для мелких деталей Linea 391 – 391C01"
+      },
+      "description": "עגלת סדנה לחלקים קטנים מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. מגירות ומדפים. גלגלים עם בלמים. מידות: 1099×577×1355 מ\"מ. אחריות 5 שנים.",
+      "short_description": "עגלת חלקים קטנים Linea 391, 1099×577×1355 מ\"מ. אנתרציט. אחריות 5 שנים.",
+      "sku": "391C01",
+      "brand": null,
+      "price": 2482,
+      "base_price": 2482,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084788291-tbaw8a.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c01-ch27w3",
+      "categories": [
+        "עגלות Fami Linea 391"
+      ],
+      "updated_at": "2026-06-10T09:47:17.050Z"
+    },
+    {
+      "id": "41266fd1-24a1-4097-a76a-2ba97eb90e16",
+      "slug": "aglt-chlkym-ktnym-linea-391-391c03-1qtvf0",
+      "name": "עגלת חלקים קטנים Linea 391 – 391C03",
+      "name_translations": {
+        "ar": "عربة قطع صغيرة Linea 391 – 391C03",
+        "en": "Small Parts Cart Linea 391 – 391C03",
+        "he": "עגלת חלקים קטנים Linea 391 – 391C03",
+        "ru": "Тележка для мелких деталей Linea 391 – 391C03"
+      },
+      "description": "עגלת סדנה לחלקים קטנים מסדרת Linea 391 של Fami. פלדה אנתרציט RAL7016. מגירות ומדפים. גלגלים עם בלמים. מידות: 1099×580×1473 מ\"מ. אחריות 5 שנים.",
+      "short_description": "עגלת חלקים קטנים Linea 391, 1099×580×1473 מ\"מ. אנתרציט. אחריות 5 שנים.",
+      "sku": "391C03",
+      "brand": null,
+      "price": 1935,
+      "base_price": 1935,
+      "sale_price": null,
+      "currency": "USD",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781084788288-nknyf8.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c03-1qtvf0",
+      "categories": [
+        "עגלות Fami Linea 391"
+      ],
+      "updated_at": "2026-06-10T09:47:15.235Z"
+    },
     {
       "id": "e5f8477d-09dc-4199-b8a6-7239a4dd47ee",
       "slug": "ryhvt-sdnh-mla-linea-391-l1824-mm-klw8al",
