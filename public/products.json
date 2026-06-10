@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T06:53:54.207Z",
+  "generated_at": "2026-06-10T06:54:17.755Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 27,
@@ -187,7 +187,7 @@
     },
     {
       "id": "3043cd14-9bb0-4f87-a13e-12e9f9a2050c",
-      "slug": "mksh-esd-mvlyk-lmkl-400300-mm-llw5do",
+      "slug": "mksh-esd-mvlyk-lmkl-400300-mm-35w08n",
       "name": "מכסה ESD מוליך – למכל 400×300 מ\"מ",
       "name_translations": {
         "ar": "غطاء ESD موصل – للحاوية 400×300 مم",
@@ -195,22 +195,25 @@
         "he": "מכסה ESD מוליך – למכל 400×300 מ\"מ",
         "ru": "Крышка ESD проводящая – для контейнера 400×300 мм"
       },
-      "description": "מכסה מוליך ESD מפוליפרופילן שחור למכלי ATHENA 400×300 מ\"מ. זמין גם עם ציר (Hinged Lid). הגנה מפני אבק ופריקה אלקטרוסטטית. עומד בתקן EN 61340.",
+      "description": "<p>מכסה מוליך ESD מפוליפרופילן שחור למכלי ATHENA 400×300 מ\"מ. זמין גם עם ציר (Hinged Lid). הגנה מפני אבק ופריקה אלקטרוסטטית. עומד בתקן EN 61340.</p>",
       "short_description": "מכסה ESD שחור למכלי ATHENA 400×300 מ\"מ. זמין עם ציר. עומד בתקן EN 61340.",
       "sku": "AT-LID-400",
-      "brand": null,
+      "brand": "iMilani",
       "price": 28.8,
       "base_price": 28.8,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-llw5do",
-      "categories": [
-        "מכלי ESD"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781074417555-tswwjl.webp"
       ],
-      "updated_at": "2026-06-10T06:39:40.828Z"
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-35w08n",
+      "categories": [
+        "מכלי ESD",
+        "מיכלים וארגזים אנטי סטטיים (ESD)"
+      ],
+      "updated_at": "2026-06-10T06:54:13.950Z"
     },
     {
       "id": "781e91fe-8967-44c7-98f4-f394a18f64bf",

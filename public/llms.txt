@@ -191,12 +191,14 @@ https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-whpukf
 - Image: https://mutzagim.co.il/assets/product-1781074366696-5xstvj.webp
 
 ### מכסה ESD מוליך – למכל 400×300 מ"מ
-https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-llw5do
+https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-35w08n
 - Price: 28.80 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: מכלי ESD
 - SKU: AT-LID-400
+- Brand: iMilani
 - Description: מכסה ESD שחור למכלי ATHENA 400×300 מ"מ. זמין עם ציר. עומד בתקן EN 61340.
+- Image: https://mutzagim.co.il/assets/product-1781074417555-tswwjl.webp
 
 ### סט קיט מדפים ERREX תוצרת איטליה
 https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp
