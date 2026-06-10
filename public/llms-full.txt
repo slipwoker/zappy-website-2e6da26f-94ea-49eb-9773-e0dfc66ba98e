@@ -9016,10 +9016,11 @@ SKU: 1201AH
 ---
 
 ### מודול מגירות רצפה שלם – רכב קטן
-URL: https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-4ti4xo
+URL: https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy
 Price: 15294.08 USD
-Availability: In stock
+Availability: Out of stock
 SKU: VL-MODULE-SMALL
+Brand: StoreVan 
 
 מודול מגירות רצפה שלם של StoreVan לרכבים מסחריים קטנים: Caddy, Connect, Doblo, Partner, Kangoo, Combo, Berlingo וכד'. רצפה מורמת עם 2 מגירות אלומיניום. התקנה ללא קידוח – מסגרת אלומיניום מגולוון. אחריות 8 שנים.
 

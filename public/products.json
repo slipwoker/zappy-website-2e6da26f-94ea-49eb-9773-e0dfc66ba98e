@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T17:10:05.554Z",
+  "generated_at": "2026-06-10T17:11:30.372Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -280,7 +280,7 @@
     },
     {
       "id": "35aac623-98cb-423c-85b1-446419707dc2",
-      "slug": "mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-4ti4xo",
+      "slug": "mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy",
       "name": "מודול מגירות רצפה שלם – רכב קטן",
       "name_translations": {
         "ar": "وحدة أدراج أرضية كاملة - مركبة صغيرة",
@@ -288,22 +288,23 @@
         "he": "מודול מגירות רצפה שלם – רכב קטן",
         "ru": "Полный модуль напольных ящиков – малый автомобиль"
       },
-      "description": "מודול מגירות רצפה שלם של StoreVan לרכבים מסחריים קטנים: Caddy, Connect, Doblo, Partner, Kangoo, Combo, Berlingo וכד'. רצפה מורמת עם 2 מגירות אלומיניום. התקנה ללא קידוח – מסגרת אלומיניום מגולוון. אחריות 8 שנים.",
+      "description": "<p>מודול מגירות רצפה שלם של StoreVan לרכבים מסחריים קטנים: Caddy, Connect, Doblo, Partner, Kangoo, Combo, Berlingo וכד'. רצפה מורמת עם 2 מגירות אלומיניום. התקנה ללא קידוח – מסגרת אלומיניום מגולוון. אחריות 8 שנים.</p>",
       "short_description": "מודול מגירות רצפה שלם StoreVan לרכב קטן. 2 מגירות. רצפה מורמת. ללא קידוח.",
       "sku": "VL-MODULE-SMALL",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 15294.08,
       "base_price": 15294.08,
       "sale_price": null,
       "currency": "USD",
       "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-4ti4xo",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy",
       "categories": [
-        "ריצוף ומגירות רצפה"
+        "ריצוף ומגירות רצפה",
+        "זיווד רכבים "
       ],
-      "updated_at": "2026-06-10T16:43:05.758Z"
+      "updated_at": "2026-06-10T17:10:59.098Z"
     },
     {
       "id": "4d6c9793-fa2e-4181-9fe1-b4626c5c9735",

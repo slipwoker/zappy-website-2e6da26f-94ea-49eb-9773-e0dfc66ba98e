@@ -213,11 +213,12 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-i4qg43
 - Description: מסגרת מתרחבת אלומיניום 1,524×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
 
 ### מודול מגירות רצפה שלם – רכב קטן
-https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-4ti4xo
+https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy
 - Price: 15294.08 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: ריצוף ומגירות רצפה
 - SKU: VL-MODULE-SMALL
+- Brand: StoreVan 
 - Description: מודול מגירות רצפה שלם StoreVan לרכב קטן. 2 מגירות. רצפה מורמת. ללא קידוח.
 
 ### מגירת רצפה אלומיניום 580×1,242×250 מ"מ
