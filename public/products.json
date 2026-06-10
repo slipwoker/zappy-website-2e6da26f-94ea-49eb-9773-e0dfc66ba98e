@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T07:45:25.288Z",
+  "generated_at": "2026-06-10T07:46:30.621Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
@@ -9,7 +9,12 @@
       "id": "88c6e9d8-9614-4dcd-9850-2b99d72bd296",
       "slug": "mykl-zeus-sdrh-272-4-i5g957",
       "name": "מיכל ZEUS – סדרה 272-4",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "حاوية ZEUS – سلسلة 272-4",
+        "en": "ZEUS Container – Series 272-4",
+        "he": "מיכל ZEUS – סדרה 272-4",
+        "ru": "Контейнер ZEUS – серия 272-4"
+      },
       "description": "מיכל אחסון ZEUS של iMilani בגודל בינוני. פנים חלקים. ידיות נוחות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 465×315×200 מ\"מ. מידות פנימיות: 423×277×195 מ\"מ. נפח 27.0 ל. עומס ערימה עד 160 ק\"ג.",
       "short_description": "מיכל ZEUS 465×315×200 מ\"מ. 5 צבעים. נפח 27 ל. ניתן לערימה.",
       "sku": "ZEZ0045101",
@@ -25,13 +30,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:23.208Z"
+      "updated_at": "2026-06-10T07:45:58.036Z"
     },
     {
       "id": "73b6b441-9bcd-4809-b3b0-5ebaad54334d",
       "slug": "mykl-zeus-sdrh-272-4a5-8a70dx",
       "name": "מיכל ZEUS – סדרה 272-4A5",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "حاوية ZEUS – سلسلة 272-4A5",
+        "en": "ZEUS Container – Series 272-4A5",
+        "he": "מיכל ZEUS – סדרה 272-4A5",
+        "ru": "Контейнер ZEUS – серия 272-4A5"
+      },
       "description": "מיכל אחסון ZEUS של iMilani גדול. פנים חלקים. ידיות נוחות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 465×315×300 מ\"מ. מידות פנימיות: 426×276×297 מ\"מ. נפח 40.5 ל. עומס ערימה עד 200 ק\"ג.",
       "short_description": "מיכל ZEUS 465×315×300 מ\"מ. 5 צבעים. נפח 40.5 ל. ניתן לערימה.",
       "sku": "ZEZ4A55101",
@@ -47,13 +57,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:23.206Z"
+      "updated_at": "2026-06-10T07:45:56.665Z"
     },
     {
       "id": "02047d9e-4b98-4000-93ef-97effddba4e8",
       "slug": "mykl-zeus-sdrh-272-5-cpldnv",
       "name": "מיכל ZEUS – סדרה 272-5",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "حاوية ZEUS – سلسلة 272-5",
+        "en": "ZEUS Container – Series 272-5",
+        "he": "מיכל ZEUS – סדרה 272-5",
+        "ru": "Контейнер ZEUS – серия 272-5"
+      },
       "description": "מיכל אחסון ZEUS של iMilani גדול במיוחד. פנים חלקים. ידיות נוחות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 655×470×300 מ\"מ. מידות פנימיות: 604×429×297 מ\"מ. נפח 85.0 ל. עומס ערימה עד 300 ק\"ג.",
       "short_description": "מיכל ZEUS 655×470×300 מ\"מ. 5 צבעים. נפח 85 ל. ניתן לערימה.",
       "sku": "ZEZ0055101",
@@ -69,13 +84,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:23.205Z"
+      "updated_at": "2026-06-10T07:45:57.254Z"
     },
     {
       "id": "d5ce87ac-485c-40ec-9325-d95cb1d4aefc",
       "slug": "mykl-zeus-sdrh-272-4a2-wrw8d1",
       "name": "מיכל ZEUS – סדרה 272-4A2",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "حاوية ZEUS – سلسلة 272-4A2",
+        "en": "ZEUS Container – Series 272-4A2",
+        "he": "מיכל ZEUS – סדרה 272-4A2",
+        "ru": "Контейнер ZEUS – серия 272-4A2"
+      },
       "description": "מיכל אחסון ZEUS של iMilani. פנים חלקים. ידיות נוחות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 465×315×120 מ\"מ. מידות פנימיות: 423×275×118 מ\"מ. נפח 16.2 ל. עומס ערימה עד 120 ק\"ג.",
       "short_description": "מיכל ZEUS 465×315×120 מ\"מ. 5 צבעים. נפח 16.2 ל. ניתן לערימה.",
       "sku": "ZEZ4A25101",
@@ -91,13 +111,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:23.204Z"
+      "updated_at": "2026-06-10T07:45:57.191Z"
     },
     {
       "id": "29f4995b-781f-45ef-91c3-0631fbd7e88f",
       "slug": "ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-4ige00",
       "name": "יחידת מגירות PRACTIBOX – 5 מגירות שקופות",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة أدراج PRACTIBOX - 5 أدراج شفافة",
+        "en": "PRACTIBOX Drawer Unit – 5 Transparent Drawers",
+        "he": "יחידת מגירות PRACTIBOX – 5 מגירות שקופות",
+        "ru": "Блок ящиков PRACTIBOX – 5 прозрачных ящиков"
+      },
       "description": "יחידת מגירות PRACTIBOX של iMilani עם 5 מגירות שקופות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף. מידות מגירה: 113×100×150 מ\"מ. כולל גיליון 5 מדבקות. מידות יחידה: 600×141×164 מ\"מ. ניתן לשילוב עם מדפי Practibox.",
       "short_description": "יחידת מגירות PRACTIBOX – 5 מגירות שקופות. מגירה: 113×100×150 מ\"מ. מבנה ABS אפור.",
       "sku": "PR51640001",
@@ -113,13 +138,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:19.499Z"
+      "updated_at": "2026-06-10T07:45:59.420Z"
     },
     {
       "id": "34184bf7-69d4-494b-b47d-82fecb09cbed",
       "slug": "ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-1928b7",
       "name": "יחידת מגירות PRACTIBOX – 2 מגירות שקופות",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة أدراج PRACTIBOX - درجان شفافان",
+        "en": "PRACTIBOX Drawer Unit – 2 Transparent Drawers",
+        "he": "יחידת מגירות PRACTIBOX – 2 מגירות שקופות",
+        "ru": "Блок ящиков PRACTIBOX – 2 прозрачных ящика"
+      },
       "description": "יחידת מגירות PRACTIBOX של iMilani עם 2 מגירות שקופות גדולות במיוחד. מבנה ABS אפור, מגירות פוליסטירן שקוף. מידות מגירה: 285×219×337 מ\"מ. מידות יחידה: 600×311×353 מ\"מ. כולל גיליון 2 מדבקות. מיועד לפריטים גדולים ובינוניים.",
       "short_description": "יחידת מגירות PRACTIBOX – 2 מגירות שקופות גדולות. מגירה: 285×219×337 מ\"מ. מבנה ABS אפור.",
       "sku": "PR23530001",
@@ -135,13 +165,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:19.468Z"
+      "updated_at": "2026-06-10T07:45:59.594Z"
     },
     {
       "id": "49999691-74b5-410a-b1b6-e0055ae796bd",
       "slug": "mykl-zeus-sdrh-272-2-ilul6x",
       "name": "מיכל ZEUS – סדרה 272-2",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "حاوية ZEUS – سلسلة 272-2",
+        "en": "ZEUS Container – Series 272-2",
+        "he": "מיכל ZEUS – סדרה 272-2",
+        "ru": "Контейнер ZEUS – серия 272-2"
+      },
       "description": "מיכל אחסון ZEUS של iMilani לחלקים קטנים. פנים חלקים לניקוי קל. שפה מחוזקת לעריכה יציבה. ידיות נוחות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 210×150×125 מ\"מ. מידות פנימיות: 187×125×124 מ\"מ. נפח 3.6 ל. עומס ערימה עד 30 ק\"ג.",
       "short_description": "מיכל ZEUS 210×150×125 מ\"מ. 5 צבעים. ניתן לערימה. מחזיק מדבקה.",
       "sku": "ZEZ0025101",
@@ -157,13 +192,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:19.468Z"
+      "updated_at": "2026-06-10T07:45:54.905Z"
     },
     {
       "id": "7799e95f-197f-4a84-8a1a-ac25bfb22da6",
       "slug": "ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-sdhxgv",
       "name": "יחידת מגירות PRACTIBOX – 6 מגירות שקופות",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة أدراج PRACTIBOX - 6 أدراج شفافة",
+        "en": "PRACTIBOX Drawer Unit – 6 Transparent Drawers",
+        "he": "יחידת מגירות PRACTIBOX – 6 מגירות שקופות",
+        "ru": "Блок ящиков PRACTIBOX – 6 прозрачных ящиков"
+      },
       "description": "יחידת מגירות PRACTIBOX של iMilani עם 6 מגירות שקופות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף. מידות מגירה: 87×66×100 מ\"מ. רוחב סטנדרטי 600 מ\"מ. כולל גיליון 6 מדבקות. ניתן לערום עם יחידות נוספות לגמישות מרבית.",
       "short_description": "יחידת מגירות PRACTIBOX – 6 מגירות שקופות. מגירה: 87×66×100 מ\"מ. מבנה ABS אפור.",
       "sku": "PR61120001",
@@ -179,13 +219,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:19.454Z"
+      "updated_at": "2026-06-10T07:45:57.864Z"
     },
     {
       "id": "e8920631-210d-4650-9708-e24b31eb86b0",
       "slug": "mykl-ktn-zeus-sdrh-701-ynsv2d",
       "name": "מיכל קטן ZEUS – סדרה 701",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "حاوية صغيرة ZEUS – سلسلة 701",
+        "en": "ZEUS Small Container – Series 701",
+        "he": "מיכל קטן ZEUS – סדרה 701",
+        "ru": "Малый контейнер ZEUS – серия 701"
+      },
       "description": "מיכל אחסון ZEUS של iMilani לחלקים קטנים. גוף חלק ונקי בפנים לניקוי קל. שפה מחוזקת לעריכה יציבה. ידית נוחה לאחיזה מהירה גם עם כפפות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 145×90×70 מ\"מ. מידות פנימיות: 123×81×68 מ\"מ. נפח 0.9 ל. נערם עד 6 יחידות.",
       "short_description": "מיכל קטן ZEUS 145×90×70 מ\"מ. 5 צבעים. ניתן לערימה. מחזיק מדבקה.",
       "sku": "ZEZ7015101",
@@ -201,13 +246,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:19.447Z"
+      "updated_at": "2026-06-10T07:45:55.122Z"
     },
     {
       "id": "33048279-b63e-4d63-9658-2f7a9a180ec4",
       "slug": "mykl-ktn-zeus-sdrh-702-o52d8w",
       "name": "מיכל קטן ZEUS – סדרה 702",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "حاوية صغيرة ZEUS – سلسلة 702",
+        "en": "ZEUS Small Container – Series 702",
+        "he": "מיכל קטן ZEUS – סדרה 702",
+        "ru": "Малый контейнер ZEUS – серия 702"
+      },
       "description": "מיכל אחסון ZEUS של iMilani לחלקים קטנים. גוף חלק ונקי בפנים. שפה מחוזקת לעריכה יציבה. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 145×140×70 מ\"מ. מידות פנימיות: 124×126×68 מ\"מ. נפח 1.4 ל. נערם עד 12 יחידות.",
       "short_description": "מיכל קטן ZEUS 145×140×70 מ\"מ. 5 צבעים. ניתן לערימה. מחזיק מדבקה.",
       "sku": "ZEZ7025101",
@@ -223,13 +273,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:19.441Z"
+      "updated_at": "2026-06-10T07:45:56.371Z"
     },
     {
       "id": "bccb136c-a1ab-4d63-9f14-f4857a8e3dcf",
       "slug": "mykl-zeus-sdrh-272-3a2-rs9ej5",
       "name": "מיכל ZEUS – סדרה 272-3A2",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "حاوية ZEUS – سلسلة 272-3A2",
+        "en": "ZEUS Container – Series 272-3A2",
+        "he": "מיכל ZEUS – סדרה 272-3A2",
+        "ru": "Контейнер ZEUS – серия 272-3A2"
+      },
       "description": "מיכל אחסון ZEUS של iMilani לחלקים קטנים ובינוניים. פנים חלקים. ידיות נוחות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 310×210×145 מ\"מ. מידות פנימיות: 284×184×142 מ\"מ. נפח 8.7 ל. עומס ערימה עד 120 ק\"ג.",
       "short_description": "מיכל ZEUS 310×210×145 מ\"מ. 5 צבעים. ניתן לערימה. נפח 8.7 ל.",
       "sku": "ZEZ3A25101",
@@ -245,13 +300,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:19.438Z"
+      "updated_at": "2026-06-10T07:45:56.342Z"
     },
     {
       "id": "04da855b-441b-4134-ab94-b6357f6d6e33",
       "slug": "ychydt-mgyrvt-practibox-3-mgyrvt-shkvpvt-w8rjoh",
       "name": "יחידת מגירות PRACTIBOX – 3 מגירות שקופות",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة أدراج PRACTIBOX - 3 أدراج شفافة",
+        "en": "PRACTIBOX Drawer Unit – 3 Transparent Drawers",
+        "he": "יחידת מגירות PRACTIBOX – 3 מגירות שקופות",
+        "ru": "Блок ящиков PRACTIBOX – 3 прозрачных ящика"
+      },
       "description": "יחידת מגירות PRACTIBOX של iMilani עם 3 מגירות שקופות גדולות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף בעל חוזק מכני גבוה. מידות מגירה: 190×146×225 מ\"מ. מידות יחידה: 600×240×??? מ\"מ. כולל גיליון מדבקות. אידאלי לאחסון פריטים גדולים יותר.",
       "short_description": "יחידת מגירות PRACTIBOX – 3 מגירות שקופות גדולות. מגירה: 190×146×225 מ\"מ. מבנה ABS אפור.",
       "sku": "PR32400001",
@@ -267,13 +327,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:19.437Z"
+      "updated_at": "2026-06-10T07:45:57.820Z"
     },
     {
       "id": "e23d3b45-b57d-4f79-b52f-0bea2d629f07",
       "slug": "ychydt-mgyrvt-practibox-4-mgyrvt-shkvpvt-8c0ft8",
       "name": "יחידת מגירות PRACTIBOX – 4 מגירות שקופות",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة أدراج PRACTIBOX - 4 أدراج شفافة",
+        "en": "PRACTIBOX Drawer Unit – 4 Transparent Drawers",
+        "he": "יחידת מגירות PRACTIBOX – 4 מגירות שקופות",
+        "ru": "Блок ящиков PRACTIBOX – 4 прозрачных ящика"
+      },
       "description": "יחידת מגירות PRACTIBOX של iMilani עם 4 מגירות שקופות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף. מידות יחידה: 600×174×206 מ\"מ. כולל גיליון מדבקות. ניתן לערום ולשלב עם שאר יחידות Practibox לגמישות מרבית.",
       "short_description": "יחידת מגירות PRACTIBOX – 4 מגירות שקופות. מידות: 600×174×206 מ\"מ. מבנה ABS אפור.",
       "sku": "PR42060001",
@@ -289,13 +354,18 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:19.436Z"
+      "updated_at": "2026-06-10T07:45:57.610Z"
     },
     {
       "id": "0e3fa481-dc1e-4e7b-a523-cbd36a2fb7f0",
       "slug": "ychydt-mgyrvt-practibox-9-mgyrvt-shkvpvt-35tauh",
       "name": "יחידת מגירות PRACTIBOX – 9 מגירות שקופות",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة أدراج PRACTIBOX - 9 أدراج شفافة",
+        "en": "PRACTIBOX Drawer Unit – 9 Transparent Drawers",
+        "he": "יחידת מגירות PRACTIBOX – 9 מגירות שקופות",
+        "ru": "Блок ящиков PRACTIBOX – 9 прозрачных ящиков"
+      },
       "description": "יחידת מגירות PRACTIBOX של iMilani עם 9 מגירות שקופות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף בעל חוזק מכני גבוה. רוחב סטנדרטי 600 מ\"מ מאפשר הצטברות מגוונת. מגיע עם גיליון 9 מדבקות. ניתן להרכבה על מדפי Practibox, בעגלות, בארונות או קיבוע לקיר. מידות: 600×69×77 מ\"מ.",
       "short_description": "יחידת מגירות PRACTIBOX – 9 מגירות שקופות. מבנה ABS אפור. 600×69×77 מ\"מ.",
       "sku": "PR90770001",
@@ -311,7 +381,7 @@
       "categories": [
         "מגירות ויחידות קטנות"
       ],
-      "updated_at": "2026-06-10T07:44:19.436Z"
+      "updated_at": "2026-06-10T07:45:57.825Z"
     },
     {
       "id": "1cd051b4-aebb-4b15-a6cc-8fefc6a3708e",
