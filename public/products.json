@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T09:49:22.968Z",
+  "generated_at": "2026-06-10T09:49:49.160Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 57,
@@ -97,7 +97,7 @@
     },
     {
       "id": "01034bac-7379-4650-86ca-15231bc1dc93",
-      "slug": "arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-ayu9j8",
+      "slug": "arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-q8iyui",
       "name": "ארון בטיחות לחומרים דליקים Linea 391 – 391A01",
       "name_translations": {
         "ar": "خزانة أمان للمواد القابلة للاشتعال Linea 391 – 391A01",
@@ -105,10 +105,10 @@
         "he": "ארון בטיחות לחומרים דליקים Linea 391 – 391A01",
         "ru": "Шкаф безопасности для горючих материалов Linea 391 – 391A01"
       },
-      "description": "ארון בטיחות לחומרים דליקים מסדרת Linea 391 של Fami. עשוי פלדה RAL7016+RAL1004. 2 תאים, 4 דלתות בטרנט, מנעול צילינדר, 2 מדפים מתכווננים, ספל אטום חיצוני 62 ל' לאיסוף נוזלים. חורים 10×10 מ\"מ פסיעה 38. מידות: 944×540×1900 מ\"מ. אחריות 5 שנים.",
+      "description": "<p>ארון בטיחות לחומרים דליקים מסדרת Linea 391 של Fami. עשוי פלדה RAL7016+RAL1004. 2 תאים, 4 דלתות בטרנט, מנעול צילינדר, 2 מדפים מתכווננים, ספל אטום חיצוני 62 ל' לאיסוף נוזלים. חורים 10×10 מ\"מ פסיעה 38. מידות: 944×540×1900 מ\"מ. אחריות 5 שנים.</p>",
       "short_description": "ארון בטיחות לחומרים דליקים Linea 391, 944×540×1900 מ\"מ. ספל 62 ל'. אנתרציט+צהוב.",
       "sku": "391A01",
-      "brand": null,
+      "brand": "Fami",
       "price": 2499,
       "base_price": 2499,
       "sale_price": null,
@@ -116,13 +116,14 @@
       "images": [
         "https://mutzagim.co.il/assets/product-1781084788636-7idrv.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-ayu9j8",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-q8iyui",
       "categories": [
-        "ארונות Fami Linea 391"
+        "ארונות Fami Linea 391",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T09:47:23.120Z"
+      "updated_at": "2026-06-10T09:49:27.015Z"
     },
     {
       "id": "60ec41f5-e3b2-4a21-a978-67e64ed34a6e",
