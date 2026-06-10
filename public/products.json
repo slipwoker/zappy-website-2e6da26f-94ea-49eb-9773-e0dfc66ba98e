@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:16:14.637Z",
+  "generated_at": "2026-06-10T08:16:55.643Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
@@ -334,7 +334,7 @@
     },
     {
       "id": "04da855b-441b-4134-ab94-b6357f6d6e33",
-      "slug": "ychydt-mgyrvt-practibox-3-mgyrvt-shkvpvt-w8rjoh",
+      "slug": "ychydt-mgyrvt-practibox-3-mgyrvt-shkvpvt-xms0og",
       "name": "יחידת מגירות PRACTIBOX – 3 מגירות שקופות",
       "name_translations": {
         "ar": "وحدة أدراج PRACTIBOX - 3 أدراج شفافة",
@@ -342,22 +342,24 @@
         "he": "יחידת מגירות PRACTIBOX – 3 מגירות שקופות",
         "ru": "Блок ящиков PRACTIBOX – 3 прозрачных ящика"
       },
-      "description": "יחידת מגירות PRACTIBOX של iMilani עם 3 מגירות שקופות גדולות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף בעל חוזק מכני גבוה. מידות מגירה: 190×146×225 מ\"מ. מידות יחידה: 600×240×??? מ\"מ. כולל גיליון מדבקות. אידאלי לאחסון פריטים גדולים יותר.",
+      "description": "<p>יחידת מגירות PRACTIBOX של iMilani עם 3 מגירות שקופות גדולות פותחות מלפנים. מבנה ABS אפור, מגירות פוליסטירן שקוף בעל חוזק מכני גבוה. מידות מגירה: 190×146×225 מ\"מ. מידות יחידה: 600×240×??? מ\"מ. כולל גיליון מדבקות. אידאלי לאחסון פריטים גדולים יותר.</p>",
       "short_description": "יחידת מגירות PRACTIBOX – 3 מגירות שקופות גדולות. מגירה: 190×146×225 מ\"מ. מבנה ABS אפור.",
       "sku": "PR32400001",
-      "brand": null,
-      "price": 0,
-      "base_price": 0,
+      "brand": "iMilani ",
+      "price": 191,
+      "base_price": 191,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781079366970-1c5tll.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-3-mgyrvt-shkvpvt-w8rjoh",
+      "url": "https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-3-mgyrvt-shkvpvt-xms0og",
       "categories": [
-        "מגירות ויחידות קטנות"
+        "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T07:45:57.820Z"
+      "updated_at": "2026-06-10T08:16:54.810Z"
     },
     {
       "id": "e23d3b45-b57d-4f79-b52f-0bea2d629f07",
