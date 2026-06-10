@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:03:56.070Z",
+  "generated_at": "2026-06-10T08:04:36.591Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
@@ -187,7 +187,7 @@
     },
     {
       "id": "49999691-74b5-410a-b1b6-e0055ae796bd",
-      "slug": "mykl-zeus-sdrh-272-2-ilul6x",
+      "slug": "mykl-zeus-sdrh-272-2-0lxglx",
       "name": "מיכל ZEUS – סדרה 272-2",
       "name_translations": {
         "ar": "حاوية ZEUS – سلسلة 272-2",
@@ -195,22 +195,25 @@
         "he": "מיכל ZEUS – סדרה 272-2",
         "ru": "Контейнер ZEUS – серия 272-2"
       },
-      "description": "מיכל אחסון ZEUS של iMilani לחלקים קטנים. פנים חלקים לניקוי קל. שפה מחוזקת לעריכה יציבה. ידיות נוחות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 210×150×125 מ\"מ. מידות פנימיות: 187×125×124 מ\"מ. נפח 3.6 ל. עומס ערימה עד 30 ק\"ג.",
+      "description": "<p>מיכל אחסון ZEUS של iMilani לחלקים קטנים. פנים חלקים לניקוי קל. שפה מחוזקת לעריכה יציבה. ידיות נוחות. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 210×150×125 מ\"מ. מידות פנימיות: 187×125×124 מ\"מ. נפח 3.6 ל. עומס ערימה עד 30 ק\"ג.</p>",
       "short_description": "מיכל ZEUS 210×150×125 מ\"מ. 5 צבעים. ניתן לערימה. מחזיק מדבקה.",
       "sku": "ZEZ0025101",
-      "brand": null,
-      "price": 0,
-      "base_price": 0,
+      "brand": "iMilani ",
+      "price": 14.07,
+      "base_price": 14.07,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781078625945-79mck.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-ilul6x",
+      "url": "https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-0lxglx",
       "categories": [
-        "מגירות ויחידות קטנות"
+        "מגירות ויחידות קטנות",
+        "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T07:45:54.905Z"
+      "updated_at": "2026-06-10T08:04:05.594Z"
     },
     {
       "id": "7799e95f-197f-4a84-8a1a-ac25bfb22da6",
