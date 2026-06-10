@@ -9713,10 +9713,11 @@ Brand: iMilani
 ---
 
 ### מכסה ESD מוליך – למכל 300×200 מ"מ
-URL: https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-7d7450
+URL: https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-whpukf
 Price: 22.00 USD
-Availability: In stock
+Availability: Out of stock
 SKU: AT-LID-300
+Brand: iMilani
 
 מכסה מוליך ESD מפוליפרופילן שחור למכלי ATHENA 300×200 מ"מ. הגנה מפני אבק ופריקה אלקטרוסטטית. אידאלי לאחסון ארוך טווח ושינוע. עומד בתקן EN 61340.
 

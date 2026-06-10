@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T06:52:58.723Z",
+  "generated_at": "2026-06-10T06:53:47.007Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 27,
@@ -157,30 +157,33 @@
     },
     {
       "id": "ac9b86f6-e465-47d4-b697-828105a59e6a",
-      "slug": "mksh-esd-mvlyk-lmkl-300200-mm-7d7450",
+      "slug": "mksh-esd-mvlyk-lmkl-300200-mm-whpukf",
       "name": "מכסה ESD מוליך – למכל 300×200 מ\"מ",
       "name_translations": {
-        "ar": "غطاء ESD موصل - للحاوية 300×200 مم",
+        "ar": "غطاء ESD موصل – للحاوية 300×200 مم",
         "en": "ESD Conductive Lid – for 300×200 mm Container",
         "he": "מכסה ESD מוליך – למכל 300×200 מ\"מ",
         "ru": "Крышка ESD проводящая – для контейнера 300×200 мм"
       },
-      "description": "מכסה מוליך ESD מפוליפרופילן שחור למכלי ATHENA 300×200 מ\"מ. הגנה מפני אבק ופריקה אלקטרוסטטית. אידאלי לאחסון ארוך טווח ושינוע. עומד בתקן EN 61340.",
+      "description": "<p>מכסה מוליך ESD מפוליפרופילן שחור למכלי ATHENA 300×200 מ\"מ. הגנה מפני אבק ופריקה אלקטרוסטטית. אידאלי לאחסון ארוך טווח ושינוע. עומד בתקן EN 61340.</p>",
       "short_description": "מכסה ESD שחור למכלי ATHENA 300×200 מ\"מ. עומד בתקן EN 61340.",
       "sku": "AT-LID-300",
-      "brand": null,
+      "brand": "iMilani",
       "price": 22,
       "base_price": 22,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-7d7450",
-      "categories": [
-        "מכלי ESD"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781074366696-5xstvj.webp"
       ],
-      "updated_at": "2026-06-10T06:39:41.545Z"
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-whpukf",
+      "categories": [
+        "מכלי ESD",
+        "מיכלים וארגזים אנטי סטטיים (ESD)"
+      ],
+      "updated_at": "2026-06-10T06:53:46.590Z"
     },
     {
       "id": "3043cd14-9bb0-4f87-a13e-12e9f9a2050c",

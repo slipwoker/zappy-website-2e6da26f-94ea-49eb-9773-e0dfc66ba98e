@@ -181,12 +181,14 @@ https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-rk5atk
 - Image: https://mutzagim.co.il/assets/product-1781074323922-mhj0zi.webp
 
 ### מכסה ESD מוליך – למכל 300×200 מ"מ
-https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-7d7450
+https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-whpukf
 - Price: 22.00 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: מכלי ESD
 - SKU: AT-LID-300
+- Brand: iMilani
 - Description: מכסה ESD שחור למכלי ATHENA 300×200 מ"מ. עומד בתקן EN 61340.
+- Image: https://mutzagim.co.il/assets/product-1781074366696-5xstvj.webp
 
 ### מכסה ESD מוליך – למכל 400×300 מ"מ
 https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-llw5do
