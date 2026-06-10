@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T17:05:53.163Z",
+  "generated_at": "2026-06-10T17:09:33.029Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -193,7 +193,7 @@
     },
     {
       "id": "f68fbfc6-c607-40cc-b7eb-f6e66b1729ce",
-      "slug": "msgrt-mtrchbt-bynvnyt-1225730-mm-08va28",
+      "slug": "msgrt-mtrchbt-bynvnyt-1225730-mm-i6e2l1",
       "name": "מסגרת מתרחבת בינונית 1,225×730 מ\"מ",
       "name_translations": {
         "ar": "إطار قابل للتمدد متوسط 1,225×730 مم",
@@ -201,22 +201,28 @@
         "he": "מסגרת מתרחבת בינונית 1,225×730 מ\"מ",
         "ru": "Раздвижная рама средняя 1,225×730 мм"
       },
-      "description": "מסגרת מתרחבת אלומיניום של StoreVan, 1,225×730 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.",
+      "description": "<p>מסגרת מתרחבת אלומיניום של StoreVan, 1,225×730 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.</p>",
       "short_description": "מסגרת מתרחבת אלומיניום 1,225×730 מ\"מ. עומס 300 ק\"ג. תו GS. ללא קידוח.",
       "sku": "1203AH",
-      "brand": null,
+      "brand": "StoreVan",
       "price": 6534.64,
       "base_price": 6534.64,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225730-mm-08va28",
-      "categories": [
-        "מסגרות מתרחבות"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781111311849-xueq7b.webp",
+        "https://mutzagim.co.il/assets/product-1781111293944-zxj3o.webp",
+        "https://mutzagim.co.il/assets/product-1781111300034-4iekg.webp",
+        "https://mutzagim.co.il/assets/product-1781111305650-b0h6tp.webp"
       ],
-      "updated_at": "2026-06-10T16:42:46.035Z"
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225730-mm-i6e2l1",
+      "categories": [
+        "מסגרות מתרחבות",
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-10T17:09:01.537Z"
     },
     {
       "id": "16f3bb95-3c3a-423c-b280-41de181e959a",
