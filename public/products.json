@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T16:50:22.909Z",
+  "generated_at": "2026-06-10T16:51:42.923Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -37,30 +37,33 @@
     },
     {
       "id": "41199d2b-6a2f-45b8-8b0c-c2149ff133d5",
-      "slug": "mchzyk-pchyvt-spryy-storevan-365-mm-5l8zxe",
+      "slug": "mchzyk-pchyvt-spryy-storevan-365-mm-byh3u2",
       "name": "מחזיק פחיות ספריי StoreVan – 365 מ\"מ",
       "name_translations": {
         "ar": "حامل علب الرش StoreVan – 365 مم",
         "en": "StoreVan Spray Can Holder – 365 mm",
         "he": "מחזיק פחיות ספריי StoreVan – 365 מ\"מ",
-        "ru": "Держатель баллончиков StoreVan – 365 мм"
+        "ru": "Держатель баллончиков со спреем StoreVan – 365 мм"
       },
-      "description": "מחזיק פחיות ספריי StoreVan, מק\"ט F22KTSPR3650001, רוחב 365 מ\"מ. פתרון ארגוני לאחסון מסודר של פחיות ספריי ברכב מסחרי. ניתן להרכבה על מודולי StoreVan. זמין ממלאי.",
+      "description": "<p>מחזיק פחיות ספריי StoreVan, מק\"ט F22KTSPR3650001, רוחב 365 מ\"מ. פתרון ארגוני לאחסון מסודר של פחיות ספריי ברכב מסחרי. ניתן להרכבה על מודולי StoreVan. זמין ממלאי.</p>",
       "short_description": "מחזיק פחיות ספריי StoreVan, רוחב 365 מ\"מ. זמין ממלאי.",
       "sku": "F22KTSPR3650001",
-      "brand": null,
+      "brand": "StoreVan",
       "price": 180.56,
       "base_price": 180.56,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mchzyk-pchyvt-spryy-storevan-365-mm-5l8zxe",
-      "categories": [
-        "אביזרים"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781110234234-k4c9h.webp"
       ],
-      "updated_at": "2026-06-10T16:42:50.493Z"
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mchzyk-pchyvt-spryy-storevan-365-mm-byh3u2",
+      "categories": [
+        "אביזרים",
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-10T16:51:11.663Z"
     },
     {
       "id": "ad78c466-c14e-4933-97bb-e0b76b15623b",
