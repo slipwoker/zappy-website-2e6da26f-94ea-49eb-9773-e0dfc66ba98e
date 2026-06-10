@@ -9691,10 +9691,11 @@ Brand: iMilani
 ---
 
 ### תיבת ESD עם מחיצות – סדרת ATHENA
-URL: https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-uwq4f5
+URL: https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-u7r3df
 Price: 0.00 USD
 Availability: In stock
 SKU: AT43S15207
+Brand: iMilani
 
 תיבת ESD עם מחיצות פנימיות מסדרת ATHENA של iMilani. עשויה פוליפרופילן מוליך שחור. מתאימה לאחסון ומיון רכיבים אלקטרוניים קטנים, ברגים, מחברים ו-C-Parts בסביבת EPA. מחיצות ממוקמות במרווחים של 20 מ"מ לגמישות מקסימלית. קיימת עם 1, 2 או 4 מחיצות. מידות חיצוניות 256×178×90 מ"מ. עומדת בתקן EN 61340.
 

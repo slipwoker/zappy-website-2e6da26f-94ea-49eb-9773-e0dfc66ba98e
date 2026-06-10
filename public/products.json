@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T06:44:24.054Z",
+  "generated_at": "2026-06-10T06:47:18.412Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 27,
@@ -97,7 +97,7 @@
     },
     {
       "id": "6f4d0cbf-1c48-4888-a6cc-86594c076e4a",
-      "slug": "tybt-esd-am-mchytsvt-sdrt-athena-uwq4f5",
+      "slug": "tybt-esd-am-mchytsvt-sdrt-athena-u7r3df",
       "name": "תיבת ESD עם מחיצות – סדרת ATHENA",
       "name_translations": {
         "ar": "صندوق ESD مع حواجز – سلسلة ATHENA",
@@ -105,22 +105,25 @@
         "he": "תיבת ESD עם מחיצות – סדרת ATHENA",
         "ru": "ESD контейнер с перегородками – серия ATHENA"
       },
-      "description": "תיבת ESD עם מחיצות פנימיות מסדרת ATHENA של iMilani. עשויה פוליפרופילן מוליך שחור. מתאימה לאחסון ומיון רכיבים אלקטרוניים קטנים, ברגים, מחברים ו-C-Parts בסביבת EPA. מחיצות ממוקמות במרווחים של 20 מ\"מ לגמישות מקסימלית. קיימת עם 1, 2 או 4 מחיצות. מידות חיצוניות 256×178×90 מ\"מ. עומדת בתקן EN 61340.",
+      "description": "<p>תיבת ESD עם מחיצות פנימיות מסדרת ATHENA של iMilani. עשויה פוליפרופילן מוליך שחור. מתאימה לאחסון ומיון רכיבים אלקטרוניים קטנים, ברגים, מחברים ו-C-Parts בסביבת EPA. מחיצות ממוקמות במרווחים של 20 מ\"מ לגמישות מקסימלית. קיימת עם 1, 2 או 4 מחיצות. מידות חיצוניות 256×178×90 מ\"מ. עומדת בתקן EN 61340.</p>",
       "short_description": "תיבת ESD שחורה עם מחיצות לאחסון C-Parts. מרווחי 20 מ\"מ. עומדת בתקן EN 61340.",
       "sku": "AT43S15207",
-      "brand": null,
+      "brand": "iMilani",
       "price": 0,
       "base_price": 0,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781073980358-29ml9u.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-uwq4f5",
+      "url": "https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-u7r3df",
       "categories": [
-        "מכלי ESD"
+        "מכלי ESD",
+        "מיכלים וארגזים אנטי סטטיים (ESD)"
       ],
-      "updated_at": "2026-06-10T06:39:44.076Z"
+      "updated_at": "2026-06-10T06:46:47.341Z"
     },
     {
       "id": "05379ab1-353c-40e3-87ff-ca1490edaf9d",
