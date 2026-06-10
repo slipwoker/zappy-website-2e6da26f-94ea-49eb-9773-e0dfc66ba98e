@@ -164,7 +164,7 @@ https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-e0ahkg
 https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-qdl4lq
 - Price: 0.00 USD
 - Availability: Out of stock
-- Category: מכלי ESD
+- Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT43S15207
 - Brand: iMilani
 - Description: תיבת ESD שחורה עם מחיצות לאחסון C-Parts. מרווחי 20 מ"מ. עומדת בתקן EN 61340.
@@ -174,7 +174,7 @@ https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-qdl4lq
 https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-rk5atk
 - Price: 43.20 USD
 - Availability: Out of stock
-- Category: מכלי ESD
+- Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT64HG5401
 - Brand: iMilani
 - Description: מכסה ESD שחור למכלי ATHENA 600×400 מ"מ. זמין עם ציר. עומד בתקן EN 61340.
@@ -184,7 +184,7 @@ https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-rk5atk
 https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-whpukf
 - Price: 22.00 USD
 - Availability: Out of stock
-- Category: מכלי ESD
+- Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT-LID-300
 - Brand: iMilani
 - Description: מכסה ESD שחור למכלי ATHENA 300×200 מ"מ. עומד בתקן EN 61340.
@@ -194,7 +194,7 @@ https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-whpukf
 https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-35w08n
 - Price: 28.80 USD
 - Availability: Out of stock
-- Category: מכלי ESD
+- Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT-LID-400
 - Brand: iMilani
 - Description: מכסה ESD שחור למכלי ATHENA 400×300 מ"מ. זמין עם ציר. עומד בתקן EN 61340.
@@ -368,7 +368,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15032197h-0bb5ap
 https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-iginrn
 - Price: 95.00 USD
 - Availability: In stock
-- Category: ����� ������ ������ �����
+- Category: ארגזי פלסטיק ומיכלי אחסון 
 - Description: אחסונית/ארקלית מס' 1 צבע כחול
 - Image: https://mutzagim.co.il/assets/product-1779001946474-v9rtug.webp
 
