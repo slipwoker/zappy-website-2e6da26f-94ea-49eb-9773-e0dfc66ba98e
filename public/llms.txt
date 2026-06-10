@@ -131,14 +131,14 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 27**
 
 ### מכל ESD מוליך סדרת ATHENA – 600×400 מ"מ
-https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-0d000e
+https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-cwso1e
 - Price: 0.00 USD
 - Availability: Out of stock
-- Category: מכלי ESD
+- Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT-6408
 - Brand: iMilani
 - Description: מכל ESD מוליך גדול 600×400 מ"מ – 7 גבהים לבחירה. לאחסון PCB גדולים. עומד בתקן EN 61340.
-- Image: https://mutzagim.co.il/assets/product-1781073529182-vvvcnc.webp
+- Image: https://mutzagim.co.il/assets/product-1781074749951-zcj6m9.webp
 
 ### מכל ESD מוליך סדרת ATHENA – 300×200 מ"מ
 https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-43chob
