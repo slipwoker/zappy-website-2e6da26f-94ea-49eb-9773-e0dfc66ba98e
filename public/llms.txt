@@ -133,7 +133,7 @@ Information about WCAG compliance and accessibility features.
 ### מכל ESD מוליך סדרת ATHENA – 600×400 מ"מ
 https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-h9qnk9
 - Price: 0.00 USD
-- Availability: In stock
+- Availability: Out of stock
 - Category: מכלי ESD
 - SKU: AT-6408
 - Description: מכל ESD מוליך גדול 600×400 מ"מ – 7 גבהים לבחירה. לאחסון PCB גדולים. עומד בתקן EN 61340.
