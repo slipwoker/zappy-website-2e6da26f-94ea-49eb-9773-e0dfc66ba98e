@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:46:36.157Z",
+  "generated_at": "2026-06-10T08:47:36.989Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 47,
@@ -127,7 +127,7 @@
     },
     {
       "id": "f7866bf9-1468-44bd-bf97-2bf071a298f8",
-      "slug": "shvlchn-abvdh-kbva-linea-391-l1024-mm-bj8v4v",
+      "slug": "shvlchn-abvdh-kbva-linea-391-l1024-mm-cq9pwu",
       "name": "שולחן עבודה קבוע Linea 391 – L1024 מ\"מ",
       "name_translations": {
         "ar": "طاولة عمل ثابتة Linea 391 – L1024 مم",
@@ -137,27 +137,27 @@
       },
       "description": "<p>שולחן עבודה לגראז' וסדנה מסדרת Linea 391 של Fami. מבנה פלדה יציב עם לוח עבודה עשוי רב-שכבתי אגוז עובי 25 מ\"מ. ניתן לצרף מגירות ולוחות כלים. מידות: 1024×750×877 מ\"מ. צבע אנתרציט RAL 7016. אחריות 5 שנים.</p>",
       "short_description": "שולחן עבודה פלדה Linea 391 עם לוח עץ, L1024×750×877 מ\"מ. אנתרציט. אחריות 5 שנים.",
-      "sku": "8052693947409",
+      "sku": "391B01",
       "brand": "Fami",
-      "price": 744,
-      "base_price": 744,
+      "price": 937,
+      "base_price": 937,
       "sale_price": null,
       "currency": "USD",
       "images": [
         "https://mutzagim.co.il/assets/product-1781080396528-iu61e.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1024-mm-bj8v4v",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1024-mm-cq9pwu",
       "categories": [
         "שולחנות עבודה",
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T08:46:05.168Z"
+      "updated_at": "2026-06-10T08:47:05.847Z"
     },
     {
       "id": "e80aeef3-a929-4ec1-a42e-aa025a67f212",
-      "slug": "shvlchn-abvdh-kbva-linea-391-l1500-mm-8wai84",
+      "slug": "shvlchn-abvdh-kbva-linea-391-l1500-mm-8lbfu3",
       "name": "שולחן עבודה קבוע Linea 391 – L1500 מ\"מ",
       "name_translations": {
         "ar": "طاولة عمل ثابتة Linea 391 – L1500 مم",
@@ -165,10 +165,10 @@
         "he": "שולחן עבודה קבוע Linea 391 – L1500 מ\"מ",
         "ru": "Рабочий стол стационарный Linea 391 – L1500 мм"
       },
-      "description": "שולחן עבודה לגראז' וסדנה מסדרת Linea 391 של Fami. מבנה פלדה עם לוח עבודה רב-שכבתי אגוז עובי 25 מ\"מ. ניתן לצרף מגירות ולוחות כלים. מידות: 1500×750×877 מ\"מ. צבע אנתרציט RAL 7016. אחריות 5 שנים.",
+      "description": "<p>שולחן עבודה לגראז' וסדנה מסדרת Linea 391 של Fami. מבנה פלדה עם לוח עבודה רב-שכבתי אגוז עובי 25 מ\"מ. ניתן לצרף מגירות ולוחות כלים. מידות: 1500×750×877 מ\"מ. צבע אנתרציט RAL 7016. אחריות 5 שנים.</p>",
       "short_description": "שולחן עבודה פלדה Linea 391 עם לוח עץ, L1500×750×877 מ\"מ. אנתרציט. אחריות 5 שנים.",
       "sku": "8052693947416",
-      "brand": null,
+      "brand": "Fami",
       "price": 917.6,
       "base_price": 917.6,
       "sale_price": null,
@@ -178,11 +178,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1500-mm-8wai84",
+      "url": "https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1500-mm-8lbfu3",
       "categories": [
-        "שולחנות עבודה"
+        "שולחנות עבודה",
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T08:33:49.859Z"
+      "updated_at": "2026-06-10T08:47:08.580Z"
     },
     {
       "id": "88c6e9d8-9614-4dcd-9850-2b99d72bd296",
