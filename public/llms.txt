@@ -124,7 +124,159 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 65**
+**Total active products: 84**
+
+### ריהוט רכב מסחרי מלא – Large
+https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-oq458b
+- Price: 20943.04 USD
+- Availability: In stock
+- Category: ריהוט רכב מסחרי מלא
+- SKU: INRICHTING-LARGE
+- Description: ריהוט מלא StoreVan – Large. מתאים ל-Mercedes-Benz Sprinter, Fiat Ducato, Ford Transit L וכד'.
+
+### מחזיק פחיות ספריי StoreVan – 365 מ"מ
+https://mutzagim.co.il/product/mchzyk-pchyvt-spryy-storevan-365-mm-5l8zxe
+- Price: 180.56 USD
+- Availability: In stock
+- Category: אביזרים
+- SKU: F22KTSPR3650001
+- Description: מחזיק פחיות ספריי StoreVan, רוחב 365 מ"מ. זמין ממלאי.
+
+### ריהוט רכב מסחרי מלא – Small
+https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-39s3rx
+- Price: 9238.80 USD
+- Availability: In stock
+- Category: ריהוט רכב מסחרי מלא
+- SKU: INRICHTING-SMALL
+- Description: ריהוט מלא StoreVan – Small. מתאים ל-Ford Transit Connect, Mercedes-Benz Citan, Renault Express וכד'.
+
+### מדף חבילות Mercedes-Benz Sprinter – ימין
+https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-ymyn-yosu5u
+- Price: 7777.84 USD
+- Availability: In stock
+- Category: מדפי חבילות (פוסט/דיוור)
+- SKU: postpakketrek-mb-sprinter-rechts
+- Description: מדף חבילות Sprinter Sprinter | ימין. StoreVan. אלומיניום. אחריות 8 שנים.
+
+### מדף חבילות Mercedes-Benz Sprinter – שמאל
+https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-shmal-y0ncaz
+- Price: 15111.76 USD
+- Availability: In stock
+- Category: מדפי חבילות (פוסט/דיוור)
+- SKU: postpakketrek-mb-sprinter-links
+- Description: מדף חבילות Sprinter Sprinter | שמאל. StoreVan. אלומיניום. אחריות 8 שנים.
+
+### ריהוט רכב מסחרי מלא – Medium
+https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-r6sin2
+- Price: 15990.48 USD
+- Availability: In stock
+- Category: ריהוט רכב מסחרי מלא
+- SKU: INRICHTING-MEDIUM
+- Description: ריהוט מלא StoreVan – Medium. מתאים ל-Ford Transit Custom, Fiat Talento, Volkswagen Transporter וכד'.
+
+### מסגרת מתרחבת בינונית 1,225×730 מ"מ
+https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225730-mm-08va28
+- Price: 6534.64 USD
+- Availability: In stock
+- Category: מסגרות מתרחבות
+- SKU: 1203AH
+- Description: מסגרת מתרחבת אלומיניום 1,225×730 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
+
+### מסגרת מתרחבת בינונית 1,225×445 מ"מ
+https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225445-mm-zh4cuk
+- Price: 5750.32 USD
+- Availability: In stock
+- Category: מסגרות מתרחבות
+- SKU: 1197AH
+- Description: מסגרת מתרחבת אלומיניום 1,225×445 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
+
+### מסגרת מתרחבת ארוכה 1,524×365 מ"מ
+https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-i4qg43
+- Price: 6075.36 USD
+- Availability: In stock
+- Category: מסגרות מתרחבות
+- SKU: 1201AH
+- Description: מסגרת מתרחבת אלומיניום 1,524×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
+
+### מודול מגירות רצפה שלם – רכב קטן
+https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-4ti4xo
+- Price: 15294.08 USD
+- Availability: In stock
+- Category: ריצוף ומגירות רצפה
+- SKU: VL-MODULE-SMALL
+- Description: מודול מגירות רצפה שלם StoreVan לרכב קטן. 2 מגירות. רצפה מורמת. ללא קידוח.
+
+### מגירת רצפה אלומיניום 580×1,242×250 מ"מ
+https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-eavvkj
+- Price: 6924.64 USD
+- Availability: In stock
+- Category: ריצוף ומגירות רצפה
+- SKU: VL580-1242
+- Description: מגירת רצפה אלומיניום Heavy Duty 580×1,242×250 מ"מ. 100% הוצאה מלאה. התקנה ללא קידוח.
+
+### מגירת רצפה אלומיניום 580×930×250 מ"מ
+https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-580930250-mm-v9opuz
+- Price: 5515.20 USD
+- Availability: In stock
+- Category: ריצוף ומגירות רצפה
+- SKU: VL580-930
+- Description: מגירת רצפה אלומיניום Heavy Duty 580×930×250 מ"מ. 100% הוצאה מלאה. התקנה ללא קידוח.
+
+### מסגרת מתרחבת קצרה 1,016×365 מ"מ
+https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016365-mm-0whqaa
+- Price: 5425.36 USD
+- Availability: In stock
+- Category: מסגרות מתרחבות
+- SKU: 1199AH
+- Description: מסגרת מתרחבת אלומיניום 1,016×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
+
+### מסגרת מתרחבת בינונית 1,225×365 מ"מ
+https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-ucn8nt
+- Price: 5737.36 USD
+- Availability: In stock
+- Category: מסגרות מתרחבות
+- SKU: 1200AH
+- Description: מסגרת מתרחבת אלומיניום 1,225×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
+
+### מגירת רצפה אלומיניום 580×1,242×250 מ"מ – מבצע (שאריות מלאי)
+https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt-mlay-4u05fp
+- Price: 5664.24 USD
+- Availability: In stock
+- Category: ריצוף ומגירות רצפה
+- SKU: VL580-1242-ACTIE
+- Description: מגירת רצפה אלומיניום 580×1,242×250 מ"מ – מחיר מבצע. שאריות מלאי.
+
+### מסגרת מתרחבת קצרה 1,016×445 מ"מ
+https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016445-mm-gzac7v
+- Price: 5442.64 USD
+- Availability: In stock
+- Category: מסגרות מתרחבות
+- SKU: 1196AH
+- Description: מסגרת מתרחבת אלומיניום 1,016×445 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
+
+### מגירת רצפה אלומיניום 423×1,242×250 מ"מ
+https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-5p0daq
+- Price: 6592.72 USD
+- Availability: In stock
+- Category: ריצוף ומגירות רצפה
+- SKU: VL423-1242
+- Description: מגירת רצפה אלומיניום Heavy Duty 423×1,242×250 מ"מ. 100% הוצאה מלאה. התקנה ללא קידוח.
+
+### מגירת רצפה אלומיניום 423×930×250 מ"מ
+https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-423930250-mm-878oab
+- Price: 5246.24 USD
+- Availability: In stock
+- Category: ריצוף ומגירות רצפה
+- SKU: VL423-930
+- Description: מגירת רצפה אלומיניום Heavy Duty 423×930×250 מ"מ. 100% הוצאה מלאה. התקנה ללא קידוח.
+
+### מודול מגירות רצפה שלם – Kia PV5 וכד'
+https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-7oeuki
+- Price: 17532.48 USD
+- Availability: In stock
+- Category: ריצוף ומגירות רצפה
+- SKU: VL-MODULE-KIA
+- Description: מודול מגירות רצפה שלם StoreVan – Kia PV5 וכד'. ללא קידוח. אחריות 8 שנים.
 
 ### ארון PICK עם דלתות ומנעול – H1655 מ"מ, אפור בהיר RAL7035
 https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-dbuawj
