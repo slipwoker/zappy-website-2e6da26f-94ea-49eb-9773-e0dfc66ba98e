@@ -1,9 +1,232 @@
-<!DOCTYPE html><html lang="ar" dir="rtl" data-zappy-site-type="ecommerce"><head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>حاويات وصناديق مضادة للكهرباء الساكنة (ESD) | حلول تخزين للصناعة</title>
-  <meta name="description" content="مجموعة متنوعة من الحاويات والصناديق المضادة للكهرباء الساكنة (ESD) لحماية المكونات الإلكترونية. حلول تخزين ونقل موصلة لصناعة التكنولوجيا المتقدمة والإلكترونيات.">
-  <meta name="keywords" content="أرفف التخزين الصناعي للمصانع، حلول التخزين للأوزان الثقيلة، منشآت الكومباكتوس للشركات، أثاث صناعي لشركات اللوجستيات">
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>מדפי רשת כרום ניקל | פתרונות אחסון תעשייתי</title>
+    <meta name="description" content="קטלוג מדפי רשת כרום ניקל מודולריים. מדפי אחסון תעשייתי למפעלים, עגלות רשת ופתרונות אחסון למשקל כבד המשלבים חוזק, אוורור ואסתטיקה.">
+    <meta name="keywords" content="">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <!-- Zappy Analytics -->
+<script>
+(function() {
+  'use strict';
+  
+  // Configuration
+  var config = {
+    websiteId: '2e6da26f-94ea-49eb-9773-e0dfc66ba98e',
+    apiUrl: 'https://api.zappy5.com/api/analytics/track',
+    sessionDuration: 30 * 60 * 1000, // 30 minutes
+    visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
+    trackPageViews: true,
+    trackClicks: true,
+    trackFormSubmissions: true
+  };
+  
+  // Generate or retrieve persistent visitor ID (30 days)
+  function getVisitorId() {
+    var visitorKey = 'zappy_visitor_' + config.websiteId;
+    var visitor = null;
+    
+    try {
+      visitor = localStorage.getItem(visitorKey);
+      if (visitor) {
+        var visitorData = JSON.parse(visitor);
+        var now = Date.now();
+        
+        // Check if visitor ID is still valid (30 days)
+        if (now - visitorData.created < config.visitorDuration) {
+          // Update last seen timestamp
+          visitorData.lastSeen = now;
+          localStorage.setItem(visitorKey, JSON.stringify(visitorData));
+          return visitorData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: LocalStorage not available');
+    }
+    
+    // Generate new visitor ID
+    var newVisitorId = 'zv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      localStorage.setItem(visitorKey, JSON.stringify({
+        id: newVisitorId,
+        created: Date.now(),
+        lastSeen: Date.now()
+      }));
+    } catch (e) {
+      // Continue without local storage
+    }
+    
+    return newVisitorId;
+  }
+  
+  // Generate or retrieve session ID (30 minutes)
+  function getSessionId() {
+    var sessionKey = 'zappy_session_' + config.websiteId;
+    var session = null;
+    
+    try {
+      session = sessionStorage.getItem(sessionKey);
+      if (session) {
+        var sessionData = JSON.parse(session);
+        var now = Date.now();
+        
+        // Check if session is still valid
+        if (now - sessionData.timestamp < config.sessionDuration) {
+          // Update timestamp
+          sessionData.timestamp = now;
+          sessionStorage.setItem(sessionKey, JSON.stringify(sessionData));
+          return sessionData.id;
+        }
+      }
+    } catch (e) {
+      console.warn('Zappy Analytics: SessionStorage not available');
+    }
+    
+    // Generate new session ID
+    var newSessionId = 'zs_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    
+    try {
+      sessionStorage.setItem(sessionKey, JSON.stringify({
+        id: newSessionId,
+        timestamp: Date.now()
+      }));
+    } catch (e) {
+      // Continue without session storage
+    }
+    
+    return newSessionId;
+  }
+  
+  var visitorId = getVisitorId();
+  var sessionId = getSessionId();
+  
+  // Track an event
+  function trackEvent(eventType, data) {
+    data = data || {};
+    
+    var eventData = {
+      website_id: config.websiteId,
+      event_type: eventType,
+      page_path: window.location.pathname,
+      referrer: document.referrer || 'direct',
+      visitor_id: visitorId,
+      session_id: sessionId,
+      metadata: data
+    };
+    
+    // Use sendBeacon if available (better for page unload events)
+    if (navigator.sendBeacon) {
+      var blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
+      navigator.sendBeacon(config.apiUrl, blob);
+    } else {
+      // Fallback to fetch
+      fetch(config.apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(eventData),
+        keepalive: true
+      }).catch(function(error) {
+        console.warn('Zappy Analytics: Failed to track event', error);
+      });
+    }
+  }
+  
+  // Track page view
+  if (config.trackPageViews) {
+    trackEvent('pageview', {
+      title: document.title,
+      url: window.location.href
+    });
+  }
+  
+  // Track clicks on important elements
+  if (config.trackClicks) {
+    document.addEventListener('click', function(e) {
+      var target = e.target;
+      
+      // Track button clicks (counted as actions)
+      if (target.tagName === 'BUTTON' || target.closest('button')) {
+        var button = target.tagName === 'BUTTON' ? target : target.closest('button');
+        trackEvent('click', {
+          element: 'button',
+          text: button.textContent.trim().substring(0, 100),
+          id: button.id || null,
+          class: button.className || null
+        });
+      }
+      
+      // Track link clicks (navigation - not counted as actions)
+      else if (target.tagName === 'A' || target.closest('a')) {
+        var link = target.tagName === 'A' ? target : target.closest('a');
+        trackEvent('navigation', {
+          element: 'link',
+          text: link.textContent.trim().substring(0, 100),
+          href: link.href,
+          external: link.hostname !== window.location.hostname
+        });
+      }
+    }, true);
+  }
+  
+  // Track form submissions
+  if (config.trackFormSubmissions) {
+    document.addEventListener('submit', function(e) {
+      var form = e.target;
+      
+      trackEvent('form_submit', {
+        form_id: form.id || null,
+        form_name: form.name || null,
+        form_action: form.action || null,
+        form_method: form.method || 'GET'
+      });
+    }, true);
+  }
+  
+  // Track time on page (send on page unload)
+  var pageLoadTime = Date.now();
+  
+  window.addEventListener('beforeunload', function() {
+    var timeOnPage = Math.floor((Date.now() - pageLoadTime) / 1000); // in seconds
+    
+    trackEvent('page_unload', {
+      time_on_page: timeOnPage,
+      page_path: window.location.pathname
+    });
+  });
+  
+  // Expose tracking function globally for custom events
+  window.zappyAnalytics = {
+    track: trackEvent,
+    getVisitorId: function() { return visitorId; },
+    getSessionId: function() { return sessionId; }
+  };
+  
+})();
+</script>
+<!-- End Zappy Analytics -->
+    <meta property="og:title" content="מדפי רשת כרום ניקל | פתרונות אחסון תעשייתי">
+    <meta property="og:description" content="קטלוג מדפי רשת כרום ניקל מודולריים. מדפי אחסון תעשייתי למפעלים, עגלות רשת ופתרונות אחסון למשקל כבד המשלבים חוזק, אוורור ואסתטיקה.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="מדפי רשת כרום ניקל | פתרונות אחסון תעשייתי">
+    <meta name="twitter:description" content="קטלוג מדפי רשת כרום ניקל מודולריים. מדפי אחסון תעשייתי למפעלים, עגלות רשת ופתרונות אחסון למשקל כבד המשלבים חוזק, אוורור ואסתטיקה.">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://mutzagim.co.il#organization","name":"מוצגים פתרונות אחסון ותצוגה","url":"https://mutzagim.co.il","address":{"@type":"PostalAddress","streetAddress":"כתובת החברה, יקנעם, ישראל"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"effi@mutzagim.co.il","telephone":"+972542770665","availableLanguage":["he","ar","ru","en"]}]},{"@type":"WebSite","@id":"https://mutzagim.co.il#website","url":"https://mutzagim.co.il","name":"מוצגים פתרונות אחסון ותצוגה","publisher":{"@id":"https://mutzagim.co.il#organization"},"inLanguage":"he"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://mutzagim.co.il"},{"@type":"ListItem","position":2,"name":"Chrome Wire Shelving","item":"https://mutzagim.co.il/chrome-wire-shelving"}]}]}</script>
+    <title data-i18n="home_page_title">מדפי רשת כרום ניקל | פתרונות אחסון תעשייתי</title>
+  
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Favicons -->
@@ -14,8 +237,9 @@
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-<style>html[dir="ltr"] /* Zappy Attribution Header Styles */
-.zappy-header{
+<style>
+/* Zappy Attribution Header Styles */
+.zappy-header {
   position: fixed;
   top: 0;
   left: 0;
@@ -35,7 +259,9 @@
   min-height: 21px;
   direction: ltr !important;
   unicode-bidi: isolate;
-}html[dir="ltr"] .zappy-header p{
+}
+
+    .zappy-header p {
       margin: 0;
       padding: 0;
       font-weight: 400;
@@ -493,104 +719,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MWD9Q32P');</script>
 <!-- ZAPPY_INTEGRATION_END analytics:add_google_tag_manager -->
-  
-    <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="حاويات وصناديق مضادة للكهرباء الساكنة (ESD) | حلول التخزين للصناعة">
-    <meta property="og:description" content="مجموعة متنوعة من الحاويات والصناديق والعلب المضادة للكهرباء الساكنة (ESD) لحماية المكونات الإلكترونية. حلول تخزين ونقل موصلة لصناعة التكنولوجيا المتقدمة والإلكترونيات.">
-    <meta property="og:image" content="/assets/page-esd-euro-box-1771749002827-og.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:alt" content="מיכלים וארגזים אנטי סטטיים (ESD) | פתרונות אחסון לתעשייה">
-    <meta property="og:locale" content="he_IL">
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="حاويات وصناديق مضادة للكهرباء الساكنة (ESD) | حلول التخزين للصناعة">
-    <meta name="twitter:description" content="مجموعة متنوعة من الحاويات والصناديق والعلب المضادة للكهرباء الساكنة (ESD) لحماية المكونات الإلكترونية. حلول تخزين ونقل موصلة لصناعة التكنولوجيا المتقدمة والإلكترونيات.">
-    <meta name="twitter:image" content="/assets/page-esd-euro-box-1771749002827-og.jpg">
-    <meta name="twitter:image:alt" content="מיכלים וארגזים אנטי סטטיים (ESD) | פתרונות אחסון לתעשייה"><style id="zappy-ai-page-styles">
-
-
-/* Zappy Base Styles for Edit Mode Compatibility */
-.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; box-sizing: border-box; }
-.section { padding: 4rem 0; position: relative; display: block !important; }
-/* Reset section grid - sections should contain grids, not BE grids */
-section[data-zappy-section] { display: block !important; grid-template-columns: unset !important; }
-/* Grid layouts - consistent styling across all grid types */
-/* Services/Gallery/Portfolio grids - adaptive with lower min-width for more columns */
-/* Note: :not(.zappy-preserve-css-grid) excludes grids that have custom inline styles that should be preserved */
-.services-grid:not(.zappy-preserve-css-grid), .gallery-grid:not(.zappy-preserve-css-grid), .portfolio-grid:not(.zappy-preserve-css-grid), .blog-grid:not(.zappy-preserve-css-grid), .testimonials-grid:not(.zappy-preserve-css-grid) {
-  display: grid !important;
-  gap: 2rem !important;
-  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)) !important;
-}
-/* Generic grid - slightly larger min-width */
-.grid:not(.zappy-preserve-css-grid) { display: grid !important; gap: 2rem !important; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)) !important; }
-.grid.grid-2 { grid-template-columns: repeat(2, 1fr) !important; }
-.grid.grid-3 { grid-template-columns: repeat(3, 1fr) !important; }
-.grid.grid-4 { grid-template-columns: repeat(4, 1fr) !important; }
-/* Card styling */
-.card, .service-card, .blog-card, .testimonial-card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; }
-.card:hover, .service-card:hover, .blog-card:hover, .testimonial-card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
-.card img, .service-card img, .blog-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
-.btn { display: inline-block; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; cursor: pointer; border: none; }
-.btn-primary { background-color: #7090a0; color: white; }
-.btn-primary:hover { filter: brightness(1.1); }
-/* Pricing grid specific */
-.pricing-grid { display: grid !important; gap: 2rem !important; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important; }
-.pricing-card { background: #fff !important; border-radius: 16px !important; padding: 2rem !important; box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important; transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; }
-.pricing-card:hover { transform: translateY(-8px); box-shadow: 0 12px 40px rgba(0,0,0,0.12) !important; }
-.pricing-card.featured, .pricing-card.popular { border: 2px solid #7090a0 !important; position: relative; }
-.pricing-card .card-header { padding-bottom: 1.5rem; border-bottom: 1px solid #eee; margin-bottom: 1.5rem; }
-.pricing-card .card-header h3 { font-size: 1.5rem; margin-bottom: 0.5rem; color: #1f2937; }
-.pricing-card .price { font-size: 2.5rem; font-weight: 700; color: #1f2937; }
-.pricing-card .price .period { font-size: 1rem; font-weight: 400; color: #6b7280; }
-.pricing-card .plan-desc, .pricing-card .description { color: #6b7280; font-size: 0.95rem; margin-top: 0.5rem; }
-.pricing-card .card-body, .pricing-card .card-footer { text-align: center; }
-.pricing-card .features-list { list-style: none !important; padding: 0 !important; margin: 0 0 1.5rem 0 !important; text-align: right; }
-.pricing-card .features-list li { padding: 0.5rem 0; }
-.pricing-card .features-list li.disabled { color: #9ca3af; }
-.pricing-card .popular-badge { background: #7090a0; color: white; padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; text-align: center; }
-.pricing-card .btn { display: block; width: 100%; text-align: center; margin-top: 1rem; }
-.btn-outline { background: transparent !important; border: 2px solid #7090a0 !important; color: #7090a0 !important; }
-.btn-outline:hover { background: #7090a0 !important; color: white !important; }
-.card { background: #fff !important; border-radius: 12px !important; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important; }
-@media (max-width: 768px) {
-  .container { padding: 0 1rem; }
-  .section { padding: 2.5rem 0; }
-  .grid:not(.zappy-preserve-css-grid), .services-grid:not(.zappy-preserve-css-grid), .gallery-grid:not(.zappy-preserve-css-grid), .portfolio-grid:not(.zappy-preserve-css-grid), .blog-grid:not(.zappy-preserve-css-grid), .testimonials-grid:not(.zappy-preserve-css-grid) { 
-    gap: 1.5rem; 
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) !important; 
-  }
-  .grid.grid-2:not(.zappy-preserve-css-grid), .grid.grid-3:not(.zappy-preserve-css-grid), .grid.grid-4:not(.zappy-preserve-css-grid) { grid-template-columns: 1fr; }
-  .pricing-grid:not(.zappy-preserve-css-grid) { grid-template-columns: 1fr; }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .grid.grid-3:not(.zappy-preserve-css-grid), .grid.grid-4:not(.zappy-preserve-css-grid) { grid-template-columns: repeat(2, 1fr); }
-  .services-grid:not(.zappy-preserve-css-grid), .gallery-grid:not(.zappy-preserve-css-grid), .portfolio-grid:not(.zappy-preserve-css-grid), .blog-grid:not(.zappy-preserve-css-grid) { 
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important; 
-  }
-}
-/* Hero container fixes - contain absolute images and prevent viewport overflow */
-/* NOTE: Do NOT force overflow:hidden — sections with bottom SVG dividers need overflow:visible */
-[class*="hero"], [id*="hero"] { position: relative !important; max-width: 100% !important; box-sizing: border-box !important; }
-[class*="hero"] > .container, [id*="hero"] > .container { position: relative; z-index: 2; }
-.hero-image-wrapper, [class*="image-wrapper"] { position: relative !important; overflow: hidden !important; }
-/* Prevent hero positioning on non-hero page images */
-img[data-no-hero-position] { position: static !important; }
-/* Reset hero text colors for AI-generated pages - remove !important color overrides */
-.ai-generated-page .hero-content h1,
-.ai-generated-page .hero-content h2,
-.ai-generated-page .hero-content h3,
-.ai-generated-page .hero-content p,
-.ai-generated-page [class*="hero"] h1,
-.ai-generated-page [class*="hero"] h2,
-.ai-generated-page [class*="hero"] h3,
-.ai-generated-page [class*="hero"] p { color: unset !important; }
-/* End Zappy Base Styles */
-
-</style><style>
+  <style>
       /* Dropdown sub-menu styles */
       .nav-menu li:has(.sub-menu),
       nav li:has(.sub-menu),
@@ -1380,14 +1509,144 @@ html[dir="rtl"] body {
   }
 }
 </style>
-<!-- hreflang tags for SEO -->
-<link rel="alternate" hreflang="he" href="https://mutzagim.co.il/esd-containers">
-<link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/esd-containers">
-<link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/esd-containers">
-<link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/esd-containers">
-<link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/esd-containers">    <link rel="stylesheet" href="/styles.css">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:url" content="https://mutzagim.co.il/chrome-wire-shelving">
+    <meta property="og:type" content="article">
+    
+    
+    
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:alt" content="מדפי רשת כרום ניקל | פתרונות אחסון תעשייתי">
+    <meta property="og:locale" content="he_IL">
+    <!-- Twitter Card Meta Tags -->
+    
+    
+    
+    
+    <meta name="twitter:image:alt" content="מדפי רשת כרום ניקל | פתרונות אחסון תעשייתי"><style id="zappy-ai-page-styles">
+
+
+/* Zappy Base Styles for Edit Mode Compatibility */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; box-sizing: border-box; }
+.section { padding: 4rem 0; position: relative; display: block !important; }
+/* Reset section grid - sections should contain grids, not BE grids */
+section[data-zappy-section] { display: block !important; grid-template-columns: unset !important; }
+/* Grid layouts - consistent styling across all grid types */
+/* Services/Gallery/Portfolio grids - adaptive with lower min-width for more columns */
+/* Note: :not(.zappy-preserve-css-grid) excludes grids that have custom inline styles that should be preserved */
+.services-grid:not(.zappy-preserve-css-grid), .gallery-grid:not(.zappy-preserve-css-grid), .portfolio-grid:not(.zappy-preserve-css-grid), .blog-grid:not(.zappy-preserve-css-grid), .testimonials-grid:not(.zappy-preserve-css-grid) {
+  display: grid !important;
+  gap: 2rem !important;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)) !important;
+}
+/* Generic grid - slightly larger min-width */
+.grid:not(.zappy-preserve-css-grid) { display: grid !important; gap: 2rem !important; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)) !important; }
+.grid.grid-2 { grid-template-columns: repeat(2, 1fr) !important; }
+.grid.grid-3 { grid-template-columns: repeat(3, 1fr) !important; }
+.grid.grid-4 { grid-template-columns: repeat(4, 1fr) !important; }
+/* Card styling */
+.card, .service-card, .blog-card, .testimonial-card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.card:hover, .service-card:hover, .blog-card:hover, .testimonial-card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+.card img, .service-card img, .blog-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.btn { display: inline-block; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; cursor: pointer; border: none; }
+.btn-primary { background-color: #7090a0; color: white; }
+.btn-primary:hover { filter: brightness(1.1); }
+/* Pricing grid specific */
+.pricing-grid { display: grid !important; gap: 2rem !important; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important; }
+.pricing-card { background: #fff !important; border-radius: 16px !important; padding: 2rem !important; box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important; transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; }
+.pricing-card:hover { transform: translateY(-8px); box-shadow: 0 12px 40px rgba(0,0,0,0.12) !important; }
+.pricing-card.featured, .pricing-card.popular { border: 2px solid #7090a0 !important; position: relative; }
+.pricing-card .card-header { padding-bottom: 1.5rem; border-bottom: 1px solid #eee; margin-bottom: 1.5rem; }
+.pricing-card .card-header h3 { font-size: 1.5rem; margin-bottom: 0.5rem; color: #1f2937; }
+.pricing-card .price { font-size: 2.5rem; font-weight: 700; color: #1f2937; }
+.pricing-card .price .period { font-size: 1rem; font-weight: 400; color: #6b7280; }
+.pricing-card .plan-desc, .pricing-card .description { color: #6b7280; font-size: 0.95rem; margin-top: 0.5rem; }
+.pricing-card .card-body, .pricing-card .card-footer { text-align: center; }
+.pricing-card .features-list { list-style: none !important; padding: 0 !important; margin: 0 0 1.5rem 0 !important; text-align: right; }
+.pricing-card .features-list li { padding: 0.5rem 0; }
+.pricing-card .features-list li.disabled { color: #9ca3af; }
+.pricing-card .popular-badge { background: #7090a0; color: white; padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; text-align: center; }
+.pricing-card .btn { display: block; width: 100%; text-align: center; margin-top: 1rem; }
+.btn-outline { background: transparent !important; border: 2px solid #7090a0 !important; color: #7090a0 !important; }
+.btn-outline:hover { background: #7090a0 !important; color: white !important; }
+.card { background: #fff !important; border-radius: 12px !important; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important; }
+@media (max-width: 768px) {
+  .container { padding: 0 1rem; }
+  .section { padding: 2.5rem 0; }
+  .grid:not(.zappy-preserve-css-grid), .services-grid:not(.zappy-preserve-css-grid), .gallery-grid:not(.zappy-preserve-css-grid), .portfolio-grid:not(.zappy-preserve-css-grid), .blog-grid:not(.zappy-preserve-css-grid), .testimonials-grid:not(.zappy-preserve-css-grid) { 
+    gap: 1.5rem; 
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) !important; 
+  }
+  .grid.grid-2:not(.zappy-preserve-css-grid), .grid.grid-3:not(.zappy-preserve-css-grid), .grid.grid-4:not(.zappy-preserve-css-grid) { grid-template-columns: 1fr; }
+  .pricing-grid:not(.zappy-preserve-css-grid) { grid-template-columns: 1fr; }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .grid.grid-3:not(.zappy-preserve-css-grid), .grid.grid-4:not(.zappy-preserve-css-grid) { grid-template-columns: repeat(2, 1fr); }
+  .services-grid:not(.zappy-preserve-css-grid), .gallery-grid:not(.zappy-preserve-css-grid), .portfolio-grid:not(.zappy-preserve-css-grid), .blog-grid:not(.zappy-preserve-css-grid) { 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important; 
+  }
+}
+/* Hero container fixes - contain absolute images and prevent viewport overflow */
+/* NOTE: Do NOT force overflow:hidden — sections with bottom SVG dividers need overflow:visible */
+[class*="hero"], [id*="hero"] { position: relative !important; max-width: 100% !important; box-sizing: border-box !important; }
+[class*="hero"] > .container, [id*="hero"] > .container { position: relative; z-index: 2; }
+.hero-image-wrapper, [class*="image-wrapper"] { position: relative !important; overflow: hidden !important; }
+/* Prevent hero positioning on non-hero page images */
+img[data-no-hero-position] { position: static !important; }
+/* Reset hero text colors for AI-generated pages - remove !important color overrides */
+.ai-generated-page .hero-content h1,
+.ai-generated-page .hero-content h2,
+.ai-generated-page .hero-content h3,
+.ai-generated-page .hero-content p,
+.ai-generated-page [class*="hero"] h1,
+.ai-generated-page [class*="hero"] h2,
+.ai-generated-page [class*="hero"] h3,
+.ai-generated-page [class*="hero"] p { color: unset !important; }
+/* End Zappy Base Styles */
+
+</style>
+    <link rel="stylesheet" href="/styles.css">
+
+    <style id="zappy-widget-visibility">
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
+      }
+    </style>
 </head>
 <body>
+
 
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
@@ -1412,13 +1671,13 @@ html[dir="rtl"] body {
 
 <!-- Zappy Attribution Header -->
 <div id="zappy-attribution-header" class="zappy-header" style="display: none;">
-  <p><span><span><span>تم إنشاؤه بسعادة بواسطة&nbsp;</span></span></span><a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-link">Zappy</a></p>
+  <p><span><span><span><span data-i18n="new_text_455_0">Happily created by&nbsp;</span></span></span></span><a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-link" data-i18n="home_link_38">Zappy</a></p>
 </div>
   <nav class="navbar" id="navbar">
     <div class="container nav-container">
       <div class="nav-brand">
-        <a href="/ar" class="logo-link">
-          <img src="/assets/logo-1775752141450-9blcbb.webp?v=1775752144457-whcejo" alt="مُعرِضات حلول التخزين والعرض" class="logo">
+        <a href="/" class="logo-link">
+          <img src="/assets/logo-1775752141450-9blcbb.webp?v=1775752144457-whcejo" alt="מוצגים פתרונות אחסון ותצוגה" class="logo" data-i18n-alt="home_alt_66">
         </a>
       </div>
       
@@ -1440,28 +1699,21 @@ html[dir="rtl"] body {
       <ul class="nav-menu" id="navMenu">
 
     <li class="menu-item-has-children zappy-products-dropdown">
-      <a href="/ar/products">
+      <a href="/products">
         מוצרים
         <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M6 9l6 6 6-6"></path>
         </svg>
       </a>
       <ul class="sub-menu" id="zappy-nav-category-links">
-        <li><a href="/ar/products">מוצרים</a></li>
+        <li><a href="/products" data-i18n="ecom_products">מוצרים</a></li>
         <!-- Categories will be loaded dynamically -->
       </ul>
     </li>
   
 
     
-  <li class="menu-group-item"><span class="menu-group-title">فئة المنتجات</span><ul class="sub-menu"><li><a href="/ar/light-and-medium-shelving" class="nav-link">رفوف خفيفة ومتوسطة</a></li><li><a href="/ar/heavy-duty-shelving">رفوف ثقيلة | حلول تخزين صناعية للمصانع واللوجستيات</a></li><li><a href="/ar/advanced-industrial-furniture">أثاث صناعي متقدم | حلول تخزين للمصانع</a></li><li><a href="/ar/compactus-systems">منشآت كومباكتوس | حلول تخزين ذكية وتوفير في المساحة</a></li><li><a href="/ar/vehicle-equipment">تجهيز المركبات | حلول تخزين وورشة متنقلة للمركبات التجارية</a></li><li><a href="/ar/plastic-storage-containers-977433">صناديق بلاستيكية وحاويات للتخزين | حلول صناعية</a></li><li><a href="/ar/esd-containers">حاويات وصناديق مضادة للكهرباء الساكنة (ESD) | حلول تخزين للصناعة</a></li><li><a href="/ar/supermarket-shelving" class="nav-link">رفوف للسوبرماركت</a></li><li><a href="/ar/storage-mezzanines">معارض تخزين وأرضيات معرض | حلول لمضاعفة المساحة</a></li><li><a href="/ar/vlm-vertical-storage" class="nav-link">تخزين عمودي VLM</a></li><li><a href="/ar/dalmine-ls-modular-shelving" class="nav-link">رفوف معيارية</a></li><li><a href="/ar/cold-room-freezer-shelving-tonon" class="nav-link">رفوف لغرف التبريد</a></li></ul></li><li><a href="/ar/services">خدمات</a></li><li><a href="/ar/about">حولنا</a></li><li class="nav-cta-item-mobile"><a href="/ar/contact-us">اتصل بنا</a></li><li><a href="/ar/chrome-wire-shelving" class="nav-link">أرفف شبكية كروم نيكل</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/ar/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="lang-switcher" data-icon-color="currentColor" style="position:relative;display:inline-flex;align-items:center;margin-left:auto;margin-right:8px;">
-        <button class="lang-switcher-current" type="button" style="display:flex;align-items:center;justify-content:center;gap:6px;background:transparent;border:none;cursor:pointer;padding:8px;border-radius:8px;color:inherit;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0;"><path d="M12.039,.002s0,0,0,0c-.013,0-.026-.002-.039-.002-.005,0-.009,0-.014,0-.002,0-.003,0-.005,0C5.373,.011,0,5.39,0,12s5.383,12,12,12,12-5.383,12-12S18.638,.023,12.039,.002Zm9.747,6.998h-4.814c-1.067-2.669-2.712-4.781-3.731-5.925,3.734,.421,6.901,2.719,8.546,5.925Zm-4.786,5c0,1.407-.292,2.753-.731,4H7.731c-.439-1.247-.731-2.593-.731-4s.292-2.754,.73-4h8.539c.439,1.247,.731,2.593,.731,4Zm-1.122,5c-1.229,2.838-3.116,4.99-3.878,5.788-.762-.798-2.649-2.95-3.878-5.788h7.755ZM8.121,7c1.229-2.841,3.117-4.992,3.879-5.789,.762,.798,2.649,2.95,3.878,5.789h-7.757ZM10.757,1.075c-1.025,1.15-2.668,3.264-3.73,5.925H2.214C3.859,3.795,7.024,1.498,10.757,1.075ZM1.764,8H6.668c-.403,1.247-.668,2.589-.668,4s.265,2.752,.669,4H1.764c-.487-1.242-.764-2.588-.764-4s.277-2.758,.764-4Zm.45,9H7.029c1.067,2.669,2.712,4.781,3.731,5.925-3.734-.421,6.901-2.719-8.546-5.925Zm11.026,5.925c1.019-1.144,2.664-3.257,3.731-5.925h4.814c-1.645,3.206-4.812,5.504-8.546,5.925Zm8.996-6.925h-4.905c.404-1.248,.669-2.589,.669-4s-.265-2.752-.669-4h4.905c.487,1.242,.764,2.588,.764,4s-.277,2.758-.764,4Z"></path></svg>
-        </button>
-        <div class="lang-switcher-dropdown" style="position:absolute;top:100%;right:0;background:white;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.15);min-width:150px;opacity:0;visibility:hidden;transform:translateY(-8px);transition:all 0.2s ease;z-index:1000;">
-          <a href="/esd-containers" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/il.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> עברית</a><a href="/ru/esd-containers" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/ru.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> Русский</a><a href="/en/esd-containers" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/us.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> English</a>
-        </div>
-      </div><div class="nav-search-box">
+  <li class="menu-group-item"><span class="menu-group-title" data-i18n="home_nav_46">קטגורית מוצרים</span><ul class="sub-menu"><li><a href="/light-and-medium-shelving" class="nav-link" data-i18n="home_nav_47">מידוף קל ובינוני</a></li><li><a href="/heavy-duty-shelving" data-i18n="home_nav_48">מידוף כבד | פתרונות אחסון תעשייתי למפעלים ולוגיסטיקה</a></li><li><a href="/advanced-industrial-furniture" data-i18n="home_nav_49">ריהוט תעשייתי מתקדם | פתרונות אחסון למפעלים</a></li><li><a href="/compactus-systems" data-i18n="home_nav_50">מתקני קומפקטוס | פתרונות אחסון חכם וחיסכון במקום</a></li><li><a href="/vehicle-equipment" data-i18n="home_nav_51">זיווד רכבים | פתרונות אחסון וסדנה ניידת לרכבים מסחריים</a></li><li><a href="/plastic-storage-containers-977433" data-i18n="home_nav_52">ארגזי פלסטיק ומיכלים לאחסון | פתרונות תעשייתיים</a></li><li><a href="/esd-containers" data-i18n="home_nav_53">מיכלים וארגזים אנטי סטטיים (ESD) | פתרונות אחסון לתעשייה</a></li><li><a href="/supermarket-shelving" class="nav-link" data-i18n="home_nav_54">מדפים לסופרמקטים</a></li><li><a href="/storage-mezzanines" data-i18n="home_nav_55">גלריות אחסון ורצפות גלריה | פתרונות להכפלת שטח</a></li><li><a href="/vlm-vertical-storage" class="nav-link" data-i18n="home_nav_57">אחסון ורטיקלי VLM</a></li><li><a href="/dalmine-ls-modular-shelving" class="nav-link" data-i18n="home_nav_58">מדפים מודולריים</a></li><li><a href="/cold-room-freezer-shelving-tonon" class="nav-link" data-i18n="home_nav_60">מדפים לחדרי קירור</a></li></ul></li><li><a href="/services" data-i18n="home_nav_61">שירותים</a></li><li><a href="/about" data-i18n="home_nav_63">אודות</a></li><li class="nav-cta-item-mobile"><a href="/contact-us" data-i18n="home_nav_64">צרו קשר</a></li><li><a href="/chrome-wire-shelving" class="nav-link" data-i18n="new_a_550">מדפי כרום ניקל</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
       <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
@@ -1470,141 +1722,146 @@ html[dir="rtl"] body {
   </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div>
       
       
-
-      
-      <style>
-        .lang-switcher:hover .lang-switcher-dropdown,
-        .lang-switcher:focus-within .lang-switcher-dropdown {
-          opacity: 1 !important;
-          visibility: visible !important;
-          transform: translateY(0) !important;
-        }
-        .lang-option:hover {
-          background: #f5f5f5;
-        }
-      </style>
-      <script data-no-icon-edit="true">(function(){function f(){var b=document.querySelector('.lang-switcher-current');if(!b)return;var n=b.closest('nav')||b.closest('header')||b.closest('.navbar');if(!n)return;var a=n.querySelector('.nav-menu a,.nav-links a');if(!a)a=n.querySelector('a:not(.lang-option):not(.lang-switcher-current):not([class*="logo"])');if(a){var c=getComputedStyle(a).color;if(c&&c!=='rgb(0, 0, 0)'&&c!=='rgba(0, 0, 0, 0)'){b.style.color=c;return;}}var s=getComputedStyle(n).backgroundColor;if(s&&s!=='rgba(0, 0, 0, 0)'&&s!=='transparent'){var m=s.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);if(m){var l=(0.299*parseInt(m[1])+0.587*parseInt(m[2])+0.114*parseInt(m[3]))/255;b.style.color=l>0.5?'#1a1a1a':'#F3FAFF';}}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',f);}else{setTimeout(f,0);}})()</script>
-    
+<div class="lang-switcher" data-no-icon-edit="true" data-icon-color="currentColor" style="position:relative;display:inline-flex;align-items:center;z-index:1000;margin:0 4px;">
+  <button class="lang-switcher-current" aria-haspopup="true" aria-expanded="false" data-no-icon-edit="true" style="display:flex;align-items:center;padding:8px;background:transparent;border:none;border-radius:6px;cursor:pointer;color:inherit;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0;" data-no-icon-edit="true"><path d="M12.039,.002s0,0,0,0c-.013,0-.026-.002-.039-.002-.005,0-.009,0-.014,0-.002,0-.003,0-.005,0C5.373,.011,0,5.39,0,12s5.383,12,12,12,12-5.383,12-12S18.638,.023,12.039,.002Zm9.747,6.998h-4.814c-1.067-2.669-2.712-4.781-3.731-5.925,3.734,.421,6.901,2.719,8.546,5.925Zm-4.786,5c0,1.407-.292,2.753-.731,4H7.731c-.439-1.247-.731-2.593-.731-4s.292-2.754,.73-4h8.539c.439,1.247,.731,2.593,.731,4Zm-1.122,5c-1.229,2.838-3.116,4.99-3.878,5.788-.762-.798-2.649-2.95-3.878-5.788h7.755ZM8.121,7c1.229-2.841,3.117-4.992,3.879-5.789,.762,.798,2.649,2.95,3.878,5.789h-7.757ZM10.757,1.075c-1.025,1.15-2.668,3.264-3.73,5.925H2.214C3.859,3.795,7.024,1.498,10.757,1.075ZM1.764,8H6.668c-.403,1.247-.668,2.589-.668,4s.265,2.752,.669,4H1.764c-.487-1.242-.764-2.588-.764-4s.277-2.758,.764-4Zm.45,9H7.029c1.067,2.669,2.712,4.781,3.731,5.925-3.734-.421-6.901-2.719-8.546-5.925Zm11.026,5.925c1.019-1.144,2.664-3.257,3.731-5.925h4.814c-1.645,3.206-4.812,5.504-8.546,5.925Zm8.996-6.925h-4.905c.404-1.248,.669-2.589,.669-4s-.265-2.752-.669-4h4.905c.487,1.242,.764,2.588,.764,4s-.277,2.758-.764,4Z"></path></svg>
+  </button>
+  <div class="lang-switcher-dropdown" role="menu" style="position:absolute;top:100%;right:0;margin-top:4px;min-width:140px;background:white;border:1px solid rgba(128,128,128,0.2);border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.15);opacity:0;visibility:hidden;transform:translateY(-8px);transition:all 0.2s ease;z-index:1001;"><button class="lang-option" data-lang="ar">🇸🇦 العربية</button>
+        <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
+        <button class="lang-option" data-lang="en">🇺🇸 English</button></div>
+</div>
 <script data-no-icon-edit="true">(function(){function f(){var b=document.querySelector('.lang-switcher-current');if(!b)return;var n=b.closest('nav')||b.closest('header')||b.closest('.navbar');if(!n)return;var a=n.querySelector('.nav-menu a,.nav-links a');if(!a)a=n.querySelector('a:not(.lang-option):not(.lang-switcher-current):not([class*="logo"])');if(a){var c=getComputedStyle(a).color;if(c&&c!=='rgb(0, 0, 0)'&&c!=='rgba(0, 0, 0, 0)'){b.style.color=c;return;}}var s=getComputedStyle(n).backgroundColor;if(s&&s!=='rgba(0, 0, 0, 0)'&&s!=='transparent'){var m=s.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);if(m){var l=(0.299*parseInt(m[1])+0.587*parseInt(m[2])+0.114*parseInt(m[3]))/255;b.style.color=l>0.5?'#1a1a1a':'#F3FAFF';}}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',f);}else{setTimeout(f,0);}})()</script>
     </div>
-  </nav><main class="page-main blog-page ai-generated-page">
-  <!-- Hero Section -->
-  <section class="section hero-section" id="esd-hero" style="background-color: #f8f9fa !important; padding: 60px 0; text-align: center;; position: relative; overflow: hidden;" data-zappy-section="true">
+  </nav><main class="page-main blog-page ai-generated-page"><section class="section hero-section" id="hero" style="background-color: #f8f9fa !important; padding: 4rem 0;; position: relative; overflow: hidden;" data-zappy-section="true">
     <div class="container">
-      <h1 style="color: #102030 !important; font-size: 60px; margin-bottom: 20px;">حاويات وصناديق مضادة للكهرباء الساكنة (ESD)</h1>
-      <p style="color: #102030 !important; font-size: 1.2rem; max-width: 800px; margin: 0 auto 30px;">حلول تعبئة ونقل وتخزين متقدمة مصممة لحماية المكونات الإلكترونية الحساسة من التفريغ الكهروستاتيكي. <br>        منتجاتنا تتكامل بشكل مثالي مع أرفف التخزين الصناعي للمصانع والأنظمة اللوجستية الآلية.</p>
-      <a href="#esd-catalog" style="display: inline-block; background-color: #1e3a8a; color: #ffffff !important; padding: 12px 30px; text-decoration: none; border-radius: 4px; font-weight: bold;">لعرض كتالوج المنتجات</a>
-    </div>
-  </section>
-
-  <!-- Visual Product Grid Section -->
-  <section class="section products-section" id="esd-catalog" style="background-color: #ffffff !important; padding: 60px 0;" data-zappy-section="true">
-    <div class="container">
-      <div style="text-align: center; margin-bottom: 50px;">
-        <h2 style="color: #102030 !important; font-size: 2rem; margin-bottom: 15px;">حاويات وصناديق مضادة للكهرباء الساكنة (ESD)</h2>
-        <p style="color: #102030 !important; max-width: 700px; margin: 0 auto;">مجموعة واسعة من حلول التخزين للأوزان الثقيلة والخفيفة، مصنوعة من البولي بروبيلين الموصل (Conductive PP) للمتانة طويلة المدى.</p>
-      </div>
-      
-      <div class="services-grid">
-        <!-- Product Card 1 -->
-        <article class="card" style="background-color: #f8f9fa !important; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; transition: transform 0.3s ease;">
-          <img data-placeholder="esd-euro-box" data-context="Black anti-static ESD euro container box for electronics storage, industrial setting" src="/assets/page-esd-euro-box-1771749002827.webp" alt="صناديق يورو مضادة للكهرباء الساكنة" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" data-no-hero-position="true" class="generated-image">
-          <div style="padding: 20px;">
-            <h3 style="color: #1e3a8a !important; margin-bottom: 10px; font-size: 1.4rem;">صناديق يورو موصلة</h3>
-            <p style="color: #102030 !important; margin-bottom: 15px; font-size: 0.95rem;">صناديق بمقاسات أوروبية معيارية، قابلة للتكديس، مناسبة للأنظمة الآلية والنقل على الأسطح.</p>
-            <ul style="color: #102030 !important; padding-right: 20px; margin-bottom: 15px; font-size: 0.9rem;">
-              <li>المقاومة السطحية: 10^4 - 10^5 أوم</li>
-              <li>مجموعة متنوعة من الارتفاعات وأبعاد القاعدة</li>
-            </ul>
-          </div>
-        </article>
-
-        <!-- Product Card 2 -->
-        <article class="card" style="background-color: #f8f9fa !important; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; transition: transform 0.3s ease;">
-          <img data-placeholder="esd-bins" data-context="Small black ESD picking bins for screws and electronic components arranged on a shelf" src="/assets/page-esd-bins-1771749003760.webp" alt="صناديق تخزين للمكونات" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" data-no-hero-position="true" class="generated-image">
-          <div style="padding: 20px;">
-            <h3 style="color: #1e3a8a !important; margin-bottom: 10px; font-size: 1.4rem;">صناديق للعدد والمكونات</h3>
-            <p style="color: #102030 !important; margin-bottom: 15px; font-size: 0.95rem;">خلايا مفتوحة (Picking Bins) للتخزين المتاح للمكونات الصغيرة والبراغي والمعدات الإلكترونية الدقيقة.</p>
-            <ul style="color: #102030 !important; padding-right: 20px; margin-bottom: 15px; font-size: 0.9rem;">
-              <li>وصول مريح للأجزاء (C-Parts)</li>
-              <li>قابلة للتعليق على لوحات مخصصة</li>
-            </ul>
-          </div>
-        </article>
-
-        <!-- Product Card 3 -->
-        <article class="card" style="background-color: #f8f9fa !important; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; transition: transform 0.3s ease;">
-          <img data-placeholder="esd-pcb-rack" data-context="Black ESD PCB rack holder for printed circuit boards" src="/assets/page-esd-pcb-rack-1771749004793.webp" alt="حوامل للدوائر المطبوعة" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" data-no-hero-position="true" class="generated-image">
-          <div style="padding: 20px;">
-            <h3 style="color: #1e3a8a !important; margin-bottom: 10px; font-size: 1.4rem;">حاملات للدوائر المطبوعة (PCB)</h3>
-            <p style="color: #102030 !important; margin-bottom: 15px; font-size: 0.95rem;">أنظمة مخددة لتخزين وتجفيف الدوائر المطبوعة بشكل عمودي وآمن لمنع التلامس.</p>
-            <ul style="color: #102030 !important; padding-right: 20px; margin-bottom: 15px; font-size: 0.9rem;">
-              <li>عرض قابل للتعديل حسب حجم البطاقة</li>
-              <li>مقاومة لدرجات الحرارة العالية</li>
-            </ul>
-          </div>
-        </article>
-
-        <!-- Product Card 4 -->
-        <article class="card" style="background-color: #f8f9fa !important; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; transition: transform 0.3s ease;">
-          <img data-placeholder="esd-cases" data-context="Black ESD carrying case suitcase for technicians with foam insert" src="/assets/page-esd-cases-1771749023741.webp" alt="حقائب وصناديق حمل" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" data-no-hero-position="true" class="generated-image">
-          <div style="padding: 20px;">
-            <h3 style="color: #1e3a8a !important; margin-bottom: 10px; font-size: 1.4rem;">حقائب خدمة وفنيين</h3>
-            <p style="color: #102030 !important; margin-bottom: 15px; font-size: 0.95rem;">حلول محمولة لفنيي الميدان. حقائب صلبة مع إسفنج مضاد للكهرباء الساكنة داخلي للحماية أثناء النقل.</p>
-            <ul style="color: #102030 !important; padding-right: 20px; margin-bottom: 15px; font-size: 0.9rem;">
-              <li>مقبض حمل مريح</li>
-              <li>خيارات تقسيم داخلي معياري</li>
-            </ul>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Technical Highlights Section -->
-  <section class="section specs-section" id="esd-specs" style="background-color: #c0d0e0 !important; padding: 60px 0;" data-zappy-section="true">
-    <div class="container">
-      <div style="--zappy-grid-cols: repeat(auto-fit, minmax(300px, 1fr)); display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: center;" data-zappy-explicit-columns="true">
-        <div>
-          <h2 style="color: #102030 !important; font-size: 2rem; margin-bottom: 20px;">لماذا ESD مهم لعملك؟</h2>
-          <p style="color: #102030 !important; margin-bottom: 20px;">الكهرباء الساكنة هي العدو الصامت لصناعة الإلكترونيات. يمكن أن يحدث ضرر للمكونات في فولتيات منخفضة جداً، لا يشعر بها الإنسان على الإطلاق. <br>            استخدام معدات مضادة للكهرباء الساكنة معيارية يضمن:</p>
-          <ul style="color: #102030 !important; padding-right: 20px; line-height: 1.8;">
-            <li>منع الأضرار غير القابلة للإصلاح للدوائر والمكونات</li>
-            <li>تقليل تكاليف البلى وإبطال المنتجات</li>
-            <li>الامتثال للمعايير الدولية الصارمة</li>
-            <li>الحفاظ على بيئة عمل آمنة ونظيفة</li>
-          </ul>
+      <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
+        <div style="flex: 1; min-width: 300px;">
+          <h1 style="color: #102030 !important; font-size: 2.5rem; margin-bottom: 1rem; font-weight: bold;" data-i18n="new_h1_551">מדפי רשת כרום ניקל</h1>
+          <p style="color: #102030 !important; font-size: 1.125rem; margin-bottom: 1.5rem; line-height: 1.6;" data-i18n="new_p_552">מחפשים מדפי אחסון תעשייתי למפעלים או פתרונות אחסון למשקל כבד? מערכות מדפי רשת כרום ניקל מציעות שילוב מנצח של חוזק, גמישות ואסתטיקה. אידיאלי לאחסון נקי, מטבחים תעשייתיים וסביבות עבודה דינמיות.</p>
+          <a href="#products" class="btn" style="background-color: #1e3a8a; color: #ffffff !important; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; display: inline-block; font-weight: bold;" data-i18n="new_a_553">צפה בקטלוג המדפים</a>
         </div>
-        <div style="background-color: #f8f9fa !important; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-          <h3 style="color: #1e3a8a !important; margin-bottom: 20px; border-bottom: 2px solid #c0d0e0; padding-bottom: 10px;">مواصفات تقنية عامة</h3>
-          <div style="--zappy-grid-cols: 1fr 1fr; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;" data-zappy-explicit-columns="true">
-            <div style="font-weight: bold; color: #102030 !important;">المادة الخام:</div>
-            <div style="color: #102030 !important;">بولي بروبيلين موصل (ESD PP)</div>
-            
-            <div style="font-weight: bold; color: #102030 !important;">المقاومة السطحية:</div>
-            <div style="color: #102030 !important;">10^3 إلى 10^9 أوم</div>
-            
-            <div style="font-weight: bold; color: #102030 !important;">درجة حرارة التشغيل:</div>
-            <div style="color: #102030 !important;">-20°C إلى +80°C</div>
-            
-            <div style="font-weight: bold; color: #102030 !important;">اللون القياسي:</div>
-            <div style="color: #102030 !important;">أسود</div>
-          </div>
+        <div style="flex: 1; min-width: 300px;">
+          <img data-placeholder="hero-chrome-shelving" data-context="A shiny chrome nickel wire shelving unit in a clean modern warehouse or industrial kitchen setting" src="/assets/page-hero-chrome-shelving-1781084120148.webp" alt="מערכת מדפי רשת כרום ניקל" style="width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);" class="generated-image" data-og-image="/assets/page-hero-chrome-shelving-1781084120148-og.jpg">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CTA Section -->
-  <section class="section cta-section" id="contact-cta" style="background-color: #1e3a8a !important; padding: 50px 0; text-align: center;" data-zappy-section="true">
+  <section class="section products-section" id="products" style="background-color: #ffffff !important; padding: 4rem 0;" data-zappy-section="true">
     <div class="container">
-      <h2 style="color: #ffffff !important; margin-bottom: 15px;">هل تحتاج استشارة في موضوع الحماية المضادة للكهرباء الساكنة؟</h2>
-      <p style="color: #e2e8f0 !important; max-width: 600px; margin: 0 auto 30px;">فريقنا المحترف سيسعد بتخصيص الحل الدقيق لكم، بدءاً من الصناديق المفردة وحتى حلول التخزين للأوزان الثقيلة للمستودعات اللوجستية.</p>
-      <a href="/ar/contact-us" style="display: inline-block; background-color: #ffffff; color: #1e3a8a !important; padding: 12px 35px; text-decoration: none; border-radius: 4px; font-weight: bold; transition: background-color 0.3s;">اتصل بنا</a>
+      <h2 style="color: #102030 !important; text-align: center; margin-bottom: 3rem; font-size: 2rem; font-weight: bold;" data-i18n="new_h2_554">קטלוג מוצרי רשת כרום ניקל</h2>
+      <div class="services-grid" style="gap: 2rem;">
+        <article class="card" style="background-color: #f8f9fa !important; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; display: flex; flex-direction: column;">
+          <img data-placeholder="chrome-shelving-unit" data-context="Standard 4-tier chrome wire shelving unit isolated on white background" src="/assets/page-chrome-shelving-unit-1781084116711.webp" alt="סט מדפי רשת נייח" style="width: 100%; aspect-ratio: 4/3; object-fit: contain; background-color: #ffffff !important; padding: 1rem; border-bottom: 1px solid #e2e8f0;" data-no-hero-position="true" class="generated-image">
+          <div style="padding: 1.5rem; flex-grow: 1; display: flex; flex-direction: column;">
+            <h3 style="color: #102030 !important; margin-bottom: 0.5rem; font-size: 1.25rem; font-weight: bold;" data-i18n="new_h3_555">יחידות מדפים נייחות</h3>
+            <p style="color: #102030 !important; margin-bottom: 1.5rem; font-size: 0.95rem; flex-grow: 1;" data-i18n="new_p_556">ריהוט תעשייתי לחברות לוגיסטיקה ועסקים. יחידות עצמאיות עם כושר נשיאה גבוה לכל מדף, מתאימות לתצוגה ואחסון.</p>
+            <a href="#specs" style="color: #1e3a8a !important; font-weight: bold; text-decoration: none; align-self: flex-start;" data-i18n="new_a_557">למידות ומפרט ←</a>
+          </div>
+        </article>
+        
+        <article class="card" style="background-color: #f8f9fa !important; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; display: flex; flex-direction: column;">
+          <img data-placeholder="chrome-utility-cart" data-context="Chrome wire utility cart with wheels and push handle" src="/assets/page-chrome-utility-cart-1781084116569.webp" alt="עגלות רשת ניידות" style="width: 100%; aspect-ratio: 4/3; object-fit: contain; background-color: #ffffff !important; padding: 1rem; border-bottom: 1px solid #e2e8f0;" data-no-hero-position="true" class="generated-image">
+          <div style="padding: 1.5rem; flex-grow: 1; display: flex; flex-direction: column;">
+            <h3 style="color: #102030 !important; margin-bottom: 0.5rem; font-size: 1.25rem; font-weight: bold;" data-i18n="new_h3_558">עגלות ומדפים ניידים</h3>
+            <p style="color: #102030 !important; margin-bottom: 1.5rem; font-size: 0.95rem; flex-grow: 1;" data-i18n="new_p_559">פתרון שינוע ואחסון גמיש על גלגלים. אידיאלי למטבחים, בתי חולים, מתקני קומפקטוס לעסקים ומחסנים דינמיים.</p>
+            <a href="#specs" style="color: #1e3a8a !important; font-weight: bold; text-decoration: none; align-self: flex-start;" data-i18n="new_a_560">למידות ומפרט ←</a>
+          </div>
+        </article>
+
+        <article class="card" style="background-color: #f8f9fa !important; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; display: flex; flex-direction: column;">
+          <img data-placeholder="chrome-heavy-duty" data-context="Heavy duty chrome wire shelving unit loaded with heavy boxes" src="/assets/page-chrome-heavy-duty-1781084138012.webp" alt="מדפי רשת עמוקים" style="width: 100%; aspect-ratio: 4/3; object-fit: contain; background-color: #ffffff !important; padding: 1rem; border-bottom: 1px solid #e2e8f0;" data-no-hero-position="true" class="generated-image">
+          <div style="padding: 1.5rem; flex-grow: 1; display: flex; flex-direction: column;">
+            <h3 style="color: #102030 !important; margin-bottom: 0.5rem; font-size: 1.25rem; font-weight: bold;" data-i18n="new_h3_561">מדפי רשת מחוזקים</h3>
+            <p style="color: #102030 !important; margin-bottom: 1.5rem; font-size: 0.95rem; flex-grow: 1;" data-i18n="new_p_562">פתרונות אחסון למשקל כבד במיוחד. עיצוב מחוזק עם תמיכה כפולה המונע שקיעה גם בעומס מרבי של סחורה.</p>
+            <a href="#specs" style="color: #1e3a8a !important; font-weight: bold; text-decoration: none; align-self: flex-start;" data-i18n="new_a_563">למידות ומפרט ←</a>
+          </div>
+        </article>
+
+        <article class="card" style="background-color: #f8f9fa !important; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; display: flex; flex-direction: column;">
+          <img data-placeholder="chrome-accessories" data-context="Collection of chrome wire shelving accessories like dividers, ledges, and label holders" src="/assets/page-chrome-accessories-1781084139006.webp" alt="אביזרים למדפי רשת" style="width: 100%; aspect-ratio: 4/3; object-fit: contain; background-color: #ffffff !important; padding: 1rem; border-bottom: 1px solid #e2e8f0;" data-no-hero-position="true" class="generated-image">
+          <div style="padding: 1.5rem; flex-grow: 1; display: flex; flex-direction: column;">
+            <h3 style="color: #102030 !important; margin-bottom: 0.5rem; font-size: 1.25rem; font-weight: bold;" data-i18n="new_h3_564">אביזרים נלווים</h3>
+            <p style="color: #102030 !important; margin-bottom: 1.5rem; font-size: 0.95rem; flex-grow: 1;" data-i18n="new_p_565">מחיצות רשת, מעצורים למדפים (Ledges), תופסני שילוט מפלסטיק וגלגלים תעשייתיים לשדרוג מערכת האחסון.</p>
+            <a href="#specs" style="color: #1e3a8a !important; font-weight: bold; text-decoration: none; align-self: flex-start;" data-i18n="new_a_566">למידות ומפרט ←</a>
+          </div>
+        </article>
+      </div>
     </div>
   </section>
-</main>
 
+  <section class="section features-section" id="features" style="background-color: #c0d0e0 !important; padding: 4rem 0;" data-zappy-section="true">
+    <div class="container">
+      <h2 style="color: #102030 !important; text-align: center; margin-bottom: 3rem; font-size: 2rem; font-weight: bold;" data-i18n="new_h2_567">היתרונות של מערכות כרום ניקל</h2>
+      <div class="grid" style="--zappy-grid-cols: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));" data-zappy-explicit-columns="true">
+        <div style="background-color: #f8f9fa !important; padding: 2.5rem 2rem; border-radius: 8px; text-align: center; border-bottom: 4px solid #1e3a8a; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+          <div style="width: 64px; height: 64px; background-color: #1e3a8a; color: #ffffff !important; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 1.5rem; font-weight: bold;">1</div>
+          <h3 style="color: #102030 !important; margin-bottom: 1rem; font-size: 1.25rem; font-weight: bold;" data-i18n="new_h3_568">זרימת אוויר ואור</h3>
+          <p style="color: #102030 !important; line-height: 1.5;" data-i18n="new_p_569">עיצוב הרשת הפתוח מאפשר חדירת אור ואוורור מקסימלי, מונע הצטברות אבק ומתאים לתקני כיבוי אש (ספרינקלרים).</p>
+        </div>
+        <div style="background-color: #f8f9fa !important; padding: 2.5rem 2rem; border-radius: 8px; text-align: center; border-bottom: 4px solid #1e3a8a; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+          <div style="width: 64px; height: 64px; background-color: #1e3a8a; color: #ffffff !important; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 1.5rem; font-weight: bold;">2</div>
+          <h3 style="color: #102030 !important; margin-bottom: 1rem; font-size: 1.25rem; font-weight: bold;" data-i18n="new_h3_570">הרכבה מודולרית מהירה</h3>
+          <p style="color: #102030 !important; line-height: 1.5;" data-i18n="new_p_571">ללא צורך בכלים מיוחדים או ברגים. שינוי גובה המדפים מתבצע בקלות בזכות שרוולי פלסטיק חכמים הנתפסים על העמודים.</p>
+        </div>
+        <div style="background-color: #f8f9fa !important; padding: 2.5rem 2rem; border-radius: 8px; text-align: center; border-bottom: 4px solid #1e3a8a; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+          <div style="width: 64px; height: 64px; background-color: #1e3a8a; color: #ffffff !important; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 1.5rem; font-weight: bold;">3</div>
+          <h3 style="color: #102030 !important; margin-bottom: 1rem; font-size: 1.25rem; font-weight: bold;" data-i18n="new_h3_572">נראות אסתטית ונקייה</h3>
+          <p style="color: #102030 !important; line-height: 1.5;" data-i18n="new_p_573">גימור הכרום הניקל המבריק מעניק מראה נקי ומקצועי, אידיאלי גם לתצוגת חנות, חדרים נקיים וסביבות הייטק מתקדמות.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section specs-section" id="specs" style="background-color: #f8f9fa !important; padding: 4rem 0;" data-zappy-section="true">
+    <div class="container">
+      <div style="display: flex; flex-wrap: wrap; gap: 3rem; align-items: flex-start;">
+        <div style="flex: 1; min-width: 300px;">
+          <h2 style="color: #102030 !important; margin-bottom: 1.5rem; font-size: 2rem; font-weight: bold;" data-i18n="new_h2_574">מפרט טכני ומידות סטנדרט</h2>
+          <p style="color: #102030 !important; margin-bottom: 2rem; line-height: 1.6;" data-i18n="new_p_575">אנו מחזיקים במלאי מגוון רחב של מידות כדי להתאים לכל חלל ודרישה. המדפים מתוכננים לעמוד בעומסים כבדים תוך שמירה על יציבות מרבית.</p>
+          
+          <div style="background-color: #ffffff !important; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+            <div style="display: flex; background-color: #1e3a8a; color: #ffffff !important; padding: 1.25rem 1rem; font-weight: bold;">
+              <div style="flex: 1; text-align: right;" data-i18n="new_div_576">עומק (ס"מ)</div>
+              <div style="flex: 1; text-align: right;" data-i18n="new_div_577">רוחב (ס"מ)</div>
+              <div style="flex: 1; text-align: right;" data-i18n="new_div_578">עומס מרבי למדף</div>
+            </div>
+            <div style="display: flex; padding: 1rem; border-bottom: 1px solid #e2e8f0; color: #102030 !important;">
+              <div style="flex: 1;">35 / 45 / 60</div>
+              <div style="flex: 1;">90</div>
+              <div style="flex: 1; font-weight: bold;" data-i18n="new_div_579">עד 250 ק"ג</div>
+            </div>
+            <div style="display: flex; padding: 1rem; border-bottom: 1px solid #e2e8f0; color: #102030; background-color: #f8f9fa !important;">
+              <div style="flex: 1;">35 / 45 / 60</div>
+              <div style="flex: 1;">120</div>
+              <div style="flex: 1; font-weight: bold;" data-i18n="new_div_580">עד 250 ק"ג</div>
+            </div>
+            <div style="display: flex; padding: 1rem; border-bottom: 1px solid #e2e8f0; color: #102030 !important;">
+              <div style="flex: 1;">45 / 60</div>
+              <div style="flex: 1;">150</div>
+              <div style="flex: 1; font-weight: bold;" data-i18n="new_div_581">עד 200 ק"ג</div>
+            </div>
+            <div style="display: flex; padding: 1rem; color: #102030; background-color: #f8f9fa !important;">
+              <div style="flex: 1;">45 / 60</div>
+              <div style="flex: 1;">180</div>
+              <div style="flex: 1; font-weight: bold;" data-i18n="new_div_582">עד 150 ק"ג</div>
+            </div>
+          </div>
+          <p style="color: #102030 !important; margin-top: 1rem; font-size: 0.875rem;" data-i18n="new_p_583">* גובה העמודים ניתן לבחירה: 160 ס"מ, 180 ס"מ, 220 ס"מ.</p>
+        </div>
+        <div style="flex: 1; min-width: 300px;">
+           <img data-placeholder="chrome-shelving-dimensions" data-context="Clean diagram or technical blueprint illustration showing dimensions and load capacities of chrome wire shelving" src="/assets/page-chrome-shelving-dimensions-1781084139092.webp" alt="תרשים מידות מדפי כרום ניקל" style="width: 100%; aspect-ratio: 1/1; object-fit: contain; background-color: #ffffff !important; border-radius: 8px; border: 1px solid #e2e8f0; padding: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05);" data-no-hero-position="true" class="generated-image">
+        </div>
+      </div>
+    </div>
+  </section></main>
+
+  
+
+    
+  
+
+    
   
 
   
@@ -1612,6 +1869,10 @@ html[dir="rtl"] body {
   
 
   
+
+
+
+
 
   
 
@@ -1619,26 +1880,38 @@ html[dir="rtl"] body {
 
   
     <!-- Legal Footer -->
-    <footer class="legal-footer">
+    
+
+
+
+<footer class="legal-footer">
       <div class="container">
         <div class="footer-main">
           <div class="all-rights-reserved">
-            <p>© 2026 مُعرَض حلول التخزين والعرض. جميع الحقوق محفوظة.</p>
+            <p data-i18n="home_p_36">© 2026 מוצגים פתרונות אחסון ותצוגה. כל הזכויות שמורות.</p>
           </div>
           <div class="footer-social"><a href="https://facebook.com/Mutzagim" target="_blank" rel="noopener noreferrer" aria-label="Facebook" data-i18n-aria-label="home_aria_label_74"><i class="fab fa-facebook"></i></a>
 <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="display:none !important;" data-i18n-aria-label="home_aria_label_75"><i class="fab fa-instagram"></i></a>
 <a href="https://wa.me/972542770665" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" data-i18n-aria-label="home_aria_label_76"><i class="fab fa-whatsapp"></i></a></div>
           <div class="footer-legal">
-            <a href="/ar/privacy" aria-label="מדיניות פרטיות" data-i18n-aria-label="home_aria_label_77">سياسة الخصوصية</a>
+            <a href="/privacy" aria-label="מדיניות פרטיות" data-i18n="home_link_42" data-i18n-aria-label="home_aria_label_77">
+              מדיניות פרטיות
+            </a>
             <span class="separator">|</span>
-            <a href="/ar/accessibility" aria-label="נגישות" data-i18n-aria-label="home_aria_label_78">إمكانية الوصول</a>
+            <a href="/accessibility" aria-label="נגישות" data-i18n="home_link_43" data-i18n-aria-label="home_aria_label_78">
+              נגישות
+            </a>
             <span class="separator">|</span>
-            <a href="/ar/terms" aria-label="תנאי שימוש" data-i18n-aria-label="home_aria_label_79">شروط الاستخدام</a><span class="separator">|</span>
-            <a href="/ar/return-policy" aria-label="מדיניות החזרות">سياسة الإرجاع</a>
+            <a href="/terms" aria-label="תנאי שימוש" data-i18n="home_link_44" data-i18n-aria-label="home_aria_label_79">
+              תנאי שימוש
+            </a><span class="separator">|</span>
+            <a href="/return-policy" aria-label="מדיניות החזרות" data-i18n="new_a_114">
+              מדיניות החזרות
+            </a>
           </div>
         </div>
         <div class="zappy-attribution">
-          <p><span><span><span><span><span><span><span>تم إنشاؤه بواسطة&nbsp;</span></span></span></span></span></span></span><a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Zappy</a></p>
+          <p><span><span><span><span data-i18n="new_text_456_0">נוצר באמצעות&nbsp;</span></span></span></span><a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;" data-i18n="home_link_45">Zappy</a></p>
         </div>
       </div>
     </footer>
@@ -1703,25 +1976,63 @@ html[dir="rtl"] body {
 })();
 </script>
     <div data-integration="accessibility:toolbar"></div>
-<a href="https://wa.me/972542770665" target="_blank" class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer" data-i18n-aria-label="esd_containers_aria_label_81">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="zappy-qv-overlay" id="zappy-qv-overlay" hidden=""></div>
+<div class="zappy-qv-modal" id="zappy-qv-modal" role="dialog" aria-modal="true" aria-label="תצוגה מהירה" hidden="">
+  <button type="button" class="zappy-qv-close" id="zappy-qv-close" aria-label="סגור">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+  </button>
+  <div class="zappy-qv-content" id="zappy-qv-content"></div>
+</div>
+<a href="https://wa.me/972542770665" target="_blank" class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer" data-i18n-aria-label="home_aria_label_73">
     <i class="fab fa-whatsapp"></i>
   </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- i18next Multi-Language Support -->
 <script>
@@ -2467,8 +2778,8 @@ html[dir="rtl"] body {
       "about_link_47": "נגישות",
       "about_link_48": "תנאי שימוש",
       "about_link_49": "Zappy",
-      "esd_text_10_0": "Happily created by&nbsp;",
-      "esd_text_20_0": "נוצר באמצעות&nbsp;",
+      "esd_text_10_0": "Happily created by ",
+      "esd_text_20_0": "נוצר באמצעות ",
       "new_label_321": "מספר טלפון *",
       "new_label_325": "<input type=\"checkbox\" id=\"save-address-checkbox\" class=\"save-address-checkbox\" />\n                          <span>שמור את הכתובת לפעם הבאה</span>",
       "new_label_349": "<input type=\"checkbox\" id=\"terms-checkbox\" class=\"terms-checkbox\" />\n                  <span><span>אני מסכים/ה ל</span> <a href=\"/terms\" target=\"_blank\" class=\"terms-link\">תנאי השימוש</a></span>",
@@ -2537,14 +2848,14 @@ html[dir="rtl"] body {
       "terms_link_29": "נגישות",
       "terms_link_30": "תנאי שימוש",
       "terms_link_31": "Zappy",
-      "vlm_text_10_0": "Happily created by&nbsp;",
-      "vlm_text_19_0": "נוצר באמצעות&nbsp;",
-      "cold_text_11_0": "Happily created by&nbsp;",
-      "cold_text_12_0": "Happily created by&nbsp;",
-      "cold_text_19_0": "נוצר באמצעות&nbsp;",
-      "cold_text_23_0": "נוצר באמצעות&nbsp;",
-      "home_text_20_0": "Happily created by&nbsp;",
-      "home_text_37_0": "נוצר באמצעות&nbsp;",
+      "vlm_text_10_0": "Happily created by ",
+      "vlm_text_19_0": "נוצר באמצעות ",
+      "cold_text_11_0": "Happily created by ",
+      "cold_text_12_0": "Happily created by ",
+      "cold_text_19_0": "נוצר באמצעות ",
+      "cold_text_23_0": "נוצר באמצעות ",
+      "home_text_20_0": "Happily created by ",
+      "home_text_37_0": "נוצר באמצעות ",
       "new_button_320": "התנתק",
       "new_button_322": "הבא",
       "new_button_326": "הבא",
@@ -2646,8 +2957,8 @@ html[dir="rtl"] body {
       "services_li_67": "<i class=\"fas fa-check-circle\"></i> תיעוד מלא ואישורים",
       "services_li_68": "<i class=\"fas fa-check-circle\"></i> בדיקות תקופתיות",
       "services_li_69": "<i class=\"fas fa-check-circle\"></i> ייעוץ בטיחותי מתמשך",
-      "about_text_20_0": "Happily created by&nbsp;",
-      "about_text_43_0": "נוצר באמצעות&nbsp;",
+      "about_text_20_0": "Happily created by ",
+      "about_text_43_0": "נוצר באמצעות ",
       "contact_us_h1_1": "בואו נדבר על הצרכים שלכם",
       "contact_us_h2_2": "דרכי התקשרות",
       "contact_us_h2_3": "שלחו לנו הודעה",
@@ -2678,8 +2989,8 @@ html[dir="rtl"] body {
       "contact_us_p_37": "כל המוצרים שלנו מגיעים עם אחריות מלאה על חומרים ועבודה. האחריות כוללת גם שירות תחזוקה ותמיכה טכנית. פרטי האחריות המדויקים מסופקים עם כל הזמנה.",
       "contact_us_p_38": "כן, אנו מספקים פתרונות אחסון למגוון רחב של תעשיות: מפעלי ייצור, חברות לוגיסטיקה, מחסנים, ארכיונים, ספריות ועוד. לכל תעשייה יש צרכים ייחודיים ואנו מתאימים את הפתרון בהתאם.",
       "contact_us_p_39": "© 2026 מוצגים פתרונות אחסון ותצוגה. כל הזכויות שמורות.",
-      "heavy_text_15_0": "Happily created by&nbsp;",
-      "heavy_text_30_0": "נוצר באמצעות&nbsp;",
+      "heavy_text_15_0": "Happily created by ",
+      "heavy_text_30_0": "נוצר באמצעות ",
       "home_page_title": "מדפי רשת כרום ניקל | פתרונות אחסון תעשייתי",
       "legal_text_40_0": "אימייל: ",
       "legal_text_41_0": "טלפון: ",
@@ -2687,8 +2998,8 @@ html[dir="rtl"] body {
       "legal_text_45_0": "טלפון: ",
       "legal_text_48_0": "אימייל: ",
       "legal_text_49_0": "טלפון: ",
-      "light_text_14_0": "Happily created by&nbsp;",
-      "light_text_23_0": "נוצר באמצעות&nbsp;",
+      "light_text_14_0": "Happily created by ",
+      "light_text_23_0": "נוצר באמצעות ",
       "privacy_link_22": "effi@mutzagim.co.il",
       "privacy_link_23": "מדיניות פרטיות",
       "privacy_link_24": "נגישות",
@@ -2722,7 +3033,7 @@ html[dir="rtl"] body {
       "services_nav_87": "אודות",
       "services_nav_88": "צרו קשר",
       "services_nav_89": "צרו קשר",
-      "terms_text_26_0": "נוצר באמצעות&nbsp;",
+      "terms_text_26_0": "נוצר באמצעות ",
       "terms_text_52_0": "אימייל: ",
       "about_page_title": "הסיפור שלנו ומומחיות בפתרונות אחסון — מוצגים פתרונות אחסון ותצוגה",
       "contact_us_h3_10": "שעות פעילות",
@@ -2765,10 +3076,10 @@ html[dir="rtl"] body {
       "services_link_34": "Zappy",
       "terms_page_title": "תנאי שימוש",
       "accessibility_p_9": "מוצגים פתרונות אחסון ותצוגה מחויבת להנגיש את השירותים לכלל הציבור. אנו פועלים ליישם את הנחיות התקן הישראלי \n            (ת\"י 5568) המבוסס על הנחיות WCAG 2.1 ברמת AA.",
-      "catalog_text_14_0": "Happily created by&nbsp;",
-      "catalog_text_27_0": "נוצר באמצעות&nbsp;",
-      "contact_text_18_0": "Happily created by&nbsp;",
-      "contact_text_40_0": "נוצר באמצעות&nbsp;",
+      "catalog_text_14_0": "Happily created by ",
+      "catalog_text_27_0": "נוצר באמצעות ",
+      "contact_text_18_0": "Happily created by ",
+      "contact_text_40_0": "נוצר באמצעות ",
       "contact_us_alt_92": "מוצגים פתרונות אחסון ותצוגה",
       "contact_us_btn_48": "שלחו הודעה",
       "contact_us_nav_67": "קטגורית מוצרים",
@@ -2798,8 +3109,8 @@ html[dir="rtl"] body {
       "contact_us_opt_64": "ריהוט תעשייתי לחברות לוגיסטיקה",
       "contact_us_opt_65": "ייעוץ והערכת צרכים",
       "contact_us_opt_66": "אחר",
-      "dalmine_text_12_0": "Happily created by&nbsp;",
-      "dalmine_text_24_0": "נוצר באמצעות&nbsp;",
+      "dalmine_text_12_0": "Happily created by ",
+      "dalmine_text_24_0": "נוצר באמצעות ",
       "home_seo_keywords": "מדפי אחסון תעשייתי למפעלים, פתרונות אחסון למשקל כבד, מתקני קומפקטוס לעסקים, ריהוט תעשייתי לחברות לוגיסטיקה",
       "legal_terms_h2_10": "9. שינוי תנאי השימוש",
       "legal_terms_h2_11": "10. סיום השירות",
@@ -2827,14 +3138,14 @@ html[dir="rtl"] body {
       "legal_terms_li_46": "תנאי השימוש מהווים את מלוא ההסכם בין הצדדים",
       "legal_terms_li_47": "חברה: [business_name]",
       "legal_terms_li_50": "כתובת: [business_address]",
-      "plastic_text_12_0": "Happily created by&nbsp;",
-      "plastic_text_25_0": "נוצר באמצעות&nbsp;",
-      "privacy_text_21_0": "נוצר באמצעות&nbsp;",
+      "plastic_text_12_0": "Happily created by ",
+      "plastic_text_25_0": "נוצר באמצעות ",
+      "privacy_text_21_0": "נוצר באמצעות ",
       "privacy_text_44_0": "אימייל: ",
-      "storage_text_12_0": "Happily created by&nbsp;",
-      "storage_text_20_0": "נוצר באמצעות&nbsp;",
-      "vehicle_text_14_0": "Happily created by&nbsp;",
-      "vehicle_text_29_0": "נוצר באמצעות&nbsp;",
+      "storage_text_12_0": "Happily created by ",
+      "storage_text_20_0": "נוצר באמצעות ",
+      "vehicle_text_14_0": "Happily created by ",
+      "vehicle_text_29_0": "נוצר באמצעות ",
       "about_seo_keywords": "מדפי אחסון תעשייתי למפעלים, פתרונות אחסון למשקל כבד, מתקני קומפקטוס לעסקים, ריהוט תעשייתי לחברות לוגיסטיקה",
       "accessibility_h1_1": "הצהרת נגישות",
       "accessibility_h2_2": "1. מדיניות הנגישות",
@@ -2852,8 +3163,8 @@ html[dir="rtl"] body {
       "accessibility_p_15": "<strong>זמני מענה:</strong> נענה לפניות בנושא נגישות תוך 3 ימי עסקים ונפעל לפתרון תוך 10 ימי עסקים.",
       "accessibility_p_16": "<strong>תלונות:</strong> ניתן להגיש תלונה למשרד המשפטים - הנציבות לשוויון זכויות לאנשים עם מוגבלות",
       "accessibility_p_17": "© 2026 מוצגים פתרונות אחסון ותצוגה. כל הזכויות שמורות.",
-      "advanced_text_11_0": "Happily created by&nbsp;",
-      "advanced_text_17_0": "נוצר באמצעות&nbsp;",
+      "advanced_text_11_0": "Happily created by ",
+      "advanced_text_17_0": "נוצר באמצעות ",
       "contact_us_link_41": "Zappy",
       "contact_us_link_42": "effi@mutzagim.co.il",
       "contact_us_link_43": "שלחו הודעה",
@@ -2892,10 +3203,10 @@ html[dir="rtl"] body {
       "legal_terms_div_51": "עדכון אחרון: 4.5.2026",
       "legal_terms_div_52": "השימוש באתר זה מהווה הסכמה לתנאי השימוש המפורטים להלן. אנא קראו בעיון לפני השימוש.",
       "privacy_page_title": "מדיניות פרטיות",
-      "services_text_11_0": "Happily created by&nbsp;",
-      "services_text_28_0": "נוצר באמצעות&nbsp;",
-      "shelving_text_11_0": "Happily created by&nbsp;",
-      "shelving_text_24_0": "נוצר באמצעות&nbsp;",
+      "services_text_11_0": "Happily created by ",
+      "services_text_28_0": "נוצר באמצעות ",
+      "shelving_text_11_0": "Happily created by ",
+      "shelving_text_24_0": "נוצר באמצעות ",
       "about_aria_label_71": "תפריט",
       "about_aria_label_72": "התקשרו אלינו",
       "about_aria_label_73": "WhatsApp",
@@ -2930,8 +3241,8 @@ html[dir="rtl"] body {
       "accessibility_li_46": "בדיקה עם משתמשים עם מוגבלויות",
       "accessibility_li_47": "<strong>חברה:</strong> מוצגים פתרונות אחסון ותצוגה",
       "accessibility_li_49": "<strong>טלפון:</strong> <a href=\"tel:+972 54-277-0665\">+972 54-277-0665</a>",
-      "compactus_text_15_0": "Happily created by&nbsp;",
-      "compactus_text_28_0": "נוצר באמצעות&nbsp;",
+      "compactus_text_15_0": "Happily created by ",
+      "compactus_text_28_0": "נוצר באמצעות ",
       "contact_us_label_49": "שם מלא *",
       "contact_us_label_50": "אימייל *",
       "contact_us_label_51": "טלפון *",
@@ -3074,8 +3385,8 @@ html[dir="rtl"] body {
       "privacy_aria_label_75": "נגישות",
       "privacy_aria_label_76": "תנאי שימוש",
       "services_seo_keywords": "מדפי אחסון תעשייתי למפעלים, פתרונות אחסון למשקל כבד, מתקני קומפקטוס לעסקים, ריהוט תעשייתי לחברות לוגיסטיקה",
-      "supermarket_text_16_0": "Happily created by&nbsp;",
-      "supermarket_text_29_0": "נוצר באמצעות&nbsp;",
+      "supermarket_text_16_0": "Happily created by ",
+      "supermarket_text_29_0": "נוצר באמצעות ",
       "about_meta_description": "למדו על מוצגים פתרונות אחסון ותצוגה - מובילים בתחום מדפי אחסון תעשייתי למפעלים ופתרונות אחסון למשקל כבד. ניסיון, מומחיות ומחויבות לאיכות.",
       "compactus_systems_h1_1": "מתקני קומפקטוס – אחסון נע על מסילות",
       "compactus_systems_h2_2": "New Headline",
@@ -3132,7 +3443,7 @@ html[dir="rtl"] body {
       "vehicle_equipment_p_26": "התאמה אישית של המדפים והמגירות לפי צרכי העסק וסוג הרכב המסחרי.",
       "vehicle_equipment_p_27": "כל פתרון זיווד מתחיל בתכנון קפדני. אנו משתמשים בטכנולוגיות מתקדמות כדי להבטיח ניצול אופטימלי של חלל הרכב, תוך שמירה על משקל נמוך וחוזק מבני.",
       "vehicle_equipment_p_28": "© 2026 מוצגים פתרונות אחסון ותצוגה. כל הזכויות שמורות.",
-      "accessibility_text_18_0": "נוצר באמצעות&nbsp;",
+      "accessibility_text_18_0": "נוצר באמצעות ",
       "accessibility_text_48_0": "אימייל: ",
       "cold_room_shelving_h1_1": "מידוף לחדרי קירור ומקפאים",
       "cold_room_shelving_h2_2": "מאפייני המערכת",
@@ -3337,13 +3648,13 @@ html[dir="rtl"] body {
       "catalog_and_pricing_h3_11": "מדפי קנטיליבר",
       "catalog_and_pricing_h3_12": "גלריה תעשייתית",
       "catalog_and_pricing_h3_13": "שעות פעילות",
-      "catalog_and_pricing_li_56": "יום ראשון&nbsp;09:00 - 17:00",
-      "catalog_and_pricing_li_57": "יום שני&nbsp;09:00 - 17:00",
-      "catalog_and_pricing_li_58": "יום שלישי&nbsp;09:00 - 17:00",
-      "catalog_and_pricing_li_59": "יום רביעי&nbsp;09:00 - 17:00",
-      "catalog_and_pricing_li_60": "יום חמישי&nbsp;09:00 - 17:00",
-      "catalog_and_pricing_li_61": "יום שישי&nbsp;סגור",
-      "catalog_and_pricing_li_62": "יום שבת&nbsp;סגור",
+      "catalog_and_pricing_li_56": "יום ראשון 09:00 - 17:00",
+      "catalog_and_pricing_li_57": "יום שני 09:00 - 17:00",
+      "catalog_and_pricing_li_58": "יום שלישי 09:00 - 17:00",
+      "catalog_and_pricing_li_59": "יום רביעי 09:00 - 17:00",
+      "catalog_and_pricing_li_60": "יום חמישי 09:00 - 17:00",
+      "catalog_and_pricing_li_61": "יום שישי סגור",
+      "catalog_and_pricing_li_62": "יום שבת סגור",
       "cold_room_shelving_alt_46": "מוצגים פתרונות אחסון ותצוגה",
       "cold_room_shelving_alt_47": "מידוף לחדרי קירור",
       "cold_room_shelving_alt_48": "עמידות בטמפרטורות",
@@ -13167,103 +13478,57 @@ html[dir="rtl"] body {
 })();
 </script>
 
-<div class="zappy-qv-overlay" id="zappy-qv-overlay" hidden=""></div>
-<div class="zappy-qv-modal" id="zappy-qv-modal" role="dialog" aria-modal="true" aria-label="תצוגה מהירה" hidden="">
-  <button type="button" class="zappy-qv-close" id="zappy-qv-close" aria-label="סגור">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
-  </button>
-  <div class="zappy-qv-content" id="zappy-qv-content"></div>
-</div>
     <script src="/script.js"></script>
 
-<!-- Zappy Language Switcher Icon Color Fix -->
-<script>
-(function() {
-  function fixLanguageSwitcherColor() {
-    var switcher = document.querySelector('.lang-switcher-current');
-    var svg = switcher ? switcher.querySelector('svg') : null;
-    if (!switcher || !svg) return;
-    
-    var navbar = document.querySelector('.navbar') || 
-                 document.querySelector('nav') || 
-                 document.querySelector('header');
-    if (!navbar) return;
-    
-    // Get effective background color by walking up DOM tree
-    function getEffectiveBackgroundColor(element) {
-      var el = element;
-      var maxDepth = 10;
-      
-      while (el && maxDepth > 0) {
-        var style = window.getComputedStyle(el);
-        var bg = style.backgroundColor;
-        
-        if (bg && bg !== 'transparent' && bg !== 'rgba(0, 0, 0, 0)') {
-          return bg;
+    <script id="zappy-mobile-submenu-script">
+    (function() {
+      function initMobileSubmenuToggles() {
+        if (window.innerWidth > 768) {
+          document.querySelectorAll('.mobile-submenu-toggle').forEach(function(btn) { btn.remove(); });
+          document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) { menu.classList.remove('mobile-expanded'); });
+          return;
         }
-        
-        var bgImage = style.backgroundImage;
-        if (bgImage && bgImage !== 'none') {
-          var gradientMatch = bgImage.match(/rgba?\([^)]+\)|#[a-fA-F0-9]{3,8}/);
-          if (gradientMatch) return gradientMatch[0];
-        }
-        
-        el = el.parentElement;
-        maxDepth--;
+        var items = document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)');
+        items.forEach(function(li) {
+          if (li.querySelector('.mobile-submenu-toggle')) return;
+          var submenu = li.querySelector('.sub-menu');
+          var parentLink = li.querySelector(':scope > a');
+          if (!submenu || !parentLink) return;
+          var toggleBtn = document.createElement('button');
+          toggleBtn.className = 'mobile-submenu-toggle';
+          toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+          toggleBtn.setAttribute('type', 'button');
+          parentLink.insertAdjacentElement('afterend', toggleBtn);
+          toggleBtn.addEventListener('click', function(e) {
+            e.preventDefault(); e.stopPropagation();
+            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+              if (menu !== submenu) { menu.classList.remove('mobile-expanded'); var t = menu.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }
+            });
+            submenu.classList.toggle('mobile-expanded');
+            toggleBtn.classList.toggle('expanded');
+          });
+        });
       }
-      return 'rgb(255, 255, 255)';
-    }
-    
-    // Parse color string to RGB
-    function parseColor(colorStr) {
-      if (!colorStr) return null;
-      
-      var rgbMatch = colorStr.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);
-      if (rgbMatch) {
-        return { r: parseInt(rgbMatch[1], 10), g: parseInt(rgbMatch[2], 10), b: parseInt(rgbMatch[3], 10) };
-      }
-      
-      var hexMatch = colorStr.match(/#([a-fA-F0-9]{2})([a-fA-F0-9]{2})([a-fA-F0-9]{2})/);
-      if (hexMatch) {
-        return { r: parseInt(hexMatch[1], 16), g: parseInt(hexMatch[2], 16), b: parseInt(hexMatch[3], 16) };
-      }
-      
-      return null;
-    }
-    
-    // Calculate WCAG luminance
-    function getLuminance(rgb) {
-      if (!rgb) return 0.5;
-      var r = rgb.r / 255, g = rgb.g / 255, b = rgb.b / 255;
-      r = r <= 0.03928 ? r / 12.92 : Math.pow((r + 0.055) / 1.055, 2.4);
-      g = g <= 0.03928 ? g / 12.92 : Math.pow((g + 0.055) / 1.055, 2.4);
-      b = b <= 0.03928 ? b / 12.92 : Math.pow((b + 0.055) / 1.055, 2.4);
-      return 0.2126 * r + 0.7152 * g + 0.0722 * b;
-    }
-    
-    var bgColor = getEffectiveBackgroundColor(navbar);
-    var rgb = parseColor(bgColor);
-    var luminance = getLuminance(rgb);
-    var isLightBackground = luminance > 0.4;
-    var iconColor = isLightBackground ? '#1a1a1a' : '#F3FAFF';
-    
-    svg.style.fill = iconColor;
-    svg.setAttribute('fill', iconColor);
-    switcher.style.color = iconColor;
-  }
-  
-  // Run on DOM ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', fixLanguageSwitcherColor);
-  } else {
-    fixLanguageSwitcherColor();
-  }
-  
-  // Also run after a short delay to catch late-loading styles
-  setTimeout(fixLanguageSwitcherColor, 100);
-  setTimeout(fixLanguageSwitcherColor, 500);
-  
-  // Run on resize
-  window.addEventListener('resize', fixLanguageSwitcherColor);
-})();
-</script></body></html>
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
+      else { initMobileSubmenuToggles(); }
+      var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
+      // Re-initialize when mobile menu becomes visible (MutationObserver)
+      var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.type === 'attributes') {
+            var target = mutation.target;
+            if (target.classList && (target.classList.contains('active') || target.classList.contains('open'))) {
+              setTimeout(initMobileSubmenuToggles, 100);
+            }
+          }
+        });
+      });
+      setTimeout(function() {
+        document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu, nav').forEach(function(menu) {
+          observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
+        });
+      }, 500);
+    })();
+    </script>
+</body>
+</html>
