@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T16:42:32.302Z",
+  "generated_at": "2026-06-10T16:43:36.918Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -9,7 +9,12 @@
       "id": "1d865fdf-6916-4d1a-95a7-8961773050ef",
       "slug": "ryhvt-rkb-mschry-mla-large-oq458b",
       "name": "ריהוט רכב מסחרי מלא – Large",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "أثاث المركبات التجارية الكامل – Large",
+        "en": "Complete Commercial Vehicle Furniture – Large",
+        "he": "ריהוט רכב מסחרי מלא – Large",
+        "ru": "Полная мебель для коммерческого транспорта – Large"
+      },
       "description": "ריהוט רכב מסחרי מלא StoreVan – גרסת Large. מתאים ל-Mercedes-Benz Sprinter, Fiat Ducato, Ford Transit L וכד'. כולל מודולים מאלומיניום, מדפים ואביזרים. התקנה ללא קידוח. אחריות 8 שנים.",
       "short_description": "ריהוט מלא StoreVan – Large. מתאים ל-Mercedes-Benz Sprinter, Fiat Ducato, Ford Transit L וכד'.",
       "sku": "INRICHTING-LARGE",
@@ -25,13 +30,18 @@
       "categories": [
         "ריהוט רכב מסחרי מלא"
       ],
-      "updated_at": "2026-06-10T16:41:19.422Z"
+      "updated_at": "2026-06-10T16:42:51.225Z"
     },
     {
       "id": "41199d2b-6a2f-45b8-8b0c-c2149ff133d5",
       "slug": "mchzyk-pchyvt-spryy-storevan-365-mm-5l8zxe",
       "name": "מחזיק פחיות ספריי StoreVan – 365 מ\"מ",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "حامل علب الرش StoreVan – 365 مم",
+        "en": "StoreVan Spray Can Holder – 365 mm",
+        "he": "מחזיק פחיות ספריי StoreVan – 365 מ\"מ",
+        "ru": "Держатель баллончиков StoreVan – 365 мм"
+      },
       "description": "מחזיק פחיות ספריי StoreVan, מק\"ט F22KTSPR3650001, רוחב 365 מ\"מ. פתרון ארגוני לאחסון מסודר של פחיות ספריי ברכב מסחרי. ניתן להרכבה על מודולי StoreVan. זמין ממלאי.",
       "short_description": "מחזיק פחיות ספריי StoreVan, רוחב 365 מ\"מ. זמין ממלאי.",
       "sku": "F22KTSPR3650001",
@@ -47,13 +57,18 @@
       "categories": [
         "אביזרים"
       ],
-      "updated_at": "2026-06-10T16:41:19.408Z"
+      "updated_at": "2026-06-10T16:42:50.493Z"
     },
     {
       "id": "ad78c466-c14e-4933-97bb-e0b76b15623b",
       "slug": "ryhvt-rkb-mschry-mla-small-39s3rx",
       "name": "ריהוט רכב מסחרי מלא – Small",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "أثاث مركبة تجارية كامل – Small",
+        "en": "Complete Commercial Vehicle Furniture – Small",
+        "he": "ריהוט רכב מסחרי מלא – Small",
+        "ru": "Полная мебель для коммерческого автомобиля – Small"
+      },
       "description": "ריהוט רכב מסחרי מלא StoreVan – גרסת Small. מתאים ל-Ford Transit Connect, Mercedes-Benz Citan, Renault Express וכד'. כולל מודולים מאלומיניום, מדפים ואביזרים. התקנה ללא קידוח. אחריות 8 שנים.",
       "short_description": "ריהוט מלא StoreVan – Small. מתאים ל-Ford Transit Connect, Mercedes-Benz Citan, Renault Express וכד'.",
       "sku": "INRICHTING-SMALL",
@@ -69,13 +84,18 @@
       "categories": [
         "ריהוט רכב מסחרי מלא"
       ],
-      "updated_at": "2026-06-10T16:41:19.404Z"
+      "updated_at": "2026-06-10T16:42:51.110Z"
     },
     {
       "id": "f4fdddec-a34a-4ff5-b7f6-8a25fddb0513",
       "slug": "mdp-chbylvt-mercedes-benz-sprinter-ymyn-yosu5u",
       "name": "מדף חבילות Mercedes-Benz Sprinter – ימין",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "رف الطرود Mercedes-Benz Sprinter – يمين",
+        "en": "Mercedes-Benz Sprinter Package Shelf – Right",
+        "he": "מדף חבילות Mercedes-Benz Sprinter – ימין",
+        "ru": "Полка для посылок Mercedes-Benz Sprinter – правая"
+      },
       "description": "מדף חבילות/פוסט StoreVan למרצדס-בנץ ספרינטר, Sprinter | ימין. מותאם לאספקת חבילות יעילה. מבנה אלומיניום חזק. מידות מותאמות לדגם הרכב. אחריות 8 שנים.",
       "short_description": "מדף חבילות Sprinter Sprinter | ימין. StoreVan. אלומיניום. אחריות 8 שנים.",
       "sku": "postpakketrek-mb-sprinter-rechts",
@@ -91,13 +111,18 @@
       "categories": [
         "מדפי חבילות (פוסט/דיוור)"
       ],
-      "updated_at": "2026-06-10T16:41:19.401Z"
+      "updated_at": "2026-06-10T16:42:47.649Z"
     },
     {
       "id": "757733f5-6411-4e2d-958b-121b47768ee0",
       "slug": "mdp-chbylvt-mercedes-benz-sprinter-shmal-y0ncaz",
       "name": "מדף חבילות Mercedes-Benz Sprinter – שמאל",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "رف الطرود Mercedes-Benz Sprinter – يسار",
+        "en": "Mercedes-Benz Sprinter Package Shelf - Left",
+        "he": "מדף חבילות Mercedes-Benz Sprinter – שמאל",
+        "ru": "Полка для посылок Mercedes-Benz Sprinter – левая"
+      },
       "description": "מדף חבילות/פוסט StoreVan למרצדס-בנץ ספרינטר, Sprinter | שמאל. מותאם לאספקת חבילות יעילה. מבנה אלומיניום חזק. מידות מותאמות לדגם הרכב. אחריות 8 שנים.",
       "short_description": "מדף חבילות Sprinter Sprinter | שמאל. StoreVan. אלומיניום. אחריות 8 שנים.",
       "sku": "postpakketrek-mb-sprinter-links",
@@ -113,13 +138,18 @@
       "categories": [
         "מדפי חבילות (פוסט/דיוור)"
       ],
-      "updated_at": "2026-06-10T16:41:19.399Z"
+      "updated_at": "2026-06-10T16:42:47.239Z"
     },
     {
       "id": "e3bd609e-620b-457c-817d-bee1653eba48",
       "slug": "ryhvt-rkb-mschry-mla-medium-r6sin2",
       "name": "ריהוט רכב מסחרי מלא – Medium",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "أثاث مركبة تجارية كامل – Medium",
+        "en": "Complete Commercial Vehicle Furniture – Medium",
+        "he": "ריהוט רכב מסחרי מלא – Medium",
+        "ru": "Полная мебель для коммерческого автомобиля – Medium"
+      },
       "description": "ריהוט רכב מסחרי מלא StoreVan – גרסת Medium. מתאים ל-Ford Transit Custom, Fiat Talento, Volkswagen Transporter וכד'. כולל מודולים מאלומיניום, מדפים ואביזרים. התקנה ללא קידוח. אחריות 8 שנים.",
       "short_description": "ריהוט מלא StoreVan – Medium. מתאים ל-Ford Transit Custom, Fiat Talento, Volkswagen Transporter וכד'.",
       "sku": "INRICHTING-MEDIUM",
@@ -135,13 +165,18 @@
       "categories": [
         "ריהוט רכב מסחרי מלא"
       ],
-      "updated_at": "2026-06-10T16:41:19.375Z"
+      "updated_at": "2026-06-10T16:42:50.081Z"
     },
     {
       "id": "f68fbfc6-c607-40cc-b7eb-f6e66b1729ce",
       "slug": "msgrt-mtrchbt-bynvnyt-1225730-mm-08va28",
       "name": "מסגרת מתרחבת בינונית 1,225×730 מ\"מ",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "إطار قابل للتمدد متوسط 1,225×730 مم",
+        "en": "Medium Expanding Frame 1,225×730 mm",
+        "he": "מסגרת מתרחבת בינונית 1,225×730 מ\"מ",
+        "ru": "Раздвижная рама средняя 1,225×730 мм"
+      },
       "description": "מסגרת מתרחבת אלומיניום של StoreVan, 1,225×730 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.",
       "short_description": "מסגרת מתרחבת אלומיניום 1,225×730 מ\"מ. עומס 300 ק\"ג. תו GS. ללא קידוח.",
       "sku": "1203AH",
@@ -157,13 +192,18 @@
       "categories": [
         "מסגרות מתרחבות"
       ],
-      "updated_at": "2026-06-10T16:41:19.341Z"
+      "updated_at": "2026-06-10T16:42:46.035Z"
     },
     {
       "id": "16f3bb95-3c3a-423c-b280-41de181e959a",
       "slug": "msgrt-mtrchbt-bynvnyt-1225445-mm-zh4cuk",
       "name": "מסגרת מתרחבת בינונית 1,225×445 מ\"מ",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "إطار قابل للتمدد متوسط 1,225×445 مم",
+        "en": "Medium Expandable Frame 1,225×445 mm",
+        "he": "מסגרת מתרחבת בינונית 1,225×445 מ\"מ",
+        "ru": "Выдвижная рама средняя 1,225×445 мм"
+      },
       "description": "מסגרת מתרחבת אלומיניום של StoreVan, 1,225×445 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.",
       "short_description": "מסגרת מתרחבת אלומיניום 1,225×445 מ\"מ. עומס 300 ק\"ג. תו GS. ללא קידוח.",
       "sku": "1197AH",
@@ -179,13 +219,18 @@
       "categories": [
         "מסגרות מתרחבות"
       ],
-      "updated_at": "2026-06-10T16:41:19.339Z"
+      "updated_at": "2026-06-10T16:42:47.012Z"
     },
     {
       "id": "c519b3ab-831e-4428-8cdd-b12897a3eedb",
       "slug": "msgrt-mtrchbt-arvkh-1524365-mm-i4qg43",
       "name": "מסגרת מתרחבת ארוכה 1,524×365 מ\"מ",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "إطار قابل للتمديد طويل 1,524×365 مم",
+        "en": "Long Telescopic Frame 1,524×365 mm",
+        "he": "מסגרת מתרחבת ארוכה 1,524×365 מ\"מ",
+        "ru": "Выдвижная рама длинная 1,524×365 мм"
+      },
       "description": "מסגרת מתרחבת אלומיניום של StoreVan, 1,524×365 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.",
       "short_description": "מסגרת מתרחבת אלומיניום 1,524×365 מ\"מ. עומס 300 ק\"ג. תו GS. ללא קידוח.",
       "sku": "1201AH",
@@ -201,13 +246,18 @@
       "categories": [
         "מסגרות מתרחבות"
       ],
-      "updated_at": "2026-06-10T16:41:19.310Z"
+      "updated_at": "2026-06-10T16:42:46.706Z"
     },
     {
       "id": "35aac623-98cb-423c-85b1-446419707dc2",
       "slug": "mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-4ti4xo",
       "name": "מודול מגירות רצפה שלם – רכב קטן",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة أدراج أرضية كاملة - مركبة صغيرة",
+        "en": "Complete Floor Drawer Module – Small Vehicle",
+        "he": "מודול מגירות רצפה שלם – רכב קטן",
+        "ru": "Полный модуль напольных ящиков – малый автомобиль"
+      },
       "description": "מודול מגירות רצפה שלם של StoreVan לרכבים מסחריים קטנים: Caddy, Connect, Doblo, Partner, Kangoo, Combo, Berlingo וכד'. רצפה מורמת עם 2 מגירות אלומיניום. התקנה ללא קידוח – מסגרת אלומיניום מגולוון. אחריות 8 שנים.",
       "short_description": "מודול מגירות רצפה שלם StoreVan לרכב קטן. 2 מגירות. רצפה מורמת. ללא קידוח.",
       "sku": "VL-MODULE-SMALL",
@@ -223,13 +273,18 @@
       "categories": [
         "ריצוף ומגירות רצפה"
       ],
-      "updated_at": "2026-06-10T16:41:17.683Z"
+      "updated_at": "2026-06-10T16:43:05.758Z"
     },
     {
       "id": "4d6c9793-fa2e-4181-9fe1-b4626c5c9735",
       "slug": "mgyrt-rtsph-alvmynyvm-5801242250-mm-eavvkj",
       "name": "מגירת רצפה אלומיניום 580×1,242×250 מ\"מ",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "درج أرضي ألومنيوم 580×1,242×250 مم",
+        "en": "Aluminum Floor Drawer 580×1,242×250 mm",
+        "he": "מגירת רצפה אלומיניום 580×1,242×250 מ\"מ",
+        "ru": "Алюминиевый напольный ящик 580×1,242×250 мм"
+      },
       "description": "מגירת רצפה אלומיניום Heavy Duty של StoreVan, 100% הוצאה מלאה, גובה חזית 200 מ\"מ עם מרפד גומי. התקנה ללא קידוח בפח הרכב. מידות חיצוניות: 580×1,242×250 מ\"מ. ניתן לערום. אחריות 8 שנים.",
       "short_description": "מגירת רצפה אלומיניום Heavy Duty 580×1,242×250 מ\"מ. 100% הוצאה מלאה. התקנה ללא קידוח.",
       "sku": "VL580-1242",
@@ -245,13 +300,18 @@
       "categories": [
         "ריצוף ומגירות רצפה"
       ],
-      "updated_at": "2026-06-10T16:41:17.671Z"
+      "updated_at": "2026-06-10T16:42:49.844Z"
     },
     {
       "id": "4244b18a-1633-42dc-b56b-5bfc7109acc4",
       "slug": "mgyrt-rtsph-alvmynyvm-580930250-mm-v9opuz",
       "name": "מגירת רצפה אלומיניום 580×930×250 מ\"מ",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "درج أرضي ألومنيوم 580×930×250 مم",
+        "en": "Aluminum Floor Drawer 580×930×250 mm",
+        "he": "מגירת רצפה אלומיניום 580×930×250 מ\"מ",
+        "ru": "Алюминиевый напольный ящик 580×930×250 мм"
+      },
       "description": "מגירת רצפה אלומיניום Heavy Duty של StoreVan, 100% הוצאה מלאה, גובה חזית 200 מ\"מ עם מרפד גומי. התקנה ללא קידוח בפח הרכב. מידות חיצוניות: 580×930×250 מ\"מ. ניתן לערום. אחריות 8 שנים.",
       "short_description": "מגירת רצפה אלומיניום Heavy Duty 580×930×250 מ\"מ. 100% הוצאה מלאה. התקנה ללא קידוח.",
       "sku": "VL580-930",
@@ -267,13 +327,18 @@
       "categories": [
         "ריצוף ומגירות רצפה"
       ],
-      "updated_at": "2026-06-10T16:41:17.216Z"
+      "updated_at": "2026-06-10T16:42:48.953Z"
     },
     {
       "id": "1e89028f-891d-4b04-a713-f5d5df476142",
       "slug": "msgrt-mtrchbt-ktsrh-1016365-mm-0whqaa",
       "name": "מסגרת מתרחבת קצרה 1,016×365 מ\"מ",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "إطار قابل للتمدد قصير 1,016×365 مم",
+        "en": "Short Expandable Frame 1,016×365 mm",
+        "he": "מסגרת מתרחבת קצרה 1,016×365 מ\"מ",
+        "ru": "Короткая раздвижная рама 1,016×365 мм"
+      },
       "description": "מסגרת מתרחבת אלומיניום של StoreVan, 1,016×365 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.",
       "short_description": "מסגרת מתרחבת אלומיניום 1,016×365 מ\"מ. עומס 300 ק\"ג. תו GS. ללא קידוח.",
       "sku": "1199AH",
@@ -289,13 +354,18 @@
       "categories": [
         "מסגרות מתרחבות"
       ],
-      "updated_at": "2026-06-10T16:41:17.101Z"
+      "updated_at": "2026-06-10T16:42:50.991Z"
     },
     {
       "id": "ca74e3de-8661-4f51-8847-a832cf3cc374",
       "slug": "msgrt-mtrchbt-bynvnyt-1225365-mm-ucn8nt",
       "name": "מסגרת מתרחבת בינונית 1,225×365 מ\"מ",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "إطار قابل للتمديد متوسط 1,225×365 مم",
+        "en": "Medium Expandable Frame 1,225×365 mm",
+        "he": "מסגרת מתרחבת בינונית 1,225×365 מ\"מ",
+        "ru": "Выдвижная рама средняя 1,225×365 мм"
+      },
       "description": "מסגרת מתרחבת אלומיניום של StoreVan, 1,225×365 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.",
       "short_description": "מסגרת מתרחבת אלומיניום 1,225×365 מ\"מ. עומס 300 ק\"ג. תו GS. ללא קידוח.",
       "sku": "1200AH",
@@ -311,13 +381,18 @@
       "categories": [
         "מסגרות מתרחבות"
       ],
-      "updated_at": "2026-06-10T16:41:17.078Z"
+      "updated_at": "2026-06-10T16:42:45.934Z"
     },
     {
       "id": "0c19e277-1521-43c1-9259-4968199030f7",
       "slug": "mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt-mlay-4u05fp",
       "name": "מגירת רצפה אלומיניום 580×1,242×250 מ\"מ – מבצע (שאריות מלאי)",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "درج أرضية ألومنيوم 580×1,242×250 مم – عرض خاص (بقايا مخزون)",
+        "en": "Aluminum Floor Drawer 580×1,242×250 mm – Sale (Remaining Stock)",
+        "he": "מגירת רצפה אלומיניום 580×1,242×250 מ\"מ – מבצע (שאריות מלאי)",
+        "ru": "Алюминиевый напольный ящик 580×1,242×250 мм – акция (остатки склада)"
+      },
       "description": "מגירת רצפה אלומיניום Heavy Duty של StoreVan, 100% הוצאה מלאה. מידות: 580×1,242×250 מ\"מ. מחיר מבצע – שאריות מלאי! התקנה ללא קידוח. אחריות 8 שנים.",
       "short_description": "מגירת רצפה אלומיניום 580×1,242×250 מ\"מ – מחיר מבצע. שאריות מלאי.",
       "sku": "VL580-1242-ACTIE",
@@ -333,13 +408,18 @@
       "categories": [
         "ריצוף ומגירות רצפה"
       ],
-      "updated_at": "2026-06-10T16:41:17.040Z"
+      "updated_at": "2026-06-10T16:42:48.781Z"
     },
     {
       "id": "ffcd67a9-d3d4-48a1-a383-b7fc1ee018a3",
       "slug": "msgrt-mtrchbt-ktsrh-1016445-mm-gzac7v",
       "name": "מסגרת מתרחבת קצרה 1,016×445 מ\"מ",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "إطار قابل للتمديد قصير 1,016×445 مم",
+        "en": "Short Expandable Frame 1,016×445 mm",
+        "he": "מסגרת מתרחבת קצרה 1,016×445 מ\"מ",
+        "ru": "Короткая выдвижная рама 1,016×445 мм"
+      },
       "description": "מסגרת מתרחבת אלומיניום של StoreVan, 1,016×445 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.",
       "short_description": "מסגרת מתרחבת אלומיניום 1,016×445 מ\"מ. עומס 300 ק\"ג. תו GS. ללא קידוח.",
       "sku": "1196AH",
@@ -355,13 +435,18 @@
       "categories": [
         "מסגרות מתרחבות"
       ],
-      "updated_at": "2026-06-10T16:41:17.023Z"
+      "updated_at": "2026-06-10T16:42:46.097Z"
     },
     {
       "id": "e9a2179e-d636-40f5-ad3d-abf19f447192",
       "slug": "mgyrt-rtsph-alvmynyvm-4231242250-mm-5p0daq",
       "name": "מגירת רצפה אלומיניום 423×1,242×250 מ\"מ",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "درج أرضي ألومنيوم 423×1,242×250 مم",
+        "en": "Aluminum Floor Drawer 423×1,242×250 mm",
+        "he": "מגירת רצפה אלומיניום 423×1,242×250 מ\"מ",
+        "ru": "Алюминиевый напольный ящик 423×1,242×250 мм"
+      },
       "description": "מגירת רצפה אלומיניום Heavy Duty של StoreVan, 100% הוצאה מלאה, גובה חזית 200 מ\"מ עם מרפד גומי. התקנה ללא קידוח בפח הרכב. מידות חיצוניות: 423×1,242×250 מ\"מ. ניתן לערום. אחריות 8 שנים.",
       "short_description": "מגירת רצפה אלומיניום Heavy Duty 423×1,242×250 מ\"מ. 100% הוצאה מלאה. התקנה ללא קידוח.",
       "sku": "VL423-1242",
@@ -377,13 +462,18 @@
       "categories": [
         "ריצוף ומגירות רצפה"
       ],
-      "updated_at": "2026-06-10T16:41:17.009Z"
+      "updated_at": "2026-06-10T16:42:47.412Z"
     },
     {
       "id": "a61a1cb9-a0ed-4ce4-8ba8-51d9399c0898",
       "slug": "mgyrt-rtsph-alvmynyvm-423930250-mm-878oab",
       "name": "מגירת רצפה אלומיניום 423×930×250 מ\"מ",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "درج أرضي ألومنيوم 423×930×250 مم",
+        "en": "Aluminum Floor Drawer 423×930×250 mm",
+        "he": "מגירת רצפה אלומיניום 423×930×250 מ\"מ",
+        "ru": "Алюминиевый напольный ящик 423×930×250 мм"
+      },
       "description": "מגירת רצפה אלומיניום Heavy Duty של StoreVan, 100% הוצאה מלאה, גובה חזית 200 מ\"מ עם מרפד גומי. התקנה ללא קידוח בפח הרכב – אין צורך לקדוח דרך פח הרכב. מידות חיצוניות: 423×930×250 מ\"מ. ניתן לערום. אחריות 8 שנים.",
       "short_description": "מגירת רצפה אלומיניום Heavy Duty 423×930×250 מ\"מ. 100% הוצאה מלאה. התקנה ללא קידוח.",
       "sku": "VL423-930",
@@ -399,13 +489,18 @@
       "categories": [
         "ריצוף ומגירות רצפה"
       ],
-      "updated_at": "2026-06-10T16:41:17.009Z"
+      "updated_at": "2026-06-10T16:42:48.033Z"
     },
     {
       "id": "90217aa9-844b-4a9b-8cf5-d92e4b4dd9f7",
       "slug": "mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-7oeuki",
       "name": "מודול מגירות רצפה שלם – Kia PV5 וכד'",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة أدراج أرضية كاملة – Kia PV5 وغيرها",
+        "en": "Complete Floor Drawer Module – Kia PV5 etc.",
+        "he": "מודול מגירות רצפה שלם – Kia PV5 וכד'",
+        "ru": "Полный модуль напольных ящиков – Kia PV5 и др."
+      },
       "description": "מודול מגירות רצפה שלם StoreVan לרכבים קטנים כולל Kia PV5. רצפה מורמת עם מגירות אלומיניום. התקנה ללא קידוח. אחריות 8 שנים.",
       "short_description": "מודול מגירות רצפה שלם StoreVan – Kia PV5 וכד'. ללא קידוח. אחריות 8 שנים.",
       "sku": "VL-MODULE-KIA",
@@ -421,7 +516,7 @@
       "categories": [
         "ריצוף ומגירות רצפה"
       ],
-      "updated_at": "2026-06-10T16:41:16.993Z"
+      "updated_at": "2026-06-10T16:42:48.634Z"
     },
     {
       "id": "a6692fd2-4d56-4f39-a4e7-72b4625eccf1",
