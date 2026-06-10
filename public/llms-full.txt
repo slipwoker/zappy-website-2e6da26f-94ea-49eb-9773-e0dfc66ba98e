@@ -9103,7 +9103,7 @@ Brand: iMilani
 
 ### יחידת מגירות PRACTIBOX – 3 מגירות שקופות
 URL: https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-3-mgyrvt-shkvpvt-xms0og
-Price: 191.00 USD
+Price: 225.38 USD
 Availability: In stock
 SKU: PR32400001
 Brand: iMilani 
@@ -9114,7 +9114,7 @@ Brand: iMilani
 
 ### יחידת מגירות PRACTIBOX – 4 מגירות שקופות
 URL: https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-4-mgyrvt-shkvpvt-t978br
-Price: 187.20 USD
+Price: 220.90 USD
 Availability: In stock
 SKU: PR42060001
 Brand: iMilani 
@@ -9125,7 +9125,7 @@ Brand: iMilani
 
 ### יחידת מגירות PRACTIBOX – 9 מגירות שקופות
 URL: https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-9-mgyrvt-shkvpvt-b19hej
-Price: 73.20 USD
+Price: 86.38 USD
 Availability: In stock
 SKU: PR90770001
 Brand: iMilani 
@@ -9180,7 +9180,7 @@ Brand: iMilani
 
 ### מכסה ESD מוליך – למכל 600×400 מ"מ
 URL: https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-rk5atk
-Price: 43.20 USD
+Price: 50.98 USD
 Availability: Out of stock
 SKU: AT64HG5401
 Brand: iMilani
@@ -9191,7 +9191,7 @@ Brand: iMilani
 
 ### מכסה ESD מוליך – למכל 300×200 מ"מ
 URL: https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-whpukf
-Price: 22.00 USD
+Price: 25.96 USD
 Availability: Out of stock
 SKU: AT-LID-300
 Brand: iMilani
@@ -9202,7 +9202,7 @@ Brand: iMilani
 
 ### מכסה ESD מוליך – למכל 400×300 מ"מ
 URL: https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-35w08n
-Price: 28.80 USD
+Price: 33.98 USD
 Availability: Out of stock
 SKU: AT-LID-400
 Brand: iMilani
@@ -9395,7 +9395,7 @@ Brand: METALSISTEM
 
 ### אחסונית/ארקלית מס' 1 צבע כחול
 URL: https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-iginrn
-Price: 95.00 USD
+Price: 112.10 USD
 Availability: In stock
 
 מידות תא האחסון : רוחב 305 ממ, עומק 500 ממ, גובה 205 ממ.

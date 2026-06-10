@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:17:25.843Z",
+  "generated_at": "2026-06-10T08:28:15.249Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
@@ -346,8 +346,8 @@
       "short_description": "יחידת מגירות PRACTIBOX – 3 מגירות שקופות גדולות. מגירה: 190×146×225 מ\"מ. מבנה ABS אפור.",
       "sku": "PR32400001",
       "brand": "iMilani ",
-      "price": 191,
-      "base_price": 191,
+      "price": 225.38,
+      "base_price": 225.38,
       "sale_price": null,
       "currency": "USD",
       "images": [
@@ -359,7 +359,7 @@
       "categories": [
         "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T08:16:54.810Z"
+      "updated_at": "2026-06-10T08:27:43.811Z"
     },
     {
       "id": "e23d3b45-b57d-4f79-b52f-0bea2d629f07",
@@ -375,8 +375,8 @@
       "short_description": "יחידת מגירות PRACTIBOX – 4 מגירות שקופות. מידות: 600×174×206 מ\"מ. מבנה ABS אפור.",
       "sku": "PR42060001",
       "brand": "iMilani ",
-      "price": 187.2,
-      "base_price": 187.2,
+      "price": 220.9,
+      "base_price": 220.9,
       "sale_price": null,
       "currency": "USD",
       "images": [
@@ -388,7 +388,7 @@
       "categories": [
         "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T08:15:43.301Z"
+      "updated_at": "2026-06-10T08:27:43.843Z"
     },
     {
       "id": "0e3fa481-dc1e-4e7b-a523-cbd36a2fb7f0",
@@ -404,8 +404,8 @@
       "short_description": "יחידת מגירות PRACTIBOX – 9 מגירות שקופות. מבנה ABS אפור. 600×69×77 מ\"מ.",
       "sku": "PR90770001",
       "brand": "iMilani ",
-      "price": 73.2,
-      "base_price": 73.2,
+      "price": 86.38,
+      "base_price": 86.38,
       "sale_price": null,
       "currency": "USD",
       "images": [
@@ -417,7 +417,7 @@
       "categories": [
         "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-06-10T08:14:09.082Z"
+      "updated_at": "2026-06-10T08:27:43.875Z"
     },
     {
       "id": "1cd051b4-aebb-4b15-a6cc-8fefc6a3708e",
@@ -549,8 +549,8 @@
       "short_description": "מכסה ESD שחור למכלי ATHENA 600×400 מ\"מ. זמין עם ציר. עומד בתקן EN 61340.",
       "sku": "AT64HG5401",
       "brand": "iMilani",
-      "price": 43.2,
-      "base_price": 43.2,
+      "price": 50.98,
+      "base_price": 50.98,
       "sale_price": null,
       "currency": "USD",
       "images": [
@@ -562,7 +562,7 @@
       "categories": [
         "מיכלים וארגזים אנטי סטטיים (ESD)"
       ],
-      "updated_at": "2026-06-10T06:52:46.102Z"
+      "updated_at": "2026-06-10T08:27:33.476Z"
     },
     {
       "id": "ac9b86f6-e465-47d4-b697-828105a59e6a",
@@ -578,8 +578,8 @@
       "short_description": "מכסה ESD שחור למכלי ATHENA 300×200 מ\"מ. עומד בתקן EN 61340.",
       "sku": "AT-LID-300",
       "brand": "iMilani",
-      "price": 22,
-      "base_price": 22,
+      "price": 25.96,
+      "base_price": 25.96,
       "sale_price": null,
       "currency": "USD",
       "images": [
@@ -591,7 +591,7 @@
       "categories": [
         "מיכלים וארגזים אנטי סטטיים (ESD)"
       ],
-      "updated_at": "2026-06-10T06:53:46.590Z"
+      "updated_at": "2026-06-10T08:27:33.503Z"
     },
     {
       "id": "3043cd14-9bb0-4f87-a13e-12e9f9a2050c",
@@ -607,8 +607,8 @@
       "short_description": "מכסה ESD שחור למכלי ATHENA 400×300 מ\"מ. זמין עם ציר. עומד בתקן EN 61340.",
       "sku": "AT-LID-400",
       "brand": "iMilani",
-      "price": 28.8,
-      "base_price": 28.8,
+      "price": 33.98,
+      "base_price": 33.98,
       "sale_price": null,
       "currency": "USD",
       "images": [
@@ -620,7 +620,7 @@
       "categories": [
         "מיכלים וארגזים אנטי סטטיים (ESD)"
       ],
-      "updated_at": "2026-06-10T06:54:34.632Z"
+      "updated_at": "2026-06-10T08:27:33.531Z"
     },
     {
       "id": "781e91fe-8967-44c7-98f4-f394a18f64bf",
@@ -1211,8 +1211,8 @@
       "short_description": "אחסונית/ארקלית מס' 1 צבע כחול\n",
       "sku": null,
       "brand": null,
-      "price": 95,
-      "base_price": 95,
+      "price": 112.1,
+      "base_price": 112.1,
       "sale_price": null,
       "currency": "USD",
       "images": [
@@ -1227,7 +1227,7 @@
       "categories": [
         "ארגזי פלסטיק ומיכלי אחסון "
       ],
-      "updated_at": "2026-05-17T07:29:12.907Z"
+      "updated_at": "2026-06-10T08:27:43.906Z"
     },
     {
       "id": "3e349ad4-b1c1-4d53-8b40-ad3a5c258ac8",
