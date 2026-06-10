@@ -124,7 +124,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 67**
+**Total active products: 66**
 
 ### ארון PICK עם דלתות ומנעול – H1655 מ"מ, אפור בהיר RAL7035
 https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-dbuawj
@@ -205,15 +205,6 @@ https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-kchvl-ral5012-x
 - Brand: iMilani
 - Description: ארון PICK לחלקים קטנים, H1655 מ"מ, כחול RAL5012. 42+24 קופסאות, 12 מדפים.
 - Image: https://mutzagim.co.il/assets/product-1781102320022-3e14q9.webp
-
-### ארון מחזיק קופסאות PICK – H1655 מ"מ, אפור RAL7000
-https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-apvr-ral7000-vhguzc
-- Price: 0.00 USD
-- Availability: Out of stock
-- Category: ריהוט תעשייתי מתקדם 
-- SKU: PK1655101
-- Brand: iMilani
-- Description: ארון PICK לחלקים קטנים, H1655 מ"מ, אפור RAL7000. 42+24 קופסאות, 12 מדפים.
 
 ### ארון מחזיק קופסאות PICK – H1655 מ"מ, ירוק RAL6011
 https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-yrvk-ral6011-afhll6
