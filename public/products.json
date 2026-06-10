@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T14:32:43.781Z",
+  "generated_at": "2026-06-10T14:34:19.486Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 67,
@@ -130,7 +130,7 @@
         "ar": "خزانة حاملة صناديق PICK – H2001 مم، أزرق RAL5012",
         "en": "PICK Box Storage Cabinet – H2001 mm, Blue RAL5012",
         "he": "ארון מחזיק קופסאות PICK – H2001 מ\"מ, כחול RAL5012",
-        "ru": "Шкаф для хранения коробок PICK – H2001 мм, синий RAL5012"
+        "ru": "Шкаф для контейнеров PICK – H2001 мм, синий RAL5012"
       },
       "description": "<p>ארון תעשייתי מחזיק קופסאות PICK של iMilani. גרסה 2001 עם קיבולת מוגברת. מבנה פלדה עם מדפים מתכווננים (פסיעה 25 מ\"מ). קיבוע לרצפה או קיר חובה. מידות: 700×270×2000 מ\"מ.</p>",
       "short_description": "ארון PICK לחלקים קטנים H2001 מ\"מ, כחול RAL5012. קיבולת מורחבת.",
@@ -149,34 +149,36 @@
       "categories": [
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T14:32:07.726Z"
+      "updated_at": "2026-06-10T14:32:59.196Z"
     },
     {
       "id": "d02e85a1-1b03-492c-9b04-121463496424",
-      "slug": "arvn-mchzyk-kvpsavt-pick-sdrh-2001-2-kchvl-ral5012-i39b0r",
+      "slug": "arvn-mchzyk-kvpsavt-pick-sdrh-2001-2-kchvl-ral5012-1schlb",
       "name": "ארון מחזיק קופסאות PICK – סדרה 2001-2, כחול RAL5012",
       "name_translations": {
         "ar": "خزانة حاملة صناديق PICK – سلسلة 2001-2، أزرق RAL5012",
-        "en": "PICK Box Storage Cabinet – Series 2001-2, Blue RAL5012",
+        "en": "PICK Box Holder Cabinet – Series 2001-2, Blue RAL5012",
         "he": "ארון מחזיק קופסאות PICK – סדרה 2001-2, כחול RAL5012",
         "ru": "Шкаф для хранения коробок PICK – серия 2001-2, синий RAL5012"
       },
-      "description": "ארון תעשייתי מחזיק קופסאות PICK של iMilani. סדרה 2001-2 עם קיבולת מורחבת. מבנה פלדה עם מדפים מתכווננים (פסיעה 25 מ\"מ). קיבוע לרצפה או קיר חובה.",
+      "description": "<p>ארון תעשייתי מחזיק קופסאות PICK של iMilani. סדרה 2001-2 עם קיבולת מורחבת. מבנה פלדה עם מדפים מתכווננים (פסיעה 25 מ\"מ). קיבוע לרצפה או קיר חובה.</p>",
       "short_description": "ארון PICK סדרה 2001-2, כחול RAL5012. קיבולת גבוהה.",
       "sku": "PK2001204",
-      "brand": null,
-      "price": 2741.16,
-      "base_price": 2741.16,
+      "brand": "iMilani",
+      "price": 0,
+      "base_price": 0,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781102027967-lvqrg.webp"
+      ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-sdrh-2001-2-kchvl-ral5012-i39b0r",
+      "url": "https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-sdrh-2001-2-kchvl-ral5012-1schlb",
       "categories": [
-        "700×270×2000"
+        "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T14:00:20.864Z"
+      "updated_at": "2026-06-10T14:33:58.297Z"
     },
     {
       "id": "b208a8e7-d77e-4229-93f1-5acb4dc0e8be",
