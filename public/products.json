@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:37:20.496Z",
+  "generated_at": "2026-06-10T08:38:33.673Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 47,
@@ -37,7 +37,7 @@
     },
     {
       "id": "f501ebc4-abc2-4636-b02a-3c1c47891f72",
-      "slug": "ryhvt-sdnh-mla-linea-391-l4560-mm-bz1p0v",
+      "slug": "ryhvt-sdnh-mla-linea-391-l4560-mm-5mm10a",
       "name": "ריהוט סדנה מלא Linea 391 – L4560 מ\"מ",
       "name_translations": {
         "ar": "أثاث ورشة كامل Linea 391 – L4560 مم",
@@ -47,7 +47,7 @@
       },
       "description": "<p>ריהוט סדנה מודולרי Linea 391 של Fami. הרכב גדול: ארונות 2+1 דלת, קסטטיירה 6 מגירות, קארלו לוחות כלים, ארון שירות + 2 ארונות 2 דלתות. כולל 5 לוחות כלים ו-4 פנסיליות. מידות: 4560×495×1900 מ\"מ. עצמאי. אחריות 5 שנים.</p>",
       "short_description": "ריהוט סדנה Linea 391, L4560×495×1900 מ\"מ. ארונות + קסטטיירה + קארלו + ארון שירות + 5 לוחות כלים.",
-      "sku": "8052693946907",
+      "sku": "391G13",
       "brand": "Fami",
       "price": 15812,
       "base_price": 15812,
@@ -58,12 +58,12 @@
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l4560-mm-bz1p0v",
+      "url": "https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l4560-mm-5mm10a",
       "categories": [
         "ריהוט גראז' Linea 391",
         "ריהוט תעשייתי מתקדם "
       ],
-      "updated_at": "2026-06-10T08:36:49.530Z"
+      "updated_at": "2026-06-10T08:38:02.637Z"
     },
     {
       "id": "a71f48a6-c07a-4406-9083-3fe6ddb0b790",
