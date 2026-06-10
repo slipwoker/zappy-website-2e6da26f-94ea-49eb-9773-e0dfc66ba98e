@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T08:08:41.355Z",
+  "generated_at": "2026-06-10T08:09:15.684Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 41,
@@ -276,30 +276,32 @@
     },
     {
       "id": "33048279-b63e-4d63-9658-2f7a9a180ec4",
-      "slug": "mykl-ktn-zeus-sdrh-702-o52d8w",
+      "slug": "mykl-ktn-zeus-sdrh-702-8cjnn4",
       "name": "מיכל קטן ZEUS – סדרה 702",
       "name_translations": {
         "ar": "حاوية صغيرة ZEUS – سلسلة 702",
-        "en": "ZEUS Small Container – Series 702",
+        "en": "Small ZEUS Container – Series 702",
         "he": "מיכל קטן ZEUS – סדרה 702",
         "ru": "Малый контейнер ZEUS – серия 702"
       },
-      "description": "מיכל אחסון ZEUS של iMilani לחלקים קטנים. גוף חלק ונקי בפנים. שפה מחוזקת לעריכה יציבה. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 145×140×70 מ\"מ. מידות פנימיות: 124×126×68 מ\"מ. נפח 1.4 ל. נערם עד 12 יחידות.",
+      "description": "<p>מיכל אחסון ZEUS של iMilani לחלקים קטנים. גוף חלק ונקי בפנים. שפה מחוזקת לעריכה יציבה. מחזיק מדבקה. זמין ב-5 צבעים. מידות חיצוניות: 145×140×70 מ\"מ. מידות פנימיות: 124×126×68 מ\"מ. נפח 1.4 ל. נערם עד 12 יחידות.</p>",
       "short_description": "מיכל קטן ZEUS 145×140×70 מ\"מ. 5 צבעים. ניתן לערימה. מחזיק מדבקה.",
       "sku": "ZEZ7025101",
-      "brand": null,
-      "price": 0,
-      "base_price": 0,
+      "brand": "iMilani ",
+      "price": 7.11,
+      "base_price": 7.11,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-702-o52d8w",
-      "categories": [
-        "מגירות ויחידות קטנות"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781078912496-36bhhw.webp"
       ],
-      "updated_at": "2026-06-10T07:45:56.371Z"
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-702-8cjnn4",
+      "categories": [
+        "ארגזי פלסטיק ומיכלי אחסון "
+      ],
+      "updated_at": "2026-06-10T08:09:14.910Z"
     },
     {
       "id": "bccb136c-a1ab-4d63-9f14-f4857a8e3dcf",
