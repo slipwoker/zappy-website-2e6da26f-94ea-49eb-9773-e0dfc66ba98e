@@ -241,11 +241,14 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016365-mm-0whqaa
 - Description: מסגרת מתרחבת אלומיניום 1,016×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
 
 ### מסגרת מתרחבת בינונית 1,225×365 מ"מ
-https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-ucn8nt
+https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-g9nraa
 - Price: 5737.36 USD
-- Availability: In stock
+- Availability: Out of stock
+- Category: זיווד רכבים 
 - SKU: 1200AH
+- Brand: StoreVan
 - Description: מסגרת מתרחבת אלומיניום 1,225×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
+- Image: https://mutzagim.co.il/assets/product-1781163710841-kjaj7.webp
 
 ### מגירת רצפה אלומיניום 580×1,242×250 מ"מ – מבצע (שאריות מלאי)
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt-mlay-4u05fp

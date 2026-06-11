@@ -9057,10 +9057,11 @@ SKU: 1199AH
 ---
 
 ### מסגרת מתרחבת בינונית 1,225×365 מ"מ
-URL: https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-ucn8nt
+URL: https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-g9nraa
 Price: 5737.36 USD
-Availability: In stock
+Availability: Out of stock
 SKU: 1200AH
+Brand: StoreVan
 
 מסגרת מתרחבת אלומיניום של StoreVan, 1,225×365 מ"מ. ארגונומית, עומס 300 ק"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.
 
