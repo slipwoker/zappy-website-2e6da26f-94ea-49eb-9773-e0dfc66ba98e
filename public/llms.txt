@@ -130,7 +130,7 @@ Information about WCAG compliance and accessibility features.
 https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-4ohgmo
 - Price: 20943.04 USD
 - Availability: Out of stock
-- Category: ריהוט רכב מסחרי מלא
+- Category: זיווד רכבים 
 - SKU: INRICHTING-LARGE
 - Brand: StoreVan 
 - Description: ריהוט מלא StoreVan – Large. מתאים ל-Mercedes-Benz Sprinter, Fiat Ducato, Ford Transit L וכד'.
@@ -140,7 +140,7 @@ https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-4ohgmo
 https://mutzagim.co.il/product/mchzyk-pchyvt-spryy-storevan-365-mm-byh3u2
 - Price: 180.56 USD
 - Availability: Out of stock
-- Category: אביזרים
+- Category: זיווד רכבים 
 - SKU: F22KTSPR3650001
 - Brand: StoreVan
 - Description: מחזיק פחיות ספריי StoreVan, רוחב 365 מ"מ. זמין ממלאי.
@@ -150,7 +150,7 @@ https://mutzagim.co.il/product/mchzyk-pchyvt-spryy-storevan-365-mm-byh3u2
 https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-5tslet
 - Price: 9238.80 USD
 - Availability: Out of stock
-- Category: ריהוט רכב מסחרי מלא
+- Category: זיווד רכבים 
 - SKU: INRICHTING-SMALL
 - Brand: StoreVan 
 - Description: ריהוט מלא StoreVan – Small. מתאים ל-Ford Transit Connect, Mercedes-Benz Citan, Renault Express וכד'.
@@ -160,7 +160,7 @@ https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-5tslet
 https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-ymyn-x9kfgc
 - Price: 7777.84 USD
 - Availability: Out of stock
-- Category: מדפי חבילות (פוסט/דיוור)
+- Category: זיווד רכבים 
 - SKU: postpakketrek-mb-sprinter-rechts
 - Brand: StoreVan 
 - Description: מדף חבילות Sprinter Sprinter | ימין. StoreVan. אלומיניום. אחריות 8 שנים.
@@ -170,7 +170,7 @@ https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-ymyn-x9kfgc
 https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-shmal-9xd3bk
 - Price: 15111.76 USD
 - Availability: Out of stock
-- Category: מדפי חבילות (פוסט/דיוור)
+- Category: זיווד רכבים 
 - SKU: postpakketrek-mb-sprinter-links
 - Brand: StoreVan 
 - Description: מדף חבילות Sprinter Sprinter | שמאל. StoreVan. אלומיניום. אחריות 8 שנים.
@@ -180,7 +180,7 @@ https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-shmal-9xd3bk
 https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-pvr01w
 - Price: 15990.48 USD
 - Availability: Out of stock
-- Category: ריהוט רכב מסחרי מלא
+- Category: זיווד רכבים 
 - SKU: INRICHTING-MEDIUM
 - Brand: StoreVan 
 - Description: ריהוט מלא StoreVan – Medium. מתאים ל-Ford Transit Custom, Fiat Talento, Volkswagen Transporter וכד'.
@@ -190,7 +190,7 @@ https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-pvr01w
 https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225730-mm-i6e2l1
 - Price: 6534.64 USD
 - Availability: Out of stock
-- Category: מסגרות מתרחבות
+- Category: זיווד רכבים 
 - SKU: 1203AH
 - Brand: StoreVan
 - Description: מסגרת מתרחבת אלומיניום 1,225×730 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
@@ -200,7 +200,6 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225730-mm-i6e2l1
 https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225445-mm-zh4cuk
 - Price: 5750.32 USD
 - Availability: In stock
-- Category: מסגרות מתרחבות
 - SKU: 1197AH
 - Description: מסגרת מתרחבת אלומיניום 1,225×445 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
 
@@ -208,7 +207,6 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225445-mm-zh4cuk
 https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-i4qg43
 - Price: 6075.36 USD
 - Availability: In stock
-- Category: מסגרות מתרחבות
 - SKU: 1201AH
 - Description: מסגרת מתרחבת אלומיניום 1,524×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
 
@@ -216,7 +214,7 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-i4qg43
 https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy
 - Price: 15294.08 USD
 - Availability: Out of stock
-- Category: ריצוף ומגירות רצפה
+- Category: זיווד רכבים 
 - SKU: VL-MODULE-SMALL
 - Brand: StoreVan 
 - Description: מודול מגירות רצפה שלם StoreVan לרכב קטן. 2 מגירות. רצפה מורמת. ללא קידוח.
@@ -225,7 +223,6 @@ https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-eavvkj
 - Price: 6924.64 USD
 - Availability: In stock
-- Category: ריצוף ומגירות רצפה
 - SKU: VL580-1242
 - Description: מגירת רצפה אלומיניום Heavy Duty 580×1,242×250 מ"מ. 100% הוצאה מלאה. התקנה ללא קידוח.
 
@@ -233,7 +230,6 @@ https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-eavvkj
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-580930250-mm-v9opuz
 - Price: 5515.20 USD
 - Availability: In stock
-- Category: ריצוף ומגירות רצפה
 - SKU: VL580-930
 - Description: מגירת רצפה אלומיניום Heavy Duty 580×930×250 מ"מ. 100% הוצאה מלאה. התקנה ללא קידוח.
 
@@ -241,7 +237,6 @@ https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-580930250-mm-v9opuz
 https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016365-mm-0whqaa
 - Price: 5425.36 USD
 - Availability: In stock
-- Category: מסגרות מתרחבות
 - SKU: 1199AH
 - Description: מסגרת מתרחבת אלומיניום 1,016×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
 
@@ -249,7 +244,6 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016365-mm-0whqaa
 https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-ucn8nt
 - Price: 5737.36 USD
 - Availability: In stock
-- Category: מסגרות מתרחבות
 - SKU: 1200AH
 - Description: מסגרת מתרחבת אלומיניום 1,225×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
 
@@ -257,7 +251,6 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-ucn8nt
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt-mlay-4u05fp
 - Price: 5664.24 USD
 - Availability: In stock
-- Category: ריצוף ומגירות רצפה
 - SKU: VL580-1242-ACTIE
 - Description: מגירת רצפה אלומיניום 580×1,242×250 מ"מ – מחיר מבצע. שאריות מלאי.
 
@@ -265,7 +258,6 @@ https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt
 https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016445-mm-gzac7v
 - Price: 5442.64 USD
 - Availability: In stock
-- Category: מסגרות מתרחבות
 - SKU: 1196AH
 - Description: מסגרת מתרחבת אלומיניום 1,016×445 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
 
@@ -273,7 +265,6 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016445-mm-gzac7v
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-5p0daq
 - Price: 6592.72 USD
 - Availability: In stock
-- Category: ריצוף ומגירות רצפה
 - SKU: VL423-1242
 - Description: מגירת רצפה אלומיניום Heavy Duty 423×1,242×250 מ"מ. 100% הוצאה מלאה. התקנה ללא קידוח.
 
@@ -281,7 +272,6 @@ https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-5p0daq
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-423930250-mm-878oab
 - Price: 5246.24 USD
 - Availability: In stock
-- Category: ריצוף ומגירות רצפה
 - SKU: VL423-930
 - Description: מגירת רצפה אלומיניום Heavy Duty 423×930×250 מ"מ. 100% הוצאה מלאה. התקנה ללא קידוח.
 
@@ -289,7 +279,6 @@ https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-423930250-mm-878oab
 https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-7oeuki
 - Price: 17532.48 USD
 - Availability: In stock
-- Category: ריצוף ומגירות רצפה
 - SKU: VL-MODULE-KIA
 - Description: מודול מגירות רצפה שלם StoreVan – Kia PV5 וכד'. ללא קידוח. אחריות 8 שנים.
 

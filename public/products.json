@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-10T17:11:30.372Z",
+  "generated_at": "2026-06-11T07:17:04.485Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -30,7 +30,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-4ohgmo",
       "categories": [
-        "ריהוט רכב מסחרי מלא",
         "זיווד רכבים "
       ],
       "updated_at": "2026-06-10T16:49:51.680Z"
@@ -60,7 +59,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/mchzyk-pchyvt-spryy-storevan-365-mm-byh3u2",
       "categories": [
-        "אביזרים",
         "זיווד רכבים "
       ],
       "updated_at": "2026-06-10T16:51:11.663Z"
@@ -91,7 +89,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-5tslet",
       "categories": [
-        "ריהוט רכב מסחרי מלא",
         "זיווד רכבים "
       ],
       "updated_at": "2026-06-10T16:53:43.844Z"
@@ -123,7 +120,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-ymyn-x9kfgc",
       "categories": [
-        "מדפי חבילות (פוסט/דיוור)",
         "זיווד רכבים "
       ],
       "updated_at": "2026-06-10T16:57:03.973Z"
@@ -155,7 +151,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-shmal-9xd3bk",
       "categories": [
-        "מדפי חבילות (פוסט/דיוור)",
         "זיווד רכבים "
       ],
       "updated_at": "2026-06-10T17:02:02.926Z"
@@ -186,7 +181,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-pvr01w",
       "categories": [
-        "ריהוט רכב מסחרי מלא",
         "זיווד רכבים "
       ],
       "updated_at": "2026-06-10T17:05:21.897Z"
@@ -219,7 +213,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225730-mm-i6e2l1",
       "categories": [
-        "מסגרות מתרחבות",
         "זיווד רכבים "
       ],
       "updated_at": "2026-06-10T17:09:34.271Z"
@@ -246,9 +239,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225445-mm-zh4cuk",
-      "categories": [
-        "מסגרות מתרחבות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-10T16:42:47.012Z"
     },
     {
@@ -273,9 +264,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-i4qg43",
-      "categories": [
-        "מסגרות מתרחבות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-10T16:42:46.706Z"
     },
     {
@@ -301,7 +290,6 @@
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy",
       "categories": [
-        "ריצוף ומגירות רצפה",
         "זיווד רכבים "
       ],
       "updated_at": "2026-06-10T17:10:59.098Z"
@@ -328,9 +316,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-eavvkj",
-      "categories": [
-        "ריצוף ומגירות רצפה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-10T16:42:49.844Z"
     },
     {
@@ -355,9 +341,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-580930250-mm-v9opuz",
-      "categories": [
-        "ריצוף ומגירות רצפה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-10T16:42:48.953Z"
     },
     {
@@ -382,9 +366,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016365-mm-0whqaa",
-      "categories": [
-        "מסגרות מתרחבות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-10T16:42:50.991Z"
     },
     {
@@ -409,9 +391,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-ucn8nt",
-      "categories": [
-        "מסגרות מתרחבות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-10T16:42:45.934Z"
     },
     {
@@ -436,9 +416,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt-mlay-4u05fp",
-      "categories": [
-        "ריצוף ומגירות רצפה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-10T16:42:48.781Z"
     },
     {
@@ -463,9 +441,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016445-mm-gzac7v",
-      "categories": [
-        "מסגרות מתרחבות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-10T16:42:46.097Z"
     },
     {
@@ -490,9 +466,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-5p0daq",
-      "categories": [
-        "ריצוף ומגירות רצפה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-10T16:42:47.412Z"
     },
     {
@@ -517,9 +491,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-423930250-mm-878oab",
-      "categories": [
-        "ריצוף ומגירות רצפה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-10T16:42:48.033Z"
     },
     {
@@ -544,9 +516,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-7oeuki",
-      "categories": [
-        "ריצוף ומגירות רצפה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-10T16:42:48.634Z"
     },
     {
