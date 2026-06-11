@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T07:46:14.055Z",
+  "generated_at": "2026-06-11T07:46:48.586Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 84,
@@ -362,7 +362,7 @@
     },
     {
       "id": "1e89028f-891d-4b04-a713-f5d5df476142",
-      "slug": "msgrt-mtrchbt-ktsrh-1016365-mm-0whqaa",
+      "slug": "msgrt-mtrchbt-ktsrh-1016365-mm-oqnqa8",
       "name": "מסגרת מתרחבת קצרה 1,016×365 מ\"מ",
       "name_translations": {
         "ar": "إطار قابل للتمدد قصير 1,016×365 مم",
@@ -370,20 +370,28 @@
         "he": "מסגרת מתרחבת קצרה 1,016×365 מ\"מ",
         "ru": "Короткая раздвижная рама 1,016×365 мм"
       },
-      "description": "מסגרת מתרחבת אלומיניום של StoreVan, 1,016×365 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.",
+      "description": "<p>מסגרת מתרחבת אלומיניום של StoreVan, 1,016×365 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.</p>",
       "short_description": "מסגרת מתרחבת אלומיניום 1,016×365 מ\"מ. עומס 300 ק\"ג. תו GS. ללא קידוח.",
       "sku": "1199AH",
-      "brand": null,
+      "brand": "StoreVan",
       "price": 5425.36,
       "base_price": 5425.36,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016365-mm-0whqaa",
-      "categories": [],
-      "updated_at": "2026-06-10T16:42:50.991Z"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781163946455-bmmwkk.webp",
+        "https://mutzagim.co.il/assets/product-1781163961021-uwg5br.webp",
+        "https://mutzagim.co.il/assets/product-1781163940747-h8h79n.webp",
+        "https://mutzagim.co.il/assets/product-1781163956071-gz79d.webp",
+        "https://mutzagim.co.il/assets/product-1781163935204-hgss06.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016365-mm-oqnqa8",
+      "categories": [
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-11T07:46:17.463Z"
     },
     {
       "id": "ca74e3de-8661-4f51-8847-a832cf3cc374",

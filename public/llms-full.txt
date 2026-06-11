@@ -9109,10 +9109,11 @@ SKU: VL580-930
 ---
 
 ### מסגרת מתרחבת קצרה 1,016×365 מ"מ
-URL: https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016365-mm-0whqaa
+URL: https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016365-mm-oqnqa8
 Price: 5425.36 ILS
-Availability: In stock
+Availability: Out of stock
 SKU: 1199AH
+Brand: StoreVan
 
 מסגרת מתרחבת אלומיניום של StoreVan, 1,016×365 מ"מ. ארגונומית, עומס 300 ק"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.
 
