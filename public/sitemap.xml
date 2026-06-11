@@ -222,50 +222,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/contact-us" />
   </url>
   <url>
-    <loc>https://mutzagim.co.il/menu-group-1781171943674</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/menu-group-1781171943674" />
-  </url>
-  <url>
-    <loc>https://mutzagim.co.il/ar/menu-group-1781171943674</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/menu-group-1781171943674" />
-  </url>
-  <url>
-    <loc>https://mutzagim.co.il/ru/menu-group-1781171943674</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/menu-group-1781171943674" />
-  </url>
-  <url>
-    <loc>https://mutzagim.co.il/en/menu-group-1781171943674</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/menu-group-1781171943674" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/menu-group-1781171943674" />
-  </url>
-  <url>
     <loc>https://mutzagim.co.il/light-and-medium-shelving</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -440,6 +396,50 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/compactus-systems" />
     <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/compactus-systems" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/compactus-systems" />
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/menu-group-1781171943674</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/menu-group-1781171943674" />
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/ar/menu-group-1781171943674</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/menu-group-1781171943674" />
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/ru/menu-group-1781171943674</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/menu-group-1781171943674" />
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/en/menu-group-1781171943674</loc>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/menu-group-1781171943674" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/menu-group-1781171943674" />
   </url>
   <url>
     <loc>https://mutzagim.co.il/plastic-storage-containers-977433</loc>
