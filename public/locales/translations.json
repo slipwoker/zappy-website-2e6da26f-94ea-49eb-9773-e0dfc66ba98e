@@ -1,6 +1,7 @@
 {
   "he": {
     "translation": {
+      "nav-home": "בית",
       "home_h1_1": "<font color=\"#ffffff\">מדפי אחסון תעשייתי למפעלים שמשנים את חוקי המשחק</font>",
       "home_h2_2": "למה לבחור במדפי אחסון תעשייתי למפעלים שלנו?",
       "home_h2_3": "פתרונות האחסון התעשייתי שלנו",
@@ -2332,6 +2333,7 @@
   },
   "ar": {
     "translation": {
+      "nav-home": "الرئيسية",
       "home_h1_1": "<font color=\"#ffffff\">أرفف التخزين الصناعي للمصانع التي تغير قواعد اللعبة</font>",
       "home_h2_2": "لماذا تختار أرفف التخزين الصناعي للمصانع الخاصة بنا؟",
       "home_h2_3": "حلول التخزين الصناعي لدينا",
@@ -4663,6 +4665,7 @@
   },
   "ru": {
     "translation": {
+      "nav-home": "Главная",
       "home_h1_1": "<font color=\"#ffffff\">Промышленные стеллажи для складов, которые меняют правила игры</font>",
       "home_h2_2": "Почему стоит выбрать наши промышленные стеллажи для складов?",
       "home_h2_3": "Наши решения для промышленного хранения",
@@ -6994,6 +6997,7 @@
   },
   "en": {
     "translation": {
+      "nav-home": "Home",
       "home_h1_1": "<font color=\"#ffffff\">Industrial Storage Shelving for Factories That Changes the Game</font>",
       "home_h2_2": "Why Choose Our Industrial Storage Shelving for Factories?",
       "home_h2_3": "Our Industrial Storage Solutions",
