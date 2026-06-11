@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T07:33:21.460Z",
+  "generated_at": "2026-06-11T07:34:59.399Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -446,7 +446,7 @@
     },
     {
       "id": "e9a2179e-d636-40f5-ad3d-abf19f447192",
-      "slug": "mgyrt-rtsph-alvmynyvm-4231242250-mm-5p0daq",
+      "slug": "mgyrt-rtsph-alvmynyvm-4231242250-mm-9e4d1e",
       "name": "מגירת רצפה אלומיניום 423×1,242×250 מ\"מ",
       "name_translations": {
         "ar": "درج أرضي ألومنيوم 423×1,242×250 مم",
@@ -454,20 +454,22 @@
         "he": "מגירת רצפה אלומיניום 423×1,242×250 מ\"מ",
         "ru": "Алюминиевый напольный ящик 423×1,242×250 мм"
       },
-      "description": "מגירת רצפה אלומיניום Heavy Duty של StoreVan, 100% הוצאה מלאה, גובה חזית 200 מ\"מ עם מרפד גומי. התקנה ללא קידוח בפח הרכב. מידות חיצוניות: 423×1,242×250 מ\"מ. ניתן לערום. אחריות 8 שנים.",
+      "description": "<p>מגירת רצפה אלומיניום Heavy Duty של StoreVan, 100% הוצאה מלאה, גובה חזית 200 מ\"מ עם מרפד גומי. התקנה ללא קידוח בפח הרכב. מידות חיצוניות: 423×1,242×250 מ\"מ. ניתן לערום. אחריות 8 שנים.</p>",
       "short_description": "מגירת רצפה אלומיניום Heavy Duty 423×1,242×250 מ\"מ. 100% הוצאה מלאה. התקנה ללא קידוח.",
       "sku": "VL423-1242",
-      "brand": null,
+      "brand": "StoreVan",
       "price": 6592.72,
       "base_price": 6592.72,
       "sale_price": null,
       "currency": "USD",
       "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-5p0daq",
-      "categories": [],
-      "updated_at": "2026-06-10T16:42:47.412Z"
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-9e4d1e",
+      "categories": [
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-11T07:34:28.121Z"
     },
     {
       "id": "a61a1cb9-a0ed-4ce4-8ba8-51d9399c0898",
