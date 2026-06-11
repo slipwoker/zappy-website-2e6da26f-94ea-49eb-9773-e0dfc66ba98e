@@ -4619,43 +4619,6 @@ body[dir="rtl"] .zappy-catalog-menu .catalog-menu-categories,
 .zappy-catalog-menu.rtl .catalog-menu-categories{flex-direction: row !important;}
 /* V2 E-COMMERCE THEME OVERRIDES: Now handled by ecommerceV2GenerationService.js */
 /* ==END ZAPPY E-COMMERCE CSS== */
-
-.nav-menu .sub-menu .submenu-category-header {
-  padding: 8px 16px 4px 16px;
-  margin-top: 4px;
-}
-
-.nav-menu .sub-menu .submenu-category-header span {
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: #1e3a8a;
-  opacity: 0.8;
-}
-
-.nav-menu .sub-menu .submenu-category-header:first-child {
-  margin-top: 0;
-}
-
-.nav-menu .sub-menu .submenu-divider {
-  border-top: 1px solid #e2e8f0;
-  margin: 4px 12px;
-  padding: 0;
-  pointer-events: none;
-}
-
-.nav-menu .sub-menu .view-all-link {
-  color: #1e3a8a !important;
-  font-weight: 700 !important;
-  text-align: center;
-}
-
-.nav-menu li.menu-item-has-children .sub-menu {
-  max-height: 70vh;
-  overflow-y: auto;
-  min-width: 320px;
-}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
