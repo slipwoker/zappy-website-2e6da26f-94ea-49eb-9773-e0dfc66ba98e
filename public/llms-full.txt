@@ -9107,10 +9107,11 @@ SKU: VL423-930
 ---
 
 ### מודול מגירות רצפה שלם – Kia PV5 וכד'
-URL: https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-7oeuki
+URL: https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-a9iv0l
 Price: 17532.48 USD
-Availability: In stock
+Availability: Out of stock
 SKU: VL-MODULE-KIA
+Brand: StoreVan 
 
 מודול מגירות רצפה שלם StoreVan לרכבים קטנים כולל Kia PV5. רצפה מורמת עם מגירות אלומיניום. התקנה ללא קידוח. אחריות 8 שנים.
 

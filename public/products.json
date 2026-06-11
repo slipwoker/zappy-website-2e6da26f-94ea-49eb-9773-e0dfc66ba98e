@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T07:17:23.424Z",
+  "generated_at": "2026-06-11T07:20:26.746Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -496,7 +496,7 @@
     },
     {
       "id": "90217aa9-844b-4a9b-8cf5-d92e4b4dd9f7",
-      "slug": "mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-7oeuki",
+      "slug": "mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-a9iv0l",
       "name": "מודול מגירות רצפה שלם – Kia PV5 וכד'",
       "name_translations": {
         "ar": "وحدة أدراج أرضية كاملة – Kia PV5 وغيرها",
@@ -504,20 +504,22 @@
         "he": "מודול מגירות רצפה שלם – Kia PV5 וכד'",
         "ru": "Полный модуль напольных ящиков – Kia PV5 и др."
       },
-      "description": "מודול מגירות רצפה שלם StoreVan לרכבים קטנים כולל Kia PV5. רצפה מורמת עם מגירות אלומיניום. התקנה ללא קידוח. אחריות 8 שנים.",
+      "description": "<p>מודול מגירות רצפה שלם StoreVan לרכבים קטנים כולל Kia PV5. רצפה מורמת עם מגירות אלומיניום. התקנה ללא קידוח. אחריות 8 שנים.</p>",
       "short_description": "מודול מגירות רצפה שלם StoreVan – Kia PV5 וכד'. ללא קידוח. אחריות 8 שנים.",
       "sku": "VL-MODULE-KIA",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 17532.48,
       "base_price": 17532.48,
       "sale_price": null,
       "currency": "USD",
       "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-7oeuki",
-      "categories": [],
-      "updated_at": "2026-06-10T16:42:48.634Z"
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-a9iv0l",
+      "categories": [
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-11T07:19:55.373Z"
     },
     {
       "id": "a6692fd2-4d56-4f39-a4e7-72b4625eccf1",
