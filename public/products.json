@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T07:34:59.399Z",
+  "generated_at": "2026-06-11T07:37:44.216Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -446,7 +446,7 @@
     },
     {
       "id": "e9a2179e-d636-40f5-ad3d-abf19f447192",
-      "slug": "mgyrt-rtsph-alvmynyvm-4231242250-mm-9e4d1e",
+      "slug": "mgyrt-rtsph-alvmynyvm-4231242250-mm-i2y2es",
       "name": "מגירת רצפה אלומיניום 423×1,242×250 מ\"מ",
       "name_translations": {
         "ar": "درج أرضي ألومنيوم 423×1,242×250 مم",
@@ -462,14 +462,20 @@
       "base_price": 6592.72,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781163226540-5xi1o3.webp",
+        "https://mutzagim.co.il/assets/product-1781163250856-r7dr3.webp",
+        "https://mutzagim.co.il/assets/product-1781163243316-ehmpi.webp",
+        "https://mutzagim.co.il/assets/product-1781163232168-y6n6f.webp",
+        "https://mutzagim.co.il/assets/product-1781163237721-239ssl.webp"
+      ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-9e4d1e",
+      "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-i2y2es",
       "categories": [
         "זיווד רכבים "
       ],
-      "updated_at": "2026-06-11T07:34:28.121Z"
+      "updated_at": "2026-06-11T07:37:13.045Z"
     },
     {
       "id": "a61a1cb9-a0ed-4ce4-8ba8-51d9399c0898",
