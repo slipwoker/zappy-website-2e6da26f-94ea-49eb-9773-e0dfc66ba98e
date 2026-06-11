@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr" data-zappy-site-type="ecommerce">
-<head>
+<!DOCTYPE html><html lang="he" dir="rtl" data-zappy-site-type="ecommerce"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>מוצרים - מוצגים פתרונות אחסון ותצוגה</title>
-  
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
-  <meta name="keywords" content="industrial storage shelving for factories, heavy-duty storage solutions, compactus systems for businesses, industrial furniture for logistics companies">
+  <title>טסט</title>
+  <meta name="description" content="גלו פתרונות אחסון תעשייתי מתקדמים למפעלים וחברות לוגיסטיקה. מדפי אחסון למשקל כבד, מתקני קומפקטוס ופתרונות מותאמים אישית.">
+  <meta name="keywords" content="מדפי אחסון תעשייתי למפעלים, פתרונות אחסון למשקל כבד, מתקני קומפקטוס לעסקים, ריהוט תעשייתי לחברות לוגיסטיקה">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Favicons -->
@@ -596,7 +590,9 @@ html[dir="ltr"] .terms-content li,
 html[dir="ltr"] .privacy-content li {
   direction: ltr !important;
   text-align: left !important;
-}html[dir="rtl"] /* ZAPPY-LTR-TEXTALIGN-OVERRIDES:BEGIN */
+}
+
+/* ZAPPY-LTR-TEXTALIGN-OVERRIDES:BEGIN */
 /* ============================================
    LTR TEXT-ALIGN OVERRIDES FOR RTL-BAKED CONTENT
    See block comment at top of multiLanguageService.js for full rationale.
@@ -608,7 +604,7 @@ html[dir="ltr"] .privacy-content li {
    - .order-success-card           → checkout success card
    - .privacy-consent-label        → contact-form consent checkbox row
    - .text-left                    → AI sometimes literally writes
-                                     ".text-left{text-align: right ;}" in
+                                     ".text-left { text-align: right }" in
                                      Hebrew sites — flip it so the class
                                      name matches its behaviour.
    Uses text-align: start (resolves to left in LTR, right in RTL via the
@@ -1290,237 +1286,29 @@ html[dir="rtl"] body {
   }
 }
 </style>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <!-- hreflang tags for SEO -->
-<link rel="alternate" hreflang="he" href="https://mutzagim.co.il/category/:slug">
-<link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/category/:slug">
-<link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/category/:slug">
-<link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/category/:slug">
-<link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/category/:slug">    <link rel="stylesheet" href="/styles.css">
-
-<!-- Zappy V2 LTR Layout Fix (CSS) -->
-<style>
-/* Fix V2 navbar layout for LTR pages - CSS applied immediately to prevent FOUC */
-/* CRITICAL: direction property affects how flex order is interpreted */
-/* Direction applies to all screens, but flex-direction: row is DESKTOP ONLY */
-/* IMPORTANT: We deliberately scope the bare element selectors to .navbar
-   (so the selector reads "header.navbar" / "nav.navbar"). Earlier the bare
-   header and nav selectors here were catching every <nav> on the page,
-   including <nav class="product-breadcrumb"> on the product detail /
-   category pages and <nav class="zappy-catalog-menu"> in the storefront
-   chrome. Both then inherited justify-content: space-between !important and
-   exploded into full-width-spread layouts only on the English (LTR) URLs
-   (Hebrew was fine because the site has no html[dir="ltr"]). The .navbar /
-   .nav-container selectors below already cover the actual main navbar
-   regardless of which tag carries the class, so the bare-element fallback
-   was both unnecessary and actively harmful. Generic across every site /
-   language combination. */
-html[dir="ltr"] header.navbar,
-html[dir="ltr"] nav.navbar,
-html[dir="ltr"] .navbar,
-html[dir="ltr"] .nav-container {
-  direction: ltr !important;
-  justify-content: space-between !important;
-}
-
-/* nav-right-group should appear FIRST (left side) in LTR */
-html[dir="ltr"] .nav-right-group {
-  direction: ltr !important;
-  order: -1 !important;
-  margin-left: 0 !important;
-}
-
-/* nav-cta-container should appear LAST (right side) in LTR */
-html[dir="ltr"] .nav-cta-container {
-  direction: ltr !important;
-  order: 1 !important;
-  margin-left: auto !important;
-  margin-right: 0 !important;
-}
-
-/* nav-menu: ensure LTR direction */
-html[dir="ltr"] .nav-menu,
-html[dir="ltr"] #navMenu {
-  direction: ltr !important;
-  margin-left: 0 !important;
-}
-
-/* nav-brand: should be first child within nav-right-group */
-html[dir="ltr"] .nav-brand {
-  direction: ltr !important;
-  order: -1 !important;
-  margin-right: 1rem !important;
-  margin-left: 0 !important;
-}
-
-/* DESKTOP ONLY: Horizontal flex layout - prevents breaking mobile vertical menu */
-/* Same scoping rationale as above: bare element selectors would force
-   flex-direction: row on every <header>/<nav> in the page (article headers,
-   breadcrumbs, catalog menus, footer navigation). Restrict to .navbar. */
-@media (min-width: 769px) {
-  html[dir="ltr"] header.navbar,
-  html[dir="ltr"] nav.navbar,
-  html[dir="ltr"] .navbar,
-  html[dir="ltr"] .nav-container {
-    flex-direction: row !important;
-  }
-  
-  html[dir="ltr"] .nav-right-group,
-  html[dir="ltr"] .nav-cta-container {
-    flex-direction: row !important;
-  }
-  
-  html[dir="ltr"] .nav-menu,
-  html[dir="ltr"] #navMenu {
-    flex-direction: row !important;
-  }
-
-  /* V2 ecommerce sites set justify-content: space-between on nav-right-group,
-     pushing the menu away from the logo in LTR. Override to flex-start. */
-  html[dir="ltr"] .nav-right-group {
-    justify-content: flex-start !important;
-  }
-  html[dir="ltr"] .nav-right-group .nav-ecommerce-icons {
-    margin-left: auto !important;
-    margin-right: 0 !important;
-  }
-
-  /* E-commerce layout WITH nav-right-group wrapper:
-     Menu links wrap only when horizontal space runs out. */
-  html[dir="ltr"] .nav-right-group > .nav-brand {
-    order: -1 !important;
-  }
-  html[dir="ltr"] .nav-right-group > .nav-menu,
-  html[dir="ltr"] .nav-right-group > #navMenu {
-    order: 0 !important;
-    margin-inline-start: 0 !important;
-    flex: 1 1 0 !important;
-    min-width: 0 !important;
-    overflow: visible !important;
-    align-items: center !important;
-  }
-  html[dir="ltr"] .nav-right-group > .nav-menu > li,
-  html[dir="ltr"] .nav-right-group > #navMenu > li {
-    flex: 0 0 auto !important;
-  }
-  html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons {
-    order: 2 !important;
-    margin-inline-start: auto !important;
-    flex: 0 0 auto !important;
-    min-width: max-content !important;
-  }
-  html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left {
-    order: 2 !important;
-    margin-inline-start: auto !important;
-    flex: 0 0 auto !important;
-    min-width: max-content !important;
-  }
-
-  /* E-commerce flat nav layout (no nav-right-group wrapper): */
-  html[dir="ltr"] .nav-container > .nav-brand {
-    order: -1 !important;
-  }
-  html[dir="ltr"] .nav-container > .nav-menu,
-  html[dir="ltr"] .nav-container > #navMenu {
-    order: 1 !important;
-    margin-inline-start: 0 !important;
-    flex: 1 1 0 !important;
-    min-width: 0 !important;
-    overflow: visible !important;
-    align-items: center !important;
-  }
-  html[dir="ltr"] .nav-container > .nav-menu > li,
-  html[dir="ltr"] .nav-container > #navMenu > li {
-    flex: 0 0 auto !important;
-  }
-  html[dir="ltr"] .nav-container > .lang-switcher,
-  html[dir="ltr"] .nav-container > .nav-ecommerce-icons {
-    order: 2 !important;
-    margin-inline-start: auto !important;
-    flex: 0 0 auto !important;
-    min-width: max-content !important;
-  }
-  html[dir="ltr"] .nav-container > .nav-ecommerce-icons.nav-icons-left {
-    margin-inline-start: auto !important;
-    flex: 0 0 auto !important;
-    min-width: max-content !important;
-  }
-  html[dir="rtl"] .nav-right-group > .nav-menu,
-  html[dir="rtl"] .nav-right-group > #navMenu,
-  html[dir="rtl"] .nav-container > .nav-menu,
-  html[dir="rtl"] .nav-container > #navMenu {
-    flex: 1 1 0 !important;
-    min-width: 0 !important;
-    overflow: visible !important;
-    align-items: center !important;
-  }
-  html[dir="rtl"] .nav-right-group > .nav-menu > li,
-  html[dir="rtl"] .nav-right-group > #navMenu > li,
-  html[dir="rtl"] .nav-container > .nav-menu > li,
-  html[dir="rtl"] .nav-container > #navMenu > li {
-    flex: 0 0 auto !important;
-  }
-  html[dir="rtl"] .nav-right-group > .nav-ecommerce-icons,
-  html[dir="rtl"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left,
-  html[dir="rtl"] .nav-container > .nav-ecommerce-icons,
-  html[dir="rtl"] .nav-container > .nav-ecommerce-icons.nav-icons-left {
-    flex: 0 0 auto !important;
-    min-width: max-content !important;
-  }
-}
-
-/* Search box button position fix for LTR pages */
-html[dir="ltr"] .nav-search-box {
-  direction: ltr !important;
-}
-html[dir="ltr"] .nav-search-btn {
-  position: absolute !important;
-  left: auto !important;
-  right: 4px !important;
-}
-html[dir="ltr"] .nav-search-input {
-  direction: ltr !important;
-  text-align: left !important;
-  padding-left: 14px !important;
-  padding-right: 40px !important;
-}
-html[dir="ltr"] .nav-search-results {
-  left: 0 !important;
-  right: auto !important;
-}
-
-/* lang-switcher positioning */
-html[dir="ltr"] .lang-switcher {
-  direction: ltr !important;
-  margin-left: 0 !important;
-}
-</style></head>
+<link rel="alternate" hreflang="he" href="https://mutzagim.co.il/test">
+<link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/test">
+<link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/test">
+<link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/test">
+<link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/test">    <link rel="stylesheet" href="/styles.css">
+</head>
 <body>
-  <script>
-    window.ZAPPY_WEBSITE_ID = "2e6da26f-94ea-49eb-9773-e0dfc66ba98e";
-    // Preview pages are served by the Zappy server itself (localhost in dev), so use that base.
-    // Deployed sites are static and must call the public Zappy API (never localhost).
-    window.ZAPPY_API_BASE = "https://api.zappy5.com";
-  </script>
+
+    
   
-    <div class="mobile-search-panel" id="mobile-search-panel">
-      <div class="search-wrapper">
-        <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
-        <button class="search-submit" id="mobile-search-submit" title="חיפוש">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
-        </button>
-        <button class="close-search" id="close-mobile-search">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
-        </button>
-      </div>
-      <div class="search-results" id="mobile-search-results"></div>
-    </div>
+<script>window.ZAPPY_WEBSITE_ID = "2e6da26f-94ea-49eb-9773-e0dfc66ba98e";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+    <!-- ZAPPY_INTEGRATION_START analytics:add_google_tag_manager -->
+
+<!-- ZAPPY_INTEGRATION_END analytics:add_google_tag_manager -->
+
+<!-- Zappy Attribution Header -->
+
   <nav class="navbar" id="navbar">
     <div class="container nav-container">
       <div class="nav-brand">
-        <a href="/en" class="logo-link">
-          <img src="/assets/logo-1775752141450-9blcbb.webp?v=1775752144457-whcejo" alt="Display Storage and Display Solutions" class="logo">
+        <a href="/" class="logo-link">
+          <img src="/assets/logo-1775752141450-9blcbb.webp?v=1775752144457-whcejo" alt="מוצגים פתרונות אחסון ותצוגה" class="logo">
         </a>
       </div>
       
@@ -1539,12 +1327,12 @@ html[dir="ltr"] .lang-switcher {
         </svg>
       </button>
       
-      <ul class="nav-menu" id="navMenu"><li><a href="/en/services">Services</a></li><li><a href="/en/about">About</a></li><li><a href="/en/contact-us">Contact Us</a></li><li class="menu-group-item"><span class="menu-group-title">קטגוריות</span><ul class="sub-menu"><li><a href="/en/storage-mezzanines">Storage Mezzanines and Mezzanine Floors | Solutions for Space Multiplication</a></li><li><a href="/en/vehicle-equipment">Vehicle Equipment</a></li><li><a href="/en/dalmine-ls-modular-shelving">Dalmine LS Modular Shelving System</a></li></ul></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/en/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="lang-switcher" data-icon-color="currentColor" style="position:relative;display:inline-flex;align-items:center;margin-left:auto;margin-right:8px;">
+      <ul class="nav-menu" id="navMenu"><li><a href="/services">שירותים</a></li><li><a href="/about">אודות</a></li><li><a href="/contact-us">צרו קשר</a></li><li class="menu-group-item"><span class="menu-group-title">קטגוריות</span><ul class="sub-menu"><li><a href="/storage-mezzanines">גלריות אחסון ורצפות גלריה | פתרונות להכפלת שטח</a></li><li><a href="/vehicle-equipment">זיווד רכבים</a></li><li><a href="/dalmine-ls-modular-shelving">מערכת מדפים מודולרית Dalmine LS</a></li></ul></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="lang-switcher" data-icon-color="currentColor" style="position:relative;display:inline-flex;align-items:center;margin-left:auto;margin-right:8px;">
         <button class="lang-switcher-current" type="button" style="display:flex;align-items:center;justify-content:center;gap:6px;background:transparent;border:none;cursor:pointer;padding:8px;border-radius:8px;color:inherit;">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0;"><path d="M12.039,.002s0,0,0,0c-.013,0-.026-.002-.039-.002-.005,0-.009,0-.014,0-.002,0-.003,0-.005,0C5.373,.011,0,5.39,0,12s5.383,12,12,12,12-5.383,12-12S18.638,.023,12.039,.002Zm9.747,6.998h-4.814c-1.067-2.669-2.712-4.781-3.731-5.925,3.734,.421,6.901,2.719,8.546,5.925Zm-4.786,5c0,1.407-.292,2.753-.731,4H7.731c-.439-1.247-.731-2.593-.731-4s.292-2.754,.73-4h8.539c.439,1.247,.731,2.593,.731,4Zm-1.122,5c-1.229,2.838-3.116,4.99-3.878,5.788-.762-.798-2.649-2.95-3.878-5.788h7.755ZM8.121,7c1.229-2.841,3.117-4.992,3.879-5.789,.762,.798,2.649,2.95,3.878,5.789h-7.757ZM10.757,1.075c-1.025,1.15-2.668,3.264-3.73,5.925H2.214C3.859,3.795,7.024,1.498,10.757,1.075ZM1.764,8H6.668c-.403,1.247-.668,2.589-.668,4s.265,2.752,.669,4H1.764c-.487-1.242-.764-2.588-.764-4s.277-2.758,.764-4Zm.45,9H7.029c1.067,2.669,2.712,4.781,3.731,5.925-3.734-.421,6.901-2.719-8.546-5.925Zm11.026,5.925c1.019-1.144,2.664-3.257,3.731-5.925h4.814c-1.645,3.206-4.812,5.504-8.546,5.925Zm8.996-6.925h-4.905c.404-1.248,.669-2.589,.669-4s-.265-2.752-.669-4h4.905c.487,1.242,.764,2.588,.764,4s-.277,2.758-.764,4Z"></path></svg>
         </button>
         <div class="lang-switcher-dropdown" style="position:absolute;top:100%;right:0;background:white;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.15);min-width:150px;opacity:0;visibility:hidden;transform:translateY(-8px);transition:all 0.2s ease;z-index:1000;">
-          <a href="/category/:slug" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/il.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> עברית</a><a href="/ar/category/:slug" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/sa.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> العربية</a><a href="/ru/category/:slug" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/ru.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> Русский</a>
+          <a href="/ar/test" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/sa.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> العربية</a><a href="/ru/test" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/ru.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> Русский</a><a href="/en/test" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/us.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> English</a>
         </div>
       </div><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
@@ -1572,196 +1360,182 @@ html[dir="ltr"] .lang-switcher {
     
 <script data-no-icon-edit="true">(function(){function f(){var b=document.querySelector('.lang-switcher-current');if(!b)return;var n=b.closest('nav')||b.closest('header')||b.closest('.navbar');if(!n)return;var a=n.querySelector('.nav-menu a,.nav-links a');if(!a)a=n.querySelector('a:not(.lang-option):not(.lang-switcher-current):not([class*="logo"])');if(a){var c=getComputedStyle(a).color;if(c&&c!=='rgb(0, 0, 0)'&&c!=='rgba(0, 0, 0, 0)'){b.style.color=c;return;}}var s=getComputedStyle(n).backgroundColor;if(s&&s!=='rgba(0, 0, 0, 0)'&&s!=='transparent'){var m=s.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);if(m){var l=(0.299*parseInt(m[1])+0.587*parseInt(m[2])+0.114*parseInt(m[3]))/255;b.style.color=l>0.5?'#1a1a1a':'#F3FAFF';}}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',f);}else{setTimeout(f,0);}})()</script>
     </div>
-  </nav>
-  <main class="page-container ecommerce-page">
+  </nav><main>
+      <section id="layout-1781177685747" class="py-16 md:py-24 bg-white layout-section zappy-removable" data-zappy-component="true" style="width: 100%; padding: 60px 0;">
+        <div class="container mx-auto px-4 md:px-8 text-center">
+          <h1 class="text-3xl md:text-4xl font-bold mb-4">טסט</h1>
+          <p class="text-gray-600 text-lg">This page is ready for your content.</p>
+        </div>
+      </section>
+    </main>
+
+  
+
     
-        <section class="category-page-section" id="category-page">
-          <div class="category-header" id="category-header">
-            <div class="category-header-loading">
-              <div class="loading-spinner"></div>
-            </div>
-          </div>
-          <div class="products-toolbar category-toolbar" id="category-toolbar" style="display:none;">
-            <button class="sidebar-toggle-btn" id="cat-sidebar-toggle-btn" style="display:none;" aria-label="סינון">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h10M4 18h4"></path></svg>
-              <span>סינון</span>
-            </button>
-            <div class="toolbar-left">
-              <span class="products-count" id="category-products-count"></span>
-            </div>
-            <div class="toolbar-right">
-              <div class="sort-control" id="cat-sort-control" style="display:none;">
-                <select id="cat-sort-select" aria-label="מיון">
-                </select>
-              </div>
-              <div class="view-toggle" id="cat-view-toggle" style="display:none;">
-                <button class="view-btn active" data-view="grid" aria-label="תצוגת רשת">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect></svg>
-                </button>
-                <button class="view-btn" data-view="list" aria-label="תצוגת רשימה">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"></path></svg>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="products-layout" id="category-products-layout">
-            <aside class="product-sidebar" id="category-sidebar" style="display:none;"></aside>
-            <div class="products-main">
-              <div class="product-grid" id="zappy-category-products">
-                <div class="loading-products">טוען מוצרים...</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      
-  </main>
-  <footer class="legal-footer">
+  
+
+    
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+    <!-- Legal Footer -->
+    
+
+
+
+<footer class="legal-footer">
       <div class="container">
         <div class="footer-main">
           <div class="all-rights-reserved">
-            <p>© 2026 Display Storage and Display Solutions. All rights reserved.</p>
+            <p>© 2026 מוצגים פתרונות אחסון ותצוגה. כל הזכויות שמורות.</p>
           </div>
           <div class="footer-social"><a href="https://facebook.com/Mutzagim" target="_blank" rel="noopener noreferrer" aria-label="Facebook" data-i18n-aria-label="home_aria_label_74"><i class="fab fa-facebook"></i></a>
 <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="display:none !important;" data-i18n-aria-label="home_aria_label_75"><i class="fab fa-instagram"></i></a>
 <a href="https://wa.me/972542770665" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" data-i18n-aria-label="home_aria_label_76"><i class="fab fa-whatsapp"></i></a></div>
           <div class="footer-legal">
-            <a href="/en/privacy" aria-label="מדיניות פרטיות" data-i18n-aria-label="home_aria_label_77">Privacy Policy</a>
+            <a href="/privacy" aria-label="מדיניות פרטיות" data-i18n-aria-label="home_aria_label_77">מדיניות פרטיות</a>
             <span class="separator">|</span>
-            <a href="/en/accessibility" aria-label="נגישות" data-i18n-aria-label="home_aria_label_78">Accessibility</a>
+            <a href="/accessibility" aria-label="נגישות" data-i18n-aria-label="home_aria_label_78">נגישות</a>
             <span class="separator">|</span>
-            <a href="/en/terms" aria-label="תנאי שימוש" data-i18n-aria-label="home_aria_label_79">Terms of Use</a><span class="separator">|</span>
-            <a href="/en/return-policy" aria-label="מדיניות החזרות">Return Policy</a>
+            <a href="/terms" aria-label="תנאי שימוש" data-i18n-aria-label="home_aria_label_79">תנאי שימוש</a><span class="separator">|</span>
+            <a href="/return-policy" aria-label="מדיניות החזרות">מדיניות החזרות</a>
           </div>
         </div>
         <div class="zappy-attribution">
-          <p><span><span><span><span><span><span><span>Created using&nbsp;</span></span></span></span></span></span></span><a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Zappy</a></p>
+          <p><span><span><span><span><span><span><span>נוצר באמצעות&nbsp;</span></span></span></span></span></span></span><a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Zappy</a></p>
         </div>
       </div>
     </footer>
+
+
+<!-- Zappy Attribution Header Script -->
+<script>
+(function() {
+  var websiteId = '2e6da26f-94ea-49eb-9773-e0dfc66ba98e';
   
-<div class="cart-drawer-overlay" id="cart-drawer-overlay"></div>
-<aside class="cart-drawer" id="cart-drawer">
-  <div class="cart-drawer-header">
-    <h2>עגלת הקניות שלך</h2>
-    <button type="button" class="cart-drawer-close" id="cart-drawer-close" aria-label="סגור">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
-    </button>
-  </div>
-  <div class="cart-drawer-body" id="cart-drawer-items">
-    <div class="empty-cart">העגלה ריקה</div>
-  </div>
-  <div class="cart-drawer-footer">
-    <div class="cart-drawer-total">
-      <span>סה"כ:</span>
-      <span id="cart-drawer-total">₪0</span>
-    </div>
-    <a href="/en/checkout" class="cart-drawer-checkout">המשך לתשלום</a>
-  </div>
-</aside>
+  // Don't show header in preview mode
+  var currentUrl = window.location.href;
+  var isPreview = currentUrl.includes('/preview/') || 
+                  currentUrl.includes('/preview-fullscreen/') || 
+                  currentUrl.includes('localhost:5001') ||
+                  currentUrl.includes('localhost:3000');
   
-<div class="zappy-qv-overlay" id="zappy-qv-overlay" hidden=""></div>
-<div class="zappy-qv-modal" id="zappy-qv-modal" role="dialog" aria-modal="true" aria-label="תצוגה מהירה" hidden="">
-  <button type="button" class="zappy-qv-close" id="zappy-qv-close" aria-label="סגור">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
-  </button>
-  <div class="zappy-qv-content" id="zappy-qv-content"></div>
-</div>
-  <script>
-  <!-- Search handling for e-commerce pages -->
-  (function() {
-    // Unified search function that works in both preview and deployed modes
-    function performSearch(query) {
-      if (query.length < 2) return;
-      
-      // Check if we're in preview mode (URL contains preview-fullscreen)
-      var isPreview = window.location.pathname.includes('preview-fullscreen');
-      
-      if (isPreview) {
-        // In preview mode, update the page parameter and add search
-        var url = new URL(window.location.href);
-        url.searchParams.set('page', '/products');
-        url.searchParams.set('search', query);
-        window.location.href = url.toString();
-      } else {
-        // In deployed mode, navigate to the catalog in the ACTIVE language.
-        // Static catalog pages (/products) are served as per-language files
-        // (/en/products), while the courses catalog (/courses) is language-
-        // switched via ?lang. Derive the active language from the current URL
-        // (path prefix on static pages, ?lang on courses pages) so search keeps
-        // the language instead of dropping back to the site default. NOTE: the
-        // \ in the regex is intentional — this block lives in a template
-        // literal that bakes the page, so a bare \/ would be dropped.
-        var base = '/products';
-        var activeLang = (function() {
-          try { var q = new URLSearchParams(window.location.search).get('lang'); if (q) return q.toLowerCase(); } catch (e) {}
-          var m = (window.location.pathname || '').match(/^\/([a-z]{2})(?:\/|$)/i);
-          return m ? m[1].toLowerCase() : '';
-        })();
-        var dest = base === '/courses'
-          ? base + '?search=' + encodeURIComponent(query) + (activeLang ? '&lang=' + encodeURIComponent(activeLang) : '')
-          : (activeLang ? '/' + activeLang : '') + base + '?search=' + encodeURIComponent(query);
-        window.location.href = dest;
+  if (isPreview) {
+    return; // Exit early in preview mode
+  }
+  
+  fetch('https://api.zappy5.com/api/website/' + websiteId + '/tier')
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      if (data.showAttribution) {
+        var header = document.getElementById('zappy-attribution-header');
+        if (header) {
+          // Use dynamic announcement content if available
+          if (data.announcement && data.announcement.html) {
+            header.innerHTML = data.announcement.html;
+          }
+          // Apply fixed positioning styles inline (works for existing sites too)
+          header.style.cssText = 'position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99999 !important; display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important; box-sizing: border-box !important;';
+          // Fix child elements that might have position: fixed from old CSS
+          var children = header.querySelectorAll('*');
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.position = 'static';
+          }
+          // Get header height
+          var headerHeight = header.offsetHeight;
+          // Find and fix navbar to be fixed as well (prevents gap at top of page)
+          var navSelectors = ['nav', '.navbar', '.nav'];
+          var navbar = null;
+          for (var j = 0; j < navSelectors.length; j++) {
+            navbar = document.querySelector(navSelectors[j]);
+            if (navbar && navbar.id !== 'zappy-attribution-header') break;
+            navbar = null;
+          }
+          if (navbar) {
+            var navbarHeight = navbar.offsetHeight;
+            navbar.style.cssText += '; position: fixed !important; top: ' + headerHeight + 'px !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99998 !important;';
+            document.body.style.paddingTop = (headerHeight + navbarHeight) + 'px';
+          } else {
+            document.body.style.paddingTop = headerHeight + 'px';
+          }
+        }
       }
-    }
+    })
+    .catch(function(error) {
+      console.error('Failed to check tier:', error);
+    });
+})();
+</script>
     
-    // Handle navbar search input
-    var navSearchInput = document.querySelector('.nav-search-input');
-    if (navSearchInput) {
-      navSearchInput.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-          e.preventDefault();
-          performSearch(this.value.trim());
-        }
-      });
-    }
-    
-    // Handle mobile search panel
-    var mobileSearchInput = document.getElementById('mobile-search-input');
-    var mobileSearchPanel = document.getElementById('mobile-search-panel');
-    var closeMobileSearch = document.getElementById('close-mobile-search');
-    var searchToggle = document.querySelector('.nav-search-toggle');
-    
-    // Open mobile search panel
-    if (searchToggle && mobileSearchPanel) {
-      searchToggle.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        mobileSearchPanel.classList.add('active');
-        if (mobileSearchInput) {
-          setTimeout(function() { mobileSearchInput.focus(); }, 100);
-        }
-      });
-    }
-    
-    // Close mobile search panel
-    if (closeMobileSearch && mobileSearchPanel) {
-      closeMobileSearch.addEventListener('click', function() {
-        mobileSearchPanel.classList.remove('active');
-        if (mobileSearchInput) mobileSearchInput.value = '';
-      });
-    }
-    
-    // Handle Enter key on mobile search
-    if (mobileSearchInput) {
-      mobileSearchInput.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-          e.preventDefault();
-          performSearch(this.value.trim());
-        }
-      });
-    }
-    
-    // Handle search query from URL on load
-    var urlParams = new URLSearchParams(window.location.search);
-    var searchQuery = urlParams.get('search');
-    if (searchQuery) {
-      if (navSearchInput) navSearchInput.value = searchQuery;
-      if (mobileSearchInput) mobileSearchInput.value = searchQuery;
-      console.log('[E-COMMERCE] Search query from URL:', searchQuery);
-    }
-  })();
-  </script>
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- i18next Multi-Language Support -->
 <script>
@@ -13262,6 +13036,7 @@ html[dir="ltr"] .lang-switcher {
   }
 })();
 </script>
+  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg></a>
     <script src="/script.js"></script>
 
 <!-- Zappy Language Switcher Icon Color Fix -->
@@ -13354,5 +13129,4 @@ html[dir="ltr"] .lang-switcher {
   // Run on resize
   window.addEventListener('resize', fixLanguageSwitcherColor);
 })();
-</script></body>
-</html>
+</script></body></html>
