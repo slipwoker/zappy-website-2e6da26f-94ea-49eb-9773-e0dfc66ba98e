@@ -9107,7 +9107,7 @@ SKU: VL423-930
 ---
 
 ### מודול מגירות רצפה שלם – Kia PV5 וכד'
-URL: https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-a9iv0l
+URL: https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-v1nt90
 Price: 17532.48 USD
 Availability: Out of stock
 SKU: VL-MODULE-KIA

@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T07:20:26.746Z",
+  "generated_at": "2026-06-11T07:22:54.329Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -496,7 +496,7 @@
     },
     {
       "id": "90217aa9-844b-4a9b-8cf5-d92e4b4dd9f7",
-      "slug": "mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-a9iv0l",
+      "slug": "mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-v1nt90",
       "name": "מודול מגירות רצפה שלם – Kia PV5 וכד'",
       "name_translations": {
         "ar": "وحدة أدراج أرضية كاملة – Kia PV5 وغيرها",
@@ -512,14 +512,19 @@
       "base_price": 17532.48,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781162495369-mrxzzd.webp",
+        "https://mutzagim.co.il/assets/product-1781162489618-lk26xh.webp",
+        "https://mutzagim.co.il/assets/product-1781162479139-t4v2m.webp",
+        "https://mutzagim.co.il/assets/product-1781162484687-0odngk.webp"
+      ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-a9iv0l",
+      "url": "https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-v1nt90",
       "categories": [
         "זיווד רכבים "
       ],
-      "updated_at": "2026-06-11T07:19:55.373Z"
+      "updated_at": "2026-06-11T07:22:34.047Z"
     },
     {
       "id": "a6692fd2-4d56-4f39-a4e7-72b4625eccf1",
