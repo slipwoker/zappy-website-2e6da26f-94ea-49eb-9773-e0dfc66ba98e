@@ -255,11 +255,14 @@ https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt
 - Description: מגירת רצפה אלומיניום 580×1,242×250 מ"מ – מחיר מבצע. שאריות מלאי.
 
 ### מסגרת מתרחבת קצרה 1,016×445 מ"מ
-https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016445-mm-gzac7v
+https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016445-mm-2849l5
 - Price: 5442.64 USD
-- Availability: In stock
+- Availability: Out of stock
+- Category: זיווד רכבים 
 - SKU: 1196AH
+- Brand: StoreVan
 - Description: מסגרת מתרחבת אלומיניום 1,016×445 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
+- Image: https://mutzagim.co.il/assets/product-1781163602322-y76dv7.webp
 
 ### מגירת רצפה אלומיניום 423×1,242×250 מ"מ
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-i2y2es
