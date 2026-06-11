@@ -18,7 +18,7 @@ https://mutzagim.co.il/services
 https://mutzagim.co.il/about
 למדו על מוצגים פתרונות אחסון ותצוגה - מובילים בתחום מדפי אחסון תעשייתי למפעלים ופתרונות אחסון למשקל כבד. ניסיון, מומחיות ומחויבות לאיכות.
 
-### מוצרים
+### Products
 https://mutzagim.co.il/products
 המוצרים שלנו - מוצגים פתרונות אחסון ותצוגה
 
@@ -78,31 +78,31 @@ https://mutzagim.co.il/vehicle-equipment
 https://mutzagim.co.il/storage-mezzanines
 גלריות אחסון תעשייתיות (Mezzanines) להכפלת שטח האחסון במחסן. פתרונות אחסון למשקל כבד, תכנון מודולרי והתאמה אישית למפעלים ולוגיסטיקה.
 
-### פרטי המוצר
+### Product Detail
 https://mutzagim.co.il/product/:slug
 פרטי המוצר - מוצגים פתרונות אחסון ותצוגה
 
-### מוצרים
+### Category
 https://mutzagim.co.il/category/:slug
 מוצרים - מוצגים פתרונות אחסון ותצוגה
 
-### עגלת קניות
+### Cart
 https://mutzagim.co.il/cart
 עגלת הקניות שלך
 
-### תשלום
+### Checkout
 https://mutzagim.co.il/checkout
 תשלום
 
-### התחברות
+### Login
 https://mutzagim.co.il/login
 התחברות לקוחות
 
-### החשבון שלי
+### Account
 https://mutzagim.co.il/account
 החשבון שלי
 
-### ההזמנה התקבלה!
+### Order Success
 https://mutzagim.co.il/order-success
 תודה על ההזמנה
 
@@ -128,7 +128,7 @@ Information about WCAG compliance and accessibility features.
 
 ### ריהוט רכב מסחרי מלא – Large
 https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-4ohgmo
-- Price: 20943.04 USD
+- Price: 20943.04 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: INRICHTING-LARGE
@@ -138,7 +138,7 @@ https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-4ohgmo
 
 ### מחזיק פחיות ספריי StoreVan – 365 מ"מ
 https://mutzagim.co.il/product/mchzyk-pchyvt-spryy-storevan-365-mm-byh3u2
-- Price: 180.56 USD
+- Price: 180.56 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: F22KTSPR3650001
@@ -148,7 +148,7 @@ https://mutzagim.co.il/product/mchzyk-pchyvt-spryy-storevan-365-mm-byh3u2
 
 ### ריהוט רכב מסחרי מלא – Small
 https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-5tslet
-- Price: 9238.80 USD
+- Price: 9238.80 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: INRICHTING-SMALL
@@ -158,7 +158,7 @@ https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-5tslet
 
 ### מדף חבילות Mercedes-Benz Sprinter – ימין
 https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-ymyn-x9kfgc
-- Price: 7777.84 USD
+- Price: 7777.84 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: postpakketrek-mb-sprinter-rechts
@@ -168,7 +168,7 @@ https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-ymyn-x9kfgc
 
 ### מדף חבילות Mercedes-Benz Sprinter – שמאל
 https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-shmal-9xd3bk
-- Price: 15111.76 USD
+- Price: 15111.76 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: postpakketrek-mb-sprinter-links
@@ -178,7 +178,7 @@ https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-shmal-9xd3bk
 
 ### ריהוט רכב מסחרי מלא – Medium
 https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-pvr01w
-- Price: 15990.48 USD
+- Price: 15990.48 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: INRICHTING-MEDIUM
@@ -188,7 +188,7 @@ https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-pvr01w
 
 ### מסגרת מתרחבת בינונית 1,225×730 מ"מ
 https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225730-mm-i6e2l1
-- Price: 6534.64 USD
+- Price: 6534.64 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: 1203AH
@@ -198,7 +198,7 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225730-mm-i6e2l1
 
 ### מסגרת מתרחבת בינונית 1,225×445 מ"מ
 https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225445-mm-lmrpv0
-- Price: 5750.32 USD
+- Price: 5750.32 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: 1197AH
@@ -208,7 +208,7 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225445-mm-lmrpv0
 
 ### מסגרת מתרחבת ארוכה 1,524×365 מ"מ
 https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-w6y5da
-- Price: 6075.36 USD
+- Price: 6075.36 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: 1201AH
@@ -218,7 +218,7 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-w6y5da
 
 ### מודול מגירות רצפה שלם – רכב קטן
 https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy
-- Price: 15294.08 USD
+- Price: 15294.08 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: VL-MODULE-SMALL
@@ -227,28 +227,28 @@ https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy
 
 ### מגירת רצפה אלומיניום 580×1,242×250 מ"מ
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-eavvkj
-- Price: 6924.64 USD
+- Price: 6924.64 ILS
 - Availability: In stock
 - SKU: VL580-1242
 - Description: מגירת רצפה אלומיניום Heavy Duty 580×1,242×250 מ"מ. 100% הוצאה מלאה. התקנה ללא קידוח.
 
 ### מגירת רצפה אלומיניום 580×930×250 מ"מ
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-580930250-mm-v9opuz
-- Price: 5515.20 USD
+- Price: 5515.20 ILS
 - Availability: In stock
 - SKU: VL580-930
 - Description: מגירת רצפה אלומיניום Heavy Duty 580×930×250 מ"מ. 100% הוצאה מלאה. התקנה ללא קידוח.
 
 ### מסגרת מתרחבת קצרה 1,016×365 מ"מ
 https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016365-mm-0whqaa
-- Price: 5425.36 USD
+- Price: 5425.36 ILS
 - Availability: In stock
 - SKU: 1199AH
 - Description: מסגרת מתרחבת אלומיניום 1,016×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
 
 ### מסגרת מתרחבת בינונית 1,225×365 מ"מ
 https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-g9nraa
-- Price: 5737.36 USD
+- Price: 5737.36 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: 1200AH
@@ -258,14 +258,14 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-g9nraa
 
 ### מגירת רצפה אלומיניום 580×1,242×250 מ"מ – מבצע (שאריות מלאי)
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt-mlay-4u05fp
-- Price: 5664.24 USD
+- Price: 5664.24 ILS
 - Availability: In stock
 - SKU: VL580-1242-ACTIE
 - Description: מגירת רצפה אלומיניום 580×1,242×250 מ"מ – מחיר מבצע. שאריות מלאי.
 
 ### מסגרת מתרחבת קצרה 1,016×445 מ"מ
 https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016445-mm-2849l5
-- Price: 5442.64 USD
+- Price: 5442.64 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: 1196AH
@@ -275,7 +275,7 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016445-mm-2849l5
 
 ### מגירת רצפה אלומיניום 423×1,242×250 מ"מ
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-i2y2es
-- Price: 6592.72 USD
+- Price: 6592.72 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: VL423-1242
@@ -285,7 +285,7 @@ https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-i2y2es
 
 ### מגירת רצפה אלומיניום 423×930×250 מ"מ
 https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-423930250-mm-lw393m
-- Price: 5246.24 USD
+- Price: 5246.24 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: VL423-930
@@ -295,7 +295,7 @@ https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-423930250-mm-lw393m
 
 ### מודול מגירות רצפה שלם – Kia PV5 וכד'
 https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-v1nt90
-- Price: 17532.48 USD
+- Price: 17532.48 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים 
 - SKU: VL-MODULE-KIA
@@ -305,7 +305,7 @@ https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-v1nt90
 
 ### ארון PICK עם דלתות ומנעול – H1655 מ"מ, אפור בהיר RAL7035
 https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-dbuawj
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: PK1651108
@@ -315,7 +315,7 @@ https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7
 
 ### ארון מחזיק קופסאות PICK – H2000 מ"מ, אפור בהיר RAL7035
 https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-bhyr-ral7035-xot6lq
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: PK2000108
@@ -325,7 +325,7 @@ https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-bhyr-ral70
 
 ### ארון מחזיק קופסאות PICK – H2000 מ"מ, אפור RAL7000
 https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-ral7000-w0odln
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: PK2001101
@@ -335,7 +335,7 @@ https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-ral7000-w0
 
 ### ארון מחזיק קופסאות PICK – H1655 מ"מ, אפור בהיר RAL7035
 https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-apvr-bhyr-ral7035-mvpd73
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: PK1650104
@@ -345,7 +345,7 @@ https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-apvr-bhyr-ral70
 
 ### ארון מחזיק קופסאות PICK – H2001 מ"מ, כחול RAL5012
 https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2001-mm-kchvl-ral5012-vr2065
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: PK2001104
@@ -355,7 +355,7 @@ https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2001-mm-kchvl-ral5012-v
 
 ### ארון מחזיק קופסאות PICK – סדרה 2001-2, כחול RAL5012
 https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-sdrh-2001-2-kchvl-ral5012-1schlb
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: PK2001204
@@ -365,7 +365,7 @@ https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-sdrh-2001-2-kchvl-ral501
 
 ### ארון מחזיק קופסאות PICK – H2000 מ"מ, כחול RAL5012
 https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-kchvl-ral5012-7pdt7s
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: PK2000104
@@ -375,7 +375,7 @@ https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-kchvl-ral5012-7
 
 ### ארון מחזיק קופסאות PICK – H1655 מ"מ, כחול RAL5012
 https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-kchvl-ral5012-xmf6bq
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: PK1655104
@@ -385,7 +385,7 @@ https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-kchvl-ral5012-x
 
 ### עגלת כלי עבודה 5 מגירות Linea 391 – 391C07
 https://mutzagim.co.il/product/aglt-kly-abvdh-5-mgyrvt-linea-391-391c07-m7g4s0
-- Price: 2604.00 USD
+- Price: 2604.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C07
@@ -395,7 +395,7 @@ https://mutzagim.co.il/product/aglt-kly-abvdh-5-mgyrvt-linea-391-391c07-m7g4s0
 
 ### עגלת כלי עבודה 6 מגירות Linea 391 – 391C08
 https://mutzagim.co.il/product/aglt-kly-abvdh-6-mgyrvt-linea-391-391c08-s61861
-- Price: 2899.00 USD
+- Price: 2899.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C08
@@ -405,7 +405,7 @@ https://mutzagim.co.il/product/aglt-kly-abvdh-6-mgyrvt-linea-391-391c08-s61861
 
 ### עגלת כלי עבודה 4 מגירות Linea 391 – 391C06
 https://mutzagim.co.il/product/aglt-kly-abvdh-4-mgyrvt-linea-391-391c06-xwjftu
-- Price: 2409.00 USD
+- Price: 2409.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C06
@@ -415,7 +415,7 @@ https://mutzagim.co.il/product/aglt-kly-abvdh-4-mgyrvt-linea-391-391c06-xwjftu
 
 ### ארון בטיחות לחומרים דליקים Linea 391 – 391A01
 https://mutzagim.co.il/product/arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-gyhim7
-- Price: 2499.00 USD
+- Price: 2499.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391A01
@@ -425,7 +425,7 @@ https://mutzagim.co.il/product/arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-gyh
 
 ### ארון בטיחות לפיטוסניטרים Linea 391 – 391A02
 https://mutzagim.co.il/product/arvn-btychvt-lpytvsnytrym-linea-391-391a02-fdn9y4
-- Price: 2499.00 USD
+- Price: 2499.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391A02
@@ -435,7 +435,7 @@ https://mutzagim.co.il/product/arvn-btychvt-lpytvsnytrym-linea-391-391a02-fdn9y4
 
 ### ארון 7 מגירות 36×27 Linea 391 – 391A04
 https://mutzagim.co.il/product/arvn-7-mgyrvt-3627-linea-391-391a04-k7cmhp
-- Price: 3305.00 USD
+- Price: 3305.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391A04
@@ -445,7 +445,7 @@ https://mutzagim.co.il/product/arvn-7-mgyrvt-3627-linea-391-391a04-k7cmhp
 
 ### ארון תעשייתי Linea 391 – 391A03
 https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-bnje56
-- Price: 2084.00 USD
+- Price: 2084.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391A03
@@ -455,7 +455,7 @@ https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-bnje56
 
 ### עגלת עבודה Linea 391 – 391C02
 https://mutzagim.co.il/product/aglt-abvdh-linea-391-391c02-b1zi7x
-- Price: 1809.00 USD
+- Price: 1809.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C02
@@ -465,7 +465,7 @@ https://mutzagim.co.il/product/aglt-abvdh-linea-391-391c02-b1zi7x
 
 ### ארון 7 מגירות 54×27 Linea 391 – 391A05
 https://mutzagim.co.il/product/arvn-7-mgyrvt-5427-linea-391-391a05-csryqi
-- Price: 4124.00 USD
+- Price: 4124.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391A05
@@ -475,7 +475,7 @@ https://mutzagim.co.il/product/arvn-7-mgyrvt-5427-linea-391-391a05-csryqi
 
 ### עגלת סדנה XL Linea 391 – 391C05
 https://mutzagim.co.il/product/aglt-sdnh-xl-linea-391-391c05-blgjvs
-- Price: 895.00 USD
+- Price: 895.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C05
@@ -485,7 +485,7 @@ https://mutzagim.co.il/product/aglt-sdnh-xl-linea-391-391c05-blgjvs
 
 ### עגלת סדנה XS Linea 391 – 391C04
 https://mutzagim.co.il/product/aglt-sdnh-xs-linea-391-391c04-w79108
-- Price: 744.00 USD
+- Price: 744.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C04
@@ -495,7 +495,7 @@ https://mutzagim.co.il/product/aglt-sdnh-xs-linea-391-391c04-w79108
 
 ### עגלת חלקים קטנים Linea 391 – 391C01
 https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c01-a8r85r
-- Price: 2482.00 USD
+- Price: 2482.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C01
@@ -505,7 +505,7 @@ https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c01-a8r85r
 
 ### עגלת חלקים קטנים Linea 391 – 391C03
 https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c03-q6e0qi
-- Price: 1935.00 USD
+- Price: 1935.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391C03
@@ -515,7 +515,7 @@ https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c03-q6e0qi
 
 ### ריהוט סדנה מלא Linea 391 – L1824 מ"מ
 https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l1824-mm-klw8al
-- Price: 7683.00 USD
+- Price: 7683.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391G10
@@ -525,7 +525,7 @@ https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l1824-mm-klw8al
 
 ### ריהוט סדנה מלא Linea 391 – L4560 מ"מ
 https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l4560-mm-1s99gw
-- Price: 16765.00 USD
+- Price: 16765.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391G13
@@ -535,7 +535,7 @@ https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l4560-mm-1s99gw
 
 ### ריהוט סדנה מלא Linea 391 – L3040 מ"מ
 https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l3040-mm-h4nxlw
-- Price: 11538.00 USD
+- Price: 11538.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391G15
@@ -545,7 +545,7 @@ https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l3040-mm-h4nxlw
 
 ### שולחן עבודה קבוע Linea 391 – L2000 מ"מ
 https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l2000-mm-a1l3e2
-- Price: 1041.60 USD
+- Price: 1041.60 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 8052693947423
@@ -555,7 +555,7 @@ https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l2000-mm-a1l3e2
 
 ### שולחן עבודה קבוע Linea 391 – L1024 מ"מ
 https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1024-mm-cq9pwu
-- Price: 937.00 USD
+- Price: 937.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391B01
@@ -565,7 +565,7 @@ https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1024-mm-cq9pwu
 
 ### שולחן עבודה קבוע Linea 391 – L1500 מ"מ
 https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1500-mm-yumiyi
-- Price: 1156.00 USD
+- Price: 1156.00 ILS
 - Availability: Out of stock
 - Category: ריהוט תעשייתי מתקדם 
 - SKU: 391B02
@@ -575,7 +575,7 @@ https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1500-mm-yumiyi
 
 ### מיכל ZEUS – סדרה 272-4
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4-2anttx
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ0045101
@@ -585,7 +585,7 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4-2anttx
 
 ### מיכל ZEUS – סדרה 272-4A5
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a5-721v7x
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ4A55101
@@ -595,7 +595,7 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a5-721v7x
 
 ### מיכל ZEUS – סדרה 272-5
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-5-4v0r2w
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ0055101
@@ -605,7 +605,7 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-5-4v0r2w
 
 ### מיכל ZEUS – סדרה 272-4A2
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a2-12xgh2
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ4A25101
@@ -615,7 +615,7 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a2-12xgh2
 
 ### יחידת מגירות PRACTIBOX – 5 מגירות שקופות
 https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-eqfwaj
-- Price: 142.40 USD
+- Price: 142.40 ILS
 - Availability: In stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: PR51640001
@@ -625,7 +625,7 @@ https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-eqfwaj
 
 ### יחידת מגירות PRACTIBOX – 2 מגירות שקופות
 https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-7891af
-- Price: 340.00 USD
+- Price: 340.00 ILS
 - Availability: In stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: PR23530001
@@ -635,7 +635,7 @@ https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-7891af
 
 ### מיכל ZEUS – סדרה 272-2
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-2rje9i
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ0025101
@@ -645,7 +645,7 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-2rje9i
 
 ### יחידת מגירות PRACTIBOX – 6 מגירות שקופות
 https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-mgej6s
-- Price: 89.60 USD
+- Price: 89.60 ILS
 - Availability: In stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: PR61120001
@@ -655,7 +655,7 @@ https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-mgej6s
 
 ### מיכל קטן ZEUS – סדרה 701
 https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-701-oyjhfw
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ7015101
@@ -665,7 +665,7 @@ https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-701-oyjhfw
 
 ### מיכל קטן ZEUS – סדרה 702
 https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-702-bhl3hq
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ7025101
@@ -675,7 +675,7 @@ https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-702-bhl3hq
 
 ### מיכל ZEUS – סדרה 272-3A2
 https://mutzagim.co.il/product/mykl-zeus-sdrh-272-3a2-21vfut
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: ZEZ3A25101
@@ -685,7 +685,7 @@ https://mutzagim.co.il/product/mykl-zeus-sdrh-272-3a2-21vfut
 
 ### יחידת מגירות PRACTIBOX – 3 מגירות שקופות
 https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-3-mgyrvt-shkvpvt-xms0og
-- Price: 225.38 USD
+- Price: 225.38 ILS
 - Availability: In stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: PR32400001
@@ -695,7 +695,7 @@ https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-3-mgyrvt-shkvpvt-xms0og
 
 ### יחידת מגירות PRACTIBOX – 4 מגירות שקופות
 https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-4-mgyrvt-shkvpvt-t978br
-- Price: 220.90 USD
+- Price: 220.90 ILS
 - Availability: In stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: PR42060001
@@ -705,7 +705,7 @@ https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-4-mgyrvt-shkvpvt-t978br
 
 ### יחידת מגירות PRACTIBOX – 9 מגירות שקופות
 https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-9-mgyrvt-shkvpvt-b19hej
-- Price: 86.38 USD
+- Price: 86.38 ILS
 - Availability: In stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - SKU: PR90770001
@@ -715,7 +715,7 @@ https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-9-mgyrvt-shkvpvt-b19hej
 
 ### מכל ESD מוליך סדרת ATHENA – 600×400 מ"מ
 https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-cwso1e
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT-6408
@@ -725,7 +725,7 @@ https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-cwso1e
 
 ### מכל ESD מוליך סדרת ATHENA – 300×200 מ"מ
 https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-5lun01
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT-3012
@@ -735,7 +735,7 @@ https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-5lun01
 
 ### מכל ESD מוליך סדרת ATHENA – 400×300 מ"מ
 https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-e0ahkg
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT-4305
@@ -745,7 +745,7 @@ https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-e0ahkg
 
 ### תיבת ESD עם מחיצות – סדרת ATHENA
 https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-qdl4lq
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: Out of stock
 - Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT43S15207
@@ -755,7 +755,7 @@ https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-qdl4lq
 
 ### מכסה ESD מוליך – למכל 600×400 מ"מ
 https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-rk5atk
-- Price: 50.98 USD
+- Price: 50.98 ILS
 - Availability: Out of stock
 - Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT64HG5401
@@ -765,7 +765,7 @@ https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-rk5atk
 
 ### מכסה ESD מוליך – למכל 300×200 מ"מ
 https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-whpukf
-- Price: 25.96 USD
+- Price: 25.96 ILS
 - Availability: Out of stock
 - Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT-LID-300
@@ -775,7 +775,7 @@ https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-whpukf
 
 ### מכסה ESD מוליך – למכל 400×300 מ"מ
 https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-35w08n
-- Price: 33.98 USD
+- Price: 33.98 ILS
 - Availability: Out of stock
 - Category: מיכלים וארגזים אנטי סטטיים (ESD)
 - SKU: AT-LID-400
@@ -785,7 +785,7 @@ https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-35w08n
 
 ### סט קיט מדפים ERREX תוצרת איטליה
 https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp
-- Price: 531.00 USD (sale, was 650.00 USD)
+- Price: 531.00 ILS (sale, was 650.00 ILS)
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: Dalmine
@@ -794,7 +794,7 @@ https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp
 
 ### סט מדפים מודלרים 150/50/197H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15050197h-au0oco
-- Price: 965.00 USD
+- Price: 965.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Description: סט מדפים מודלרים באורך 150 ס"מ (158 ס"מ כולל מסגרות), גובה 197 ס"מ, 4 מדפים בעומק 50 ס"מ, עומס מפולג 140 ק"ג למדף.
@@ -802,7 +802,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15050197h-au0oco
 
 ### סט מדפים מודלרים 120/80/250H 
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-12080250h-lj8d7a
-- Price: 1294.00 USD
+- Price: 1294.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -811,7 +811,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-12080250h-lj8d7a
 
 ### סט מדפים מודלרים 150/80/250H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080250h-ubbtpw
-- Price: 1480.00 USD
+- Price: 1480.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -820,7 +820,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080250h-ubbtpw
 
 ### סט מדפים מודלרים 150/80/197H (Copy)
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080197h-copy-y8c7cb
-- Price: 1203.00 USD
+- Price: 1203.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -829,7 +829,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080197h-copy-y8c7cb
 
 ### סט מדפים מודלרים 150/80/197H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080197h-d7avk6
-- Price: 1203.00 USD
+- Price: 1203.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -838,7 +838,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080197h-d7avk6
 
 ### סט מדפים מודלרים 150/70/250H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15070250h-2fz0h2
-- Price: 1386.00 USD
+- Price: 1386.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -847,7 +847,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15070250h-2fz0h2
 
 ### סט מדפים מודלרים 150/70/197H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15070197h-dnl8hd
-- Price: 1127.00 USD
+- Price: 1127.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -856,7 +856,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15070197h-dnl8hd
 
 ### סט מדפים מודלרים 150/60/250H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15060250h-cq1cdx
-- Price: 1293.00 USD
+- Price: 1293.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -865,7 +865,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15060250h-cq1cdx
 
 ### סט מדפים מודלרים 150/60/197H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15060197h-k9ejlu
-- Price: 1052.00 USD
+- Price: 1052.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -874,7 +874,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15060197h-k9ejlu
 
 ### סט מדפים מודלרים 150/50/250H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15050250h-8wxrdw
-- Price: 1189.00 USD
+- Price: 1189.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -883,7 +883,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15050250h-8wxrdw
 
 ### סט מדפים מודלרים 150/40/250H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15040250h-19h2ff
-- Price: 1101.00 USD
+- Price: 1101.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -892,7 +892,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15040250h-19h2ff
 
 ### סט מדפים מודלרים 150/40/197H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15040197h-9m52qg
-- Price: 894.00 USD
+- Price: 894.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -901,7 +901,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15040197h-9m52qg
 
 ### סט מדפים מודלרים 150/32/250H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15032250h-qoeb88
-- Price: 1049.00 USD
+- Price: 1049.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM 
@@ -910,7 +910,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15032250h-qoeb88
 
 ### סט מדפים מודלרים 150/32/197H
 https://mutzagim.co.il/product/st-mdpym-mvdlrym-15032197h-0bb5ap
-- Price: 806.00 USD
+- Price: 806.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס קל ובינוני
 - Brand: METALSISTEM
@@ -919,7 +919,7 @@ https://mutzagim.co.il/product/st-mdpym-mvdlrym-15032197h-0bb5ap
 
 ### אחסונית/ארקלית מס' 1 צבע כחול
 https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-iginrn
-- Price: 112.10 USD
+- Price: 112.10 ILS
 - Availability: In stock
 - Category: ארגזי פלסטיק ומיכלי אחסון 
 - Description: אחסונית/ארקלית מס' 1 צבע כחול
@@ -927,7 +927,7 @@ https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-iginrn
 
 ### הקטגוריות באתר בתהליך הקמה - חזרו שוב בקרוב 
 https://mutzagim.co.il/product/hktgvryvt-batr-bthlyk-hkmh-chzrv-shvb-bkrvb-tr9r3p
-- Price: 0.00 USD
+- Price: 0.00 ILS
 - Availability: In stock
 - Category: מידוף מחסן לעומס כבד ומשטחים
 - Description: אנחנו משדרגים את האתר ומעדכנים מוצרים חדשים מדי יום, בכל שאלה מוזמנים ליצור אתנו קשר בטלפון או במייל

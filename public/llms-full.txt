@@ -83,12 +83,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -591,12 +594,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -1002,12 +1008,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -1571,12 +1580,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -1983,12 +1995,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -2367,12 +2382,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -2700,12 +2718,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -3021,12 +3042,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -3376,12 +3400,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -3689,12 +3716,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -4022,12 +4052,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -4374,12 +4407,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -4789,12 +4825,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -5094,12 +5133,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -5418,12 +5460,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -5695,12 +5740,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -6036,12 +6084,15 @@ Happily created by Zappy
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -6328,12 +6379,15 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -6581,12 +6635,15 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -6843,12 +6900,15 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 
 
-- שירותים
-- אודות
+
+
 - מוצרים מוצרים
 
 
 
+
+- שירותים
+- אודות
 - צרו קשר
 0
 
@@ -8388,7 +8448,7 @@ Description: החשבון שלי
 
 ### הוסף כתובת
 
-×
+&times;
 
 
 
@@ -8797,7 +8857,7 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 # מדיניות החזרת מוצרים
 
 
-עדכון אחרון: 2.6.2026
+עדכון אחרון: 11.6.2026
 
 
 
@@ -8920,7 +8980,7 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 
 ### ריהוט רכב מסחרי מלא – Large
 URL: https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-4ohgmo
-Price: 20943.04 USD
+Price: 20943.04 ILS
 Availability: Out of stock
 SKU: INRICHTING-LARGE
 Brand: StoreVan 
@@ -8931,7 +8991,7 @@ Brand: StoreVan
 
 ### מחזיק פחיות ספריי StoreVan – 365 מ"מ
 URL: https://mutzagim.co.il/product/mchzyk-pchyvt-spryy-storevan-365-mm-byh3u2
-Price: 180.56 USD
+Price: 180.56 ILS
 Availability: Out of stock
 SKU: F22KTSPR3650001
 Brand: StoreVan
@@ -8942,7 +9002,7 @@ Brand: StoreVan
 
 ### ריהוט רכב מסחרי מלא – Small
 URL: https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-small-5tslet
-Price: 9238.80 USD
+Price: 9238.80 ILS
 Availability: Out of stock
 SKU: INRICHTING-SMALL
 Brand: StoreVan 
@@ -8953,7 +9013,7 @@ Brand: StoreVan
 
 ### מדף חבילות Mercedes-Benz Sprinter – ימין
 URL: https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-ymyn-x9kfgc
-Price: 7777.84 USD
+Price: 7777.84 ILS
 Availability: Out of stock
 SKU: postpakketrek-mb-sprinter-rechts
 Brand: StoreVan 
@@ -8964,7 +9024,7 @@ Brand: StoreVan
 
 ### מדף חבילות Mercedes-Benz Sprinter – שמאל
 URL: https://mutzagim.co.il/product/mdp-chbylvt-mercedes-benz-sprinter-shmal-9xd3bk
-Price: 15111.76 USD
+Price: 15111.76 ILS
 Availability: Out of stock
 SKU: postpakketrek-mb-sprinter-links
 Brand: StoreVan 
@@ -8975,7 +9035,7 @@ Brand: StoreVan
 
 ### ריהוט רכב מסחרי מלא – Medium
 URL: https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-medium-pvr01w
-Price: 15990.48 USD
+Price: 15990.48 ILS
 Availability: Out of stock
 SKU: INRICHTING-MEDIUM
 Brand: StoreVan 
@@ -8986,7 +9046,7 @@ Brand: StoreVan
 
 ### מסגרת מתרחבת בינונית 1,225×730 מ"מ
 URL: https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225730-mm-i6e2l1
-Price: 6534.64 USD
+Price: 6534.64 ILS
 Availability: Out of stock
 SKU: 1203AH
 Brand: StoreVan
@@ -8997,7 +9057,7 @@ Brand: StoreVan
 
 ### מסגרת מתרחבת בינונית 1,225×445 מ"מ
 URL: https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225445-mm-lmrpv0
-Price: 5750.32 USD
+Price: 5750.32 ILS
 Availability: Out of stock
 SKU: 1197AH
 Brand: StoreVan
@@ -9008,7 +9068,7 @@ Brand: StoreVan
 
 ### מסגרת מתרחבת ארוכה 1,524×365 מ"מ
 URL: https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-w6y5da
-Price: 6075.36 USD
+Price: 6075.36 ILS
 Availability: Out of stock
 SKU: 1201AH
 Brand: StoreVan
@@ -9019,7 +9079,7 @@ Brand: StoreVan
 
 ### מודול מגירות רצפה שלם – רכב קטן
 URL: https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy
-Price: 15294.08 USD
+Price: 15294.08 ILS
 Availability: Out of stock
 SKU: VL-MODULE-SMALL
 Brand: StoreVan 
@@ -9030,7 +9090,7 @@ Brand: StoreVan
 
 ### מגירת רצפה אלומיניום 580×1,242×250 מ"מ
 URL: https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-eavvkj
-Price: 6924.64 USD
+Price: 6924.64 ILS
 Availability: In stock
 SKU: VL580-1242
 
@@ -9040,7 +9100,7 @@ SKU: VL580-1242
 
 ### מגירת רצפה אלומיניום 580×930×250 מ"מ
 URL: https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-580930250-mm-v9opuz
-Price: 5515.20 USD
+Price: 5515.20 ILS
 Availability: In stock
 SKU: VL580-930
 
@@ -9050,7 +9110,7 @@ SKU: VL580-930
 
 ### מסגרת מתרחבת קצרה 1,016×365 מ"מ
 URL: https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016365-mm-0whqaa
-Price: 5425.36 USD
+Price: 5425.36 ILS
 Availability: In stock
 SKU: 1199AH
 
@@ -9060,7 +9120,7 @@ SKU: 1199AH
 
 ### מסגרת מתרחבת בינונית 1,225×365 מ"מ
 URL: https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-g9nraa
-Price: 5737.36 USD
+Price: 5737.36 ILS
 Availability: Out of stock
 SKU: 1200AH
 Brand: StoreVan
@@ -9071,7 +9131,7 @@ Brand: StoreVan
 
 ### מגירת רצפה אלומיניום 580×1,242×250 מ"מ – מבצע (שאריות מלאי)
 URL: https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt-mlay-4u05fp
-Price: 5664.24 USD
+Price: 5664.24 ILS
 Availability: In stock
 SKU: VL580-1242-ACTIE
 
@@ -9081,7 +9141,7 @@ SKU: VL580-1242-ACTIE
 
 ### מסגרת מתרחבת קצרה 1,016×445 מ"מ
 URL: https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016445-mm-2849l5
-Price: 5442.64 USD
+Price: 5442.64 ILS
 Availability: Out of stock
 SKU: 1196AH
 Brand: StoreVan
@@ -9092,7 +9152,7 @@ Brand: StoreVan
 
 ### מגירת רצפה אלומיניום 423×1,242×250 מ"מ
 URL: https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-4231242250-mm-i2y2es
-Price: 6592.72 USD
+Price: 6592.72 ILS
 Availability: Out of stock
 SKU: VL423-1242
 Brand: StoreVan
@@ -9103,7 +9163,7 @@ Brand: StoreVan
 
 ### מגירת רצפה אלומיניום 423×930×250 מ"מ
 URL: https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-423930250-mm-lw393m
-Price: 5246.24 USD
+Price: 5246.24 ILS
 Availability: Out of stock
 SKU: VL423-930
 Brand: StoreVan
@@ -9114,7 +9174,7 @@ Brand: StoreVan
 
 ### מודול מגירות רצפה שלם – Kia PV5 וכד'
 URL: https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-kia-pv5-vkd-v1nt90
-Price: 17532.48 USD
+Price: 17532.48 ILS
 Availability: Out of stock
 SKU: VL-MODULE-KIA
 Brand: StoreVan 
@@ -9125,7 +9185,7 @@ Brand: StoreVan
 
 ### ארון PICK עם דלתות ומנעול – H1655 מ"מ, אפור בהיר RAL7035
 URL: https://mutzagim.co.il/product/arvn-pick-am-dltvt-vmnavl-h1655-mm-apvr-bhyr-ral7035-dbuawj
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: PK1651108
 Brand: iMilani
@@ -9136,7 +9196,7 @@ Brand: iMilani
 
 ### ארון מחזיק קופסאות PICK – H2000 מ"מ, אפור בהיר RAL7035
 URL: https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-bhyr-ral7035-xot6lq
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: PK2000108
 Brand: iMilani
@@ -9147,7 +9207,7 @@ Brand: iMilani
 
 ### ארון מחזיק קופסאות PICK – H2000 מ"מ, אפור RAL7000
 URL: https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-apvr-ral7000-w0odln
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: PK2001101
 Brand: iMilani
@@ -9158,7 +9218,7 @@ Brand: iMilani
 
 ### ארון מחזיק קופסאות PICK – H1655 מ"מ, אפור בהיר RAL7035
 URL: https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-apvr-bhyr-ral7035-mvpd73
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: PK1650104
 Brand: iMilani
@@ -9169,7 +9229,7 @@ Brand: iMilani
 
 ### ארון מחזיק קופסאות PICK – H2001 מ"מ, כחול RAL5012
 URL: https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2001-mm-kchvl-ral5012-vr2065
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: PK2001104
 Brand: iMilani
@@ -9180,7 +9240,7 @@ Brand: iMilani
 
 ### ארון מחזיק קופסאות PICK – סדרה 2001-2, כחול RAL5012
 URL: https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-sdrh-2001-2-kchvl-ral5012-1schlb
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: PK2001204
 Brand: iMilani
@@ -9191,7 +9251,7 @@ Brand: iMilani
 
 ### ארון מחזיק קופסאות PICK – H2000 מ"מ, כחול RAL5012
 URL: https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h2000-mm-kchvl-ral5012-7pdt7s
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: PK2000104
 Brand: iMilani
@@ -9202,7 +9262,7 @@ Brand: iMilani
 
 ### ארון מחזיק קופסאות PICK – H1655 מ"מ, כחול RAL5012
 URL: https://mutzagim.co.il/product/arvn-mchzyk-kvpsavt-pick-h1655-mm-kchvl-ral5012-xmf6bq
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: PK1655104
 Brand: iMilani
@@ -9213,7 +9273,7 @@ Brand: iMilani
 
 ### עגלת כלי עבודה 5 מגירות Linea 391 – 391C07
 URL: https://mutzagim.co.il/product/aglt-kly-abvdh-5-mgyrvt-linea-391-391c07-m7g4s0
-Price: 2604.00 USD
+Price: 2604.00 ILS
 Availability: Out of stock
 SKU: 391C07
 Brand: Fami 
@@ -9224,7 +9284,7 @@ Brand: Fami
 
 ### עגלת כלי עבודה 6 מגירות Linea 391 – 391C08
 URL: https://mutzagim.co.il/product/aglt-kly-abvdh-6-mgyrvt-linea-391-391c08-s61861
-Price: 2899.00 USD
+Price: 2899.00 ILS
 Availability: Out of stock
 SKU: 391C08
 Brand: Fami 
@@ -9235,7 +9295,7 @@ Brand: Fami
 
 ### עגלת כלי עבודה 4 מגירות Linea 391 – 391C06
 URL: https://mutzagim.co.il/product/aglt-kly-abvdh-4-mgyrvt-linea-391-391c06-xwjftu
-Price: 2409.00 USD
+Price: 2409.00 ILS
 Availability: Out of stock
 SKU: 391C06
 Brand: Fami 
@@ -9246,7 +9306,7 @@ Brand: Fami
 
 ### ארון בטיחות לחומרים דליקים Linea 391 – 391A01
 URL: https://mutzagim.co.il/product/arvn-btychvt-lchvmrym-dlykym-linea-391-391a01-gyhim7
-Price: 2499.00 USD
+Price: 2499.00 ILS
 Availability: Out of stock
 SKU: 391A01
 Brand: Fami
@@ -9257,7 +9317,7 @@ Brand: Fami
 
 ### ארון בטיחות לפיטוסניטרים Linea 391 – 391A02
 URL: https://mutzagim.co.il/product/arvn-btychvt-lpytvsnytrym-linea-391-391a02-fdn9y4
-Price: 2499.00 USD
+Price: 2499.00 ILS
 Availability: Out of stock
 SKU: 391A02
 Brand: Fami
@@ -9268,7 +9328,7 @@ Brand: Fami
 
 ### ארון 7 מגירות 36×27 Linea 391 – 391A04
 URL: https://mutzagim.co.il/product/arvn-7-mgyrvt-3627-linea-391-391a04-k7cmhp
-Price: 3305.00 USD
+Price: 3305.00 ILS
 Availability: Out of stock
 SKU: 391A04
 Brand: Fami 
@@ -9279,7 +9339,7 @@ Brand: Fami
 
 ### ארון תעשייתי Linea 391 – 391A03
 URL: https://mutzagim.co.il/product/arvn-tashyyty-linea-391-391a03-bnje56
-Price: 2084.00 USD
+Price: 2084.00 ILS
 Availability: Out of stock
 SKU: 391A03
 Brand: Fami 
@@ -9290,7 +9350,7 @@ Brand: Fami
 
 ### עגלת עבודה Linea 391 – 391C02
 URL: https://mutzagim.co.il/product/aglt-abvdh-linea-391-391c02-b1zi7x
-Price: 1809.00 USD
+Price: 1809.00 ILS
 Availability: Out of stock
 SKU: 391C02
 Brand: Fami 
@@ -9301,7 +9361,7 @@ Brand: Fami
 
 ### ארון 7 מגירות 54×27 Linea 391 – 391A05
 URL: https://mutzagim.co.il/product/arvn-7-mgyrvt-5427-linea-391-391a05-csryqi
-Price: 4124.00 USD
+Price: 4124.00 ILS
 Availability: Out of stock
 SKU: 391A05
 Brand: Fami 
@@ -9312,7 +9372,7 @@ Brand: Fami
 
 ### עגלת סדנה XL Linea 391 – 391C05
 URL: https://mutzagim.co.il/product/aglt-sdnh-xl-linea-391-391c05-blgjvs
-Price: 895.00 USD
+Price: 895.00 ILS
 Availability: Out of stock
 SKU: 391C05
 Brand: Fami
@@ -9323,7 +9383,7 @@ Brand: Fami
 
 ### עגלת סדנה XS Linea 391 – 391C04
 URL: https://mutzagim.co.il/product/aglt-sdnh-xs-linea-391-391c04-w79108
-Price: 744.00 USD
+Price: 744.00 ILS
 Availability: Out of stock
 SKU: 391C04
 Brand: Fami
@@ -9334,7 +9394,7 @@ Brand: Fami
 
 ### עגלת חלקים קטנים Linea 391 – 391C01
 URL: https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c01-a8r85r
-Price: 2482.00 USD
+Price: 2482.00 ILS
 Availability: Out of stock
 SKU: 391C01
 Brand: Fami
@@ -9345,7 +9405,7 @@ Brand: Fami
 
 ### עגלת חלקים קטנים Linea 391 – 391C03
 URL: https://mutzagim.co.il/product/aglt-chlkym-ktnym-linea-391-391c03-q6e0qi
-Price: 1935.00 USD
+Price: 1935.00 ILS
 Availability: Out of stock
 SKU: 391C03
 Brand: Fami
@@ -9356,7 +9416,7 @@ Brand: Fami
 
 ### ריהוט סדנה מלא Linea 391 – L1824 מ"מ
 URL: https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l1824-mm-klw8al
-Price: 7683.00 USD
+Price: 7683.00 ILS
 Availability: Out of stock
 SKU: 391G10
 Brand: Fami
@@ -9367,7 +9427,7 @@ Brand: Fami
 
 ### ריהוט סדנה מלא Linea 391 – L4560 מ"מ
 URL: https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l4560-mm-1s99gw
-Price: 16765.00 USD
+Price: 16765.00 ILS
 Availability: Out of stock
 SKU: 391G13
 Brand: Fami
@@ -9378,7 +9438,7 @@ Brand: Fami
 
 ### ריהוט סדנה מלא Linea 391 – L3040 מ"מ
 URL: https://mutzagim.co.il/product/ryhvt-sdnh-mla-linea-391-l3040-mm-h4nxlw
-Price: 11538.00 USD
+Price: 11538.00 ILS
 Availability: Out of stock
 SKU: 391G15
 Brand: Fami
@@ -9389,7 +9449,7 @@ Brand: Fami
 
 ### שולחן עבודה קבוע Linea 391 – L2000 מ"מ
 URL: https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l2000-mm-a1l3e2
-Price: 1041.60 USD
+Price: 1041.60 ILS
 Availability: Out of stock
 SKU: 8052693947423
 Brand: Fami
@@ -9400,7 +9460,7 @@ Brand: Fami
 
 ### שולחן עבודה קבוע Linea 391 – L1024 מ"מ
 URL: https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1024-mm-cq9pwu
-Price: 937.00 USD
+Price: 937.00 ILS
 Availability: Out of stock
 SKU: 391B01
 Brand: Fami
@@ -9411,7 +9471,7 @@ Brand: Fami
 
 ### שולחן עבודה קבוע Linea 391 – L1500 מ"מ
 URL: https://mutzagim.co.il/product/shvlchn-abvdh-kbva-linea-391-l1500-mm-yumiyi
-Price: 1156.00 USD
+Price: 1156.00 ILS
 Availability: Out of stock
 SKU: 391B02
 Brand: Fami
@@ -9422,7 +9482,7 @@ Brand: Fami
 
 ### מיכל ZEUS – סדרה 272-4
 URL: https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4-2anttx
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: ZEZ0045101
 Brand: iMilani 
@@ -9433,7 +9493,7 @@ Brand: iMilani
 
 ### מיכל ZEUS – סדרה 272-4A5
 URL: https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a5-721v7x
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: ZEZ4A55101
 Brand: iMilani 
@@ -9444,7 +9504,7 @@ Brand: iMilani
 
 ### מיכל ZEUS – סדרה 272-5
 URL: https://mutzagim.co.il/product/mykl-zeus-sdrh-272-5-4v0r2w
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: ZEZ0055101
 Brand: iMilani 
@@ -9455,7 +9515,7 @@ Brand: iMilani
 
 ### מיכל ZEUS – סדרה 272-4A2
 URL: https://mutzagim.co.il/product/mykl-zeus-sdrh-272-4a2-12xgh2
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: ZEZ4A25101
 Brand: iMilani
@@ -9466,7 +9526,7 @@ Brand: iMilani
 
 ### יחידת מגירות PRACTIBOX – 5 מגירות שקופות
 URL: https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-5-mgyrvt-shkvpvt-eqfwaj
-Price: 142.40 USD
+Price: 142.40 ILS
 Availability: In stock
 SKU: PR51640001
 Brand: iMilani 
@@ -9477,7 +9537,7 @@ Brand: iMilani
 
 ### יחידת מגירות PRACTIBOX – 2 מגירות שקופות
 URL: https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-2-mgyrvt-shkvpvt-7891af
-Price: 340.00 USD
+Price: 340.00 ILS
 Availability: In stock
 SKU: PR23530001
 Brand: iMilani 
@@ -9488,7 +9548,7 @@ Brand: iMilani
 
 ### מיכל ZEUS – סדרה 272-2
 URL: https://mutzagim.co.il/product/mykl-zeus-sdrh-272-2-2rje9i
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: ZEZ0025101
 Brand: iMilani 
@@ -9499,7 +9559,7 @@ Brand: iMilani
 
 ### יחידת מגירות PRACTIBOX – 6 מגירות שקופות
 URL: https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-6-mgyrvt-shkvpvt-mgej6s
-Price: 89.60 USD
+Price: 89.60 ILS
 Availability: In stock
 SKU: PR61120001
 Brand: iMilani 
@@ -9510,7 +9570,7 @@ Brand: iMilani
 
 ### מיכל קטן ZEUS – סדרה 701
 URL: https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-701-oyjhfw
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: ZEZ7015101
 Brand: iMilani 
@@ -9521,7 +9581,7 @@ Brand: iMilani
 
 ### מיכל קטן ZEUS – סדרה 702
 URL: https://mutzagim.co.il/product/mykl-ktn-zeus-sdrh-702-bhl3hq
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: ZEZ7025101
 Brand: iMilani 
@@ -9532,7 +9592,7 @@ Brand: iMilani
 
 ### מיכל ZEUS – סדרה 272-3A2
 URL: https://mutzagim.co.il/product/mykl-zeus-sdrh-272-3a2-21vfut
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: ZEZ3A25101
 Brand: iMilani 
@@ -9543,7 +9603,7 @@ Brand: iMilani
 
 ### יחידת מגירות PRACTIBOX – 3 מגירות שקופות
 URL: https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-3-mgyrvt-shkvpvt-xms0og
-Price: 225.38 USD
+Price: 225.38 ILS
 Availability: In stock
 SKU: PR32400001
 Brand: iMilani 
@@ -9554,7 +9614,7 @@ Brand: iMilani
 
 ### יחידת מגירות PRACTIBOX – 4 מגירות שקופות
 URL: https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-4-mgyrvt-shkvpvt-t978br
-Price: 220.90 USD
+Price: 220.90 ILS
 Availability: In stock
 SKU: PR42060001
 Brand: iMilani 
@@ -9565,7 +9625,7 @@ Brand: iMilani
 
 ### יחידת מגירות PRACTIBOX – 9 מגירות שקופות
 URL: https://mutzagim.co.il/product/ychydt-mgyrvt-practibox-9-mgyrvt-shkvpvt-b19hej
-Price: 86.38 USD
+Price: 86.38 ILS
 Availability: In stock
 SKU: PR90770001
 Brand: iMilani 
@@ -9576,7 +9636,7 @@ Brand: iMilani
 
 ### מכל ESD מוליך סדרת ATHENA – 600×400 מ"מ
 URL: https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-600400-mm-cwso1e
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: AT-6408
 Brand: iMilani
@@ -9587,7 +9647,7 @@ Brand: iMilani
 
 ### מכל ESD מוליך סדרת ATHENA – 300×200 מ"מ
 URL: https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-300200-mm-5lun01
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: AT-3012
 Brand: iMilani
@@ -9598,7 +9658,7 @@ Brand: iMilani
 
 ### מכל ESD מוליך סדרת ATHENA – 400×300 מ"מ
 URL: https://mutzagim.co.il/product/mkl-esd-mvlyk-sdrt-athena-400300-mm-e0ahkg
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: AT-4305
 Brand: iMilani
@@ -9609,7 +9669,7 @@ Brand: iMilani
 
 ### תיבת ESD עם מחיצות – סדרת ATHENA
 URL: https://mutzagim.co.il/product/tybt-esd-am-mchytsvt-sdrt-athena-qdl4lq
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: Out of stock
 SKU: AT43S15207
 Brand: iMilani
@@ -9620,7 +9680,7 @@ Brand: iMilani
 
 ### מכסה ESD מוליך – למכל 600×400 מ"מ
 URL: https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-600400-mm-rk5atk
-Price: 50.98 USD
+Price: 50.98 ILS
 Availability: Out of stock
 SKU: AT64HG5401
 Brand: iMilani
@@ -9631,7 +9691,7 @@ Brand: iMilani
 
 ### מכסה ESD מוליך – למכל 300×200 מ"מ
 URL: https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-300200-mm-whpukf
-Price: 25.96 USD
+Price: 25.96 ILS
 Availability: Out of stock
 SKU: AT-LID-300
 Brand: iMilani
@@ -9642,7 +9702,7 @@ Brand: iMilani
 
 ### מכסה ESD מוליך – למכל 400×300 מ"מ
 URL: https://mutzagim.co.il/product/mksh-esd-mvlyk-lmkl-400300-mm-35w08n
-Price: 33.98 USD
+Price: 33.98 ILS
 Availability: Out of stock
 SKU: AT-LID-400
 Brand: iMilani
@@ -9653,7 +9713,7 @@ Brand: iMilani
 
 ### סט קיט מדפים ERREX תוצרת איטליה
 URL: https://mutzagim.co.il/product/st-kyt-mdpym-errex-tvtsrt-aytlyh-woedyp
-Price: 531.00 USD (sale, was 650.00 USD)
+Price: 531.00 ILS (sale, was 650.00 ILS)
 Availability: In stock
 Brand: Dalmine
 
@@ -9663,7 +9723,7 @@ Brand: Dalmine
 
 ### סט מדפים מודלרים 150/50/197H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15050197h-au0oco
-Price: 965.00 USD
+Price: 965.00 ILS
 Availability: In stock
 
 מדפי מתכת מודולריים למחסן Super 1-2-3 מבית METALSISTEM איטליה כוננית מדפים מודולרית מפלדה מגולוונת, קלה להרכבה ומתאימה למגוון שימושים רחב: מדפים למחסן הביתי, למשרד, לבתי עסק, למוסכים ולאחסון לוגיסטי מתקדם. מערכת ה- Super 1-2-3 מיוצרת באיטליה בטכנולוגיה מתקדמת, המעניקה למדפים חוזק מבני יוצא דופן לצד מראה נקי ומקצועי. המדפים עמידים בפני חלודה ומתאימים לעבודה בתנאים מאתגרים לאורך שנים. כוננית מדף מודולרית ללא ברגים (שיטת הקליק) הרכבה עצמית קלה, מהירה ובטיחותית כושר נשיאה גבוה: מתוכנן לעומסים של עד 150 ק"ג למדף (בחלוקה שווה) עמידות מקסימלית: עשוי פלדה מגולוונת באיכות פרימיום נגד קורוזיה גמישות מלאה: ניתן לשינוי גבהים והוספת יחידות המשך בקלות אחריות יצרן: מוצר איטלקי מקורי מבית METALSISTEM מדפים אלו תוכננו במיוחד עבור אלו שלא מתפשרים על איכות. המערכת המודולרית מאפשרת לכם לתכנן את שטח האחסון בדיוק לפי המידות שלכם, עם אפשרות להתאמה אישית של גובה המדפים לניצול מקסימלי של החלל. חשוב! יש לקבע את המדפים לקיר להבטחת יציבות מקסימלית.
@@ -9672,7 +9732,7 @@ Availability: In stock
 
 ### סט מדפים מודלרים 120/80/250H 
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-12080250h-lj8d7a
-Price: 1294.00 USD
+Price: 1294.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9682,7 +9742,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/80/250H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080250h-ubbtpw
-Price: 1480.00 USD
+Price: 1480.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9692,7 +9752,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/80/197H (Copy)
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080197h-copy-y8c7cb
-Price: 1203.00 USD
+Price: 1203.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9702,7 +9762,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/80/197H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15080197h-d7avk6
-Price: 1203.00 USD
+Price: 1203.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9712,7 +9772,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/70/250H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15070250h-2fz0h2
-Price: 1386.00 USD
+Price: 1386.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9722,7 +9782,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/70/197H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15070197h-dnl8hd
-Price: 1127.00 USD
+Price: 1127.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9732,7 +9792,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/60/250H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15060250h-cq1cdx
-Price: 1293.00 USD
+Price: 1293.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9742,7 +9802,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/60/197H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15060197h-k9ejlu
-Price: 1052.00 USD
+Price: 1052.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9752,7 +9812,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/50/250H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15050250h-8wxrdw
-Price: 1189.00 USD
+Price: 1189.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9762,7 +9822,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/40/250H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15040250h-19h2ff
-Price: 1101.00 USD
+Price: 1101.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9772,7 +9832,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/40/197H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15040197h-9m52qg
-Price: 894.00 USD
+Price: 894.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9782,7 +9842,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/32/250H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15032250h-qoeb88
-Price: 1049.00 USD
+Price: 1049.00 ILS
 Availability: In stock
 Brand: METALSISTEM 
 
@@ -9792,7 +9852,7 @@ Brand: METALSISTEM
 
 ### סט מדפים מודלרים 150/32/197H
 URL: https://mutzagim.co.il/product/st-mdpym-mvdlrym-15032197h-0bb5ap
-Price: 806.00 USD
+Price: 806.00 ILS
 Availability: In stock
 Brand: METALSISTEM
 
@@ -9802,7 +9862,7 @@ Brand: METALSISTEM
 
 ### אחסונית/ארקלית מס' 1 צבע כחול
 URL: https://mutzagim.co.il/product/achsvnytarklyt-ms-1-tsba-kchvl-iginrn
-Price: 112.10 USD
+Price: 112.10 ILS
 Availability: In stock
 
 מידות תא האחסון : רוחב 305 ממ, עומק 500 ממ, גובה 205 ממ.
@@ -9811,7 +9871,7 @@ Availability: In stock
 
 ### הקטגוריות באתר בתהליך הקמה - חזרו שוב בקרוב 
 URL: https://mutzagim.co.il/product/hktgvryvt-batr-bthlyk-hkmh-chzrv-shvb-bkrvb-tr9r3p
-Price: 0.00 USD
+Price: 0.00 ILS
 Availability: In stock
 
 ---
