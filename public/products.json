@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T08:25:16.519Z",
+  "generated_at": "2026-06-11T08:26:21.834Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 83,
@@ -348,7 +348,7 @@
     },
     {
       "id": "4244b18a-1633-42dc-b56b-5bfc7109acc4",
-      "slug": "mgyrt-rtsph-alvmynyvm-580930250-mm-v9opuz",
+      "slug": "mgyrt-rtsph-alvmynyvm-580930250-mm-ko9ap2",
       "name": "מגירת רצפה אלומיניום 580×930×250 מ\"מ",
       "name_translations": {
         "ar": "درج أرضي ألومنيوم 580×930×250 مم",
@@ -356,20 +356,28 @@
         "he": "מגירת רצפה אלומיניום 580×930×250 מ\"מ",
         "ru": "Алюминиевый напольный ящик 580×930×250 мм"
       },
-      "description": "מגירת רצפה אלומיניום Heavy Duty של StoreVan, 100% הוצאה מלאה, גובה חזית 200 מ\"מ עם מרפד גומי. התקנה ללא קידוח בפח הרכב. מידות חיצוניות: 580×930×250 מ\"מ. ניתן לערום. אחריות 8 שנים.",
+      "description": "<p>מגירת רצפה אלומיניום Heavy Duty של StoreVan, 100% הוצאה מלאה, גובה חזית 200 מ\"מ עם מרפד גומי. התקנה ללא קידוח בפח הרכב. מידות חיצוניות: 580×930×250 מ\"מ. ניתן לערום. אחריות 8 שנים.</p>",
       "short_description": "מגירת רצפה אלומיניום Heavy Duty 580×930×250 מ\"מ. 100% הוצאה מלאה. התקנה ללא קידוח.",
       "sku": "VL580-930",
-      "brand": null,
+      "brand": "StoreVan",
       "price": 5515.2,
       "base_price": 5515.2,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-580930250-mm-v9opuz",
-      "categories": [],
-      "updated_at": "2026-06-10T16:42:48.953Z"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781166304193-w11ml.webp",
+        "https://mutzagim.co.il/assets/product-1781166298467-6mr85ym.webp",
+        "https://mutzagim.co.il/assets/product-1781166292552-e29r7v.webp",
+        "https://mutzagim.co.il/assets/product-1781166281749-m4nfdc.webp",
+        "https://mutzagim.co.il/assets/product-1781166286974-po5vrn.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-580930250-mm-ko9ap2",
+      "categories": [
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-11T08:25:50.579Z"
     },
     {
       "id": "1e89028f-891d-4b04-a713-f5d5df476142",
