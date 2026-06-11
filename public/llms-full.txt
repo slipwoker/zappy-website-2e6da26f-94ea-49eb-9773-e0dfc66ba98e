@@ -9078,7 +9078,7 @@ Brand: StoreVan
 ---
 
 ### מודול מגירות רצפה שלם – רכב קטן
-URL: https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy
+URL: https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-s1luoq
 Price: 15294.08 ILS
 Availability: Out of stock
 SKU: VL-MODULE-SMALL
