@@ -197,18 +197,24 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225730-mm-i6e2l1
 - Image: https://mutzagim.co.il/assets/product-1781111311849-xueq7b.webp
 
 ### מסגרת מתרחבת בינונית 1,225×445 מ"מ
-https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225445-mm-zh4cuk
+https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225445-mm-lmrpv0
 - Price: 5750.32 USD
-- Availability: In stock
+- Availability: Out of stock
+- Category: זיווד רכבים 
 - SKU: 1197AH
+- Brand: StoreVan
 - Description: מסגרת מתרחבת אלומיניום 1,225×445 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
+- Image: https://mutzagim.co.il/assets/product-1781163800082-addr4j.webp
 
 ### מסגרת מתרחבת ארוכה 1,524×365 מ"מ
-https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-i4qg43
+https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-w6y5da
 - Price: 6075.36 USD
-- Availability: In stock
+- Availability: Out of stock
+- Category: זיווד רכבים 
 - SKU: 1201AH
+- Brand: StoreVan
 - Description: מסגרת מתרחבת אלומיניום 1,524×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
+- Image: https://mutzagim.co.il/assets/product-1781163879617-as1dcd.webp
 
 ### מודול מגירות רצפה שלם – רכב קטן
 https://mutzagim.co.il/product/mvdvl-mgyrvt-rtsph-shlm-rkb-ktn-xxxxfy

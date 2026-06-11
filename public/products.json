@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T07:43:36.444Z",
+  "generated_at": "2026-06-11T07:45:11.633Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "USD",
   "count": 84,
@@ -219,32 +219,40 @@
     },
     {
       "id": "16f3bb95-3c3a-423c-b280-41de181e959a",
-      "slug": "msgrt-mtrchbt-bynvnyt-1225445-mm-zh4cuk",
+      "slug": "msgrt-mtrchbt-bynvnyt-1225445-mm-lmrpv0",
       "name": "מסגרת מתרחבת בינונית 1,225×445 מ\"מ",
       "name_translations": {
-        "ar": "إطار قابل للتمدد متوسط 1,225×445 مم",
-        "en": "Medium Expandable Frame 1,225×445 mm",
+        "ar": "إطار قابل للتمديد متوسط 1,225×445 مم",
+        "en": "Medium Telescopic Frame 1,225×445 mm",
         "he": "מסגרת מתרחבת בינונית 1,225×445 מ\"מ",
         "ru": "Выдвижная рама средняя 1,225×445 мм"
       },
-      "description": "מסגרת מתרחבת אלומיניום של StoreVan, 1,225×445 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.",
+      "description": "<p>מסגרת מתרחבת אלומיניום של StoreVan, 1,225×445 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.</p>",
       "short_description": "מסגרת מתרחבת אלומיניום 1,225×445 מ\"מ. עומס 300 ק\"ג. תו GS. ללא קידוח.",
       "sku": "1197AH",
-      "brand": null,
+      "brand": "StoreVan",
       "price": 5750.32,
       "base_price": 5750.32,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225445-mm-zh4cuk",
-      "categories": [],
-      "updated_at": "2026-06-10T16:42:47.012Z"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781163800082-addr4j.webp",
+        "https://mutzagim.co.il/assets/product-1781163811012-nfi5ri.webp",
+        "https://mutzagim.co.il/assets/product-1781163788575-gnp1kg.webp",
+        "https://mutzagim.co.il/assets/product-1781163794213-qbqg2y.webp",
+        "https://mutzagim.co.il/assets/product-1781163805462-5mv3x.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225445-mm-lmrpv0",
+      "categories": [
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-11T07:44:40.377Z"
     },
     {
       "id": "c519b3ab-831e-4428-8cdd-b12897a3eedb",
-      "slug": "msgrt-mtrchbt-arvkh-1524365-mm-i4qg43",
+      "slug": "msgrt-mtrchbt-arvkh-1524365-mm-w6y5da",
       "name": "מסגרת מתרחבת ארוכה 1,524×365 מ\"מ",
       "name_translations": {
         "ar": "إطار قابل للتمديد طويل 1,524×365 مم",
@@ -252,20 +260,28 @@
         "he": "מסגרת מתרחבת ארוכה 1,524×365 מ\"מ",
         "ru": "Выдвижная рама длинная 1,524×365 мм"
       },
-      "description": "מסגרת מתרחבת אלומיניום של StoreVan, 1,524×365 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.",
+      "description": "<p>מסגרת מתרחבת אלומיניום של StoreVan, 1,524×365 מ\"מ. ארגונומית, עומס 300 ק\"ג, גמישה. תו GS. מתאימה כנשא מודולים או ציוד. התקנה ללא קידוח בפח הרכב. חוסכת מאמץ בגב וברכיים. אחריות 8 שנים.</p>",
       "short_description": "מסגרת מתרחבת אלומיניום 1,524×365 מ\"מ. עומס 300 ק\"ג. תו GS. ללא קידוח.",
       "sku": "1201AH",
-      "brand": null,
+      "brand": "StoreVan",
       "price": 6075.36,
       "base_price": 6075.36,
       "sale_price": null,
       "currency": "USD",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-i4qg43",
-      "categories": [],
-      "updated_at": "2026-06-10T16:42:46.706Z"
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781163879617-as1dcd.webp",
+        "https://mutzagim.co.il/assets/product-1781163890986-fnj2ns.webp",
+        "https://mutzagim.co.il/assets/product-1781163874278-uuiqu.webp",
+        "https://mutzagim.co.il/assets/product-1781163885314-wulk9p.webp",
+        "https://mutzagim.co.il/assets/product-1781163868895-8jwxb.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/msgrt-mtrchbt-arvkh-1524365-mm-w6y5da",
+      "categories": [
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-11T07:45:10.744Z"
     },
     {
       "id": "35aac623-98cb-423c-85b1-446419707dc2",
