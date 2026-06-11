@@ -18,13 +18,16 @@ https://mutzagim.co.il/services
 https://mutzagim.co.il/about
 למדו על מוצגים פתרונות אחסון ותצוגה - מובילים בתחום מדפי אחסון תעשייתי למפעלים ופתרונות אחסון למשקל כבד. ניסיון, מומחיות ומחויבות לאיכות.
 
-### Products
+### מוצרים
 https://mutzagim.co.il/products
 המוצרים שלנו - מוצגים פתרונות אחסון ותצוגה
 
 ### צרו קשר לפתרונות אחסון תעשייתי — מוצגים פתרונות אחסון ותצוגה
 https://mutzagim.co.il/contact-us
 צרו קשר עם מוצגים פתרונות אחסון ותצוגה לקבלת ייעוץ מקצועי על מדפי אחסון תעשייתי למפעלים, פתרונות אחסון למשקל כבד ומתקני קומפקטוס. נשמח לעזור!
+
+### Page
+https://mutzagim.co.il/menu-group-1781171943674
 
 ### מדפי אחסון למידוף קל ובינוני - פתרונות תעשייתיים
 https://mutzagim.co.il/light-and-medium-shelving
@@ -78,31 +81,31 @@ https://mutzagim.co.il/vehicle-equipment
 https://mutzagim.co.il/storage-mezzanines
 גלריות אחסון תעשייתיות (Mezzanines) להכפלת שטח האחסון במחסן. פתרונות אחסון למשקל כבד, תכנון מודולרי והתאמה אישית למפעלים ולוגיסטיקה.
 
-### Product Detail
+### פרטי המוצר
 https://mutzagim.co.il/product/:slug
 פרטי המוצר - מוצגים פתרונות אחסון ותצוגה
 
-### Category
+### מוצרים
 https://mutzagim.co.il/category/:slug
 מוצרים - מוצגים פתרונות אחסון ותצוגה
 
-### Cart
+### עגלת קניות
 https://mutzagim.co.il/cart
 עגלת הקניות שלך
 
-### Checkout
+### תשלום
 https://mutzagim.co.il/checkout
 תשלום
 
-### Login
+### התחברות
 https://mutzagim.co.il/login
 התחברות לקוחות
 
-### Account
+### החשבון שלי
 https://mutzagim.co.il/account
 החשבון שלי
 
-### Order Success
+### ההזמנה התקבלה!
 https://mutzagim.co.il/order-success
 תודה על ההזמנה
 
