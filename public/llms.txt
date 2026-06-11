@@ -124,7 +124,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 84**
+**Total active products: 83**
 
 ### ריהוט רכב מסחרי מלא – Large
 https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-4ohgmo
@@ -258,13 +258,6 @@ https://mutzagim.co.il/product/msgrt-mtrchbt-bynvnyt-1225365-mm-g9nraa
 - Brand: StoreVan
 - Description: מסגרת מתרחבת אלומיניום 1,225×365 מ"מ. עומס 300 ק"ג. תו GS. ללא קידוח.
 - Image: https://mutzagim.co.il/assets/product-1781163710841-kjaj7.webp
-
-### מגירת רצפה אלומיניום 580×1,242×250 מ"מ – מבצע (שאריות מלאי)
-https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt-mlay-4u05fp
-- Price: 5664.24 ILS
-- Availability: In stock
-- SKU: VL580-1242-ACTIE
-- Description: מגירת רצפה אלומיניום 580×1,242×250 מ"מ – מחיר מבצע. שאריות מלאי.
 
 ### מסגרת מתרחבת קצרה 1,016×445 מ"מ
 https://mutzagim.co.il/product/msgrt-mtrchbt-ktsrh-1016445-mm-2849l5

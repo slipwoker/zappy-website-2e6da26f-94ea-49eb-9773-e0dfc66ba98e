@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T07:47:21.356Z",
+  "generated_at": "2026-06-11T08:18:47.607Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
-  "count": 84,
+  "count": 83,
   "products": [
     {
       "id": "1d865fdf-6916-4d1a-95a7-8961773050ef",
@@ -425,31 +425,6 @@
         "זיווד רכבים "
       ],
       "updated_at": "2026-06-11T07:43:05.264Z"
-    },
-    {
-      "id": "0c19e277-1521-43c1-9259-4968199030f7",
-      "slug": "mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt-mlay-4u05fp",
-      "name": "מגירת רצפה אלומיניום 580×1,242×250 מ\"מ – מבצע (שאריות מלאי)",
-      "name_translations": {
-        "ar": "درج أرضية ألومنيوم 580×1,242×250 مم – عرض خاص (بقايا مخزون)",
-        "en": "Aluminum Floor Drawer 580×1,242×250 mm – Sale (Remaining Stock)",
-        "he": "מגירת רצפה אלומיניום 580×1,242×250 מ\"מ – מבצע (שאריות מלאי)",
-        "ru": "Алюминиевый напольный ящик 580×1,242×250 мм – акция (остатки склада)"
-      },
-      "description": "מגירת רצפה אלומיניום Heavy Duty של StoreVan, 100% הוצאה מלאה. מידות: 580×1,242×250 מ\"מ. מחיר מבצע – שאריות מלאי! התקנה ללא קידוח. אחריות 8 שנים.",
-      "short_description": "מגירת רצפה אלומיניום 580×1,242×250 מ\"מ – מחיר מבצע. שאריות מלאי.",
-      "sku": "VL580-1242-ACTIE",
-      "brand": null,
-      "price": 5664.24,
-      "base_price": 5664.24,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://mutzagim.co.il/product/mgyrt-rtsph-alvmynyvm-5801242250-mm-mbtsa-sharyvt-mlay-4u05fp",
-      "categories": [],
-      "updated_at": "2026-06-10T16:42:48.781Z"
     },
     {
       "id": "ffcd67a9-d3d4-48a1-a383-b7fc1ee018a3",
