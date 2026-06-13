@@ -1,10 +1,2650 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T15:06:14.233Z",
+  "generated_at": "2026-06-13T17:59:01.301Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
-  "count": 83,
+  "count": 193,
   "products": [
+    {
+      "id": "0ed21143-911d-4183-baa0-10621d55bef9",
+      "slug": "mvdvl-ford-custom-l1-mgyrvt-ymyn-xv0fng",
+      "name": "מודול Ford Custom | L1 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Custom, L1, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Custom L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Custom | L1 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CUS-L1-DR",
+      "brand": null,
+      "price": 5449.44,
+      "base_price": 5449.44,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-custom-l1-mgyrvt-ymyn-xv0fng",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:17.779Z"
+    },
+    {
+      "id": "86b84860-b35f-4466-8c16-798714439786",
+      "slug": "mvdvl-ford-custom-l1-bsysy-ymyn-uqsfa4",
+      "name": "מודול Ford Custom | L1 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Custom, L1, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Custom L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Custom | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CUS-L1-BR",
+      "brand": null,
+      "price": 3997.92,
+      "base_price": 3997.92,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-custom-l1-bsysy-ymyn-uqsfa4",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:17.770Z"
+    },
+    {
+      "id": "e1a1406b-e914-41c0-b9e7-dfee120626d0",
+      "slug": "mvdvl-ford-custom-l1-mzvvdvt-ymyn-rqemqw",
+      "name": "מודול Ford Custom | L1 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Custom, L1, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Custom L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Custom | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CUS-L1-KR",
+      "brand": null,
+      "price": 4927.52,
+      "base_price": 4927.52,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-custom-l1-mzvvdvt-ymyn-rqemqw",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:17.769Z"
+    },
+    {
+      "id": "07e08a4c-4cda-456c-b46b-16a48e028429",
+      "slug": "mvdvl-ford-custom-l1-mvrchb-shmal-ch1rk2",
+      "name": "מודול Ford Custom | L1 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Custom, L1, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Custom L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Custom | L1 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CUS-L1-EL",
+      "brand": null,
+      "price": 8418.16,
+      "base_price": 8418.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-custom-l1-mvrchb-shmal-ch1rk2",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:17.769Z"
+    },
+    {
+      "id": "768ec0a5-beb5-43c9-a966-5a094b7d7d2a",
+      "slug": "mvdvl-ford-custom-l1-bsysy-shmal-4jo0r1",
+      "name": "מודול Ford Custom | L1 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Custom, L1, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Custom L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Custom | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CUS-L1-BL",
+      "brand": null,
+      "price": 5567.68,
+      "base_price": 5567.68,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-custom-l1-bsysy-shmal-4jo0r1",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:17.751Z"
+    },
+    {
+      "id": "c56c5eab-3faa-4975-b8a5-3ccac41f7f12",
+      "slug": "mvdvl-ford-connect-l2-mgyrvt-ymyn-mi9d62",
+      "name": "מודול Ford Connect | L2 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L2, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Connect L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Connect | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CON-L2-DR",
+      "brand": null,
+      "price": 6648.32,
+      "base_price": 6648.32,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mgyrvt-ymyn-mi9d62",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:17.750Z"
+    },
+    {
+      "id": "0eb12a7f-6e37-4d11-ac06-6a49fafa7e7c",
+      "slug": "mvdvl-ford-connect-l2-mzvvdvt-ymyn-2kuwq9",
+      "name": "מודול Ford Connect | L2 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L2, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Connect L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Connect | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CON-L2-KR",
+      "brand": null,
+      "price": 6011.57,
+      "base_price": 6011.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mzvvdvt-ymyn-2kuwq9",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:17.742Z"
+    },
+    {
+      "id": "d5b30e77-e36e-4d75-b98b-f9c7ba686a2d",
+      "slug": "mvdvl-ford-connect-l2-mvrchb-shmal-9dvt5v",
+      "name": "מודול Ford Connect | L2 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Connect L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Connect | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CON-L2-EL",
+      "brand": null,
+      "price": 10270.16,
+      "base_price": 10270.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mvrchb-shmal-9dvt5v",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:17.722Z"
+    },
+    {
+      "id": "1394b1c5-3d88-40bc-9021-2f7d7e3800fe",
+      "slug": "mvdvl-ford-connect-l2-bsysy-ymyn-o1avkd",
+      "name": "מודול Ford Connect | L2 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L2, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Connect L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Connect | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CON-L2-BR",
+      "brand": null,
+      "price": 4877.46,
+      "base_price": 4877.46,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l2-bsysy-ymyn-o1avkd",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:17.714Z"
+    },
+    {
+      "id": "29862d06-6d68-400d-8b30-b8e142187a0f",
+      "slug": "mvdvl-ford-connect-l2-bsysy-shmal-oswfem",
+      "name": "מודול Ford Connect | L2 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L2, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Connect L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Connect | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CON-L2-BL",
+      "brand": null,
+      "price": 6792.57,
+      "base_price": 6792.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l2-bsysy-shmal-oswfem",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:17.692Z"
+    },
+    {
+      "id": "2ae93166-cbf6-44db-8aa6-032dfa57df49",
+      "slug": "mvdvl-ford-connect-l1-mgyrvt-ymyn-jbc6sn",
+      "name": "מודול Ford Connect | L1 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L1, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Connect L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Connect | L1 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CON-L1-DR",
+      "brand": null,
+      "price": 5449.44,
+      "base_price": 5449.44,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l1-mgyrvt-ymyn-jbc6sn",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:12.944Z"
+    },
+    {
+      "id": "aee94971-5a5c-421f-93d2-00b1cead8f05",
+      "slug": "mvdvl-ford-connect-l1-bsysy-ymyn-nkdqwr",
+      "name": "מודול Ford Connect | L1 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L1, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Connect L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Connect | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CON-L1-BR",
+      "brand": null,
+      "price": 3997.92,
+      "base_price": 3997.92,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l1-bsysy-ymyn-nkdqwr",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:12.925Z"
+    },
+    {
+      "id": "3f7e8e68-d480-49f0-8f61-ca0917086d82",
+      "slug": "mvdvl-ford-connect-l1-mvrchb-shmal-tedlkh",
+      "name": "מודול Ford Connect | L1 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L1, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Connect L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Connect | L1 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CON-L1-EL",
+      "brand": null,
+      "price": 8418.16,
+      "base_price": 8418.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l1-mvrchb-shmal-tedlkh",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:12.917Z"
+    },
+    {
+      "id": "522fb795-c882-492a-b37b-3fad1403b63e",
+      "slug": "mvdvl-ford-connect-l1-mzvvdvt-ymyn-fwejbm",
+      "name": "מודול Ford Connect | L1 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L1, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Connect L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Connect | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CON-L1-KR",
+      "brand": null,
+      "price": 4927.52,
+      "base_price": 4927.52,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l1-mzvvdvt-ymyn-fwejbm",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:12.896Z"
+    },
+    {
+      "id": "ef2789e3-627f-4898-816e-a476d8cacaf3",
+      "slug": "mvdvl-ford-connect-l1-bsysy-shmal-9tnr95",
+      "name": "מודול Ford Connect | L1 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L1, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Connect L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Ford Connect | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FOR-CON-L1-BL",
+      "brand": null,
+      "price": 5567.68,
+      "base_price": 5567.68,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l1-bsysy-shmal-9tnr95",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:12.887Z"
+    },
+    {
+      "id": "7373efdb-9016-4b44-90cb-06092f6768b2",
+      "slug": "mvdvl-fiat-ducato-l4-mgyrvt-ymyn-rhr0h6",
+      "name": "מודול Fiat Ducato | L4 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L4, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Ducato | L4 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DUC-L4-DR",
+      "brand": null,
+      "price": 8991.58,
+      "base_price": 8991.58,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-mgyrvt-ymyn-rhr0h6",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:12.864Z"
+    },
+    {
+      "id": "08e6088b-e938-4ab9-b1c1-b1e9bbc58e89",
+      "slug": "mvdvl-fiat-ducato-l4-mzvvdvt-ymyn-grjwex",
+      "name": "מודול Fiat Ducato | L4 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L4, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Ducato | L4 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DUC-L4-KR",
+      "brand": null,
+      "price": 8130.41,
+      "base_price": 8130.41,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-mzvvdvt-ymyn-grjwex",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:12.862Z"
+    },
+    {
+      "id": "d266220c-d0d1-4474-bb1d-a500b8da1460",
+      "slug": "mvdvl-fiat-ducato-l4-mvrchb-shmal-oiyer6",
+      "name": "מודול Fiat Ducato | L4 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L4, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Ducato | L4 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DUC-L4-EL",
+      "brand": null,
+      "price": 13889.96,
+      "base_price": 13889.96,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-mvrchb-shmal-oiyer6",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:12.860Z"
+    },
+    {
+      "id": "2782d7c4-5052-4140-9ab3-455b6cda9409",
+      "slug": "mvdvl-fiat-ducato-l4-bsysy-ymyn-uvv8ah",
+      "name": "מודול Fiat Ducato | L4 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L4, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Ducato | L4 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DUC-L4-BR",
+      "brand": null,
+      "price": 6596.57,
+      "base_price": 6596.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-bsysy-ymyn-uvv8ah",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:12.857Z"
+    },
+    {
+      "id": "8f607202-66d3-4527-ab78-82aa2bb7b9de",
+      "slug": "mvdvl-fiat-ducato-l4-bsysy-shmal-w64jlw",
+      "name": "מודול Fiat Ducato | L4 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L4, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Ducato | L4 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DUC-L4-BL",
+      "brand": null,
+      "price": 9186.67,
+      "base_price": 9186.67,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-bsysy-shmal-w64jlw",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:12.774Z"
+    },
+    {
+      "id": "018f39f3-4705-4da6-b8ca-a47b71140b18",
+      "slug": "mvdvl-fiat-ducato-l3-mgyrvt-ymyn-yoehm2",
+      "name": "מודול Fiat Ducato | L3 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L3, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Ducato L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Ducato | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DUC-L3-DR",
+      "brand": null,
+      "price": 7792.7,
+      "base_price": 7792.7,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-mgyrvt-ymyn-yoehm2",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:09.578Z"
+    },
+    {
+      "id": "ab8f080c-aac3-4f06-9a21-e8cb52ecade4",
+      "slug": "mvdvl-fiat-ducato-l3-mzvvdvt-ymyn-1z1dsg",
+      "name": "מודול Fiat Ducato | L3 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L3, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Ducato L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Ducato | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DUC-L3-KR",
+      "brand": null,
+      "price": 7046.35,
+      "base_price": 7046.35,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-mzvvdvt-ymyn-1z1dsg",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:09.575Z"
+    },
+    {
+      "id": "a4ebff7c-21a8-4e6c-af89-202bffa236c6",
+      "slug": "mvdvl-fiat-ducato-l3-bsysy-ymyn-17votk",
+      "name": "מודול Fiat Ducato | L3 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Ducato L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Ducato | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DUC-L3-BR",
+      "brand": null,
+      "price": 5717.03,
+      "base_price": 5717.03,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-bsysy-ymyn-17votk",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:09.574Z"
+    },
+    {
+      "id": "cae26199-80bb-4b7a-824d-d560d4a32611",
+      "slug": "mvdvl-fiat-ducato-l3-bsysy-shmal-rnjjs4",
+      "name": "מודול Fiat Ducato | L3 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L3, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Ducato L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Ducato | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DUC-L3-BL",
+      "brand": null,
+      "price": 7961.78,
+      "base_price": 7961.78,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-bsysy-shmal-rnjjs4",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:09.558Z"
+    },
+    {
+      "id": "e3b2024c-6de3-4e32-9290-c43a6e6dd67c",
+      "slug": "mvdvl-fiat-ducato-l3-mvrchb-shmal-o1nscf",
+      "name": "מודול Fiat Ducato | L3 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Ducato L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Ducato | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DUC-L3-EL",
+      "brand": null,
+      "price": 12037.97,
+      "base_price": 12037.97,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-mvrchb-shmal-o1nscf",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:09.551Z"
+    },
+    {
+      "id": "441f6c08-9e8d-457a-95ad-cc219d8201bb",
+      "slug": "mvdvl-fiat-talento-l3-mvrchb-shmal-7sl295",
+      "name": "מודול Fiat Talento | L3 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Talento L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Talento | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-TAL-L3-EL",
+      "brand": null,
+      "price": 12037.97,
+      "base_price": 12037.97,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mvrchb-shmal-7sl295",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:09.549Z"
+    },
+    {
+      "id": "a001fb55-8f55-42ce-a634-8d771390771f",
+      "slug": "mvdvl-fiat-talento-l3-mgyrvt-ymyn-pwp58o",
+      "name": "מודול Fiat Talento | L3 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L3, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Talento L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Talento | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-TAL-L3-DR",
+      "brand": null,
+      "price": 7792.7,
+      "base_price": 7792.7,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mgyrvt-ymyn-pwp58o",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:09.548Z"
+    },
+    {
+      "id": "09217022-5186-4cf4-8805-89c020b1b80d",
+      "slug": "mvdvl-fiat-talento-l3-mzvvdvt-ymyn-zt76jn",
+      "name": "מודול Fiat Talento | L3 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L3, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Talento L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Talento | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-TAL-L3-KR",
+      "brand": null,
+      "price": 7046.35,
+      "base_price": 7046.35,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mzvvdvt-ymyn-zt76jn",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:09.547Z"
+    },
+    {
+      "id": "9bbc87be-36ee-4434-b314-311a735f5a7b",
+      "slug": "mvdvl-fiat-talento-l3-bsysy-ymyn-jz5452",
+      "name": "מודול Fiat Talento | L3 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Talento L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Talento | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-TAL-L3-BR",
+      "brand": null,
+      "price": 5717.03,
+      "base_price": 5717.03,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-bsysy-ymyn-jz5452",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:09.545Z"
+    },
+    {
+      "id": "87034c76-9b2b-403d-8049-a461ce64cbb1",
+      "slug": "mvdvl-fiat-talento-l3-bsysy-shmal-iks621",
+      "name": "מודול Fiat Talento | L3 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L3, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Talento L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Talento | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-TAL-L3-BL",
+      "brand": null,
+      "price": 7961.78,
+      "base_price": 7961.78,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-bsysy-shmal-iks621",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:09.481Z"
+    },
+    {
+      "id": "4ac7a783-8d12-4628-9cc6-5d3f338a0bbb",
+      "slug": "mvdvl-fiat-doblo-l2-mgyrvt-ymyn-tq2cgt",
+      "name": "מודול Fiat Doblo | L2 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Doblo, L2, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Doblo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Doblo | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DOB-L2-DR",
+      "brand": null,
+      "price": 6648.32,
+      "base_price": 6648.32,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mgyrvt-ymyn-tq2cgt",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:06.855Z"
+    },
+    {
+      "id": "b079cf4b-2cb1-47e9-bbab-128a5c849b05",
+      "slug": "mvdvl-fiat-talento-l2-mgyrvt-ymyn-tggg29",
+      "name": "מודול Fiat Talento | L2 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L2, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Talento L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Talento | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-TAL-L2-DR",
+      "brand": null,
+      "price": 6648.32,
+      "base_price": 6648.32,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l2-mgyrvt-ymyn-tggg29",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:06.826Z"
+    },
+    {
+      "id": "e497d8eb-dd7d-404a-b46c-01f01ac53da5",
+      "slug": "mvdvl-fiat-talento-l2-bsysy-ymyn-8nvjr9",
+      "name": "מודול Fiat Talento | L2 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L2, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Talento L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Talento | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-TAL-L2-BR",
+      "brand": null,
+      "price": 4877.46,
+      "base_price": 4877.46,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l2-bsysy-ymyn-8nvjr9",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:06.825Z"
+    },
+    {
+      "id": "f91b42bc-2207-4e30-9d4d-454b241c7b0f",
+      "slug": "mvdvl-fiat-talento-l2-mzvvdvt-ymyn-mcm6ks",
+      "name": "מודול Fiat Talento | L2 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L2, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Talento L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Talento | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-TAL-L2-KR",
+      "brand": null,
+      "price": 6011.57,
+      "base_price": 6011.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l2-mzvvdvt-ymyn-mcm6ks",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:06.825Z"
+    },
+    {
+      "id": "e0b41e29-7b4b-43b9-95b7-c31d7bc9331d",
+      "slug": "mvdvl-fiat-talento-l2-mvrchb-shmal-mgets5",
+      "name": "מודול Fiat Talento | L2 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Talento L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Talento | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-TAL-L2-EL",
+      "brand": null,
+      "price": 10270.16,
+      "base_price": 10270.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l2-mvrchb-shmal-mgets5",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:06.823Z"
+    },
+    {
+      "id": "3e60e754-adca-4a3f-bd34-c8e422f33ca4",
+      "slug": "mvdvl-fiat-doblo-l2-mvrchb-shmal-jn2q7q",
+      "name": "מודול Fiat Doblo | L2 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Doblo, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Doblo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Doblo | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DOB-L2-EL",
+      "brand": null,
+      "price": 10270.16,
+      "base_price": 10270.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mvrchb-shmal-jn2q7q",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:06.820Z"
+    },
+    {
+      "id": "8d93ba0b-eedc-457c-b45e-af62deec6424",
+      "slug": "mvdvl-fiat-talento-l2-bsysy-shmal-5h58i2",
+      "name": "מודול Fiat Talento | L2 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L2, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Talento L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Talento | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-TAL-L2-BL",
+      "brand": null,
+      "price": 6792.57,
+      "base_price": 6792.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l2-bsysy-shmal-5h58i2",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:06.820Z"
+    },
+    {
+      "id": "a7395093-7239-4d3d-bda8-582cf29f1f45",
+      "slug": "mvdvl-fiat-doblo-l2-mzvvdvt-ymyn-spqcpo",
+      "name": "מודול Fiat Doblo | L2 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Doblo, L2, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Doblo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Doblo | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DOB-L2-KR",
+      "brand": null,
+      "price": 6011.57,
+      "base_price": 6011.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mzvvdvt-ymyn-spqcpo",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:06.757Z"
+    },
+    {
+      "id": "1e0eb843-d392-4af5-9070-e7c53e917ce9",
+      "slug": "mvdvl-fiat-doblo-l2-bsysy-shmal-5gpwgt",
+      "name": "מודול Fiat Doblo | L2 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Doblo, L2, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Doblo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Doblo | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DOB-L2-BL",
+      "brand": null,
+      "price": 6792.57,
+      "base_price": 6792.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-bsysy-shmal-5gpwgt",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:06.754Z"
+    },
+    {
+      "id": "48eaacd8-ecf4-4249-9637-737eced916d9",
+      "slug": "mvdvl-fiat-doblo-l2-bsysy-ymyn-jcg9yv",
+      "name": "מודול Fiat Doblo | L2 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Doblo, L2, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Doblo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Doblo | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DOB-L2-BR",
+      "brand": null,
+      "price": 4877.46,
+      "base_price": 4877.46,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-bsysy-ymyn-jcg9yv",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:06.748Z"
+    },
+    {
+      "id": "f0c49d15-e7ee-4f0e-b79c-ff4a1d66c55c",
+      "slug": "mvdvl-fiat-doblo-l1-mgyrvt-ymyn-d9jihd",
+      "name": "מודול Fiat Doblo | L1 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Doblo, L1, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Doblo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Doblo | L1 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DOB-L1-DR",
+      "brand": null,
+      "price": 5449.44,
+      "base_price": 5449.44,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l1-mgyrvt-ymyn-d9jihd",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:04.092Z"
+    },
+    {
+      "id": "4e4b352e-5726-409a-a477-f192690901b3",
+      "slug": "mvdvl-fiat-doblo-l1-mvrchb-shmal-9sq0nv",
+      "name": "מודול Fiat Doblo | L1 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Doblo, L1, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Doblo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Doblo | L1 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DOB-L1-EL",
+      "brand": null,
+      "price": 8418.16,
+      "base_price": 8418.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l1-mvrchb-shmal-9sq0nv",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:04.069Z"
+    },
+    {
+      "id": "3762554b-ff7d-4a94-9c72-8307981712b7",
+      "slug": "mvdvl-mercedes-benz-sprinter-l4-mgyrvt-ymyn-h0ojt3",
+      "name": "מודול Mercedes-Benz Sprinter | L4 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L4, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Sprinter L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L4 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L4-DR",
+      "brand": null,
+      "price": 8991.58,
+      "base_price": 8991.58,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-mgyrvt-ymyn-h0ojt3",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:04.068Z"
+    },
+    {
+      "id": "dcfe73bb-289a-456d-80a6-2ebad48aa098",
+      "slug": "mvdvl-fiat-doblo-l1-bsysy-shmal-apm4cp",
+      "name": "מודול Fiat Doblo | L1 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Doblo, L1, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Doblo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Doblo | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DOB-L1-BL",
+      "brand": null,
+      "price": 5567.68,
+      "base_price": 5567.68,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l1-bsysy-shmal-apm4cp",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:04.067Z"
+    },
+    {
+      "id": "a911b3dc-6711-4e66-806e-cec40bb6b247",
+      "slug": "mvdvl-fiat-doblo-l1-mzvvdvt-ymyn-4qco7r",
+      "name": "מודול Fiat Doblo | L1 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Doblo, L1, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Doblo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Doblo | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DOB-L1-KR",
+      "brand": null,
+      "price": 4927.52,
+      "base_price": 4927.52,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l1-mzvvdvt-ymyn-4qco7r",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:04.067Z"
+    },
+    {
+      "id": "f7422512-467f-474c-b2ab-2fbd2738651b",
+      "slug": "mvdvl-fiat-doblo-l1-bsysy-ymyn-fcnvwu",
+      "name": "מודול Fiat Doblo | L1 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Fiat Doblo, L1, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Doblo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Fiat Doblo | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-FIA-DOB-L1-BR",
+      "brand": null,
+      "price": 3997.92,
+      "base_price": 3997.92,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l1-bsysy-ymyn-fcnvwu",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:04.067Z"
+    },
+    {
+      "id": "bf04f24c-9701-462d-a57c-ef35ee21d9e3",
+      "slug": "mvdvl-mercedes-benz-sprinter-l4-bsysy-ymyn-a1knba",
+      "name": "מודול Mercedes-Benz Sprinter | L4 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L4, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Sprinter L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L4 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L4-BR",
+      "brand": null,
+      "price": 6596.57,
+      "base_price": 6596.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-bsysy-ymyn-a1knba",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:04.064Z"
+    },
+    {
+      "id": "b3722427-c119-4ae6-a9e7-1a1419bfa188",
+      "slug": "mvdvl-mercedes-benz-sprinter-l4-mzvvdvt-ymyn-2x8icx",
+      "name": "מודול Mercedes-Benz Sprinter | L4 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L4, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Sprinter L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L4 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L4-KR",
+      "brand": null,
+      "price": 8130.41,
+      "base_price": 8130.41,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-mzvvdvt-ymyn-2x8icx",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:04.064Z"
+    },
+    {
+      "id": "ce2176d7-b062-48a2-9fdd-567910612ab7",
+      "slug": "mvdvl-mercedes-benz-sprinter-l4-bsysy-shmal-nha88j",
+      "name": "מודול Mercedes-Benz Sprinter | L4 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L4, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Sprinter L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L4 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L4-BL",
+      "brand": null,
+      "price": 9186.67,
+      "base_price": 9186.67,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-bsysy-shmal-nha88j",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:04.005Z"
+    },
+    {
+      "id": "c8935916-75d5-4c35-a8d0-5f0b0fa18590",
+      "slug": "mvdvl-mercedes-benz-sprinter-l4-mvrchb-shmal-3w3oqs",
+      "name": "מודול Mercedes-Benz Sprinter | L4 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L4, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Sprinter L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L4 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L4-EL",
+      "brand": null,
+      "price": 13889.96,
+      "base_price": 13889.96,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-mvrchb-shmal-3w3oqs",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:03.933Z"
+    },
+    {
+      "id": "99d4a5d1-0ae1-4410-8a6e-ee20589a96e5",
+      "slug": "mvdvl-mercedes-benz-sprinter-l2-mgyrvt-ymyn-8m6zv3",
+      "name": "מודול Mercedes-Benz Sprinter | L2 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L2, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Sprinter L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L2-DR",
+      "brand": null,
+      "price": 6648.32,
+      "base_price": 6648.32,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l2-mgyrvt-ymyn-8m6zv3",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:01.399Z"
+    },
+    {
+      "id": "3653316d-9fc1-4f7f-a5d7-0101c0a803f8",
+      "slug": "mvdvl-mercedes-benz-sprinter-l3-mzvvdvt-ymyn-cwuz7q",
+      "name": "מודול Mercedes-Benz Sprinter | L3 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L3, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Sprinter L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L3-KR",
+      "brand": null,
+      "price": 7046.35,
+      "base_price": 7046.35,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l3-mzvvdvt-ymyn-cwuz7q",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:01.398Z"
+    },
+    {
+      "id": "935f5ca9-6c82-48ad-85dd-bffe6148ba76",
+      "slug": "mvdvl-mercedes-benz-sprinter-l3-mgyrvt-ymyn-j3mf5k",
+      "name": "מודול Mercedes-Benz Sprinter | L3 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L3, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Sprinter L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L3-DR",
+      "brand": null,
+      "price": 7792.7,
+      "base_price": 7792.7,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l3-mgyrvt-ymyn-j3mf5k",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:01.398Z"
+    },
+    {
+      "id": "c841b1ec-415c-4cc8-ade6-fbb765cd4a4f",
+      "slug": "mvdvl-mercedes-benz-sprinter-l3-bsysy-shmal-ubi3j9",
+      "name": "מודול Mercedes-Benz Sprinter | L3 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L3, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Sprinter L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L3-BL",
+      "brand": null,
+      "price": 7961.78,
+      "base_price": 7961.78,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l3-bsysy-shmal-ubi3j9",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:01.397Z"
+    },
+    {
+      "id": "2d5914ec-5c99-454b-9940-2e28177dd982",
+      "slug": "mvdvl-mercedes-benz-sprinter-l3-bsysy-ymyn-b4q2gs",
+      "name": "מודול Mercedes-Benz Sprinter | L3 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Sprinter L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L3-BR",
+      "brand": null,
+      "price": 5717.03,
+      "base_price": 5717.03,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l3-bsysy-ymyn-b4q2gs",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:01.397Z"
+    },
+    {
+      "id": "12ba763a-6a2b-454c-8ab0-dc50a2a0c0af",
+      "slug": "mvdvl-mercedes-benz-sprinter-l3-mvrchb-shmal-wlveaj",
+      "name": "מודול Mercedes-Benz Sprinter | L3 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Sprinter L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L3-EL",
+      "brand": null,
+      "price": 12037.97,
+      "base_price": 12037.97,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l3-mvrchb-shmal-wlveaj",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:01.397Z"
+    },
+    {
+      "id": "adefec8d-b683-4e32-b918-8a9cc2f93be3",
+      "slug": "mvdvl-mercedes-benz-sprinter-l2-bsysy-shmal-c3anol",
+      "name": "מודול Mercedes-Benz Sprinter | L2 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L2, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Sprinter L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L2-BL",
+      "brand": null,
+      "price": 6792.57,
+      "base_price": 6792.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l2-bsysy-shmal-c3anol",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:01.346Z"
+    },
+    {
+      "id": "d5ad312d-1711-4f9a-88eb-e2be2ffd7dd6",
+      "slug": "mvdvl-mercedes-benz-sprinter-l2-mvrchb-shmal-861jal",
+      "name": "מודול Mercedes-Benz Sprinter | L2 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Sprinter L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L2-EL",
+      "brand": null,
+      "price": 10270.16,
+      "base_price": 10270.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l2-mvrchb-shmal-861jal",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:01.346Z"
+    },
+    {
+      "id": "d29d5030-1de5-43ee-88de-f0eb2054cf49",
+      "slug": "mvdvl-mercedes-benz-sprinter-l2-bsysy-ymyn-xql4xx",
+      "name": "מודול Mercedes-Benz Sprinter | L2 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L2, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Sprinter L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L2-BR",
+      "brand": null,
+      "price": 4877.46,
+      "base_price": 4877.46,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l2-bsysy-ymyn-xql4xx",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:01.345Z"
+    },
+    {
+      "id": "b22fba0d-c62f-4193-ba58-f0cbdf500ffd",
+      "slug": "mvdvl-mercedes-benz-sprinter-l2-mzvvdvt-ymyn-63s6gy",
+      "name": "מודול Mercedes-Benz Sprinter | L2 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L2, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Sprinter L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-SPR-L2-KR",
+      "brand": null,
+      "price": 6011.57,
+      "base_price": 6011.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l2-mzvvdvt-ymyn-63s6gy",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:54:01.344Z"
+    },
+    {
+      "id": "63164047-9481-4ad6-a301-dc8886a977a4",
+      "slug": "mvdvl-mercedes-benz-vito-l3-mzvvdvt-ymyn-888oud",
+      "name": "מודול Mercedes-Benz Vito | L3 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L3-KR",
+      "brand": null,
+      "price": 7046.35,
+      "base_price": 7046.35,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mzvvdvt-ymyn-888oud",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:59.045Z"
+    },
+    {
+      "id": "92bb1460-74ba-43f6-a546-838a1a4ff6e7",
+      "slug": "mvdvl-mercedes-benz-vito-l3-bsysy-shmal-6uu8pk",
+      "name": "מודול Mercedes-Benz Vito | L3 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L3-BL",
+      "brand": null,
+      "price": 7961.78,
+      "base_price": 7961.78,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-shmal-6uu8pk",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:59.044Z"
+    },
+    {
+      "id": "0f091e11-c0ff-4676-aa0f-8e2bf7e80d22",
+      "slug": "mvdvl-mercedes-benz-vito-l3-mgyrvt-ymyn-fnygzd",
+      "name": "מודול Mercedes-Benz Vito | L3 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L3-DR",
+      "brand": null,
+      "price": 7792.7,
+      "base_price": 7792.7,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mgyrvt-ymyn-fnygzd",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:59.044Z"
+    },
+    {
+      "id": "f9d3703e-b67d-403f-a578-6c62b3c8ed99",
+      "slug": "mvdvl-mercedes-benz-vito-l2-mgyrvt-ymyn-obgyie",
+      "name": "מודול Mercedes-Benz Vito | L2 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L2, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Vito L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L2-DR",
+      "brand": null,
+      "price": 6648.32,
+      "base_price": 6648.32,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-mgyrvt-ymyn-obgyie",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:59.044Z"
+    },
+    {
+      "id": "12901f8f-6551-4d40-9e6e-b0d3c46ce4bd",
+      "slug": "mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
+      "name": "מודול Mercedes-Benz Vito | L3 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L3-EL",
+      "brand": null,
+      "price": 12037.97,
+      "base_price": 12037.97,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:59.044Z"
+    },
+    {
+      "id": "789fc651-3ff8-498f-aa17-ac102d893d0a",
+      "slug": "mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
+      "name": "מודול Mercedes-Benz Vito | L3 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L3-BR",
+      "brand": null,
+      "price": 5717.03,
+      "base_price": 5717.03,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:59.044Z"
+    },
+    {
+      "id": "5750b7a7-771f-49bb-bf06-64267bdf9790",
+      "slug": "mvdvl-mercedes-benz-vito-l2-bsysy-ymyn-vidvlz",
+      "name": "מודול Mercedes-Benz Vito | L2 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L2, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Vito L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L2-BR",
+      "brand": null,
+      "price": 4877.46,
+      "base_price": 4877.46,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-bsysy-ymyn-vidvlz",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:58.985Z"
+    },
+    {
+      "id": "57b2f49a-8d8e-452b-a055-f9ff5e1d42ca",
+      "slug": "mvdvl-mercedes-benz-vito-l2-mzvvdvt-ymyn-bmn8jc",
+      "name": "מודול Mercedes-Benz Vito | L2 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L2, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Vito L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L2-KR",
+      "brand": null,
+      "price": 6011.57,
+      "base_price": 6011.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-mzvvdvt-ymyn-bmn8jc",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:58.981Z"
+    },
+    {
+      "id": "bf394572-edf0-4b50-aae0-441ba6ea5934",
+      "slug": "mvdvl-mercedes-benz-vito-l2-bsysy-shmal-0fe9wd",
+      "name": "מודול Mercedes-Benz Vito | L2 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L2, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Vito L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L2-BL",
+      "brand": null,
+      "price": 6792.57,
+      "base_price": 6792.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-bsysy-shmal-0fe9wd",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:58.979Z"
+    },
+    {
+      "id": "2801721e-3853-4a9f-a7cc-14f2bdf6c229",
+      "slug": "mvdvl-mercedes-benz-vito-l2-mvrchb-shmal-4vdqg0",
+      "name": "מודול Mercedes-Benz Vito | L2 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Vito L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L2-EL",
+      "brand": null,
+      "price": 10270.16,
+      "base_price": 10270.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-mvrchb-shmal-4vdqg0",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:58.836Z"
+    },
+    {
+      "id": "8f815510-434c-45bf-b064-976814f623dd",
+      "slug": "mvdvl-mercedes-benz-citan-l2-mgyrvt-ymyn-kfvmd0",
+      "name": "מודול Mercedes-Benz Citan | L2 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Citan, L2, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Citan L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Citan | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-CIT-L2-DR",
+      "brand": null,
+      "price": 6648.32,
+      "base_price": 6648.32,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l2-mgyrvt-ymyn-kfvmd0",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:56.655Z"
+    },
+    {
+      "id": "4596ec47-3d95-4b63-aa94-5165937474f4",
+      "slug": "mvdvl-mercedes-benz-citan-l1-mgyrvt-ymyn-umcgk9",
+      "name": "מודול Mercedes-Benz Citan | L1 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Citan, L1, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Citan L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Citan | L1 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-CIT-L1-DR",
+      "brand": null,
+      "price": 5449.44,
+      "base_price": 5449.44,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l1-mgyrvt-ymyn-umcgk9",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:56.655Z"
+    },
+    {
+      "id": "2c6b3fe1-e82c-4dde-863e-b17088279736",
+      "slug": "mvdvl-mercedes-benz-citan-l2-mzvvdvt-ymyn-kv581j",
+      "name": "מודול Mercedes-Benz Citan | L2 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Citan, L2, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Citan L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Citan | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-CIT-L2-KR",
+      "brand": null,
+      "price": 6011.57,
+      "base_price": 6011.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l2-mzvvdvt-ymyn-kv581j",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:56.654Z"
+    },
+    {
+      "id": "43166a84-94e7-4c0f-9342-0bff27785ce9",
+      "slug": "mvdvl-mercedes-benz-citan-l2-mvrchb-shmal-8epfhr",
+      "name": "מודול Mercedes-Benz Citan | L2 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Citan, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Citan L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Citan | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-CIT-L2-EL",
+      "brand": null,
+      "price": 10270.16,
+      "base_price": 10270.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l2-mvrchb-shmal-8epfhr",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:56.653Z"
+    },
+    {
+      "id": "6a824724-28d4-4c27-b650-697ad8373f04",
+      "slug": "mvdvl-mercedes-benz-citan-l2-bsysy-shmal-9pehmv",
+      "name": "מודול Mercedes-Benz Citan | L2 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Citan, L2, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Citan L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Citan | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-CIT-L2-BL",
+      "brand": null,
+      "price": 6792.57,
+      "base_price": 6792.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l2-bsysy-shmal-9pehmv",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:56.653Z"
+    },
+    {
+      "id": "b51db1b0-7fd1-47db-bcde-7bb3dc2bae89",
+      "slug": "mvdvl-mercedes-benz-citan-l2-bsysy-ymyn-jpwzbf",
+      "name": "מודול Mercedes-Benz Citan | L2 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Citan, L2, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Citan L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Citan | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-CIT-L2-BR",
+      "brand": null,
+      "price": 4877.46,
+      "base_price": 4877.46,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l2-bsysy-ymyn-jpwzbf",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:56.652Z"
+    },
+    {
+      "id": "6cd0aa88-ec9b-45e4-bc4d-a918d12b2466",
+      "slug": "mvdvl-mercedes-benz-citan-l1-bsysy-ymyn-gknmh5",
+      "name": "מודול Mercedes-Benz Citan | L1 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Citan, L1, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Citan L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Citan | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-CIT-L1-BR",
+      "brand": null,
+      "price": 3997.92,
+      "base_price": 3997.92,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l1-bsysy-ymyn-gknmh5",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:56.651Z"
+    },
+    {
+      "id": "291db270-68f2-4533-8b37-ca9b1b1cd30c",
+      "slug": "mvdvl-mercedes-benz-citan-l1-mzvvdvt-ymyn-cn35nb",
+      "name": "מודול Mercedes-Benz Citan | L1 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Citan, L1, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Citan L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Citan | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-CIT-L1-KR",
+      "brand": null,
+      "price": 4927.52,
+      "base_price": 4927.52,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l1-mzvvdvt-ymyn-cn35nb",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:56.600Z"
+    },
+    {
+      "id": "70b43e96-5c56-4dd8-9869-ea7e14e8c80c",
+      "slug": "mvdvl-mercedes-benz-citan-l1-bsysy-shmal-k4zpxs",
+      "name": "מודול Mercedes-Benz Citan | L1 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Citan, L1, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Citan L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Citan | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-CIT-L1-BL",
+      "brand": null,
+      "price": 5567.68,
+      "base_price": 5567.68,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l1-bsysy-shmal-k4zpxs",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:56.543Z"
+    },
+    {
+      "id": "03c5397d-7d1d-4a46-9b6d-05805bd8ae58",
+      "slug": "mvdvl-mercedes-benz-citan-l1-mvrchb-shmal-zkpl1z",
+      "name": "מודול Mercedes-Benz Citan | L1 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Citan, L1, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Citan L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Citan | L1 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-CIT-L1-EL",
+      "brand": null,
+      "price": 8418.16,
+      "base_price": 8418.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l1-mvrchb-shmal-zkpl1z",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:56.542Z"
+    },
+    {
+      "id": "f243b8d6-2dd3-4a2d-9587-e39b332e8498",
+      "slug": "mvdvl-citron-jumper-l4-mgyrvt-ymyn-19uzs8",
+      "name": "מודול Citroën Jumper | L4 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumper, L4, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Jumper L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumper | L4 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L4-DR",
+      "brand": null,
+      "price": 8991.58,
+      "base_price": 8991.58,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumper-l4-mgyrvt-ymyn-19uzs8",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:54.325Z"
+    },
+    {
+      "id": "943cb723-e4f9-4d05-9432-d4aeb59dec9f",
+      "slug": "mvdvl-citron-jumper-l4-mzvvdvt-ymyn-697057",
+      "name": "מודול Citroën Jumper | L4 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumper, L4, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Jumper L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumper | L4 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L4-KR",
+      "brand": null,
+      "price": 8130.41,
+      "base_price": 8130.41,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumper-l4-mzvvdvt-ymyn-697057",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:54.322Z"
+    },
+    {
+      "id": "389437c7-cb79-40fe-a256-46720a3a11fc",
+      "slug": "mvdvl-citron-jumper-l4-mvrchb-shmal-fbc2od",
+      "name": "מודול Citroën Jumper | L4 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumper, L4, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Jumper L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumper | L4 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L4-EL",
+      "brand": null,
+      "price": 13889.96,
+      "base_price": 13889.96,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumper-l4-mvrchb-shmal-fbc2od",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:54.287Z"
+    },
+    {
+      "id": "4747f104-83cd-4edc-9838-071398789541",
+      "slug": "mvdvl-citron-jumper-l4-bsysy-ymyn-f9evxb",
+      "name": "מודול Citroën Jumper | L4 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumper, L4, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Jumper L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumper | L4 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L4-BR",
+      "brand": null,
+      "price": 6596.57,
+      "base_price": 6596.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumper-l4-bsysy-ymyn-f9evxb",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:54.271Z"
+    },
+    {
+      "id": "ca7692f9-5b54-4539-839e-66d6089e50d0",
+      "slug": "mvdvl-citron-jumper-l3-bsysy-ymyn-lr10tf",
+      "name": "מודול Citroën Jumper | L3 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumper, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Jumper L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumper | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L3-BR",
+      "brand": null,
+      "price": 5717.03,
+      "base_price": 5717.03,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumper-l3-bsysy-ymyn-lr10tf",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:54.271Z"
+    },
+    {
+      "id": "f306ad3d-22c9-4de8-97d1-0ace817efdfb",
+      "slug": "mvdvl-citron-jumper-l4-bsysy-shmal-lv6p68",
+      "name": "מודול Citroën Jumper | L4 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumper, L4, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Jumper L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumper | L4 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L4-BL",
+      "brand": null,
+      "price": 9186.67,
+      "base_price": 9186.67,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumper-l4-bsysy-shmal-lv6p68",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:54.270Z"
+    },
+    {
+      "id": "2d877568-6ed1-49f0-b9ae-79f5c34042bd",
+      "slug": "mvdvl-citron-jumper-l3-mgyrvt-ymyn-kqwriv",
+      "name": "מודול Citroën Jumper | L3 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumper, L3, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Jumper L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumper | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L3-DR",
+      "brand": null,
+      "price": 7792.7,
+      "base_price": 7792.7,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumper-l3-mgyrvt-ymyn-kqwriv",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:54.260Z"
+    },
+    {
+      "id": "7e6b9571-21c9-41de-9b14-05601f769c2f",
+      "slug": "mvdvl-citron-jumper-l3-mzvvdvt-ymyn-8zahsv",
+      "name": "מודול Citroën Jumper | L3 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumper, L3, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Jumper L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumper | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L3-KR",
+      "brand": null,
+      "price": 7046.35,
+      "base_price": 7046.35,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumper-l3-mzvvdvt-ymyn-8zahsv",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:54.209Z"
+    },
+    {
+      "id": "48e4b7f0-e5c5-4d29-8797-d3f01c5f0c89",
+      "slug": "mvdvl-citron-jumper-l3-mvrchb-shmal-2y3nfm",
+      "name": "מודול Citroën Jumper | L3 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumper, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Jumper L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumper | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L3-EL",
+      "brand": null,
+      "price": 12037.97,
+      "base_price": 12037.97,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumper-l3-mvrchb-shmal-2y3nfm",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:54.206Z"
+    },
+    {
+      "id": "42e69793-d29a-4a90-ac18-3d5b782de899",
+      "slug": "mvdvl-citron-jumper-l3-bsysy-shmal-0p0qzq",
+      "name": "מודול Citroën Jumper | L3 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumper, L3, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Jumper L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumper | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L3-BL",
+      "brand": null,
+      "price": 7961.78,
+      "base_price": 7961.78,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumper-l3-bsysy-shmal-0p0qzq",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:54.203Z"
+    },
+    {
+      "id": "39a9fd23-c9f8-4fd4-9d74-95b712840d57",
+      "slug": "mvdvl-citron-jumpy-l3-mgyrvt-ymyn-z9rrgf",
+      "name": "מודול Citroën Jumpy | L3 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumpy, L3, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Jumpy L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumpy | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L3-DR",
+      "brand": null,
+      "price": 7792.7,
+      "base_price": 7792.7,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-mgyrvt-ymyn-z9rrgf",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:52.322Z"
+    },
+    {
+      "id": "cea85459-8179-4183-b315-4526689284b0",
+      "slug": "mvdvl-citron-jumpy-l3-mzvvdvt-ymyn-a540d5",
+      "name": "מודול Citroën Jumpy | L3 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumpy, L3, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Jumpy L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumpy | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L3-KR",
+      "brand": null,
+      "price": 7046.35,
+      "base_price": 7046.35,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-mzvvdvt-ymyn-a540d5",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:52.268Z"
+    },
+    {
+      "id": "559223b6-43c0-44ee-8805-4ea7d7b1758d",
+      "slug": "mvdvl-citron-jumpy-l3-bsysy-shmal-ayrjgc",
+      "name": "מודול Citroën Jumpy | L3 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumpy, L3, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Jumpy L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumpy | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L3-BL",
+      "brand": null,
+      "price": 7961.78,
+      "base_price": 7961.78,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-bsysy-shmal-ayrjgc",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:52.267Z"
+    },
+    {
+      "id": "6715a620-990e-4338-8a92-bc1092d256a8",
+      "slug": "mvdvl-citron-jumpy-l2-mgyrvt-ymyn-xips96",
+      "name": "מודול Citroën Jumpy | L2 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumpy, L2, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Jumpy L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumpy | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L2-DR",
+      "brand": null,
+      "price": 6648.32,
+      "base_price": 6648.32,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l2-mgyrvt-ymyn-xips96",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:52.267Z"
+    },
+    {
+      "id": "efd746db-388b-44d6-a6b3-5eca66f51f97",
+      "slug": "mvdvl-citron-jumpy-l3-bsysy-ymyn-a79d3w",
+      "name": "מודול Citroën Jumpy | L3 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumpy, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Jumpy L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumpy | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L3-BR",
+      "brand": null,
+      "price": 5717.03,
+      "base_price": 5717.03,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-bsysy-ymyn-a79d3w",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:52.267Z"
+    },
+    {
+      "id": "0c7433c8-9f4a-4c15-ad50-fb2ff12bdbbc",
+      "slug": "mvdvl-citron-jumpy-l3-mvrchb-shmal-ctupp4",
+      "name": "מודול Citroën Jumpy | L3 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumpy, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Jumpy L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumpy | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L3-EL",
+      "brand": null,
+      "price": 12037.97,
+      "base_price": 12037.97,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-mvrchb-shmal-ctupp4",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:52.265Z"
+    },
+    {
+      "id": "1c745ba1-c069-4ded-8adf-7a5a558e4252",
+      "slug": "mvdvl-citron-jumpy-l2-mzvvdvt-ymyn-ovbtnd",
+      "name": "מודול Citroën Jumpy | L2 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumpy, L2, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Jumpy L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumpy | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L2-KR",
+      "brand": null,
+      "price": 6011.57,
+      "base_price": 6011.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l2-mzvvdvt-ymyn-ovbtnd",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:52.260Z"
+    },
+    {
+      "id": "b14c4a5b-2906-463d-becc-ec5015fb982d",
+      "slug": "mvdvl-citron-jumpy-l2-bsysy-shmal-k59i6i",
+      "name": "מודול Citroën Jumpy | L2 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumpy, L2, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Jumpy L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumpy | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L2-BL",
+      "brand": null,
+      "price": 6792.57,
+      "base_price": 6792.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l2-bsysy-shmal-k59i6i",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:52.213Z"
+    },
+    {
+      "id": "0f546be4-30a6-4d6c-a45a-ee63a7f06b9c",
+      "slug": "mvdvl-citron-jumpy-l2-bsysy-ymyn-3lx7wq",
+      "name": "מודול Citroën Jumpy | L2 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumpy, L2, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Jumpy L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumpy | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L2-BR",
+      "brand": null,
+      "price": 4877.46,
+      "base_price": 4877.46,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l2-bsysy-ymyn-3lx7wq",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:52.211Z"
+    },
+    {
+      "id": "6113e726-2058-440f-8bd3-3ce2f4eea18d",
+      "slug": "mvdvl-citron-jumpy-l2-mvrchb-shmal-n1ay8q",
+      "name": "מודול Citroën Jumpy | L2 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Jumpy, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Jumpy L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Jumpy | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-JUM-L2-EL",
+      "brand": null,
+      "price": 10270.16,
+      "base_price": 10270.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l2-mvrchb-shmal-n1ay8q",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:52.210Z"
+    },
+    {
+      "id": "8b0f80ef-dcb0-4932-917e-59ace5d45c0d",
+      "slug": "mvdvl-citron-berlingo-l2-bsysy-ymyn-ncinq0",
+      "name": "מודול Citroën Berlingo | L2 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L2, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Berlingo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Berlingo | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-BER-L2-BR",
+      "brand": null,
+      "price": 4877.46,
+      "base_price": 4877.46,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-bsysy-ymyn-ncinq0",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:50.851Z"
+    },
+    {
+      "id": "b98cbcec-57cc-4eef-ae71-e070152dcfbe",
+      "slug": "mvdvl-citron-berlingo-l2-bsysy-shmal-4qqonk",
+      "name": "מודול Citroën Berlingo | L2 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L2, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Berlingo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Berlingo | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-BER-L2-BL",
+      "brand": null,
+      "price": 6792.57,
+      "base_price": 6792.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-bsysy-shmal-4qqonk",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:50.513Z"
+    },
+    {
+      "id": "095ee82f-d1d9-47e2-85f6-4081cd29c525",
+      "slug": "mvdvl-citron-berlingo-l1-mgyrvt-ymyn-s2erxz",
+      "name": "מודול Citroën Berlingo | L1 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L1, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Berlingo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Berlingo | L1 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-BER-L1-DR",
+      "brand": null,
+      "price": 5449.44,
+      "base_price": 5449.44,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-i8t8fy.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mgyrvt-ymyn-s2erxz",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:50.488Z"
+    },
+    {
+      "id": "fb79fa5b-a23c-45db-84f0-de82eede73fc",
+      "slug": "mvdvl-citron-berlingo-l1-mvrchb-shmal-fh8fjy",
+      "name": "מודול Citroën Berlingo | L1 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L1, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Berlingo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Berlingo | L1 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-BER-L1-EL",
+      "brand": null,
+      "price": 8418.16,
+      "base_price": 8418.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mvrchb-shmal-fh8fjy",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:50.248Z"
+    },
+    {
+      "id": "55b8f33e-2abe-4836-ac02-d5dc8ef10eb7",
+      "slug": "mvdvl-citron-berlingo-l2-mzvvdvt-ymyn-g7k957",
+      "name": "מודול Citroën Berlingo | L2 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L2, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Berlingo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Berlingo | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-BER-L2-KR",
+      "brand": null,
+      "price": 6011.57,
+      "base_price": 6011.57,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-mzvvdvt-ymyn-g7k957",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:50.225Z"
+    },
+    {
+      "id": "8fcbf5b6-8a25-483e-bc4f-e7f413e7a722",
+      "slug": "mvdvl-citron-berlingo-l2-mvrchb-shmal-7xtoqu",
+      "name": "מודול Citroën Berlingo | L2 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Berlingo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Berlingo | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-BER-L2-EL",
+      "brand": null,
+      "price": 10270.16,
+      "base_price": 10270.16,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229485-cord9.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-mvrchb-shmal-7xtoqu",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:50.221Z"
+    },
+    {
+      "id": "7a88d55c-09ab-412b-bfce-a115080ca477",
+      "slug": "mvdvl-citron-berlingo-l2-mgyrvt-ymyn-du1pid",
+      "name": "מודול Citroën Berlingo | L2 - מגירות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L2, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Berlingo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Berlingo | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-BER-L2-DR",
+      "brand": null,
+      "price": 6648.32,
+      "base_price": 6648.32,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-mgyrvt-ymyn-du1pid",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:50.194Z"
+    },
+    {
+      "id": "0296bc1f-c27e-41cf-94ba-758b757f221c",
+      "slug": "mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-wk8ff0",
+      "name": "מודול Citroën Berlingo | L1 - מזוודות - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L1, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Berlingo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Berlingo | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-BER-L1-KR",
+      "brand": null,
+      "price": 4927.52,
+      "base_price": 4927.52,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229482-ro44a9.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-wk8ff0",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:50.193Z"
+    },
+    {
+      "id": "501986ed-b865-4d0c-b8e2-a65b11d86245",
+      "slug": "mvdvl-citron-berlingo-l1-bsysy-ymyn-neqfdt",
+      "name": "מודול Citroën Berlingo | L1 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L1, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Berlingo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Berlingo | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-BER-L1-BR",
+      "brand": null,
+      "price": 3997.92,
+      "base_price": 3997.92,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-0pp5l.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-bsysy-ymyn-neqfdt",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:50.162Z"
+    },
+    {
+      "id": "57677d5b-8af0-4570-a39a-6f3e231a6f23",
+      "slug": "mvdvl-citron-berlingo-l1-bsysy-shmal-51th4w",
+      "name": "מודול Citroën Berlingo | L1 - בסיסי - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L1, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Berlingo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Citroën Berlingo | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-CIT-BER-L1-BL",
+      "brand": null,
+      "price": 5567.68,
+      "base_price": 5567.68,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229208-m3wd7t.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-bsysy-shmal-51th4w",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:49.644Z"
+    },
     {
       "id": "1d865fdf-6916-4d1a-95a7-8961773050ef",
       "slug": "ryhvt-rkb-mschry-mla-large-4ohgmo",

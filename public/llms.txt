@@ -102,6 +102,10 @@ https://mutzagim.co.il/account
 https://mutzagim.co.il/order-success
 תודה על ההזמנה
 
+### Products
+https://mutzagim.co.il/products
+המוצרים שלנו - מוצגים פתרונות אחסון ותצוגה
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -120,7 +124,997 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 83**
+**Total active products: 193**
+
+### מודול Ford Custom | L1 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-ford-custom-l1-mgyrvt-ymyn-xv0fng
+- Price: 5449.44 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CUS-L1-DR
+- Description: מודול StoreVan Ford Custom | L1 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Ford Custom | L1 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-ford-custom-l1-bsysy-ymyn-uqsfa4
+- Price: 3997.92 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CUS-L1-BR
+- Description: מודול StoreVan Ford Custom | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Ford Custom | L1 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-ford-custom-l1-mzvvdvt-ymyn-rqemqw
+- Price: 4927.52 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CUS-L1-KR
+- Description: מודול StoreVan Ford Custom | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Ford Custom | L1 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-ford-custom-l1-mvrchb-shmal-ch1rk2
+- Price: 8418.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CUS-L1-EL
+- Description: מודול StoreVan Ford Custom | L1 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Ford Custom | L1 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-ford-custom-l1-bsysy-shmal-4jo0r1
+- Price: 5567.68 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CUS-L1-BL
+- Description: מודול StoreVan Ford Custom | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Ford Connect | L2 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mgyrvt-ymyn-mi9d62
+- Price: 6648.32 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CON-L2-DR
+- Description: מודול StoreVan Ford Connect | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Ford Connect | L2 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mzvvdvt-ymyn-2kuwq9
+- Price: 6011.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CON-L2-KR
+- Description: מודול StoreVan Ford Connect | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Ford Connect | L2 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mvrchb-shmal-9dvt5v
+- Price: 10270.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CON-L2-EL
+- Description: מודול StoreVan Ford Connect | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Ford Connect | L2 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-ford-connect-l2-bsysy-ymyn-o1avkd
+- Price: 4877.46 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CON-L2-BR
+- Description: מודול StoreVan Ford Connect | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Ford Connect | L2 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-ford-connect-l2-bsysy-shmal-oswfem
+- Price: 6792.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CON-L2-BL
+- Description: מודול StoreVan Ford Connect | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Ford Connect | L1 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-ford-connect-l1-mgyrvt-ymyn-jbc6sn
+- Price: 5449.44 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CON-L1-DR
+- Description: מודול StoreVan Ford Connect | L1 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Ford Connect | L1 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-ford-connect-l1-bsysy-ymyn-nkdqwr
+- Price: 3997.92 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CON-L1-BR
+- Description: מודול StoreVan Ford Connect | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Ford Connect | L1 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-ford-connect-l1-mvrchb-shmal-tedlkh
+- Price: 8418.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CON-L1-EL
+- Description: מודול StoreVan Ford Connect | L1 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Ford Connect | L1 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-ford-connect-l1-mzvvdvt-ymyn-fwejbm
+- Price: 4927.52 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CON-L1-KR
+- Description: מודול StoreVan Ford Connect | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Ford Connect | L1 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-ford-connect-l1-bsysy-shmal-9tnr95
+- Price: 5567.68 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FOR-CON-L1-BL
+- Description: מודול StoreVan Ford Connect | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Fiat Ducato | L4 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-mgyrvt-ymyn-rhr0h6
+- Price: 8991.58 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DUC-L4-DR
+- Description: מודול StoreVan Fiat Ducato | L4 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Fiat Ducato | L4 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-mzvvdvt-ymyn-grjwex
+- Price: 8130.41 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DUC-L4-KR
+- Description: מודול StoreVan Fiat Ducato | L4 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Fiat Ducato | L4 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-mvrchb-shmal-oiyer6
+- Price: 13889.96 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DUC-L4-EL
+- Description: מודול StoreVan Fiat Ducato | L4 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Fiat Ducato | L4 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-bsysy-ymyn-uvv8ah
+- Price: 6596.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DUC-L4-BR
+- Description: מודול StoreVan Fiat Ducato | L4 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Fiat Ducato | L4 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-bsysy-shmal-w64jlw
+- Price: 9186.67 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DUC-L4-BL
+- Description: מודול StoreVan Fiat Ducato | L4 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Fiat Ducato | L3 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-mgyrvt-ymyn-yoehm2
+- Price: 7792.70 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DUC-L3-DR
+- Description: מודול StoreVan Fiat Ducato | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Fiat Ducato | L3 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-mzvvdvt-ymyn-1z1dsg
+- Price: 7046.35 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DUC-L3-KR
+- Description: מודול StoreVan Fiat Ducato | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Fiat Ducato | L3 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-bsysy-ymyn-17votk
+- Price: 5717.03 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DUC-L3-BR
+- Description: מודול StoreVan Fiat Ducato | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Fiat Ducato | L3 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-bsysy-shmal-rnjjs4
+- Price: 7961.78 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DUC-L3-BL
+- Description: מודול StoreVan Fiat Ducato | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Fiat Ducato | L3 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-mvrchb-shmal-o1nscf
+- Price: 12037.97 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DUC-L3-EL
+- Description: מודול StoreVan Fiat Ducato | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Fiat Talento | L3 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mvrchb-shmal-7sl295
+- Price: 12037.97 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-TAL-L3-EL
+- Description: מודול StoreVan Fiat Talento | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Fiat Talento | L3 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mgyrvt-ymyn-pwp58o
+- Price: 7792.70 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-TAL-L3-DR
+- Description: מודול StoreVan Fiat Talento | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Fiat Talento | L3 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mzvvdvt-ymyn-zt76jn
+- Price: 7046.35 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-TAL-L3-KR
+- Description: מודול StoreVan Fiat Talento | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Fiat Talento | L3 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-bsysy-ymyn-jz5452
+- Price: 5717.03 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-TAL-L3-BR
+- Description: מודול StoreVan Fiat Talento | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Fiat Talento | L3 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-bsysy-shmal-iks621
+- Price: 7961.78 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-TAL-L3-BL
+- Description: מודול StoreVan Fiat Talento | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Fiat Doblo | L2 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mgyrvt-ymyn-tq2cgt
+- Price: 6648.32 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DOB-L2-DR
+- Description: מודול StoreVan Fiat Doblo | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Fiat Talento | L2 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-talento-l2-mgyrvt-ymyn-tggg29
+- Price: 6648.32 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-TAL-L2-DR
+- Description: מודול StoreVan Fiat Talento | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Fiat Talento | L2 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-talento-l2-bsysy-ymyn-8nvjr9
+- Price: 4877.46 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-TAL-L2-BR
+- Description: מודול StoreVan Fiat Talento | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Fiat Talento | L2 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-talento-l2-mzvvdvt-ymyn-mcm6ks
+- Price: 6011.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-TAL-L2-KR
+- Description: מודול StoreVan Fiat Talento | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Fiat Talento | L2 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-talento-l2-mvrchb-shmal-mgets5
+- Price: 10270.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-TAL-L2-EL
+- Description: מודול StoreVan Fiat Talento | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Fiat Doblo | L2 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mvrchb-shmal-jn2q7q
+- Price: 10270.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DOB-L2-EL
+- Description: מודול StoreVan Fiat Doblo | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Fiat Talento | L2 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-talento-l2-bsysy-shmal-5h58i2
+- Price: 6792.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-TAL-L2-BL
+- Description: מודול StoreVan Fiat Talento | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Fiat Doblo | L2 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mzvvdvt-ymyn-spqcpo
+- Price: 6011.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DOB-L2-KR
+- Description: מודול StoreVan Fiat Doblo | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Fiat Doblo | L2 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-bsysy-shmal-5gpwgt
+- Price: 6792.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DOB-L2-BL
+- Description: מודול StoreVan Fiat Doblo | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Fiat Doblo | L2 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-bsysy-ymyn-jcg9yv
+- Price: 4877.46 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DOB-L2-BR
+- Description: מודול StoreVan Fiat Doblo | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Fiat Doblo | L1 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-doblo-l1-mgyrvt-ymyn-d9jihd
+- Price: 5449.44 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DOB-L1-DR
+- Description: מודול StoreVan Fiat Doblo | L1 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Fiat Doblo | L1 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-doblo-l1-mvrchb-shmal-9sq0nv
+- Price: 8418.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DOB-L1-EL
+- Description: מודול StoreVan Fiat Doblo | L1 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Mercedes-Benz Sprinter | L4 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-mgyrvt-ymyn-h0ojt3
+- Price: 8991.58 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L4-DR
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L4 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Fiat Doblo | L1 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-fiat-doblo-l1-bsysy-shmal-apm4cp
+- Price: 5567.68 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DOB-L1-BL
+- Description: מודול StoreVan Fiat Doblo | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Fiat Doblo | L1 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-doblo-l1-mzvvdvt-ymyn-4qco7r
+- Price: 4927.52 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DOB-L1-KR
+- Description: מודול StoreVan Fiat Doblo | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Fiat Doblo | L1 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-fiat-doblo-l1-bsysy-ymyn-fcnvwu
+- Price: 3997.92 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-FIA-DOB-L1-BR
+- Description: מודול StoreVan Fiat Doblo | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Mercedes-Benz Sprinter | L4 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-bsysy-ymyn-a1knba
+- Price: 6596.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L4-BR
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L4 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Mercedes-Benz Sprinter | L4 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-mzvvdvt-ymyn-2x8icx
+- Price: 8130.41 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L4-KR
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L4 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Mercedes-Benz Sprinter | L4 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-bsysy-shmal-nha88j
+- Price: 9186.67 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L4-BL
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L4 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Mercedes-Benz Sprinter | L4 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-mvrchb-shmal-3w3oqs
+- Price: 13889.96 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L4-EL
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L4 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Mercedes-Benz Sprinter | L2 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l2-mgyrvt-ymyn-8m6zv3
+- Price: 6648.32 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L2-DR
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Mercedes-Benz Sprinter | L3 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l3-mzvvdvt-ymyn-cwuz7q
+- Price: 7046.35 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L3-KR
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Mercedes-Benz Sprinter | L3 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l3-mgyrvt-ymyn-j3mf5k
+- Price: 7792.70 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L3-DR
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Mercedes-Benz Sprinter | L3 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l3-bsysy-shmal-ubi3j9
+- Price: 7961.78 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L3-BL
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Mercedes-Benz Sprinter | L3 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l3-bsysy-ymyn-b4q2gs
+- Price: 5717.03 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L3-BR
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Mercedes-Benz Sprinter | L3 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l3-mvrchb-shmal-wlveaj
+- Price: 12037.97 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L3-EL
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Mercedes-Benz Sprinter | L2 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l2-bsysy-shmal-c3anol
+- Price: 6792.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L2-BL
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Mercedes-Benz Sprinter | L2 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l2-mvrchb-shmal-861jal
+- Price: 10270.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L2-EL
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Mercedes-Benz Sprinter | L2 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l2-bsysy-ymyn-xql4xx
+- Price: 4877.46 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L2-BR
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Mercedes-Benz Sprinter | L2 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l2-mzvvdvt-ymyn-63s6gy
+- Price: 6011.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-SPR-L2-KR
+- Description: מודול StoreVan Mercedes-Benz Sprinter | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Mercedes-Benz Vito | L3 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mzvvdvt-ymyn-888oud
+- Price: 7046.35 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-VIT-L3-KR
+- Description: מודול StoreVan Mercedes-Benz Vito | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Mercedes-Benz Vito | L3 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-shmal-6uu8pk
+- Price: 7961.78 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-VIT-L3-BL
+- Description: מודול StoreVan Mercedes-Benz Vito | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Mercedes-Benz Vito | L3 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mgyrvt-ymyn-fnygzd
+- Price: 7792.70 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-VIT-L3-DR
+- Description: מודול StoreVan Mercedes-Benz Vito | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Mercedes-Benz Vito | L2 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-mgyrvt-ymyn-obgyie
+- Price: 6648.32 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-VIT-L2-DR
+- Description: מודול StoreVan Mercedes-Benz Vito | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Mercedes-Benz Vito | L3 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu
+- Price: 12037.97 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-VIT-L3-EL
+- Description: מודול StoreVan Mercedes-Benz Vito | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Mercedes-Benz Vito | L3 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq
+- Price: 5717.03 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-VIT-L3-BR
+- Description: מודול StoreVan Mercedes-Benz Vito | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Mercedes-Benz Vito | L2 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-bsysy-ymyn-vidvlz
+- Price: 4877.46 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-VIT-L2-BR
+- Description: מודול StoreVan Mercedes-Benz Vito | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Mercedes-Benz Vito | L2 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-mzvvdvt-ymyn-bmn8jc
+- Price: 6011.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-VIT-L2-KR
+- Description: מודול StoreVan Mercedes-Benz Vito | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Mercedes-Benz Vito | L2 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-bsysy-shmal-0fe9wd
+- Price: 6792.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-VIT-L2-BL
+- Description: מודול StoreVan Mercedes-Benz Vito | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Mercedes-Benz Vito | L2 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-mvrchb-shmal-4vdqg0
+- Price: 10270.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-VIT-L2-EL
+- Description: מודול StoreVan Mercedes-Benz Vito | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Mercedes-Benz Citan | L2 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l2-mgyrvt-ymyn-kfvmd0
+- Price: 6648.32 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-CIT-L2-DR
+- Description: מודול StoreVan Mercedes-Benz Citan | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Mercedes-Benz Citan | L1 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l1-mgyrvt-ymyn-umcgk9
+- Price: 5449.44 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-CIT-L1-DR
+- Description: מודול StoreVan Mercedes-Benz Citan | L1 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Mercedes-Benz Citan | L2 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l2-mzvvdvt-ymyn-kv581j
+- Price: 6011.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-CIT-L2-KR
+- Description: מודול StoreVan Mercedes-Benz Citan | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Mercedes-Benz Citan | L2 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l2-mvrchb-shmal-8epfhr
+- Price: 10270.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-CIT-L2-EL
+- Description: מודול StoreVan Mercedes-Benz Citan | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Mercedes-Benz Citan | L2 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l2-bsysy-shmal-9pehmv
+- Price: 6792.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-CIT-L2-BL
+- Description: מודול StoreVan Mercedes-Benz Citan | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Mercedes-Benz Citan | L2 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l2-bsysy-ymyn-jpwzbf
+- Price: 4877.46 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-CIT-L2-BR
+- Description: מודול StoreVan Mercedes-Benz Citan | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Mercedes-Benz Citan | L1 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l1-bsysy-ymyn-gknmh5
+- Price: 3997.92 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-CIT-L1-BR
+- Description: מודול StoreVan Mercedes-Benz Citan | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Mercedes-Benz Citan | L1 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l1-mzvvdvt-ymyn-cn35nb
+- Price: 4927.52 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-CIT-L1-KR
+- Description: מודול StoreVan Mercedes-Benz Citan | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Mercedes-Benz Citan | L1 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l1-bsysy-shmal-k4zpxs
+- Price: 5567.68 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-CIT-L1-BL
+- Description: מודול StoreVan Mercedes-Benz Citan | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Mercedes-Benz Citan | L1 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-citan-l1-mvrchb-shmal-zkpl1z
+- Price: 8418.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-CIT-L1-EL
+- Description: מודול StoreVan Mercedes-Benz Citan | L1 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Citroën Jumper | L4 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumper-l4-mgyrvt-ymyn-19uzs8
+- Price: 8991.58 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L4-DR
+- Description: מודול StoreVan Citroën Jumper | L4 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Citroën Jumper | L4 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumper-l4-mzvvdvt-ymyn-697057
+- Price: 8130.41 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L4-KR
+- Description: מודול StoreVan Citroën Jumper | L4 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Citroën Jumper | L4 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-jumper-l4-mvrchb-shmal-fbc2od
+- Price: 13889.96 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L4-EL
+- Description: מודול StoreVan Citroën Jumper | L4 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Citroën Jumper | L4 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumper-l4-bsysy-ymyn-f9evxb
+- Price: 6596.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L4-BR
+- Description: מודול StoreVan Citroën Jumper | L4 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Citroën Jumper | L3 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumper-l3-bsysy-ymyn-lr10tf
+- Price: 5717.03 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L3-BR
+- Description: מודול StoreVan Citroën Jumper | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Citroën Jumper | L4 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-jumper-l4-bsysy-shmal-lv6p68
+- Price: 9186.67 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L4-BL
+- Description: מודול StoreVan Citroën Jumper | L4 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Citroën Jumper | L3 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumper-l3-mgyrvt-ymyn-kqwriv
+- Price: 7792.70 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L3-DR
+- Description: מודול StoreVan Citroën Jumper | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Citroën Jumper | L3 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumper-l3-mzvvdvt-ymyn-8zahsv
+- Price: 7046.35 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L3-KR
+- Description: מודול StoreVan Citroën Jumper | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Citroën Jumper | L3 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-jumper-l3-mvrchb-shmal-2y3nfm
+- Price: 12037.97 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L3-EL
+- Description: מודול StoreVan Citroën Jumper | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Citroën Jumper | L3 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-jumper-l3-bsysy-shmal-0p0qzq
+- Price: 7961.78 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L3-BL
+- Description: מודול StoreVan Citroën Jumper | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Citroën Jumpy | L3 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-mgyrvt-ymyn-z9rrgf
+- Price: 7792.70 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L3-DR
+- Description: מודול StoreVan Citroën Jumpy | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Citroën Jumpy | L3 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-mzvvdvt-ymyn-a540d5
+- Price: 7046.35 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L3-KR
+- Description: מודול StoreVan Citroën Jumpy | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Citroën Jumpy | L3 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-bsysy-shmal-ayrjgc
+- Price: 7961.78 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L3-BL
+- Description: מודול StoreVan Citroën Jumpy | L3 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Citroën Jumpy | L2 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumpy-l2-mgyrvt-ymyn-xips96
+- Price: 6648.32 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L2-DR
+- Description: מודול StoreVan Citroën Jumpy | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Citroën Jumpy | L3 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-bsysy-ymyn-a79d3w
+- Price: 5717.03 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L3-BR
+- Description: מודול StoreVan Citroën Jumpy | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Citroën Jumpy | L3 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-mvrchb-shmal-ctupp4
+- Price: 12037.97 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L3-EL
+- Description: מודול StoreVan Citroën Jumpy | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Citroën Jumpy | L2 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumpy-l2-mzvvdvt-ymyn-ovbtnd
+- Price: 6011.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L2-KR
+- Description: מודול StoreVan Citroën Jumpy | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Citroën Jumpy | L2 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-jumpy-l2-bsysy-shmal-k59i6i
+- Price: 6792.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L2-BL
+- Description: מודול StoreVan Citroën Jumpy | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Citroën Jumpy | L2 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-citron-jumpy-l2-bsysy-ymyn-3lx7wq
+- Price: 4877.46 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L2-BR
+- Description: מודול StoreVan Citroën Jumpy | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Citroën Jumpy | L2 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-jumpy-l2-mvrchb-shmal-n1ay8q
+- Price: 10270.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-JUM-L2-EL
+- Description: מודול StoreVan Citroën Jumpy | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Citroën Berlingo | L2 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-bsysy-ymyn-ncinq0
+- Price: 4877.46 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-BER-L2-BR
+- Description: מודול StoreVan Citroën Berlingo | L2 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+
+### מודול Citroën Berlingo | L2 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-bsysy-shmal-4qqonk
+- Price: 6792.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-BER-L2-BL
+- Description: מודול StoreVan Citroën Berlingo | L2 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
+
+### מודול Citroën Berlingo | L1 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mgyrvt-ymyn-s2erxz
+- Price: 5449.44 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-BER-L1-DR
+- Description: מודול StoreVan Citroën Berlingo | L1 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-i8t8fy.webp
+
+### מודול Citroën Berlingo | L1 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mvrchb-shmal-fh8fjy
+- Price: 8418.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-BER-L1-EL
+- Description: מודול StoreVan Citroën Berlingo | L1 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Citroën Berlingo | L2 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-mzvvdvt-ymyn-g7k957
+- Price: 6011.57 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-BER-L2-KR
+- Description: מודול StoreVan Citroën Berlingo | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
+
+### מודול Citroën Berlingo | L2 - מורחב - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-mvrchb-shmal-7xtoqu
+- Price: 10270.16 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-BER-L2-EL
+- Description: מודול StoreVan Citroën Berlingo | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229485-cord9.webp
+
+### מודול Citroën Berlingo | L2 - מגירות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-mgyrvt-ymyn-du1pid
+- Price: 6648.32 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-BER-L2-DR
+- Description: מודול StoreVan Citroën Berlingo | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+
+### מודול Citroën Berlingo | L1 - מזוודות - ימין
+https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-wk8ff0
+- Price: 4927.52 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-BER-L1-KR
+- Description: מודול StoreVan Citroën Berlingo | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229482-ro44a9.webp
+
+### מודול Citroën Berlingo | L1 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-bsysy-ymyn-neqfdt
+- Price: 3997.92 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-BER-L1-BR
+- Description: מודול StoreVan Citroën Berlingo | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-0pp5l.webp
+
+### מודול Citroën Berlingo | L1 - בסיסי - שמאל
+https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-bsysy-shmal-51th4w
+- Price: 5567.68 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-CIT-BER-L1-BL
+- Description: מודול StoreVan Citroën Berlingo | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229208-m3wd7t.webp
 
 ### ריהוט רכב מסחרי מלא – Large
 https://mutzagim.co.il/product/ryhvt-rkb-mschry-mla-large-4ohgmo
