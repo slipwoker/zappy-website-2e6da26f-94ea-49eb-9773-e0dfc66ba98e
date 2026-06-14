@@ -10137,7 +10137,7 @@ SKU: SV-FIA-TAL-L2-BL
 ---
 
 ### מודול Fiat Doblo | L2 - מזוודות - ימין
-URL: https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mzvvdvt-ymyn-84ybbb
+URL: https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mzvvdvt-ymyn-phzq7n
 Price: 6011.57 ILS
 Availability: Out of stock
 SKU: SV-FIA-DOB-L2-KR
