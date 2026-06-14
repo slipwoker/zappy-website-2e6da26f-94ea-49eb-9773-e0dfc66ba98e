@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T18:07:22.137Z",
+  "generated_at": "2026-06-14T18:07:28.203Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -389,7 +389,12 @@
       "id": "7373efdb-9016-4b44-90cb-06092f6768b2",
       "slug": "mvdvl-fiat-ducato-l4-mgyrvt-ymyn-68abp5",
       "name": "מודול Fiat Ducato | L4 - מגירות - ימין",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة Fiat Ducato | L4 - أدراج - يمين",
+        "en": "Fiat Ducato Module | L4 - Drawers - Right",
+        "he": "מודול Fiat Ducato | L4 - מגירות - ימין",
+        "ru": "Модуль Fiat Ducato | L4 - ящики - правый"
+      },
       "description": "<p>מודול ריהוט StoreVan לרכב Fiat Ducato, L4, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Ducato | L4 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-DUC-L4-DR",
@@ -407,7 +412,7 @@
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-14T18:06:57.213Z"
+      "updated_at": "2026-06-14T18:07:24.720Z"
     },
     {
       "id": "08e6088b-e938-4ab9-b1c1-b1e9bbc58e89",
