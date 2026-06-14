@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T18:08:03.106Z",
+  "generated_at": "2026-06-14T18:08:55.897Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -637,27 +637,28 @@
     },
     {
       "id": "441f6c08-9e8d-457a-95ad-cc219d8201bb",
-      "slug": "mvdvl-fiat-talento-l3-mvrchb-shmal-7sl295",
+      "slug": "mvdvl-fiat-talento-l3-mvrchb-shmal-sque5f",
       "name": "מודול Fiat Talento | L3 - מורחב - שמאל",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Talento L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Fiat Talento, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Talento L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Talento | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-TAL-L3-EL",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 12037.97,
       "base_price": 12037.97,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp",
+        "https://mutzagim.co.il/assets/product-1781460493283-bikbla.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mvrchb-shmal-7sl295",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mvrchb-shmal-sque5f",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-11T15:54:09.549Z"
+      "updated_at": "2026-06-14T18:08:24.883Z"
     },
     {
       "id": "a001fb55-8f55-42ce-a634-8d771390771f",
