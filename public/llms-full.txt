@@ -10402,16 +10402,6 @@ SKU: SV-MER-VIT-L2-DR
 
 ---
 
-### מודול Mercedes-Benz Vito | L3 - מורחב - שמאל
-URL: https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu
-Price: 12037.97 ILS
-Availability: Out of stock
-SKU: SV-MER-VIT-L3-EL
-
-מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ"מ (W×D×H).
-
----
-
 ### מודול Mercedes-Benz Vito | L3 - בסיסי - ימין
 URL: https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq
 Price: 5717.03 ILS
@@ -10419,6 +10409,16 @@ Availability: Out of stock
 SKU: SV-MER-VIT-L3-BR
 
 מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ"מ (W×D×H).
+
+---
+
+### מודול Mercedes-Benz Vito | L3 - מורחב - שמאל
+URL: https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu
+Price: 12037.97 ILS
+Availability: Out of stock
+SKU: SV-MER-VIT-L3-EL
+
+מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ"מ (W×D×H).
 
 ---
 
