@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T17:56:30.957Z",
+  "generated_at": "2026-06-14T17:57:05.988Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -65,7 +65,7 @@
     },
     {
       "id": "e1a1406b-e914-41c0-b9e7-dfee120626d0",
-      "slug": "mvdvl-ford-custom-l1-mzvvdvt-ymyn-r6x44k",
+      "slug": "mvdvl-ford-custom-l1-mzvvdvt-ymyn-bv1yfy",
       "name": "מודול Ford Custom | L1 - מזוודות - ימין",
       "name_translations": {
         "ar": "وحدة Ford Custom | L1 - حقائب - يمين",
@@ -86,11 +86,11 @@
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-ford-custom-l1-mzvvdvt-ymyn-r6x44k",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-custom-l1-mzvvdvt-ymyn-bv1yfy",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-14T17:55:59.938Z"
+      "updated_at": "2026-06-14T17:56:34.582Z"
     },
     {
       "id": "07e08a4c-4cda-456c-b46b-16a48e028429",
