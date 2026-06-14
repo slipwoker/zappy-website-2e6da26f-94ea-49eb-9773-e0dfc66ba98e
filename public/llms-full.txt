@@ -10827,10 +10827,11 @@ SKU: SV-CIT-BER-L2-DR
 ---
 
 ### מודול Citroën Berlingo | L1 - מזוודות - ימין
-URL: https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-wk8ff0
+URL: https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-9woy2b
 Price: 4927.52 ILS
 Availability: Out of stock
 SKU: SV-CIT-BER-L1-KR
+Brand: StoreVan 
 
 מודול ריהוט StoreVan לרכב Citroën Berlingo, L1, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Berlingo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ"מ (W×D×H).
 

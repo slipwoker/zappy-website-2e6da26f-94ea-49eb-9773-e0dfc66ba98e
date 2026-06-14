@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T17:47:08.425Z",
+  "generated_at": "2026-06-14T17:48:00.516Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -2580,27 +2580,27 @@
     },
     {
       "id": "0296bc1f-c27e-41cf-94ba-758b757f221c",
-      "slug": "mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-wk8ff0",
+      "slug": "mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-9woy2b",
       "name": "מודול Citroën Berlingo | L1 - מזוודות - ימין",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L1, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Berlingo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Citroën Berlingo, L1, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Berlingo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Citroën Berlingo | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-CIT-BER-L1-KR",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 4927.52,
       "base_price": 4927.52,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229482-ro44a9.webp"
+        "https://mutzagim.co.il/assets/product-1781459236080-xnoaqt.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-wk8ff0",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-9woy2b",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-11T15:53:50.193Z"
+      "updated_at": "2026-06-14T17:47:29.072Z"
     },
     {
       "id": "501986ed-b865-4d0c-b8e2-a65b11d86245",
