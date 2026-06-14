@@ -4,7 +4,7 @@
     <title>מוצגים פתרונות אחסון ותצוגה</title>
     <link>https://mutzagim.co.il</link>
     <description>Product feed for מוצגים פתרונות אחסון ותצוגה</description>
-    <lastBuildDate>Sun, 14 Jun 2026 18:16:50 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 18:17:27 GMT</lastBuildDate>
     <item>
       <g:id>0ed21143-911d-4183-baa0-10621d55bef9__5bffe2d0-6556-4dc5-b4c2-55bca6d68f35</g:id>
       <g:title>מודול Ford Custom | L1 - מגירות - ימין - L1</g:title>
@@ -501,12 +501,12 @@
       <g:id>a7395093-7239-4d3d-bda8-582cf29f1f45__19e92cc7-4c78-4172-86b6-86aca1899424</g:id>
       <g:title>מודול Fiat Doblo | L2 - מזוודות - ימין - L2</g:title>
       <g:description>מודול StoreVan Fiat Doblo | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.</g:description>
-      <g:link>https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mzvvdvt-ymyn-spqcpo</g:link>
+      <g:link>https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mzvvdvt-ymyn-84ybbb</g:link>
       <g:image_link>https://mutzagim.co.il/assets/product-1781193229488-05d36.webp</g:image_link>
       <g:availability>out_of_stock</g:availability>
       <g:price>6011.57 ILS</g:price>
       <g:condition>new</g:condition>
-      <g:brand>מוצגים פתרונות אחסון ותצוגה</g:brand>
+      <g:brand>StoreVan </g:brand>
       <g:mpn>SV-FIA-DOB-L2-KR</g:mpn>
       <g:product_type>זיווד רכבים</g:product_type>
     </item>
@@ -849,19 +849,6 @@
       <g:product_type>זיווד רכבים</g:product_type>
     </item>
     <item>
-      <g:id>12901f8f-6551-4d40-9e6e-b0d3c46ce4bd__9ca6498c-9e80-4d4b-b028-dc7654152f0a</g:id>
-      <g:title>מודול Mercedes-Benz Vito | L3 - מורחב - שמאל - L3</g:title>
-      <g:description>מודול StoreVan Mercedes-Benz Vito | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.</g:description>
-      <g:link>https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu</g:link>
-      <g:image_link>https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp</g:image_link>
-      <g:availability>out_of_stock</g:availability>
-      <g:price>12037.97 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>מוצגים פתרונות אחסון ותצוגה</g:brand>
-      <g:mpn>SV-MER-VIT-L3-EL</g:mpn>
-      <g:product_type>זיווד רכבים</g:product_type>
-    </item>
-    <item>
       <g:id>789fc651-3ff8-498f-aa17-ac102d893d0a__9e6d8651-247e-4697-8d71-54d33bda31de</g:id>
       <g:title>מודול Mercedes-Benz Vito | L3 - בסיסי - ימין - L3</g:title>
       <g:description>מודול StoreVan Mercedes-Benz Vito | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.</g:description>
@@ -872,6 +859,19 @@
       <g:condition>new</g:condition>
       <g:brand>מוצגים פתרונות אחסון ותצוגה</g:brand>
       <g:mpn>SV-MER-VIT-L3-BR</g:mpn>
+      <g:product_type>זיווד רכבים</g:product_type>
+    </item>
+    <item>
+      <g:id>12901f8f-6551-4d40-9e6e-b0d3c46ce4bd__9ca6498c-9e80-4d4b-b028-dc7654152f0a</g:id>
+      <g:title>מודול Mercedes-Benz Vito | L3 - מורחב - שמאל - L3</g:title>
+      <g:description>מודול StoreVan Mercedes-Benz Vito | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.</g:description>
+      <g:link>https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu</g:link>
+      <g:image_link>https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp</g:image_link>
+      <g:availability>out_of_stock</g:availability>
+      <g:price>12037.97 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>מוצגים פתרונות אחסון ותצוגה</g:brand>
+      <g:mpn>SV-MER-VIT-L3-EL</g:mpn>
       <g:product_type>זיווד רכבים</g:product_type>
     </item>
     <item>

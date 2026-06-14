@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T18:16:50.296Z",
+  "generated_at": "2026-06-14T18:17:27.300Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -212,7 +212,12 @@
       "id": "d5b30e77-e36e-4d75-b98b-f9c7ba686a2d",
       "slug": "mvdvl-ford-connect-l2-mvrchb-shmal-3ek44x",
       "name": "מודול Ford Connect | L2 - מורחב - שמאל",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة Ford Connect | L2 - موسعة - يسار",
+        "en": "Ford Connect Module | L2 - Extended - Left",
+        "he": "מודול Ford Connect | L2 - מורחב - שמאל",
+        "ru": "Модуль Ford Connect | L2 - расширенный - левый"
+      },
       "description": "<p>מודול ריהוט StoreVan לרכב Ford Connect, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Connect L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Ford Connect | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FOR-CON-L2-EL",
@@ -230,7 +235,7 @@
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-14T18:16:19.220Z"
+      "updated_at": "2026-06-14T18:16:56.264Z"
     },
     {
       "id": "1394b1c5-3d88-40bc-9021-2f7d7e3800fe",
@@ -946,27 +951,25 @@
     },
     {
       "id": "a7395093-7239-4d3d-bda8-582cf29f1f45",
-      "slug": "mvdvl-fiat-doblo-l2-mzvvdvt-ymyn-spqcpo",
+      "slug": "mvdvl-fiat-doblo-l2-mzvvdvt-ymyn-84ybbb",
       "name": "מודול Fiat Doblo | L2 - מזוודות - ימין",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Fiat Doblo, L2, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Doblo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Fiat Doblo, L2, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Doblo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Doblo | L2 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-DOB-L2-KR",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 6011.57,
       "base_price": 6011.57,
       "sale_price": null,
       "currency": "ILS",
-      "images": [
-        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
-      ],
+      "images": [],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mzvvdvt-ymyn-spqcpo",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-doblo-l2-mzvvdvt-ymyn-84ybbb",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-11T15:54:06.757Z"
+      "updated_at": "2026-06-14T18:17:21.843Z"
     },
     {
       "id": "1e0eb843-d392-4af5-9070-e7c53e917ce9",
@@ -1593,30 +1596,6 @@
       "updated_at": "2026-06-11T15:53:59.044Z"
     },
     {
-      "id": "12901f8f-6551-4d40-9e6e-b0d3c46ce4bd",
-      "slug": "mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
-      "name": "מודול Mercedes-Benz Vito | L3 - מורחב - שמאל",
-      "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
-      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
-      "sku": "SV-MER-VIT-L3-EL",
-      "brand": null,
-      "price": 12037.97,
-      "base_price": 12037.97,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
-      ],
-      "in_stock": false,
-      "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
-      "categories": [
-        "זיווד רכבים"
-      ],
-      "updated_at": "2026-06-11T15:53:59.044Z"
-    },
-    {
       "id": "789fc651-3ff8-498f-aa17-ac102d893d0a",
       "slug": "mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
       "name": "מודול Mercedes-Benz Vito | L3 - בסיסי - ימין",
@@ -1635,6 +1614,30 @@
       "in_stock": false,
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:59.044Z"
+    },
+    {
+      "id": "12901f8f-6551-4d40-9e6e-b0d3c46ce4bd",
+      "slug": "mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
+      "name": "מודול Mercedes-Benz Vito | L3 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L3-EL",
+      "brand": null,
+      "price": 12037.97,
+      "base_price": 12037.97,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
       "categories": [
         "זיווד רכבים"
       ],
