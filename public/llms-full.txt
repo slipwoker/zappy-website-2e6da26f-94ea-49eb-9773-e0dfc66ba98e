@@ -9811,10 +9811,11 @@ Brand: StoreVan
 ---
 
 ### מודול Ford Connect | L2 - מגירות - ימין
-URL: https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mgyrvt-ymyn-mi9d62
+URL: https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mgyrvt-ymyn-72yk65
 Price: 6648.32 ILS
 Availability: Out of stock
 SKU: SV-FOR-CON-L2-DR
+Brand: StoreVan 
 
 מודול ריהוט StoreVan לרכב Ford Connect, L2, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Connect L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ"מ (W×D×H).
 
