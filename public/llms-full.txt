@@ -9800,10 +9800,11 @@ Brand: StoreVan
 ---
 
 ### מודול Ford Custom | L1 - בסיסי - שמאל
-URL: https://mutzagim.co.il/product/mvdvl-ford-custom-l1-bsysy-shmal-4jo0r1
+URL: https://mutzagim.co.il/product/mvdvl-ford-custom-l1-bsysy-shmal-f3c4pn
 Price: 5567.68 ILS
 Availability: Out of stock
 SKU: SV-FOR-CUS-L1-BL
+Brand: StoreVan 
 
 מודול ריהוט StoreVan לרכב Ford Custom, L1, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Custom L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ"מ (W×D×H).
 

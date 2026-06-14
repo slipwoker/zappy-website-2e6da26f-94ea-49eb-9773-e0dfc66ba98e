@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T18:09:29.618Z",
+  "generated_at": "2026-06-14T18:12:56.910Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -123,27 +123,27 @@
     },
     {
       "id": "768ec0a5-beb5-43c9-a966-5a094b7d7d2a",
-      "slug": "mvdvl-ford-custom-l1-bsysy-shmal-4jo0r1",
+      "slug": "mvdvl-ford-custom-l1-bsysy-shmal-f3c4pn",
       "name": "מודול Ford Custom | L1 - בסיסי - שמאל",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Ford Custom, L1, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Custom L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Ford Custom, L1, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Custom L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Ford Custom | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FOR-CUS-L1-BL",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 5567.68,
       "base_price": 5567.68,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+        "https://mutzagim.co.il/assets/product-1781460735343-wes2w.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-ford-custom-l1-bsysy-shmal-4jo0r1",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-custom-l1-bsysy-shmal-f3c4pn",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-11T15:54:17.751Z"
+      "updated_at": "2026-06-14T18:12:25.836Z"
     },
     {
       "id": "c56c5eab-3faa-4975-b8a5-3ccac41f7f12",
