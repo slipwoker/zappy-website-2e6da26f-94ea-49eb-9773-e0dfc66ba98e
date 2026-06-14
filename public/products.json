@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T17:44:11.644Z",
+  "generated_at": "2026-06-14T17:44:46.248Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -2630,7 +2630,12 @@
       "id": "57677d5b-8af0-4570-a39a-6f3e231a6f23",
       "slug": "mvdvl-citron-berlingo-l1-bsysy-shmal-jpp2bc",
       "name": "מודול Citroën Berlingo | L1 - בסיסי - שמאל",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة Citroën Berlingo | L1 - أساسية - يسار",
+        "en": "Citroën Berlingo Module | L1 - Basic - Left",
+        "he": "מודול Citroën Berlingo | L1 - בסיסי - שמאל",
+        "ru": "Модуль Citroën Berlingo | L1 - базовый - левый"
+      },
       "description": "<p>מודול ריהוט StoreVan לרכב Citroën Berlingo, L1, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Berlingo L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Citroën Berlingo | L1 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-CIT-BER-L1-BL",
@@ -2648,7 +2653,7 @@
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-14T17:43:40.598Z"
+      "updated_at": "2026-06-14T17:44:14.986Z"
     },
     {
       "id": "1d865fdf-6916-4d1a-95a7-8961773050ef",
