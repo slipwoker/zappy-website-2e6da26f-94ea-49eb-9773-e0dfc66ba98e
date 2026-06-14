@@ -9910,10 +9910,11 @@ SKU: SV-FOR-CON-L1-BL
 ---
 
 ### מודול Fiat Ducato | L4 - מגירות - ימין
-URL: https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-mgyrvt-ymyn-rhr0h6
+URL: https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-mgyrvt-ymyn-68abp5
 Price: 8991.58 ILS
 Availability: Out of stock
 SKU: SV-FIA-DUC-L4-DR
+Brand: StoreVan 
 
 מודול ריהוט StoreVan לרכב Fiat Ducato, L4, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ"מ (W×D×H).
 
