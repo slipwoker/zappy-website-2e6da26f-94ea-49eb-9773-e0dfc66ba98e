@@ -127,13 +127,14 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 193**
 
 ### מודול Ford Custom | L1 - מגירות - ימין
-https://mutzagim.co.il/product/mvdvl-ford-custom-l1-mgyrvt-ymyn-xv0fng
+https://mutzagim.co.il/product/mvdvl-ford-custom-l1-mgyrvt-ymyn-qk6s1t
 - Price: 5449.44 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים
 - SKU: SV-FOR-CUS-L1-DR
+- Brand: StoreVan 
 - Description: מודול StoreVan Ford Custom | L1 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
-- Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
+- Image: https://mutzagim.co.il/assets/product-1781458839366-bgry5.webp
 
 ### מודול Ford Custom | L1 - בסיסי - ימין
 https://mutzagim.co.il/product/mvdvl-ford-custom-l1-bsysy-ymyn-uqsfa4
