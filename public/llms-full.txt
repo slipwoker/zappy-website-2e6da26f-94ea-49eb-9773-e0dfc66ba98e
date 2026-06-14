@@ -9833,10 +9833,11 @@ Brand: StoreVan
 ---
 
 ### מודול Ford Connect | L2 - מורחב - שמאל
-URL: https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mvrchb-shmal-9dvt5v
+URL: https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mvrchb-shmal-3ek44x
 Price: 10270.16 ILS
 Availability: Out of stock
 SKU: SV-FOR-CON-L2-EL
+Brand: StoreVan 
 
 מודול ריהוט StoreVan לרכב Ford Connect, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Connect L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ"מ (W×D×H).
 

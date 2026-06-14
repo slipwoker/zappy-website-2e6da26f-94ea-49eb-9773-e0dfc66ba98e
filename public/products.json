@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T18:16:17.655Z",
+  "generated_at": "2026-06-14T18:16:50.296Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -210,27 +210,27 @@
     },
     {
       "id": "d5b30e77-e36e-4d75-b98b-f9c7ba686a2d",
-      "slug": "mvdvl-ford-connect-l2-mvrchb-shmal-9dvt5v",
+      "slug": "mvdvl-ford-connect-l2-mvrchb-shmal-3ek44x",
       "name": "מודול Ford Connect | L2 - מורחב - שמאל",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Connect L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Ford Connect, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Connect L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Ford Connect | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FOR-CON-L2-EL",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 10270.16,
       "base_price": 10270.16,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+        "https://mutzagim.co.il/assets/product-1781460967952-2sbcd.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mvrchb-shmal-9dvt5v",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l2-mvrchb-shmal-3ek44x",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-11T15:54:17.722Z"
+      "updated_at": "2026-06-14T18:16:19.220Z"
     },
     {
       "id": "1394b1c5-3d88-40bc-9021-2f7d7e3800fe",
