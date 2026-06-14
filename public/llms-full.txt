@@ -10827,7 +10827,7 @@ SKU: SV-CIT-BER-L2-DR
 ---
 
 ### מודול Citroën Berlingo | L1 - מזוודות - ימין
-URL: https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-9woy2b
+URL: https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-0r12l9
 Price: 4927.52 ILS
 Availability: Out of stock
 SKU: SV-CIT-BER-L1-KR

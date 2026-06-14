@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T17:48:32.468Z",
+  "generated_at": "2026-06-14T17:51:45.899Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -2580,7 +2580,7 @@
     },
     {
       "id": "0296bc1f-c27e-41cf-94ba-758b757f221c",
-      "slug": "mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-9woy2b",
+      "slug": "mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-0r12l9",
       "name": "מודול Citroën Berlingo | L1 - מזוודות - ימין",
       "name_translations": {
         "ar": "وحدة Citroën Berlingo | L1 - حقائب - يمين",
@@ -2601,11 +2601,11 @@
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-9woy2b",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l1-mzvvdvt-ymyn-0r12l9",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-14T17:48:01.398Z"
+      "updated_at": "2026-06-14T17:51:14.869Z"
     },
     {
       "id": "501986ed-b865-4d0c-b8e2-a65b11d86245",
