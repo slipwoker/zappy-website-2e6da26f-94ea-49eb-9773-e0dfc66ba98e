@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T18:06:12.949Z",
+  "generated_at": "2026-06-14T18:06:45.747Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -413,7 +413,12 @@
       "id": "08e6088b-e938-4ab9-b1c1-b1e9bbc58e89",
       "slug": "mvdvl-fiat-ducato-l4-mzvvdvt-ymyn-awkcrv",
       "name": "מודול Fiat Ducato | L4 - מזוודות - ימין",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة Fiat Ducato | L4 - حقائب - يمين",
+        "en": "Fiat Ducato Module | L4 - Cases - Right",
+        "he": "מודול Fiat Ducato | L4 - מזוודות - ימין",
+        "ru": "Модуль Fiat Ducato | L4 - чемоданы - правый"
+      },
       "description": "<p>מודול ריהוט StoreVan לרכב Fiat Ducato, L4, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Ducato | L4 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-DUC-L4-KR",
@@ -431,7 +436,7 @@
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-14T18:05:41.576Z"
+      "updated_at": "2026-06-14T18:06:14.722Z"
     },
     {
       "id": "d266220c-d0d1-4474-bb1d-a500b8da1460",
