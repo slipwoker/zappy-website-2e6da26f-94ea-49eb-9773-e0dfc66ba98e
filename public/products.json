@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T17:52:24.933Z",
+  "generated_at": "2026-06-14T17:53:36.378Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -36,27 +36,27 @@
     },
     {
       "id": "86b84860-b35f-4466-8c16-798714439786",
-      "slug": "mvdvl-ford-custom-l1-bsysy-ymyn-uqsfa4",
+      "slug": "mvdvl-ford-custom-l1-bsysy-ymyn-3q1esi",
       "name": "מודול Ford Custom | L1 - בסיסי - ימין",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Ford Custom, L1, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Custom L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Ford Custom, L1, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Custom L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Ford Custom | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FOR-CUS-L1-BR",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 3997.92,
       "base_price": 3997.92,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+        "https://mutzagim.co.il/assets/product-1781459568045-ox86wc.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-ford-custom-l1-bsysy-ymyn-uqsfa4",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-custom-l1-bsysy-ymyn-3q1esi",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-11T15:54:17.770Z"
+      "updated_at": "2026-06-14T17:53:05.300Z"
     },
     {
       "id": "e1a1406b-e914-41c0-b9e7-dfee120626d0",
