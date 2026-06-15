@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:11:52.191Z",
+  "generated_at": "2026-06-15T09:43:18.584Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -657,7 +657,7 @@
     },
     {
       "id": "441f6c08-9e8d-457a-95ad-cc219d8201bb",
-      "slug": "mvdvl-fiat-talento-l3-mvrchb-shmal-sque5f",
+      "slug": "mvdvl-fiat-talento-l3-mvrchb-shmal-jeeb8v",
       "name": "מודול Fiat Talento | L3 - מורחב - שמאל",
       "name_translations": {
         "ar": "وحدة Fiat Talento | L3 - موسعة - يسار",
@@ -674,16 +674,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp",
         "https://mutzagim.co.il/assets/product-1781460493283-bikbla.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mvrchb-shmal-sque5f",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mvrchb-shmal-jeeb8v",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-14T18:08:58.410Z"
+      "updated_at": "2026-06-15T09:42:47.377Z"
     },
     {
       "id": "a001fb55-8f55-42ce-a634-8d771390771f",
