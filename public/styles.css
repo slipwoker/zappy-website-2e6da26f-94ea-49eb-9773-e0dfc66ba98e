@@ -2369,6 +2369,13 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 /* ==ZAPPY E-COMMERCE CSS== */
 /* E-commerce Enhancement Styles - Inherits site theme colors */
 .ecommerce-page {
+  /* width:100% + box-sizing is REQUIRED: V2 sites set body to display:flex;
+     flex-direction:column (sticky-footer guard). Without an explicit width the
+     margin:0 auto auto cross-axis margins stop this flex item from stretching,
+     so main collapses to its min-content (about one 250px product column) and
+     the products grid renders as a single mobile-like column. */
+  width: 100%;
+  box-sizing: border-box;
   padding: 60px 24px;
   padding-top: 24px;
   max-width: 1440px;
@@ -2915,6 +2922,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .checkout-order-details-title { font-size: 20px; font-weight: 600; }
 .checkout-order-divider { height: 1px; background: #e8e8e8; margin: 16px 0; }
 .checkout-order-details .order-totals-row { display: flex !important; justify-content: space-between !important; align-items: baseline !important; gap: 12px !important; padding: 6px 0; font-size: 16px; }
+.checkout-order-details .order-totals-row.zappy-discount-hidden { display: none !important; }
 .checkout-order-details .order-totals-row span:first-child { flex: 1 1 auto; min-width: 0; }
 .checkout-order-details .order-totals-row span:last-child { flex: 0 0 auto; text-align: end; }
 .checkout-order-details .order-totals-row span:last-child { font-weight: 600; }
@@ -3770,7 +3778,7 @@ body {
 .coupon-remove-btn:hover { background: #fef2f2; color: #ef4444; border-color: #fecaca; }
 .coupon-error { margin-top: 8px; padding: 8px 12px; background: #fef2f2; color: #dc2626; border-radius: 6px; font-size: 13px; }
 .discount-row { color: #10b981; font-weight: 500; }
-.discount-row #discount { color: #10b981; }
+.discount-row #checkout-discount-amount { color: #10b981; }
 /* Cart Drawer Styles */
 .cart-drawer-overlay { position: fixed !important; inset: 0 !important; background: rgba(0,0,0,0.5) !important; z-index: 999999 !important; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s; width: 100% !important; height: 100% !important; }
 .cart-drawer-overlay.active { opacity: 1 !important; visibility: visible !important; }
