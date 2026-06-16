@@ -66,6 +66,41 @@ https://mutzagim.co.il/dalmine-ls-modular-shelving
 https://mutzagim.co.il/vlm-vertical-storage
 מערכת אחסון ורטיקלי VLM - מדפי אחסון תעשייתי למפעלים המאפשרים חיסכון של עד 90% בשטח. פתרונות אחסון למשקל כבד, ייעול תהליכי ליקוט וניהול מלאי חכם.
 
+### פרטי המוצר
+https://mutzagim.co.il/product/:slug
+פרטי המוצר - מוצגים פתרונות אחסון ותצוגה
+
+### מוצרים
+https://mutzagim.co.il/category/:slug
+מוצרים - מוצגים פתרונות אחסון ותצוגה
+
+### עגלת קניות
+https://mutzagim.co.il/cart
+עגלת הקניות שלך
+
+### תשלום
+https://mutzagim.co.il/checkout
+תשלום
+
+### התחברות
+https://mutzagim.co.il/login
+התחברות לקוחות
+
+### החשבון שלי
+https://mutzagim.co.il/account
+החשבון שלי
+
+### ההזמנה התקבלה!
+https://mutzagim.co.il/order-success
+תודה על ההזמנה
+
+### מוצרים
+https://mutzagim.co.il/products
+המוצרים שלנו - מוצגים פתרונות אחסון ותצוגה
+
+### Page
+https://mutzagim.co.il/menu-group-1781587327436
+
 ### זיווד רכבים | פתרונות אחסון וסדנה ניידת לרכבים מסחריים
 https://mutzagim.co.il/vehicle-equipment
 פתרונות זיווד רכבים מתקדמים וריהוט תעשייתי נייד. מערכות מדפים, מגירות וציוד לרכבי שירות. תכנון מודולרי המותאם לכל סוגי הרכבים המסחריים.
@@ -73,38 +108,6 @@ https://mutzagim.co.il/vehicle-equipment
 ### גלריות אחסון ורצפות גלריה | פתרונות להכפלת שטח
 https://mutzagim.co.il/storage-mezzanines
 גלריות אחסון תעשייתיות (Mezzanines) להכפלת שטח האחסון במחסן. פתרונות אחסון למשקל כבד, תכנון מודולרי והתאמה אישית למפעלים ולוגיסטיקה.
-
-### Product Detail
-https://mutzagim.co.il/product/:slug
-פרטי המוצר - מוצגים פתרונות אחסון ותצוגה
-
-### Category
-https://mutzagim.co.il/category/:slug
-מוצרים - מוצגים פתרונות אחסון ותצוגה
-
-### Cart
-https://mutzagim.co.il/cart
-עגלת הקניות שלך
-
-### Checkout
-https://mutzagim.co.il/checkout
-תשלום
-
-### Login
-https://mutzagim.co.il/login
-התחברות לקוחות
-
-### Account
-https://mutzagim.co.il/account
-החשבון שלי
-
-### Order Success
-https://mutzagim.co.il/order-success
-תודה על ההזמנה
-
-### Products
-https://mutzagim.co.il/products
-המוצרים שלנו - מוצגים פתרונות אחסון ותצוגה
 
 ## Legal & Policy
 
