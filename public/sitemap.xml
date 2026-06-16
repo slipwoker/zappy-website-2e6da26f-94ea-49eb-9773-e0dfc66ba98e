@@ -574,50 +574,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/menu-group-1781587327436" />
   </url>
   <url>
-    <loc>https://mutzagim.co.il/supermarket-shelving</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/supermarket-shelving" />
-  </url>
-  <url>
-    <loc>https://mutzagim.co.il/ar/supermarket-shelving</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/supermarket-shelving" />
-  </url>
-  <url>
-    <loc>https://mutzagim.co.il/ru/supermarket-shelving</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/supermarket-shelving" />
-  </url>
-  <url>
-    <loc>https://mutzagim.co.il/en/supermarket-shelving</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/supermarket-shelving" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/supermarket-shelving" />
-  </url>
-  <url>
     <loc>https://mutzagim.co.il/light-and-medium-shelving</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -748,6 +704,50 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/advanced-industrial-furniture" />
     <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/advanced-industrial-furniture" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/advanced-industrial-furniture" />
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/vehicle-equipment</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/vehicle-equipment" />
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/ar/vehicle-equipment</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/vehicle-equipment" />
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/ru/vehicle-equipment</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/vehicle-equipment" />
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/en/vehicle-equipment</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/vehicle-equipment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/vehicle-equipment" />
   </url>
   <url>
     <loc>https://mutzagim.co.il/compactus-systems</loc>
@@ -970,6 +970,50 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/cold-room-freezer-shelving-tonon" />
   </url>
   <url>
+    <loc>https://mutzagim.co.il/supermarket-shelving</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/supermarket-shelving" />
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/ar/supermarket-shelving</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/supermarket-shelving" />
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/ru/supermarket-shelving</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/supermarket-shelving" />
+  </url>
+  <url>
+    <loc>https://mutzagim.co.il/en/supermarket-shelving</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/supermarket-shelving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/supermarket-shelving" />
+  </url>
+  <url>
     <loc>https://mutzagim.co.il/dalmine-ls-modular-shelving</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -1056,50 +1100,6 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/vlm-vertical-storage" />
     <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/vlm-vertical-storage" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/vlm-vertical-storage" />
-  </url>
-  <url>
-    <loc>https://mutzagim.co.il/vehicle-equipment</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/vehicle-equipment" />
-  </url>
-  <url>
-    <loc>https://mutzagim.co.il/ar/vehicle-equipment</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/vehicle-equipment" />
-  </url>
-  <url>
-    <loc>https://mutzagim.co.il/ru/vehicle-equipment</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/vehicle-equipment" />
-  </url>
-  <url>
-    <loc>https://mutzagim.co.il/en/vehicle-equipment</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://mutzagim.co.il/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/vehicle-equipment" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/vehicle-equipment" />
   </url>
   <url>
     <loc>https://mutzagim.co.il/storage-mezzanines</loc>
