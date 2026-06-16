@@ -4692,6 +4692,16 @@ body[dir="rtl"] .zappy-catalog-menu .catalog-menu-categories,
 .zappy-catalog-menu.rtl .catalog-menu-categories{flex-direction: row !important;}
 /* V2 E-COMMERCE THEME OVERRIDES: Now handled by ecommerceV2GenerationService.js */
 /* ==END ZAPPY E-COMMERCE CSS== */
+
+.hero-section .container > h1 {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.hero-section .container > p {
+  position: relative !important;
+  z-index: 2 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
