@@ -1,235 +1,10 @@
-<!DOCTYPE html>
-<html lang="he" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow">
-    <title>ההזמנה התקבלה!</title>
-    <meta name="description" content="תודה על ההזמנה">
-    <meta name="keywords" content="">
-    
-    <!-- Favicons -->
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
-    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-    <!-- Zappy Analytics -->
-<script>
-(function() {
-  'use strict';
-  
-  // Configuration
-  var config = {
-    websiteId: '2e6da26f-94ea-49eb-9773-e0dfc66ba98e',
-    apiUrl: 'https://api.zappy5.com/api/analytics/track',
-    sessionDuration: 30 * 60 * 1000, // 30 minutes
-    visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
-    trackPageViews: true,
-    trackClicks: true,
-    trackFormSubmissions: true
-  };
-  
-  // Generate or retrieve persistent visitor ID (30 days)
-  function getVisitorId() {
-    var visitorKey = 'zappy_visitor_' + config.websiteId;
-    var visitor = null;
-    
-    try {
-      visitor = localStorage.getItem(visitorKey);
-      if (visitor) {
-        var visitorData = JSON.parse(visitor);
-        var now = Date.now();
-        
-        // Check if visitor ID is still valid (30 days)
-        if (now - visitorData.created < config.visitorDuration) {
-          // Update last seen timestamp
-          visitorData.lastSeen = now;
-          localStorage.setItem(visitorKey, JSON.stringify(visitorData));
-          return visitorData.id;
-        }
-      }
-    } catch (e) {
-      console.warn('Zappy Analytics: LocalStorage not available');
-    }
-    
-    // Generate new visitor ID
-    var newVisitorId = 'zv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
-    
-    try {
-      localStorage.setItem(visitorKey, JSON.stringify({
-        id: newVisitorId,
-        created: Date.now(),
-        lastSeen: Date.now()
-      }));
-    } catch (e) {
-      // Continue without local storage
-    }
-    
-    return newVisitorId;
-  }
-  
-  // Generate or retrieve session ID (30 minutes)
-  function getSessionId() {
-    var sessionKey = 'zappy_session_' + config.websiteId;
-    var session = null;
-    
-    try {
-      session = sessionStorage.getItem(sessionKey);
-      if (session) {
-        var sessionData = JSON.parse(session);
-        var now = Date.now();
-        
-        // Check if session is still valid
-        if (now - sessionData.timestamp < config.sessionDuration) {
-          // Update timestamp
-          sessionData.timestamp = now;
-          sessionStorage.setItem(sessionKey, JSON.stringify(sessionData));
-          return sessionData.id;
-        }
-      }
-    } catch (e) {
-      console.warn('Zappy Analytics: SessionStorage not available');
-    }
-    
-    // Generate new session ID
-    var newSessionId = 'zs_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
-    
-    try {
-      sessionStorage.setItem(sessionKey, JSON.stringify({
-        id: newSessionId,
-        timestamp: Date.now()
-      }));
-    } catch (e) {
-      // Continue without session storage
-    }
-    
-    return newSessionId;
-  }
-  
-  var visitorId = getVisitorId();
-  var sessionId = getSessionId();
-  
-  // Track an event
-  function trackEvent(eventType, data) {
-    data = data || {};
-    
-    var eventData = {
-      website_id: config.websiteId,
-      event_type: eventType,
-      page_path: window.location.pathname,
-      referrer: document.referrer || 'direct',
-      visitor_id: visitorId,
-      session_id: sessionId,
-      metadata: data
-    };
-    
-    // Use sendBeacon if available (better for page unload events)
-    if (navigator.sendBeacon) {
-      var blob = new Blob([JSON.stringify(eventData)], { type: 'application/json' });
-      navigator.sendBeacon(config.apiUrl, blob);
-    } else {
-      // Fallback to fetch
-      fetch(config.apiUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(eventData),
-        keepalive: true
-      }).catch(function(error) {
-        console.warn('Zappy Analytics: Failed to track event', error);
-      });
-    }
-  }
-  
-  // Track page view
-  if (config.trackPageViews) {
-    trackEvent('pageview', {
-      title: document.title,
-      url: window.location.href
-    });
-  }
-  
-  // Track clicks on important elements
-  if (config.trackClicks) {
-    document.addEventListener('click', function(e) {
-      var target = e.target;
-      
-      // Track button clicks (counted as actions)
-      if (target.tagName === 'BUTTON' || target.closest('button')) {
-        var button = target.tagName === 'BUTTON' ? target : target.closest('button');
-        var clickMeta = {
-          element: 'button',
-          text: button.textContent.trim().substring(0, 100),
-          id: button.id || null,
-          class: button.className || null
-        };
-        
-        trackEvent('click', clickMeta);
-      }
-      
-      // Track link clicks (navigation - not counted as actions)
-      else if (target.tagName === 'A' || target.closest('a')) {
-        var link = target.tagName === 'A' ? target : target.closest('a');
-        var navMeta = {
-          element: 'link',
-          text: link.textContent.trim().substring(0, 100),
-          href: link.href,
-          external: link.hostname !== window.location.hostname
-        };
-        
-        trackEvent('navigation', navMeta);
-      }
-    }, true);
-  }
-  
-  
-  // Track form submissions
-  if (config.trackFormSubmissions) {
-    document.addEventListener('submit', function(e) {
-      var form = e.target;
-      
-      trackEvent('form_submit', {
-        form_id: form.id || null,
-        form_name: form.name || null,
-        form_action: form.action || null,
-        form_method: form.method || 'GET'
-      });
-    }, true);
-  }
-  
-  // Track time on page (send on page unload)
-  var pageLoadTime = Date.now();
-  
-  window.addEventListener('beforeunload', function() {
-    var timeOnPage = Math.floor((Date.now() - pageLoadTime) / 1000); // in seconds
-    
-    trackEvent('page_unload', {
-      time_on_page: timeOnPage,
-      page_path: window.location.pathname
-    });
-  });
-  
-  // Expose tracking function globally for custom events
-  window.zappyAnalytics = {
-    track: trackEvent,
-    getVisitorId: function() { return visitorId; },
-    getSessionId: function() { return sessionId; }
-  };
-  
-})();
-</script>
-<!-- End Zappy Analytics -->
-    <meta property="og:title" content="ההזמנה התקבלה!">
-    <meta property="og:description" content="תודה על ההזמנה">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ההזמנה התקבלה!">
-    <meta name="twitter:description" content="תודה על ההזמנה">
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://mutzagim.co.il#organization","name":"מוצגים פתרונות אחסון ותצוגה","url":"https://mutzagim.co.il","address":{"@type":"PostalAddress","streetAddress":"כתובת החברה, יקנעם, ישראל"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"effi@mutzagim.co.il","telephone":"+972542770665","availableLanguage":["he","ar","ru","en"]}]},{"@type":"WebSite","@id":"https://mutzagim.co.il#website","url":"https://mutzagim.co.il","name":"מוצגים פתרונות אחסון ותצוגה","publisher":{"@id":"https://mutzagim.co.il#organization"},"inLanguage":"he"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://mutzagim.co.il"},{"@type":"ListItem","position":2,"name":"Order Success","item":"https://mutzagim.co.il/order-success"}]}]}</script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!DOCTYPE html><html lang="en" dir="ltr" data-zappy-site-type="ecommerce"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shelving for Cold Rooms and Freezers</title>
+  <meta name="description" content="Official Tonon Italy representative in Israel. Modular, hygienic and stainless steel shelving solutions for cold rooms and freezers. Industrial storage shelves for factories, food chains and pharma.">
+  <meta name="keywords" content="industrial storage shelves for factories, heavy-duty storage solutions, compactus systems for businesses, industrial furniture for logistics companies">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
@@ -781,6 +556,103 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         right: 0;
       }
     </style>
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Cold Room and Freezer Shelving | Tonon">
+    <meta property="og:description" content="Official Tonon Italy representative in Israel. Modular, hygienic and stainless steel shelving solutions for cold rooms and freezers. Industrial storage shelves for factories, food chains and pharma.">
+    <meta property="og:image" content="/assets/page-hero-tonon-shelving-1774549086660-og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:alt" content="מדפים לחדרי קירור ומקפיאים | Tonon">
+    <meta property="og:locale" content="he_IL">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cold Room and Freezer Shelving | Tonon">
+    <meta name="twitter:description" content="Official Tonon Italy representative in Israel. Modular, hygienic and stainless steel shelving solutions for cold rooms and freezers. Industrial storage shelves for factories, food chains and pharma.">
+    <meta name="twitter:image" content="/assets/page-hero-tonon-shelving-1774549086660-og.jpg">
+    <meta name="twitter:image:alt" content="מדפים לחדרי קירור ומקפיאים | Tonon"><style id="zappy-ai-page-styles">
+
+
+/* Zappy Base Styles for Edit Mode Compatibility */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; box-sizing: border-box; }
+.section { padding: 4rem 0; position: relative; display: block !important; }
+/* Reset section grid - sections should contain grids, not BE grids */
+section[data-zappy-section] { display: block !important; grid-template-columns: unset !important; }
+/* Grid layouts - consistent styling across all grid types */
+/* Services/Gallery/Portfolio grids - adaptive with lower min-width for more columns */
+/* Note: :not(.zappy-preserve-css-grid) excludes grids that have custom inline styles that should be preserved */
+.services-grid:not(.zappy-preserve-css-grid), .gallery-grid:not(.zappy-preserve-css-grid), .portfolio-grid:not(.zappy-preserve-css-grid), .blog-grid:not(.zappy-preserve-css-grid), .testimonials-grid:not(.zappy-preserve-css-grid) {
+  display: grid !important;
+  gap: 2rem !important;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)) !important;
+}
+/* Generic grid - slightly larger min-width */
+.grid:not(.zappy-preserve-css-grid) { display: grid !important; gap: 2rem !important; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)) !important; }
+.grid.grid-2 { grid-template-columns: repeat(2, 1fr) !important; }
+.grid.grid-3 { grid-template-columns: repeat(3, 1fr) !important; }
+.grid.grid-4 { grid-template-columns: repeat(4, 1fr) !important; }
+/* Card styling */
+.card, .service-card, .blog-card, .testimonial-card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.card:hover, .service-card:hover, .blog-card:hover, .testimonial-card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+.card img, .service-card img, .blog-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.btn { display: inline-block; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; cursor: pointer; border: none; }
+.btn-primary { background-color: #7090a0; color: white; }
+.btn-primary:hover { filter: brightness(1.1); }
+/* Pricing grid specific */
+.pricing-grid { display: grid !important; gap: 2rem !important; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important; }
+.pricing-card { background: #fff !important; border-radius: 16px !important; padding: 2rem !important; box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important; transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; }
+.pricing-card:hover { transform: translateY(-8px); box-shadow: 0 12px 40px rgba(0,0,0,0.12) !important; }
+.pricing-card.featured, .pricing-card.popular { border: 2px solid #7090a0 !important; position: relative; }
+.pricing-card .card-header { padding-bottom: 1.5rem; border-bottom: 1px solid #eee; margin-bottom: 1.5rem; }
+.pricing-card .card-header h3 { font-size: 1.5rem; margin-bottom: 0.5rem; color: #1f2937; }
+.pricing-card .price { font-size: 2.5rem; font-weight: 700; color: #1f2937; }
+.pricing-card .price .period { font-size: 1rem; font-weight: 400; color: #6b7280; }
+.pricing-card .plan-desc, .pricing-card .description { color: #6b7280; font-size: 0.95rem; margin-top: 0.5rem; }
+.pricing-card .card-body, .pricing-card .card-footer { text-align: center; }
+.pricing-card .features-list {list-style: none !important; padding: 0 !important; margin: 0 0 1.5rem 0 !important;}html[dir="rtl"] .pricing-card .features-list{text-align: right;}
+.pricing-card .features-list li { padding: 0.5rem 0; }
+.pricing-card .features-list li.disabled { color: #9ca3af; }
+.pricing-card .popular-badge { background: #7090a0; color: white; padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; text-align: center; }
+.pricing-card .btn { display: block; width: 100%; text-align: center; margin-top: 1rem; }
+.btn-outline { background: transparent !important; border: 2px solid #7090a0 !important; color: #7090a0 !important; }
+.btn-outline:hover { background: #7090a0 !important; color: white !important; }
+.card { background: #fff !important; border-radius: 12px !important; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important; }
+@media (max-width: 768px) {
+  .container { padding: 0 1rem; }
+  .section { padding: 2.5rem 0; }
+  .grid:not(.zappy-preserve-css-grid), .services-grid:not(.zappy-preserve-css-grid), .gallery-grid:not(.zappy-preserve-css-grid), .portfolio-grid:not(.zappy-preserve-css-grid), .blog-grid:not(.zappy-preserve-css-grid), .testimonials-grid:not(.zappy-preserve-css-grid) { 
+    gap: 1.5rem; 
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) !important; 
+  }
+  .grid.grid-2:not(.zappy-preserve-css-grid), .grid.grid-3:not(.zappy-preserve-css-grid), .grid.grid-4:not(.zappy-preserve-css-grid) { grid-template-columns: 1fr; }
+  .pricing-grid:not(.zappy-preserve-css-grid) { grid-template-columns: 1fr; }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .grid.grid-3:not(.zappy-preserve-css-grid), .grid.grid-4:not(.zappy-preserve-css-grid) { grid-template-columns: repeat(2, 1fr); }
+  .services-grid:not(.zappy-preserve-css-grid), .gallery-grid:not(.zappy-preserve-css-grid), .portfolio-grid:not(.zappy-preserve-css-grid), .blog-grid:not(.zappy-preserve-css-grid) { 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important; 
+  }
+}
+/* Hero container fixes - contain absolute images and prevent viewport overflow */
+/* NOTE: Do NOT force overflow:hidden — sections with bottom SVG dividers need overflow:visible */
+[class*="hero"], [id*="hero"] { position: relative !important; max-width: 100% !important; box-sizing: border-box !important; }
+[class*="hero"] > .container, [id*="hero"] > .container { position: relative; z-index: 2; }
+.hero-image-wrapper, [class*="image-wrapper"] { position: relative !important; overflow: hidden !important; }
+/* Prevent hero positioning on non-hero page images */
+img[data-no-hero-position] { position: static !important; }
+/* Reset hero text colors for AI-generated pages - remove !important color overrides */
+.ai-generated-page .hero-content h1,
+.ai-generated-page .hero-content h2,
+.ai-generated-page .hero-content h3,
+.ai-generated-page .hero-content p,
+.ai-generated-page [class*="hero"] h1,
+.ai-generated-page [class*="hero"] h2,
+.ai-generated-page [class*="hero"] h3,
+.ai-generated-page [class*="hero"] p { color: unset !important; }
+/* End Zappy Base Styles */
+
+</style>
     <!-- Iconify for cross-platform flag icons -->
     <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script><style id="zappy-multilang-css">
 /* ============================================
@@ -815,9 +687,7 @@ html[dir="ltr"] .terms-content li,
 html[dir="ltr"] .privacy-content li {
   direction: ltr !important;
   text-align: left !important;
-}
-
-/* ZAPPY-LTR-TEXTALIGN-OVERRIDES:BEGIN */
+}html[dir="rtl"] /* ZAPPY-LTR-TEXTALIGN-OVERRIDES:BEGIN */
 /* ============================================
    LTR TEXT-ALIGN OVERRIDES FOR RTL-BAKED CONTENT
    See block comment at top of multiLanguageService.js for full rationale.
@@ -829,7 +699,7 @@ html[dir="ltr"] .privacy-content li {
    - .order-success-card           → checkout success card
    - .privacy-consent-label        → contact-form consent checkbox row
    - .text-left                    → AI sometimes literally writes
-                                     ".text-left { text-align: right }" in
+                                     ".text-left{text-align: right ;}" in
                                      Hebrew sites — flip it so the class
                                      name matches its behaviour.
    Uses text-align: start (resolves to left in LTR, right in RTL via the
@@ -1511,54 +1381,213 @@ html[dir="rtl"] body {
   }
 }
 </style>
+<!-- hreflang tags for SEO -->
+<link rel="alternate" hreflang="he" href="https://mutzagim.co.il/refrigeration-shelving-solutions">
+<link rel="alternate" hreflang="ar" href="https://mutzagim.co.il/ar/refrigeration-shelving-solutions">
+<link rel="alternate" hreflang="ru" href="https://mutzagim.co.il/ru/refrigeration-shelving-solutions">
+<link rel="alternate" hreflang="en" href="https://mutzagim.co.il/en/refrigeration-shelving-solutions">
+<link rel="alternate" hreflang="x-default" href="https://mutzagim.co.il/refrigeration-shelving-solutions">    <link rel="stylesheet" href="/styles.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="/styles.css">
+<!-- Zappy V2 LTR Layout Fix (CSS) -->
+<style>
+/* Fix V2 navbar layout for LTR pages - CSS applied immediately to prevent FOUC */
+/* CRITICAL: direction property affects how flex order is interpreted */
+/* Direction applies to all screens, but flex-direction: row is DESKTOP ONLY */
+/* IMPORTANT: We deliberately scope the bare element selectors to .navbar
+   (so the selector reads "header.navbar" / "nav.navbar"). Earlier the bare
+   header and nav selectors here were catching every <nav> on the page,
+   including <nav class="product-breadcrumb"> on the product detail /
+   category pages and <nav class="zappy-catalog-menu"> in the storefront
+   chrome. Both then inherited justify-content: space-between !important and
+   exploded into full-width-spread layouts only on the English (LTR) URLs
+   (Hebrew was fine because the site has no html[dir="ltr"]). The .navbar /
+   .nav-container selectors below already cover the actual main navbar
+   regardless of which tag carries the class, so the bare-element fallback
+   was both unnecessary and actively harmful. Generic across every site /
+   language combination. */
+html[dir="ltr"] header.navbar,
+html[dir="ltr"] nav.navbar,
+html[dir="ltr"] .navbar,
+html[dir="ltr"] .nav-container {
+  direction: ltr !important;
+  justify-content: space-between !important;
+}
 
-    <style id="zappy-widget-visibility">
-      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
-      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
-      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
-      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
-      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
-      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
-      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
-      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
-      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
-      html[dir="ltr"] ._access-icon,
-      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
-      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
-      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
-      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
-      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
-      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
-      @media (max-width: 768px) {
-        #mic-access-tool-general-button, .mic-access-tool-general-button,
-        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
-        }
-      }
-      @media (min-width: 769px) {
-        #mic-access-tool-general-button, .mic-access-tool-general-button,
-        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
-        }
-      }
-    </style>
-</head>
-<body>
+/* nav-right-group should appear FIRST (left side) in LTR */
+html[dir="ltr"] .nav-right-group {
+  direction: ltr !important;
+  order: -1 !important;
+  margin-left: 0 !important;
+}
 
-  <script>
-    window.ZAPPY_WEBSITE_ID = "2e6da26f-94ea-49eb-9773-e0dfc66ba98e";
-    // Preview pages are served by the Zappy server itself (localhost in dev), so use that base.
-    // Deployed sites are static and must call the public Zappy API (never localhost).
-    window.ZAPPY_API_BASE = "https://api.zappy5.com";
-  </script>
+/* nav-cta-container should appear LAST (right side) in LTR */
+html[dir="ltr"] .nav-cta-container {
+  direction: ltr !important;
+  order: 1 !important;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+/* nav-menu: ensure LTR direction */
+html[dir="ltr"] .nav-menu,
+html[dir="ltr"] #navMenu {
+  direction: ltr !important;
+  margin-left: 0 !important;
+}
+
+/* nav-brand: should be first child within nav-right-group */
+html[dir="ltr"] .nav-brand {
+  direction: ltr !important;
+  order: -1 !important;
+  margin-right: 1rem !important;
+  margin-left: 0 !important;
+}
+
+/* DESKTOP ONLY: Horizontal flex layout - prevents breaking mobile vertical menu */
+/* Same scoping rationale as above: bare element selectors would force
+   flex-direction: row on every <header>/<nav> in the page (article headers,
+   breadcrumbs, catalog menus, footer navigation). Restrict to .navbar. */
+@media (min-width: 769px) {
+  html[dir="ltr"] header.navbar,
+  html[dir="ltr"] nav.navbar,
+  html[dir="ltr"] .navbar,
+  html[dir="ltr"] .nav-container {
+    flex-direction: row !important;
+  }
   
+  html[dir="ltr"] .nav-right-group,
+  html[dir="ltr"] .nav-cta-container {
+    flex-direction: row !important;
+  }
+  
+  html[dir="ltr"] .nav-menu,
+  html[dir="ltr"] #navMenu {
+    flex-direction: row !important;
+  }
+
+  /* V2 ecommerce sites set justify-content: space-between on nav-right-group,
+     pushing the menu away from the logo in LTR. Override to flex-start. */
+  html[dir="ltr"] .nav-right-group {
+    justify-content: flex-start !important;
+  }
+  html[dir="ltr"] .nav-right-group .nav-ecommerce-icons {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+
+  /* E-commerce layout WITH nav-right-group wrapper:
+     Menu links wrap only when horizontal space runs out. */
+  html[dir="ltr"] .nav-right-group > .nav-brand {
+    order: -1 !important;
+  }
+  html[dir="ltr"] .nav-right-group > .nav-menu,
+  html[dir="ltr"] .nav-right-group > #navMenu {
+    order: 0 !important;
+    margin-inline-start: 0 !important;
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+    align-items: center !important;
+  }
+  html[dir="ltr"] .nav-right-group > .nav-menu > li,
+  html[dir="ltr"] .nav-right-group > #navMenu > li {
+    flex: 0 0 auto !important;
+  }
+  html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons {
+    order: 2 !important;
+    margin-inline-start: auto !important;
+    flex: 0 0 auto !important;
+    min-width: max-content !important;
+  }
+  html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left {
+    order: 2 !important;
+    margin-inline-start: auto !important;
+    flex: 0 0 auto !important;
+    min-width: max-content !important;
+  }
+
+  /* E-commerce flat nav layout (no nav-right-group wrapper): */
+  html[dir="ltr"] .nav-container > .nav-brand {
+    order: -1 !important;
+  }
+  html[dir="ltr"] .nav-container > .nav-menu,
+  html[dir="ltr"] .nav-container > #navMenu {
+    order: 1 !important;
+    margin-inline-start: 0 !important;
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+    align-items: center !important;
+  }
+  html[dir="ltr"] .nav-container > .nav-menu > li,
+  html[dir="ltr"] .nav-container > #navMenu > li {
+    flex: 0 0 auto !important;
+  }
+  html[dir="ltr"] .nav-container > .lang-switcher,
+  html[dir="ltr"] .nav-container > .nav-ecommerce-icons {
+    order: 2 !important;
+    margin-inline-start: auto !important;
+    flex: 0 0 auto !important;
+    min-width: max-content !important;
+  }
+  html[dir="ltr"] .nav-container > .nav-ecommerce-icons.nav-icons-left {
+    margin-inline-start: auto !important;
+    flex: 0 0 auto !important;
+    min-width: max-content !important;
+  }
+  html[dir="rtl"] .nav-right-group > .nav-menu,
+  html[dir="rtl"] .nav-right-group > #navMenu,
+  html[dir="rtl"] .nav-container > .nav-menu,
+  html[dir="rtl"] .nav-container > #navMenu {
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    overflow: visible !important;
+    align-items: center !important;
+  }
+  html[dir="rtl"] .nav-right-group > .nav-menu > li,
+  html[dir="rtl"] .nav-right-group > #navMenu > li,
+  html[dir="rtl"] .nav-container > .nav-menu > li,
+  html[dir="rtl"] .nav-container > #navMenu > li {
+    flex: 0 0 auto !important;
+  }
+  html[dir="rtl"] .nav-right-group > .nav-ecommerce-icons,
+  html[dir="rtl"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left,
+  html[dir="rtl"] .nav-container > .nav-ecommerce-icons,
+  html[dir="rtl"] .nav-container > .nav-ecommerce-icons.nav-icons-left {
+    flex: 0 0 auto !important;
+    min-width: max-content !important;
+  }
+}
+
+/* Search box button position fix for LTR pages */
+html[dir="ltr"] .nav-search-box {
+  direction: ltr !important;
+}
+html[dir="ltr"] .nav-search-btn {
+  position: absolute !important;
+  left: auto !important;
+  right: 4px !important;
+}
+html[dir="ltr"] .nav-search-input {
+  direction: ltr !important;
+  text-align: left !important;
+  padding-left: 14px !important;
+  padding-right: 40px !important;
+}
+html[dir="ltr"] .nav-search-results {
+  left: 0 !important;
+  right: auto !important;
+}
+
+/* lang-switcher positioning */
+html[dir="ltr"] .lang-switcher {
+  direction: ltr !important;
+  margin-left: 0 !important;
+}
+</style></head>
+<body>
+<script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
+
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
@@ -1571,11 +1600,24 @@ html[dir="rtl"] body {
       </div>
       <div class="search-results" id="mobile-search-results"></div>
     </div>
+  
+<script>window.ZAPPY_WEBSITE_ID = "2e6da26f-94ea-49eb-9773-e0dfc66ba98e";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
+    <!-- ZAPPY_INTEGRATION_START analytics:add_google_tag_manager -->
+<div data-zappy-integration="analytics:add_google_tag_manager" style="display:contents">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWD9Q32P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+</div>
+<!-- ZAPPY_INTEGRATION_END analytics:add_google_tag_manager -->
+
+<!-- Zappy Attribution Header -->
+<div id="zappy-attribution-header" class="zappy-header" style="display: none;">
+  <p><span><span><span><span><span>Happily created by&nbsp;</span></span></span></span></span><a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" class="zappy-link">Zappy</a></p>
+</div>
   <nav class="navbar" id="navbar">
     <div class="container nav-container">
       <div class="nav-brand">
-        <a href="/" class="logo-link">
-          <img src="/assets/logo-1775752141450-9blcbb.webp?v=1775752144457-whcejo" alt="מוצגים פתרונות אחסון ותצוגה" class="logo" data-i18n-alt="home_alt_66">
+        <a href="/en" class="logo-link">
+          <img src="/assets/logo-1775752141450-9blcbb.webp?v=1775752144457-whcejo" alt="Display Storage and Display Solutions" class="logo">
         </a>
       </div>
       
@@ -1594,18 +1636,25 @@ html[dir="rtl"] body {
         </svg>
       </button>
       
-      <ul class="nav-menu" id="navMenu"><li class="menu-group-item"><span class="menu-group-title" data-i18n="new_h2_112">קטגוריות</span><ul class="sub-menu"><li><a href="/light-and-medium-shelving" data-i18n="home_nav_47">מידוף קל ובינוני</a></li><li><a href="/heavy-duty-shelving" data-i18n="home_nav_48">מידוף כבד | פתרונות אחסון תעשייתי למפעלים ולוגיסטיקה</a></li><li><a href="/advanced-industrial-furniture" data-i18n="home_nav_49">ריהוט תעשייתי מתקדם | פתרונות אחסון למפעלים</a></li><li><a href="/vehicle-equipment" data-i18n="vehicle_equipment_page_title">זיווד רכבים</a></li><li><a href="/compactus-systems" data-i18n="home_nav_50">מתקני קומפקטוס | פתרונות אחסון חכם וחיסכון במקום</a></li><li><a href="/plastic-storage-containers-977433" data-i18n="home_nav_52">ארגזי פלסטיק ומיכלים לאחסון | פתרונות תעשייתיים</a></li><li><a href="/esd-containers" data-i18n="home_nav_53">מיכלים וארגזים אנטי סטטיים (ESD) | פתרונות אחסון לתעשייה</a></li><li><a href="/chrome-wire-shelving" data-i18n="new_a_598">מדפי רשת כרום ניקל | פתרונות אחסון תעשייתי</a></li><li><a href="/refrigeration-shelving-solutions" data-i18n="cold_room_freezer_shelving_tonon_page_title">מדפים לחדרי קירור ומקפיאים</a></li><li><a href="/supermarket-shelving" data-i18n="supermarket_shelving_page_title">מדפי תצוגה לסופרמקטים | פתרונות מידוף לחנויות מזון וקמעונאות</a></li><li><a href="/dalmine-ls-modular-shelving" data-i18n="dalmine_ls_modular_shelving_page_title">מערכת מדפים מודולרית Dalmine LS</a></li><li><a href="/vlm-vertical-storage" data-i18n="vlm_vertical_storage_page_title">מערכת אחסון ורטיקלי VLM | פתרונות אחסון תעשייתי</a></li><li><a href="/storage-mezzanines" data-i18n="home_nav_55">גלריות אחסון ורצפות גלריה | פתרונות להכפלת שטח</a></li></ul></li><li><a href="/services" data-i18n="home_nav_61">שירותים</a></li><li><a href="/about" data-i18n="home_nav_63">אודות</a></li><li><a href="/contact-us" data-i18n="home_nav_64">צרו קשר</a></li><li class="menu-item-has-children zappy-products-dropdown">
-      <a href="/products">
+      <ul class="nav-menu" id="navMenu"><li class="menu-group-item"><span class="menu-group-title">Categories</span><ul class="sub-menu"><li><a href="/en/light-and-medium-shelving">Light and Medium Shelving</a></li><li><a href="/en/heavy-duty-shelving">Heavy Shelving | Industrial Storage Solutions for Factories and Logistics</a></li><li><a href="/en/advanced-industrial-furniture">Advanced Industrial Furniture | Storage Solutions for Factories</a></li><li><a href="/en/vehicle-equipment">Vehicle Equipment</a></li><li><a href="/en/compactus-systems">Compactus Installations | Smart Storage Solutions and Space Saving</a></li><li><a href="/en/plastic-storage-containers-977433">Plastic Boxes and Storage Containers | Industrial Solutions</a></li><li><a href="/en/esd-containers">Anti-Static Containers and Boxes (ESD) | Industrial Storage Solutions</a></li><li><a href="/en/chrome-wire-shelving">מדפי רשת כרום ניקל | פתרונות אחסון תעשייתי</a></li><li><a href="/en/refrigeration-shelving-solutions">Shelving for Cold Rooms and Freezers</a></li><li><a href="/en/supermarket-shelving">Display Shelving for Supermarkets | Shelving Solutions for Food Stores and Retail</a></li><li><a href="/en/dalmine-ls-modular-shelving">Dalmine LS Modular Shelving System</a></li><li><a href="/en/vlm-vertical-storage">VLM Vertical Storage System | Industrial Storage Solutions</a></li><li><a href="/en/storage-mezzanines">Storage Galleries and Gallery Floors | Solutions for Space Multiplication</a></li></ul></li><li><a href="/en/services">Services</a></li><li><a href="/en/about">About</a></li><li><a href="/en/contact-us">Contact Us</a></li><li class="menu-item-has-children zappy-products-dropdown">
+      <a href="/en/products">
         מוצרים
         <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M6 9l6 6 6-6"></path>
         </svg>
       </a>
       <ul class="sub-menu" id="zappy-nav-category-links">
-        <li><a href="/products" data-i18n="ecom_products">מוצרים</a></li>
+        <li><a href="/en/products">מוצרים</a></li>
         <!-- Categories will be loaded dynamically -->
       </ul>
-    </li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+    </li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/en/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="lang-switcher" data-icon-color="currentColor" style="position:relative;display:inline-flex;align-items:center;margin-left:auto;margin-right:8px;">
+        <button class="lang-switcher-current" type="button" style="display:flex;align-items:center;justify-content:center;gap:6px;background:transparent;border:none;cursor:pointer;padding:8px;border-radius:8px;color:inherit;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0;"><path d="M12.039,.002s0,0,0,0c-.013,0-.026-.002-.039-.002-.005,0-.009,0-.014,0-.002,0-.003,0-.005,0C5.373,.011,0,5.39,0,12s5.383,12,12,12,12-5.383,12-12S18.638,.023,12.039,.002Zm9.747,6.998h-4.814c-1.067-2.669-2.712-4.781-3.731-5.925,3.734,.421,6.901,2.719,8.546,5.925Zm-4.786,5c0,1.407-.292,2.753-.731,4H7.731c-.439-1.247-.731-2.593-.731-4s.292-2.754,.73-4h8.539c.439,1.247,.731,2.593,.731,4Zm-1.122,5c-1.229,2.838-3.116,4.99-3.878,5.788-.762-.798-2.649-2.95-3.878-5.788h7.755ZM8.121,7c1.229-2.841,3.117-4.992,3.879-5.789,.762,.798,2.649,2.95,3.878,5.789h-7.757ZM10.757,1.075c-1.025,1.15-2.668,3.264-3.73,5.925H2.214C3.859,3.795,7.024,1.498,10.757,1.075ZM1.764,8H6.668c-.403,1.247-.668,2.589-.668,4s.265,2.752,.669,4H1.764c-.487-1.242-.764-2.588-.764-4s.277-2.758,.764-4Zm.45,9H7.029c1.067,2.669,2.712,4.781,3.731,5.925-3.734-.421,6.901-2.719-8.546-5.925Zm11.026,5.925c1.019-1.144,2.664-3.257,3.731-5.925h4.814c-1.645,3.206-4.812,5.504-8.546,5.925Zm8.996-6.925h-4.905c.404-1.248,.669-2.589,.669-4s-.265-2.752-.669-4h4.905c.487,1.242,.764,2.588,.764,4s-.277,2.758-.764,4Z"></path></svg>
+        </button>
+        <div class="lang-switcher-dropdown" style="position:absolute;top:100%;right:0;background:white;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.15);min-width:150px;opacity:0;visibility:hidden;transform:translateY(-8px);transition:all 0.2s ease;z-index:1000;">
+          <a href="/refrigeration-shelving-solutions" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/il.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> עברית</a><a href="/ar/refrigeration-shelving-solutions" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/sa.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> العربية</a><a href="/ru/refrigeration-shelving-solutions" class="lang-option" style="display:flex;align-items:center;gap:8px;width:100%;padding:10px 14px;text-decoration:none;color:#333;font-size:14px;"><img src="https://api.iconify.design/circle-flags/ru.svg" width="20" height="20" alt="" style="display:inline-block;vertical-align:middle;border-radius:50%;"> Русский</a>
+        </div>
+      </div><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
       <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
@@ -1614,106 +1663,237 @@ html[dir="rtl"] body {
   </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div>
       
       
-<div class="lang-switcher" data-no-icon-edit="true" data-icon-color="currentColor" style="position:relative;display:inline-flex;align-items:center;z-index:1000;margin:0 4px;">
-  <button class="lang-switcher-current" aria-haspopup="true" aria-expanded="false" data-no-icon-edit="true" style="display:flex;align-items:center;padding:8px;background:transparent;border:none;border-radius:6px;cursor:pointer;color:inherit;">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0;" data-no-icon-edit="true"><path d="M12.039,.002s0,0,0,0c-.013,0-.026-.002-.039-.002-.005,0-.009,0-.014,0-.002,0-.003,0-.005,0C5.373,.011,0,5.39,0,12s5.383,12,12,12,12-5.383,12-12S18.638,.023,12.039,.002Zm9.747,6.998h-4.814c-1.067-2.669-2.712-4.781-3.731-5.925,3.734,.421,6.901,2.719,8.546,5.925Zm-4.786,5c0,1.407-.292,2.753-.731,4H7.731c-.439-1.247-.731-2.593-.731-4s.292-2.754,.73-4h8.539c.439,1.247,.731,2.593,.731,4Zm-1.122,5c-1.229,2.838-3.116,4.99-3.878,5.788-.762-.798-2.649-2.95-3.878-5.788h7.755ZM8.121,7c1.229-2.841,3.117-4.992,3.879-5.789,.762,.798,2.649,2.95,3.878,5.789h-7.757ZM10.757,1.075c-1.025,1.15-2.668,3.264-3.73,5.925H2.214C3.859,3.795,7.024,1.498,10.757,1.075ZM1.764,8H6.668c-.403,1.247-.668,2.589-.668,4s.265,2.752,.669,4H1.764c-.487-1.242-.764-2.588-.764-4s.277-2.758,.764-4Zm.45,9H7.029c1.067,2.669,2.712,4.781,3.731,5.925-3.734-.421-6.901-2.719-8.546-5.925Zm11.026,5.925c1.019-1.144,2.664-3.257,3.731-5.925h4.814c-1.645,3.206-4.812,5.504-8.546,5.925Zm8.996-6.925h-4.905c.404-1.248,.669-2.589,.669-4s-.265-2.752-.669-4h4.905c.487,1.242,.764,2.588,.764,4s-.277,2.758-.764,4Z"></path></svg>
-  </button>
-  <div class="lang-switcher-dropdown" role="menu" style="position:absolute;top:100%;right:0;margin-top:4px;min-width:140px;background:white;border:1px solid rgba(128,128,128,0.2);border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.15);opacity:0;visibility:hidden;transform:translateY(-8px);transition:all 0.2s ease;z-index:1001;"><button class="lang-option" data-lang="ar">🇸🇦 العربية</button>
-        <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
-        <button class="lang-option" data-lang="en">🇺🇸 English</button></div>
-</div>
+
+      
+      <style>
+        .lang-switcher:hover .lang-switcher-dropdown,
+        .lang-switcher:focus-within .lang-switcher-dropdown {
+          opacity: 1 !important;
+          visibility: visible !important;
+          transform: translateY(0) !important;
+        }
+        .lang-option:hover {
+          background: #f5f5f5;
+        }
+      </style>
+      <script data-no-icon-edit="true">(function(){function f(){var b=document.querySelector('.lang-switcher-current');if(!b)return;var n=b.closest('nav')||b.closest('header')||b.closest('.navbar');if(!n)return;var a=n.querySelector('.nav-menu a,.nav-links a');if(!a)a=n.querySelector('a:not(.lang-option):not(.lang-switcher-current):not([class*="logo"])');if(a){var c=getComputedStyle(a).color;if(c&&c!=='rgb(0, 0, 0)'&&c!=='rgba(0, 0, 0, 0)'){b.style.color=c;return;}}var s=getComputedStyle(n).backgroundColor;if(s&&s!=='rgba(0, 0, 0, 0)'&&s!=='transparent'){var m=s.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);if(m){var l=(0.299*parseInt(m[1])+0.587*parseInt(m[2])+0.114*parseInt(m[3]))/255;b.style.color=l>0.5?'#1a1a1a':'#F3FAFF';}}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',f);}else{setTimeout(f,0);}})()</script>
+    
 <script data-no-icon-edit="true">(function(){function f(){var b=document.querySelector('.lang-switcher-current');if(!b)return;var n=b.closest('nav')||b.closest('header')||b.closest('.navbar');if(!n)return;var a=n.querySelector('.nav-menu a,.nav-links a');if(!a)a=n.querySelector('a:not(.lang-option):not(.lang-switcher-current):not([class*="logo"])');if(a){var c=getComputedStyle(a).color;if(c&&c!=='rgb(0, 0, 0)'&&c!=='rgba(0, 0, 0, 0)'){b.style.color=c;return;}}var s=getComputedStyle(n).backgroundColor;if(s&&s!=='rgba(0, 0, 0, 0)'&&s!=='transparent'){var m=s.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);if(m){var l=(0.299*parseInt(m[1])+0.587*parseInt(m[2])+0.114*parseInt(m[3]))/255;b.style.color=l>0.5?'#1a1a1a':'#F3FAFF';}}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',f);}else{setTimeout(f,0);}})()</script>
     </div>
-  </nav>
-  <main class="page-container ecommerce-page">
-    
-        <section class="order-success-section">
-          <div class="order-success-container order-success-card">
-            <div class="order-success-icon">
-              <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
-                <circle cx="50" cy="50" r="48" fill="#10b981"></circle>
-                <path d="M30 50l15 15 25-30" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
-              </svg>
-            </div>
-            <h1 class="order-success-title">תודה על ההזמנה <span class="order-number-inline" id="order-number-value">טוען פרטי הזמנה...</span></h1>
-            <p class="order-success-email" id="order-confirmation-email">אישור הזמנה נשלח לאימייל שלך</p>
-            <div class="order-success-divider"></div>
-            <div class="order-success-details">
-              <div class="order-success-detail-block">
-                <div class="order-success-detail-label">תאריך עסקה</div>
-                <div class="order-success-detail-value" id="order-date-value">-</div>
-              </div>
-              <div class="order-success-detail-block">
-                <div class="order-success-detail-label">אמצעי תשלום</div>
-                <div class="order-success-detail-value" id="order-payment-value">-</div>
-              </div>
-              <div class="order-success-detail-block">
-                <div class="order-success-detail-label">שיטת משלוח</div>
-                <div class="order-success-detail-value" id="order-shipping-value">-</div>
-              </div>
-            </div>
-            <div class="order-details-section" id="order-details-section" style="display: none;">
-              <h2>פרטי ההזמנה</h2>
-              <div class="order-items-list" id="order-items-list"></div>
-              <div class="order-totals-summary" id="order-totals-summary"></div>
-            </div>
-            <a href="/" class="btn btn-primary continue-home-btn">המשך לדף הבית</a>
+  </nav><main class="page-main blog-page ai-generated-page">
+  <!-- HERO SECTION -->
+  <section class="section hero-section" id="hero" style="padding-top: 84px !important; padding-right: 0px; padding-bottom: 4rem; padding-left: 0px; border-bottom: 1px solid rgb(192, 208, 224); position: relative; overflow: hidden; background-color: rgb(248, 249, 250) !important; margin-top: -84px !important; direction: rtl;" data-zappy-section="true">
+    <div class="container" style="display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 900px; margin: 0px auto; direction: rtl;">
+      <h1 style="font-family: system-ui, sans-serif; font-size: 2.5rem; margin-bottom: 1rem; font-weight: 800; color: rgb(16, 32, 48) !important;">Cold room and freezer shelving – Tonon Italy</h1>
+      <p style="font-family: Inter, sans-serif; font-size: 1.2rem; margin-bottom: 2.5rem; line-height: 1.6; color: rgb(16, 32, 48) !important;">Official representation in Israel of the leading global brand. Modular, hygienic and stainless steel shelving systems, which constitute a strict quality standard for industrial storage shelving for factories, retail chains, hotels and the pharmaceutical industry.</p>
+      <img data-placeholder="hero-tonon-shelving" data-context="High-quality Tonon modular shelving system inside a clean, modern commercial cold room, stainless steel and blue accents" src="/assets/page-hero-tonon-shelving-1781590344821-kdwjso.webp" alt="Tonon Cold Room Shelving System" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.15); display: block;" class="generated-image" data-og-image="/assets/page-hero-tonon-shelving-1774549086660-og.jpg" data-element-type="image" data-element-id="img-1781589262597-r6mhu9gtt" data-zappy-object-position="50% 50%" data-zappy-zoom="1">
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="section features-section" id="features" style="padding: 4rem 0px; background-color: rgb(255, 255, 255) !important; direction: rtl;" data-zappy-section="true">
+    <div class="container" style="direction: rtl;">
+      <h2 style="font-family: system-ui, sans-serif; font-size: 2rem; text-align: center; margin-bottom: 3rem; font-weight: 700; color: rgb(16, 32, 48) !important;">Advantages of Tonon systems</h2>
+      <div class="services-grid zappy-preserve-css-grid" id="zappy-auto-grid-1781599026185-l190tz" data-zappy-auto-grid="true" data-original-item-width="316" data-original-gap="32px" style="--zappy-grid-cols: repeat(auto-fit, minmax(316px, 1fr)); grid-template-columns: repeat(auto-fit, minmax(316px, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
+        
+        <div class="card" style="background-color: #f8f9fa !important; padding: 2rem; border-radius: 8px; text-align: center; border: 1px solid #c0d0e0; transition: transform 0.3s ease;" data-grid-item-index="0">
+          <div style="background-color: #1e3a8a !important; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;"><span style="color: #ffffff !important; font-size: 1.8rem;">❄️</span></div>
+          <h3 style="color: #102030 !important; font-size: 1.25rem; margin-bottom: 1rem; font-weight: 700;">Resistance to extreme temperatures</h3>
+          <p style="color: #102030 !important; font-size: 0.95rem; line-height: 1.6;">The shelving is specially adapted for work in deep industrial freezers, and maintains stability and strength even at temperatures down to -30°C.</p>
+        </div>
+        
+        <div class="card" style="background-color: #f8f9fa !important; padding: 2rem; border-radius: 8px; text-align: center; border: 1px solid #c0d0e0; transition: transform 0.3s ease;" data-grid-item-index="1">
+          <div style="background-color: #1e3a8a !important; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+            <span style="color: #ffffff !important; font-size: 1.8rem;">✨</span>
           </div>
-        </section>
-      
-  </main>
-  <footer class="legal-footer">
+          <h3 style="color: #102030 !important; font-size: 1.25rem; margin-bottom: 1rem; font-weight: 700;">Maximum hygiene (NSF)</h3>
+          <p style="color: #102030 !important; font-size: 0.95rem; line-height: 1.6;">Approved for direct food contact. Perforated and removable polyethylene surfaces, easily washable and sanitizable in industrial dishwashers.</p>
+        </div>
+
+        <div class="card" style="background-color: #f8f9fa !important; padding: 2rem; border-radius: 8px; text-align: center; border: 1px solid #c0d0e0; transition: transform 0.3s ease;" data-grid-item-index="2">
+          <div style="background-color: #1e3a8a !important; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;"><span style="color: #ffffff !important; font-size: 1.8rem;">🛡️</span></div>
+          <h3 style="color: #102030 !important; font-size: 1.25rem; margin-bottom: 1rem; font-weight: 700;">100% stainless steel</h3>
+          <p style="color: #102030 !important; font-size: 0.95rem; line-height: 1.6;">High-quality anodized aluminum frame that completely prevents corrosion and rust development in humid and wet environments for years.</p>
+        </div>
+
+        <div class="card" style="background-color: #f8f9fa !important; padding: 2rem; border-radius: 8px; text-align: center; border: 1px solid #c0d0e0; transition: transform 0.3s ease;" data-grid-item-index="3">
+          <div style="background-color: #1e3a8a !important; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;"><span style="color: #ffffff !important; font-size: 1.8rem;">🔧</span></div>
+          <h3 style="color: #102030 !important; font-size: 1.25rem; margin-bottom: 1rem; font-weight: 700;">Perfect modularity</h3>
+          <p style="color: #102030 !important; font-size: 0.95rem; line-height: 1.6;">Quick assembly without screws required. Option to create 90-degree corners and continuous storage for optimal room space utilization.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS GALLERY SECTION -->
+  <section class="section products-section" id="products" style="padding: 4rem 0px; background-color: rgb(192, 208, 224) !important; direction: rtl;" data-zappy-section="true">
+    <div class="container" style="direction: rtl;">
+      <h2 style="color: #102030 !important; font-family: system-ui, sans-serif; font-size: 2rem; text-align: center; margin-bottom: 3rem; font-weight: 700;">Leading product series</h2>
+      <div class="portfolio-grid zappy-preserve-css-grid" id="zappy-auto-grid-1781599026191-9scdfx" data-zappy-auto-grid="true" data-original-item-width="453" data-original-gap="normal" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(432px, 1fr)); grid-template-columns: repeat(auto-fit, minmax(432px, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
+        
+        <article class="card" style="border-radius: 8px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 15px; background-color: rgb(255, 255, 255) !important; direction: rtl;" data-grid-item-index="0">
+          <img data-placeholder="heavy-duty-cold-shelving" data-context="Heavy duty Tonon shelving loaded with industrial food products and heavy boxes in a large freezer" src="/assets/page-heavy-duty-cold-shelving-1774549088567.webp" alt="Heavy Duty Shelving for Freezers" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-bottom: 3px solid rgb(30, 58, 138);" data-no-hero-position="true" class="generated-image" data-element-type="image" data-element-id="img-1781599026136-7d4xadmod">
+          <div style="padding: 1.5rem;">
+            <h3 style="color: #102030 !important; font-size: 1.25rem; margin-bottom: 0.75rem; font-weight: 700;">Heavy Duty series</h3>
+            <p style="color: #102030 !important; font-size: 0.95rem; line-height: 1.5; margin-bottom: 0;">Heavy-duty storage solutions designed for central cooling warehouses, logistics centers, meat, fish and industrial food plants. Exceptional load capacity per shelf.</p>
+          </div>
+        </article>
+
+        <article class="card" style="border-radius: 8px; overflow: hidden !important; box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 15px; background-color: rgb(255, 255, 255) !important; direction: rtl;" data-grid-item-index="1">
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1781599026136-gujdpatnu" data-element-type="image" data-zappy-zoom-wrapper-width="1360px" data-zappy-zoom-wrapper-height="765px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 1360px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 765px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img data-placeholder="restaurant-cold-room" data-context="Clean restaurant walk-in fridge with organized modular Tonon shelving holding fresh ingredients" src="/assets/page-restaurant-cold-room-1781603845344-xo52jo.webp?v=1781603847405" alt="Cold Room Shelving for Restaurants" style="width: 100%; max-width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-bottom: 3px solid rgb(30, 58, 138); display: block; object-position: 50% 50% !important;" data-no-hero-position="true" class="generated-image" data-element-type="image" data-element-id="img-1781599026136-gujdpatnu" data-zappy-original-width="1360" data-zappy-original-height="765" data-zappy-object-position="50% 50%" data-zappy-zoom="1"></div>
+          <div style="padding: 1.5rem;">
+            <h3 style="color: #102030 !important; font-size: 1.25rem; margin-bottom: 0.75rem; font-weight: 700;">Food Service Series</h3>
+            <p style="color: #102030 !important; font-size: 0.95rem; line-height: 1.5; margin-bottom: 0;">Flexible and compact modular shelving adapted for restaurants, cafes, catering and hotels. Includes removable grids to maintain a clean and compliant work environment.</p>
+          </div>
+        </article>
+
+        <article class="card" style="border-radius: 8px; overflow: hidden !important; box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 15px; direction: rtl; background-color: rgb(255, 255, 255) !important;" data-grid-item-index="2">
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1781599026136-8j4gxb336" data-element-type="image" data-zappy-zoom-wrapper-width="453px" data-zappy-zoom-wrapper-height="255px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 453px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 255px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-placeholder="pharma-clean-room-shelving" data-context="Sterile pharmaceutical cold storage room with clinical aluminum shelving and medical supplies" src="/assets/page-pharma-clean-room-shelving-1781618733030-m0mxvy.webp?v=1781618735808" alt="Pharmaceutical and Laboratory Shelving" style="aspect-ratio: 16 / 9; border-bottom: 3px solid rgb(30, 58, 138); display: block; width: 453.333px !important; object-fit: cover !important; object-position: 50% 50% !important; height: 255px !important; max-width: 100% !important; margin: 0px !important;" data-no-hero-position="true" class="generated-image" data-element-type="image" data-element-id="img-1781599026136-8j4gxb336" data-zappy-original-width="453.3333435058594" data-zappy-original-height="255" data-zappy-object-position="50% 50%" data-zappy-zoom="1"></div>
+          <div style="padding: 1.5rem;">
+            <h3 style="color: #102030 !important; font-size: 1.25rem; margin-bottom: 0.75rem; font-weight: 700;">Pharma &amp; Clean Series</h3>
+            <p style="color: #102030 !important; font-size: 0.95rem; line-height: 1.5; margin-bottom: 0;">Specially sterile storage systems for pharmaceutical cooling rooms, laboratories, hospitals and clinics, meeting the strictest Ministry of Health standards.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="section cta-section" id="cta" style="background-color: #f8f9fa !important; padding: 5rem 0; text-align: center;" data-zappy-section="true">
+    <div class="container" style="max-width: 800px; margin: 0 auto;">
+      <h2 style="color: #102030 !important; font-family: system-ui, sans-serif; font-size: 2.2rem; margin-bottom: 1.5rem; font-weight: 800;">Need a professional storage solution for cold rooms?</h2>
+      <p style="color: #102030 !important; font-size: 1.1rem; margin-bottom: 2.5rem; line-height: 1.6;">Our experts will be happy to advise and customize the perfect Tonon system for you. We offer a complete logistics package, from cooling room shelving, through compact business installations for space saving, to industrial furniture for logistics companies.</p>
+      <a href="/menu-group-1769425098718" class="btn" style="display: inline-block; background-color: #1e3a8a; color: #ffffff !important; padding: 1rem 2.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 1.1rem; box-shadow: 0 4px 6px rgba(30, 58, 138, 0.2);">Back to Product Catalog</a>
+    </div>
+  </section>
+</main>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+    <!-- Legal Footer -->
+    <footer class="legal-footer">
       <div class="container">
         <div class="footer-main">
           <div class="all-rights-reserved">
-            <p data-i18n="home_p_36">© 2026 מוצגים פתרונות אחסון ותצוגה. כל הזכויות שמורות.</p>
+            <p>© 2026 Display Storage and Display Solutions. All rights reserved.</p>
           </div>
           <div class="footer-social"><a href="https://facebook.com/Mutzagim" target="_blank" rel="noopener noreferrer" aria-label="Facebook" data-i18n-aria-label="home_aria_label_74"><i class="fab fa-facebook"></i></a>
 <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="display:none !important;" data-i18n-aria-label="home_aria_label_75"><i class="fab fa-instagram"></i></a>
 <a href="https://wa.me/972542770665" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" data-i18n-aria-label="home_aria_label_76"><i class="fab fa-whatsapp"></i></a></div>
           <div class="footer-legal">
-            <a href="/privacy" aria-label="מדיניות פרטיות" data-i18n="home_link_42" data-i18n-aria-label="home_aria_label_77">
-              מדיניות פרטיות
-            </a>
+            <a href="/en/privacy" aria-label="מדיניות פרטיות" data-i18n-aria-label="home_aria_label_77">Privacy Policy</a>
             <span class="separator">|</span>
-            <a href="/accessibility" aria-label="נגישות" data-i18n="home_link_43" data-i18n-aria-label="home_aria_label_78">
-              נגישות
-            </a>
+            <a href="/en/accessibility" aria-label="נגישות" data-i18n-aria-label="home_aria_label_78">Accessibility</a>
             <span class="separator">|</span>
-            <a href="/terms" aria-label="תנאי שימוש" data-i18n="home_link_44" data-i18n-aria-label="home_aria_label_79">
-              תנאי שימוש
-            </a><span class="separator">|</span>
-            <a href="/return-policy" aria-label="מדיניות החזרות" data-i18n="new_a_114">
-              מדיניות החזרות
-            </a>
+            <a href="/en/terms" aria-label="תנאי שימוש" data-i18n-aria-label="home_aria_label_79">Terms of Use</a><span class="separator">|</span>
+            <a href="/en/return-policy" aria-label="מדיניות החזרות">Return Policy</a>
           </div>
         </div>
         <div class="zappy-attribution">
-          <p><span><span><span><span data-i18n="new_text_456_0">נוצר באמצעות&nbsp;</span></span></span></span><a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;" data-i18n="home_link_45">Zappy</a></p>
+          <p><span><span><span><span><span><span><span>נוצר באמצעות&nbsp;</span></span></span></span></span></span></span><a href="https://zappy5.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Zappy</a></p>
         </div>
       </div>
     </footer>
+
+
+<!-- Zappy Attribution Header Script -->
+<script>
+(function() {
+  var websiteId = '2e6da26f-94ea-49eb-9773-e0dfc66ba98e';
   
-<div class="cart-drawer-overlay" id="cart-drawer-overlay"></div>
-<aside class="cart-drawer" id="cart-drawer">
-  <div class="cart-drawer-header">
-    <h2>עגלת הקניות שלך</h2>
-    <button type="button" class="cart-drawer-close" id="cart-drawer-close" aria-label="סגור">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
-    </button>
-  </div>
-  <div class="cart-drawer-body" id="cart-drawer-items">
-    <div class="empty-cart">העגלה ריקה</div>
-  </div>
-  <div class="cart-drawer-footer">
-    <div class="cart-drawer-total">
-      <span>סה"כ:</span>
-      <span id="cart-drawer-total">₪0</span>
-    </div>
-    <a href="/checkout" class="cart-drawer-checkout">המשך לתשלום</a>
-  </div>
-</aside>
+  // Don't show header in preview mode
+  var currentUrl = window.location.href;
+  var isPreview = currentUrl.includes('/preview/') || 
+                  currentUrl.includes('/preview-fullscreen/') || 
+                  currentUrl.includes('localhost:5001') ||
+                  currentUrl.includes('localhost:3000');
   
+  if (isPreview) {
+    return; // Exit early in preview mode
+  }
+  
+  fetch('https://api.zappy5.com/api/website/' + websiteId + '/tier')
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      if (data.showAttribution) {
+        var header = document.getElementById('zappy-attribution-header');
+        if (header) {
+          // Use dynamic announcement content if available
+          if (data.announcement && data.announcement.html) {
+            header.innerHTML = data.announcement.html;
+          }
+          // Apply fixed positioning styles inline (works for existing sites too)
+          header.style.cssText = 'position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99999 !important; display: flex !important; justify-content: center !important; align-items: center !important; text-align: center !important; box-sizing: border-box !important;';
+          // Fix child elements that might have position: fixed from old CSS
+          var children = header.querySelectorAll('*');
+          for (var i = 0; i < children.length; i++) {
+            children[i].style.position = 'static';
+          }
+          // Get header height
+          var headerHeight = header.offsetHeight;
+          // Find and fix navbar to be fixed as well (prevents gap at top of page)
+          var navSelectors = ['nav', '.navbar', '.nav'];
+          var navbar = null;
+          for (var j = 0; j < navSelectors.length; j++) {
+            navbar = document.querySelector(navSelectors[j]);
+            if (navbar && navbar.id !== 'zappy-attribution-header') break;
+            navbar = null;
+          }
+          if (navbar) {
+            var navbarHeight = navbar.offsetHeight;
+            navbar.style.cssText += '; position: fixed !important; top: ' + headerHeight + 'px !important; left: 0 !important; right: 0 !important; width: 100% !important; z-index: 99998 !important;';
+            document.body.style.paddingTop = (headerHeight + navbarHeight) + 'px';
+          } else {
+            document.body.style.paddingTop = headerHeight + 'px';
+          }
+        }
+      }
+    })
+    .catch(function(error) {
+      console.error('Failed to check tier:', error);
+    });
+})();
+</script>
+    <div data-integration="accessibility:toolbar"></div>
+<a href="https://wa.me/972542770665" target="_blank" class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer" data-i18n-aria-label="cold_room_freezer_shelving_tonon_aria_label_69">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="zappy-qv-overlay" id="zappy-qv-overlay" hidden=""></div>
 <div class="zappy-qv-modal" id="zappy-qv-modal" role="dialog" aria-modal="true" aria-label="תצוגה מהירה" hidden="">
   <button type="button" class="zappy-qv-close" id="zappy-qv-close" aria-label="סגור">
@@ -1721,102 +1901,32 @@ html[dir="rtl"] body {
   </button>
   <div class="zappy-qv-content" id="zappy-qv-content"></div>
 </div>
-  <script>
-  <!-- Search handling for e-commerce pages -->
-  (function() {
-    // Unified search function that works in both preview and deployed modes
-    function performSearch(query) {
-      if (query.length < 2) return;
-      
-      // Check if we're in preview mode (URL contains preview-fullscreen)
-      var isPreview = window.location.pathname.includes('preview-fullscreen');
-      
-      if (isPreview) {
-        // In preview mode, update the page parameter and add search
-        var url = new URL(window.location.href);
-        url.searchParams.set('page', '/products');
-        url.searchParams.set('search', query);
-        window.location.href = url.toString();
-      } else {
-        // In deployed mode, navigate to the catalog in the ACTIVE language.
-        // Static catalog pages (/products) are served as per-language files
-        // (/en/products), while the courses catalog (/courses) is language-
-        // switched via ?lang. Derive the active language from the current URL
-        // (path prefix on static pages, ?lang on courses pages) so search keeps
-        // the language instead of dropping back to the site default. NOTE: the
-        // \ in the regex is intentional — this block lives in a template
-        // literal that bakes the page, so a bare \/ would be dropped.
-        var base = '/products';
-        var activeLang = (function() {
-          try { var q = new URLSearchParams(window.location.search).get('lang'); if (q) return q.toLowerCase(); } catch (e) {}
-          var m = (window.location.pathname || '').match(/^\/([a-z]{2})(?:\/|$)/i);
-          return m ? m[1].toLowerCase() : '';
-        })();
-        var dest = base === '/courses'
-          ? base + '?search=' + encodeURIComponent(query) + (activeLang ? '&lang=' + encodeURIComponent(activeLang) : '')
-          : (activeLang ? '/' + activeLang : '') + base + '?search=' + encodeURIComponent(query);
-        window.location.href = dest;
-      }
-    }
-    
-    // Handle navbar search input
-    var navSearchInput = document.querySelector('.nav-search-input');
-    if (navSearchInput) {
-      navSearchInput.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-          e.preventDefault();
-          performSearch(this.value.trim());
-        }
-      });
-    }
-    
-    // Handle mobile search panel
-    var mobileSearchInput = document.getElementById('mobile-search-input');
-    var mobileSearchPanel = document.getElementById('mobile-search-panel');
-    var closeMobileSearch = document.getElementById('close-mobile-search');
-    var searchToggle = document.querySelector('.nav-search-toggle');
-    
-    // Open mobile search panel
-    if (searchToggle && mobileSearchPanel) {
-      searchToggle.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        mobileSearchPanel.classList.add('active');
-        if (mobileSearchInput) {
-          setTimeout(function() { mobileSearchInput.focus(); }, 100);
-        }
-      });
-    }
-    
-    // Close mobile search panel
-    if (closeMobileSearch && mobileSearchPanel) {
-      closeMobileSearch.addEventListener('click', function() {
-        mobileSearchPanel.classList.remove('active');
-        if (mobileSearchInput) mobileSearchInput.value = '';
-      });
-    }
-    
-    // Handle Enter key on mobile search
-    if (mobileSearchInput) {
-      mobileSearchInput.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-          e.preventDefault();
-          performSearch(this.value.trim());
-        }
-      });
-    }
-    
-    // Handle search query from URL on load
-    var urlParams = new URLSearchParams(window.location.search);
-    var searchQuery = urlParams.get('search');
-    if (searchQuery) {
-      if (navSearchInput) navSearchInput.value = searchQuery;
-      if (mobileSearchInput) mobileSearchInput.value = searchQuery;
-      console.log('[E-COMMERCE] Search query from URL:', searchQuery);
-    }
-  })();
-  </script>
-  <a href="https://wa.me/+972542770665" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- i18next Multi-Language Support -->
 <script>
@@ -2577,8 +2687,8 @@ html[dir="rtl"] body {
       "about_link_47": "נגישות",
       "about_link_48": "תנאי שימוש",
       "about_link_49": "Zappy",
-      "esd_text_10_0": "Happily created by ",
-      "esd_text_20_0": "נוצר באמצעות ",
+      "esd_text_10_0": "Happily created by&nbsp;",
+      "esd_text_20_0": "נוצר באמצעות&nbsp;",
       "new_label_321": "מספר טלפון *",
       "new_label_325": "<input type=\"checkbox\" id=\"save-address-checkbox\" class=\"save-address-checkbox\" />\n                          <span>שמור את הכתובת לפעם הבאה</span>",
       "new_label_349": "<input type=\"checkbox\" id=\"terms-checkbox\" class=\"terms-checkbox\" />\n                  <span><span>אני מסכים/ה ל</span> <a href=\"/terms\" target=\"_blank\" class=\"terms-link\">תנאי השימוש</a></span>",
@@ -2647,14 +2757,14 @@ html[dir="rtl"] body {
       "terms_link_29": "נגישות",
       "terms_link_30": "תנאי שימוש",
       "terms_link_31": "Zappy",
-      "vlm_text_10_0": "Happily created by ",
-      "vlm_text_19_0": "נוצר באמצעות ",
-      "cold_text_11_0": "Happily created by ",
-      "cold_text_12_0": "Happily created by ",
-      "cold_text_19_0": "נוצר באמצעות ",
-      "cold_text_23_0": "נוצר באמצעות ",
-      "home_text_20_0": "Happily created by ",
-      "home_text_37_0": "נוצר באמצעות ",
+      "vlm_text_10_0": "Happily created by&nbsp;",
+      "vlm_text_19_0": "נוצר באמצעות&nbsp;",
+      "cold_text_11_0": "Happily created by&nbsp;",
+      "cold_text_12_0": "Happily created by&nbsp;",
+      "cold_text_19_0": "נוצר באמצעות&nbsp;",
+      "cold_text_23_0": "נוצר באמצעות&nbsp;",
+      "home_text_20_0": "Happily created by&nbsp;",
+      "home_text_37_0": "נוצר באמצעות&nbsp;",
       "new_button_320": "התנתק",
       "new_button_322": "הבא",
       "new_button_326": "הבא",
@@ -2756,8 +2866,8 @@ html[dir="rtl"] body {
       "services_li_67": "<i class=\"fas fa-check-circle\"></i> תיעוד מלא ואישורים",
       "services_li_68": "<i class=\"fas fa-check-circle\"></i> בדיקות תקופתיות",
       "services_li_69": "<i class=\"fas fa-check-circle\"></i> ייעוץ בטיחותי מתמשך",
-      "about_text_20_0": "Happily created by ",
-      "about_text_43_0": "נוצר באמצעות ",
+      "about_text_20_0": "Happily created by&nbsp;",
+      "about_text_43_0": "נוצר באמצעות&nbsp;",
       "contact_us_h1_1": "בואו נדבר על הצרכים שלכם",
       "contact_us_h2_2": "דרכי התקשרות",
       "contact_us_h2_3": "שלחו לנו הודעה",
@@ -2788,8 +2898,8 @@ html[dir="rtl"] body {
       "contact_us_p_37": "כל המוצרים שלנו מגיעים עם אחריות מלאה על חומרים ועבודה. האחריות כוללת גם שירות תחזוקה ותמיכה טכנית. פרטי האחריות המדויקים מסופקים עם כל הזמנה.",
       "contact_us_p_38": "כן, אנו מספקים פתרונות אחסון למגוון רחב של תעשיות: מפעלי ייצור, חברות לוגיסטיקה, מחסנים, ארכיונים, ספריות ועוד. לכל תעשייה יש צרכים ייחודיים ואנו מתאימים את הפתרון בהתאם.",
       "contact_us_p_39": "© 2026 מוצגים פתרונות אחסון ותצוגה. כל הזכויות שמורות.",
-      "heavy_text_15_0": "Happily created by ",
-      "heavy_text_30_0": "נוצר באמצעות ",
+      "heavy_text_15_0": "Happily created by&nbsp;",
+      "heavy_text_30_0": "נוצר באמצעות&nbsp;",
       "home_page_title": "מדפי אחסון תעשייתי למפעלים מתקדמים — מוצגים פתרונות אחסון ותצוגה",
       "legal_text_40_0": "אימייל: ",
       "legal_text_41_0": "טלפון: ",
@@ -2797,8 +2907,8 @@ html[dir="rtl"] body {
       "legal_text_45_0": "טלפון: ",
       "legal_text_48_0": "אימייל: ",
       "legal_text_49_0": "טלפון: ",
-      "light_text_14_0": "Happily created by ",
-      "light_text_23_0": "נוצר באמצעות ",
+      "light_text_14_0": "Happily created by&nbsp;",
+      "light_text_23_0": "נוצר באמצעות&nbsp;",
       "privacy_link_22": "effi@mutzagim.co.il",
       "privacy_link_23": "מדיניות פרטיות",
       "privacy_link_24": "נגישות",
@@ -2832,7 +2942,7 @@ html[dir="rtl"] body {
       "services_nav_87": "אודות",
       "services_nav_88": "צרו קשר",
       "services_nav_89": "צרו קשר",
-      "terms_text_26_0": "נוצר באמצעות ",
+      "terms_text_26_0": "נוצר באמצעות&nbsp;",
       "terms_text_52_0": "אימייל: ",
       "about_page_title": "הסיפור שלנו ומומחיות בפתרונות אחסון — מוצגים פתרונות אחסון ותצוגה",
       "contact_us_h3_10": "שעות פעילות",
@@ -2875,10 +2985,10 @@ html[dir="rtl"] body {
       "services_link_34": "Zappy",
       "terms_page_title": "תנאי שימוש",
       "accessibility_p_9": "מוצגים פתרונות אחסון ותצוגה מחויבת להנגיש את השירותים לכלל הציבור. אנו פועלים ליישם את הנחיות התקן הישראלי \n            (ת\"י 5568) המבוסס על הנחיות WCAG 2.1 ברמת AA.",
-      "catalog_text_14_0": "Happily created by ",
-      "catalog_text_27_0": "נוצר באמצעות ",
-      "contact_text_18_0": "Happily created by ",
-      "contact_text_40_0": "נוצר באמצעות ",
+      "catalog_text_14_0": "Happily created by&nbsp;",
+      "catalog_text_27_0": "נוצר באמצעות&nbsp;",
+      "contact_text_18_0": "Happily created by&nbsp;",
+      "contact_text_40_0": "נוצר באמצעות&nbsp;",
       "contact_us_alt_92": "מוצגים פתרונות אחסון ותצוגה",
       "contact_us_btn_48": "שלחו הודעה",
       "contact_us_nav_67": "קטגורית מוצרים",
@@ -2908,8 +3018,8 @@ html[dir="rtl"] body {
       "contact_us_opt_64": "ריהוט תעשייתי לחברות לוגיסטיקה",
       "contact_us_opt_65": "ייעוץ והערכת צרכים",
       "contact_us_opt_66": "אחר",
-      "dalmine_text_12_0": "Happily created by ",
-      "dalmine_text_24_0": "נוצר באמצעות ",
+      "dalmine_text_12_0": "Happily created by&nbsp;",
+      "dalmine_text_24_0": "נוצר באמצעות&nbsp;",
       "home_seo_keywords": "מדפי אחסון תעשייתי למפעלים, פתרונות אחסון למשקל כבד, מתקני קומפקטוס לעסקים, ריהוט תעשייתי לחברות לוגיסטיקה",
       "legal_terms_h2_10": "9. שינוי תנאי השימוש",
       "legal_terms_h2_11": "10. סיום השירות",
@@ -2937,14 +3047,14 @@ html[dir="rtl"] body {
       "legal_terms_li_46": "תנאי השימוש מהווים את מלוא ההסכם בין הצדדים",
       "legal_terms_li_47": "חברה: [business_name]",
       "legal_terms_li_50": "כתובת: [business_address]",
-      "plastic_text_12_0": "Happily created by ",
-      "plastic_text_25_0": "נוצר באמצעות ",
-      "privacy_text_21_0": "נוצר באמצעות ",
+      "plastic_text_12_0": "Happily created by&nbsp;",
+      "plastic_text_25_0": "נוצר באמצעות&nbsp;",
+      "privacy_text_21_0": "נוצר באמצעות&nbsp;",
       "privacy_text_44_0": "אימייל: ",
-      "storage_text_12_0": "Happily created by ",
-      "storage_text_20_0": "נוצר באמצעות ",
-      "vehicle_text_14_0": "Happily created by ",
-      "vehicle_text_29_0": "נוצר באמצעות ",
+      "storage_text_12_0": "Happily created by&nbsp;",
+      "storage_text_20_0": "נוצר באמצעות&nbsp;",
+      "vehicle_text_14_0": "Happily created by&nbsp;",
+      "vehicle_text_29_0": "נוצר באמצעות&nbsp;",
       "about_seo_keywords": "מדפי אחסון תעשייתי למפעלים, פתרונות אחסון למשקל כבד, מתקני קומפקטוס לעסקים, ריהוט תעשייתי לחברות לוגיסטיקה",
       "accessibility_h1_1": "הצהרת נגישות",
       "accessibility_h2_2": "1. מדיניות הנגישות",
@@ -2962,8 +3072,8 @@ html[dir="rtl"] body {
       "accessibility_p_15": "<strong>זמני מענה:</strong> נענה לפניות בנושא נגישות תוך 3 ימי עסקים ונפעל לפתרון תוך 10 ימי עסקים.",
       "accessibility_p_16": "<strong>תלונות:</strong> ניתן להגיש תלונה למשרד המשפטים - הנציבות לשוויון זכויות לאנשים עם מוגבלות",
       "accessibility_p_17": "© 2026 מוצגים פתרונות אחסון ותצוגה. כל הזכויות שמורות.",
-      "advanced_text_11_0": "Happily created by ",
-      "advanced_text_17_0": "נוצר באמצעות ",
+      "advanced_text_11_0": "Happily created by&nbsp;",
+      "advanced_text_17_0": "נוצר באמצעות&nbsp;",
       "contact_us_link_41": "Zappy",
       "contact_us_link_42": "effi@mutzagim.co.il",
       "contact_us_link_43": "שלחו הודעה",
@@ -3002,10 +3112,10 @@ html[dir="rtl"] body {
       "legal_terms_div_51": "עדכון אחרון: 4.5.2026",
       "legal_terms_div_52": "השימוש באתר זה מהווה הסכמה לתנאי השימוש המפורטים להלן. אנא קראו בעיון לפני השימוש.",
       "privacy_page_title": "מדיניות פרטיות",
-      "services_text_11_0": "Happily created by ",
-      "services_text_28_0": "נוצר באמצעות ",
-      "shelving_text_11_0": "Happily created by ",
-      "shelving_text_24_0": "נוצר באמצעות ",
+      "services_text_11_0": "Happily created by&nbsp;",
+      "services_text_28_0": "נוצר באמצעות&nbsp;",
+      "shelving_text_11_0": "Happily created by&nbsp;",
+      "shelving_text_24_0": "נוצר באמצעות&nbsp;",
       "about_aria_label_71": "תפריט",
       "about_aria_label_72": "התקשרו אלינו",
       "about_aria_label_73": "WhatsApp",
@@ -3040,8 +3150,8 @@ html[dir="rtl"] body {
       "accessibility_li_46": "בדיקה עם משתמשים עם מוגבלויות",
       "accessibility_li_47": "<strong>חברה:</strong> מוצגים פתרונות אחסון ותצוגה",
       "accessibility_li_49": "<strong>טלפון:</strong> <a href=\"tel:+972 54-277-0665\">+972 54-277-0665</a>",
-      "compactus_text_15_0": "Happily created by ",
-      "compactus_text_28_0": "נוצר באמצעות ",
+      "compactus_text_15_0": "Happily created by&nbsp;",
+      "compactus_text_28_0": "נוצר באמצעות&nbsp;",
       "contact_us_label_49": "שם מלא *",
       "contact_us_label_50": "אימייל *",
       "contact_us_label_51": "טלפון *",
@@ -3184,8 +3294,8 @@ html[dir="rtl"] body {
       "privacy_aria_label_75": "נגישות",
       "privacy_aria_label_76": "תנאי שימוש",
       "services_seo_keywords": "מדפי אחסון תעשייתי למפעלים, פתרונות אחסון למשקל כבד, מתקני קומפקטוס לעסקים, ריהוט תעשייתי לחברות לוגיסטיקה",
-      "supermarket_text_16_0": "Happily created by ",
-      "supermarket_text_29_0": "נוצר באמצעות ",
+      "supermarket_text_16_0": "Happily created by&nbsp;",
+      "supermarket_text_29_0": "נוצר באמצעות&nbsp;",
       "about_meta_description": "למדו על מוצגים פתרונות אחסון ותצוגה - מובילים בתחום מדפי אחסון תעשייתי למפעלים ופתרונות אחסון למשקל כבד. ניסיון, מומחיות ומחויבות לאיכות.",
       "compactus_systems_h1_1": "מתקני קומפקטוס – אחסון נע על מסילות",
       "compactus_systems_h2_2": "New Headline",
@@ -3242,7 +3352,7 @@ html[dir="rtl"] body {
       "vehicle_equipment_p_26": "התאמה אישית של המדפים והמגירות לפי צרכי העסק וסוג הרכב המסחרי.",
       "vehicle_equipment_p_27": "כל פתרון זיווד מתחיל בתכנון קפדני. אנו משתמשים בטכנולוגיות מתקדמות כדי להבטיח ניצול אופטימלי של חלל הרכב, תוך שמירה על משקל נמוך וחוזק מבני.",
       "vehicle_equipment_p_28": "© 2026 מוצגים פתרונות אחסון ותצוגה. כל הזכויות שמורות.",
-      "accessibility_text_18_0": "נוצר באמצעות ",
+      "accessibility_text_18_0": "נוצר באמצעות&nbsp;",
       "accessibility_text_48_0": "אימייל: ",
       "cold_room_shelving_h1_1": "מידוף לחדרי קירור ומקפאים",
       "cold_room_shelving_h2_2": "מאפייני המערכת",
@@ -3447,13 +3557,13 @@ html[dir="rtl"] body {
       "catalog_and_pricing_h3_11": "מדפי קנטיליבר",
       "catalog_and_pricing_h3_12": "גלריה תעשייתית",
       "catalog_and_pricing_h3_13": "שעות פעילות",
-      "catalog_and_pricing_li_56": "יום ראשון 09:00 - 17:00",
-      "catalog_and_pricing_li_57": "יום שני 09:00 - 17:00",
-      "catalog_and_pricing_li_58": "יום שלישי 09:00 - 17:00",
-      "catalog_and_pricing_li_59": "יום רביעי 09:00 - 17:00",
-      "catalog_and_pricing_li_60": "יום חמישי 09:00 - 17:00",
-      "catalog_and_pricing_li_61": "יום שישי סגור",
-      "catalog_and_pricing_li_62": "יום שבת סגור",
+      "catalog_and_pricing_li_56": "יום ראשון&nbsp;09:00 - 17:00",
+      "catalog_and_pricing_li_57": "יום שני&nbsp;09:00 - 17:00",
+      "catalog_and_pricing_li_58": "יום שלישי&nbsp;09:00 - 17:00",
+      "catalog_and_pricing_li_59": "יום רביעי&nbsp;09:00 - 17:00",
+      "catalog_and_pricing_li_60": "יום חמישי&nbsp;09:00 - 17:00",
+      "catalog_and_pricing_li_61": "יום שישי&nbsp;סגור",
+      "catalog_and_pricing_li_62": "יום שבת&nbsp;סגור",
       "cold_room_shelving_alt_46": "מוצגים פתרונות אחסון ותצוגה",
       "cold_room_shelving_alt_47": "מידוף לחדרי קירור",
       "cold_room_shelving_alt_48": "עמידות בטמפרטורות",
@@ -13342,58 +13452,96 @@ html[dir="rtl"] body {
   }
 })();
 </script>
-
     <script src="/script.js"></script>
 
-    <script id="zappy-mobile-submenu-script">
-    (function() {
-      function initMobileSubmenuToggles() {
-        if (window.innerWidth > 768) {
-          document.querySelectorAll('.mobile-submenu-toggle').forEach(function(btn) { btn.remove(); });
-          document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) { menu.classList.remove('mobile-expanded'); });
-          return;
+<!-- Zappy Language Switcher Icon Color Fix -->
+<script>
+(function() {
+  function fixLanguageSwitcherColor() {
+    var switcher = document.querySelector('.lang-switcher-current');
+    var svg = switcher ? switcher.querySelector('svg') : null;
+    if (!switcher || !svg) return;
+    
+    var navbar = document.querySelector('.navbar') || 
+                 document.querySelector('nav') || 
+                 document.querySelector('header');
+    if (!navbar) return;
+    
+    // Get effective background color by walking up DOM tree
+    function getEffectiveBackgroundColor(element) {
+      var el = element;
+      var maxDepth = 10;
+      
+      while (el && maxDepth > 0) {
+        var style = window.getComputedStyle(el);
+        var bg = style.backgroundColor;
+        
+        if (bg && bg !== 'transparent' && bg !== 'rgba(0, 0, 0, 0)') {
+          return bg;
         }
-        var items = document.querySelectorAll('.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)');
-        items.forEach(function(li) {
-          if (li.querySelector('.mobile-submenu-toggle')) return;
-          var submenu = li.querySelector('.sub-menu');
-          var parentLink = li.querySelector(':scope > a');
-          if (!submenu || !parentLink) return;
-          var toggleBtn = document.createElement('button');
-          toggleBtn.className = 'mobile-submenu-toggle';
-          toggleBtn.setAttribute('aria-label', 'Toggle submenu');
-          toggleBtn.setAttribute('type', 'button');
-          parentLink.insertAdjacentElement('afterend', toggleBtn);
-          toggleBtn.addEventListener('click', function(e) {
-            e.preventDefault(); e.stopPropagation();
-            document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
-              if (menu !== submenu) { menu.classList.remove('mobile-expanded'); var t = menu.parentElement.querySelector('.mobile-submenu-toggle'); if(t) t.classList.remove('expanded'); }
-            });
-            submenu.classList.toggle('mobile-expanded');
-            toggleBtn.classList.toggle('expanded');
-          });
-        });
+        
+        var bgImage = style.backgroundImage;
+        if (bgImage && bgImage !== 'none') {
+          var gradientMatch = bgImage.match(/rgba?\([^)]+\)|#[a-fA-F0-9]{3,8}/);
+          if (gradientMatch) return gradientMatch[0];
+        }
+        
+        el = el.parentElement;
+        maxDepth--;
       }
-      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
-      else { initMobileSubmenuToggles(); }
-      var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
-      // Re-initialize when mobile menu becomes visible (MutationObserver)
-      var observer = new MutationObserver(function(mutations) {
-        mutations.forEach(function(mutation) {
-          if (mutation.type === 'attributes') {
-            var target = mutation.target;
-            if (target.classList && (target.classList.contains('active') || target.classList.contains('open'))) {
-              setTimeout(initMobileSubmenuToggles, 100);
-            }
-          }
-        });
-      });
-      setTimeout(function() {
-        document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu, nav').forEach(function(menu) {
-          observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
-        });
-      }, 500);
-    })();
-    </script>
-</body>
-</html>
+      return 'rgb(255, 255, 255)';
+    }
+    
+    // Parse color string to RGB
+    function parseColor(colorStr) {
+      if (!colorStr) return null;
+      
+      var rgbMatch = colorStr.match(/rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);
+      if (rgbMatch) {
+        return { r: parseInt(rgbMatch[1], 10), g: parseInt(rgbMatch[2], 10), b: parseInt(rgbMatch[3], 10) };
+      }
+      
+      var hexMatch = colorStr.match(/#([a-fA-F0-9]{2})([a-fA-F0-9]{2})([a-fA-F0-9]{2})/);
+      if (hexMatch) {
+        return { r: parseInt(hexMatch[1], 16), g: parseInt(hexMatch[2], 16), b: parseInt(hexMatch[3], 16) };
+      }
+      
+      return null;
+    }
+    
+    // Calculate WCAG luminance
+    function getLuminance(rgb) {
+      if (!rgb) return 0.5;
+      var r = rgb.r / 255, g = rgb.g / 255, b = rgb.b / 255;
+      r = r <= 0.03928 ? r / 12.92 : Math.pow((r + 0.055) / 1.055, 2.4);
+      g = g <= 0.03928 ? g / 12.92 : Math.pow((g + 0.055) / 1.055, 2.4);
+      b = b <= 0.03928 ? b / 12.92 : Math.pow((b + 0.055) / 1.055, 2.4);
+      return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+    }
+    
+    var bgColor = getEffectiveBackgroundColor(navbar);
+    var rgb = parseColor(bgColor);
+    var luminance = getLuminance(rgb);
+    var isLightBackground = luminance > 0.4;
+    var iconColor = isLightBackground ? '#1a1a1a' : '#F3FAFF';
+    
+    svg.style.fill = iconColor;
+    svg.setAttribute('fill', iconColor);
+    switcher.style.color = iconColor;
+  }
+  
+  // Run on DOM ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', fixLanguageSwitcherColor);
+  } else {
+    fixLanguageSwitcherColor();
+  }
+  
+  // Also run after a short delay to catch late-loading styles
+  setTimeout(fixLanguageSwitcherColor, 100);
+  setTimeout(fixLanguageSwitcherColor, 500);
+  
+  // Run on resize
+  window.addEventListener('resize', fixLanguageSwitcherColor);
+})();
+</script></body></html>
