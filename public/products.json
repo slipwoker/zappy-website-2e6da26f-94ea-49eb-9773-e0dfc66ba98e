@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T07:08:08.534Z",
+  "generated_at": "2026-06-30T07:08:40.904Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -2266,27 +2266,27 @@
     },
     {
       "id": "cea85459-8179-4183-b315-4526689284b0",
-      "slug": "mvdvl-citron-jumpy-l3-mzvvdvt-ymyn-a540d5",
+      "slug": "mvdvl-citron-jumpy-l3-mzvvdvt-ymyn-vnzxw2",
       "name": "מודול Citroën Jumpy | L3 - מזוודות - ימין",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Citroën Jumpy, L3, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Jumpy L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Citroën Jumpy, L3, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Jumpy L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Citroën Jumpy | L3 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-CIT-JUM-L3-KR",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 7046.35,
       "base_price": 7046.35,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229488-05d36.webp"
+        "https://mutzagim.co.il/assets/product-1782803277332-pyo3sk.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-mzvvdvt-ymyn-a540d5",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-jumpy-l3-mzvvdvt-ymyn-vnzxw2",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-11T15:53:52.268Z"
+      "updated_at": "2026-06-30T07:08:09.089Z"
     },
     {
       "id": "559223b6-43c0-44ee-8805-4ea7d7b1758d",
