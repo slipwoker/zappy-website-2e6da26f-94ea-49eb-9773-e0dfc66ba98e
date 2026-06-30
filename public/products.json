@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T13:04:29.185Z",
+  "generated_at": "2026-06-30T13:05:04.319Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -779,28 +779,27 @@
     },
     {
       "id": "a001fb55-8f55-42ce-a634-8d771390771f",
-      "slug": "mvdvl-fiat-talento-l3-mgyrvt-ymyn-pwp58o",
+      "slug": "mvdvl-fiat-talento-l3-mgyrvt-ymyn-de0xft",
       "name": "מודול Fiat Talento | L3 - מגירות - ימין",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Fiat Talento, L3, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Talento L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Fiat Talento, L3, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Talento L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Talento | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-TAL-L3-DR",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 7792.7,
       "base_price": 7792.7,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+        "https://mutzagim.co.il/assets/product-1782824657903-7dhuas.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mgyrvt-ymyn-pwp58o",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-talento-l3-mgyrvt-ymyn-de0xft",
       "categories": [
-        "זיווד רכבים",
         "זיווד רכבים "
       ],
-      "updated_at": "2026-06-30T07:32:37.952Z"
+      "updated_at": "2026-06-30T13:04:32.261Z"
     },
     {
       "id": "09217022-5186-4cf4-8805-89c020b1b80d",
