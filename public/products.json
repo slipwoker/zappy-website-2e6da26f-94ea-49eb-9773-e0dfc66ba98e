@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T13:08:32.174Z",
+  "generated_at": "2026-06-30T13:09:09.271Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -1019,7 +1019,12 @@
       "id": "3e60e754-adca-4a3f-bd34-c8e422f33ca4",
       "slug": "mvdvl-fiat-doblo-l2-mvrchb-shmal-0j9hkg",
       "name": "מודול Fiat Doblo | L2 - מורחב - שמאל",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة Fiat Doblo | L2 - موسعة - يسار",
+        "en": "StoreVan Module Fiat Doblo | L2 - Extended - Left",
+        "he": "מודול Fiat Doblo | L2 - מורחב - שמאל",
+        "ru": "Модуль Fiat Doblo | L2 - Расширенный - Левый"
+      },
       "description": "<p>מודול ריהוט StoreVan לרכב Fiat Doblo, L2, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Doblo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Doblo | L2 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-DOB-L2-EL",
@@ -1037,7 +1042,7 @@
       "categories": [
         "זיווד רכבים "
       ],
-      "updated_at": "2026-06-30T13:07:53.404Z"
+      "updated_at": "2026-06-30T13:08:37.669Z"
     },
     {
       "id": "8d93ba0b-eedc-457c-b45e-af62deec6424",
