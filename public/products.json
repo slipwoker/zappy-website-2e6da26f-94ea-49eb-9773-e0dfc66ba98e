@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T13:03:49.460Z",
+  "generated_at": "2026-06-30T13:04:29.185Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -722,7 +722,12 @@
       "id": "e3b2024c-6de3-4e32-9290-c43a6e6dd67c",
       "slug": "mvdvl-fiat-ducato-l3-mvrchb-shmal-o9960u",
       "name": "מודול Fiat Ducato | L3 - מורחב - שמאל",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة Fiat Ducato | L3 - موسّعة - يسار",
+        "en": "Fiat Ducato Module | L3 - Extended - Left",
+        "he": "מודול Fiat Ducato | L3 - מורחב - שמאל",
+        "ru": "Модуль Fiat Ducato | L3 - расширенный - левый"
+      },
       "description": "<p>מודול ריהוט StoreVan לרכב Fiat Ducato, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Ducato L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Ducato | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-DUC-L3-EL",
@@ -740,7 +745,7 @@
       "categories": [
         "זיווד רכבים "
       ],
-      "updated_at": "2026-06-30T13:03:17.908Z"
+      "updated_at": "2026-06-30T13:03:57.488Z"
     },
     {
       "id": "441f6c08-9e8d-457a-95ad-cc219d8201bb",
