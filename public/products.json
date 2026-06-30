@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T09:29:15.097Z",
+  "generated_at": "2026-06-30T09:29:50.216Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -604,28 +604,27 @@
     },
     {
       "id": "018f39f3-4705-4da6-b8ca-a47b71140b18",
-      "slug": "mvdvl-fiat-ducato-l3-mgyrvt-ymyn-yoehm2",
+      "slug": "mvdvl-fiat-ducato-l3-mgyrvt-ymyn-cixzn8",
       "name": "מודול Fiat Ducato | L3 - מגירות - ימין",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L3, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Ducato L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Fiat Ducato, L3, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Ducato L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Ducato | L3 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-DUC-L3-DR",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 7792.7,
       "base_price": 7792.7,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+        "https://mutzagim.co.il/assets/product-1782811746701-cf4zz.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-mgyrvt-ymyn-yoehm2",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-mgyrvt-ymyn-cixzn8",
       "categories": [
-        "זיווד רכבים",
         "זיווד רכבים "
       ],
-      "updated_at": "2026-06-30T07:32:54.441Z"
+      "updated_at": "2026-06-30T09:29:18.161Z"
     },
     {
       "id": "ab8f080c-aac3-4f06-9a21-e8cb52ecade4",
