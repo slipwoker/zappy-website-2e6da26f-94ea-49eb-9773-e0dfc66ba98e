@@ -9401,10 +9401,11 @@ Brand: StoreVan
 ---
 
 ### מודול Ford Connect | L1 - מגירות - ימין
-URL: https://mutzagim.co.il/product/mvdvl-ford-connect-l1-mgyrvt-ymyn-jbc6sn
+URL: https://mutzagim.co.il/product/mvdvl-ford-connect-l1-mgyrvt-ymyn-8miz9p
 Price: 5449.44 ILS
 Availability: Out of stock
 SKU: SV-FOR-CON-L1-DR
+Brand: StoreVan 
 
 מודול ריהוט StoreVan לרכב Ford Connect, L1, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Connect L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ"מ (W×D×H).
 
