@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T07:39:37.747Z",
+  "generated_at": "2026-06-30T07:40:37.991Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -642,28 +642,27 @@
     },
     {
       "id": "a4ebff7c-21a8-4e6c-af89-202bffa236c6",
-      "slug": "mvdvl-fiat-ducato-l3-bsysy-ymyn-17votk",
+      "slug": "mvdvl-fiat-ducato-l3-bsysy-ymyn-hqluan",
       "name": "מודול Fiat Ducato | L3 - בסיסי - ימין",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Ducato L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Fiat Ducato, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Ducato L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Ducato | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-DUC-L3-BR",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 5717.03,
       "base_price": 5717.03,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+        "https://mutzagim.co.il/assets/product-1782805182433-tkz0hn.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-bsysy-ymyn-17votk",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-bsysy-ymyn-hqluan",
       "categories": [
-        "זיווד רכבים",
         "זיווד רכבים "
       ],
-      "updated_at": "2026-06-30T07:32:35.573Z"
+      "updated_at": "2026-06-30T07:39:51.499Z"
     },
     {
       "id": "cae26199-80bb-4b7a-824d-d560d4a32611",

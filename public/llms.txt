@@ -345,13 +345,14 @@ https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-mzvvdvt-ymyn-1z1dsg
 - Image: https://mutzagim.co.il/assets/product-1781193229488-05d36.webp
 
 ### מודול Fiat Ducato | L3 - בסיסי - ימין
-https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-bsysy-ymyn-17votk
+https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-bsysy-ymyn-hqluan
 - Price: 5717.03 ILS
 - Availability: Out of stock
-- Category: זיווד רכבים
+- Category: זיווד רכבים 
 - SKU: SV-FIA-DUC-L3-BR
+- Brand: StoreVan 
 - Description: מודול StoreVan Fiat Ducato | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
-- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
+- Image: https://mutzagim.co.il/assets/product-1782805182433-tkz0hn.webp
 
 ### מודול Fiat Ducato | L3 - בסיסי - שמאל
 https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-bsysy-shmal-rnjjs4

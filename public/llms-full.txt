@@ -9528,10 +9528,11 @@ SKU: SV-FIA-DUC-L3-KR
 ---
 
 ### מודול Fiat Ducato | L3 - בסיסי - ימין
-URL: https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-bsysy-ymyn-17votk
+URL: https://mutzagim.co.il/product/mvdvl-fiat-ducato-l3-bsysy-ymyn-hqluan
 Price: 5717.03 ILS
 Availability: Out of stock
 SKU: SV-FIA-DUC-L3-BR
+Brand: StoreVan 
 
 מודול ריהוט StoreVan לרכב Fiat Ducato, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Ducato L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ"מ (W×D×H).
 
