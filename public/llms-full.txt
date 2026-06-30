@@ -9412,10 +9412,11 @@ Brand: StoreVan
 ---
 
 ### מודול Ford Connect | L1 - בסיסי - ימין
-URL: https://mutzagim.co.il/product/mvdvl-ford-connect-l1-bsysy-ymyn-nkdqwr
+URL: https://mutzagim.co.il/product/mvdvl-ford-connect-l1-bsysy-ymyn-r96dgv
 Price: 3997.92 ILS
 Availability: Out of stock
 SKU: SV-FOR-CON-L1-BR
+Brand: StoreVan
 
 מודול ריהוט StoreVan לרכב Ford Connect, L1, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Connect L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ"מ (W×D×H).
 
