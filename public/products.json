@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T07:21:40.603Z",
+  "generated_at": "2026-06-30T07:22:27.654Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -1290,7 +1290,12 @@
       "id": "c8935916-75d5-4c35-a8d0-5f0b0fa18590",
       "slug": "mvdvl-mercedes-benz-sprinter-l4-mvrchb-shmal-zg8yld",
       "name": "מודול Mercedes-Benz Sprinter | L4 - מורחב - שמאל",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة Mercedes-Benz Sprinter | L4 - موسعة - يسار",
+        "en": "Mercedes-Benz Sprinter Module | L4 - Extended - Left",
+        "he": "מודול Mercedes-Benz Sprinter | L4 - מורחב - שמאל",
+        "ru": "Модуль Mercedes-Benz Sprinter | L4 - расширенный - левый"
+      },
       "description": "<p>מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L4, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Sprinter L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L4 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-MER-SPR-L4-EL",
@@ -1308,7 +1313,7 @@
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-30T07:21:09.170Z"
+      "updated_at": "2026-06-30T07:21:52.002Z"
     },
     {
       "id": "99d4a5d1-0ae1-4410-8a6e-ee20589a96e5",
