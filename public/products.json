@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T07:11:04.011Z",
+  "generated_at": "2026-06-30T07:11:38.298Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -328,7 +328,12 @@
       "id": "aee94971-5a5c-421f-93d2-00b1cead8f05",
       "slug": "mvdvl-ford-connect-l1-bsysy-ymyn-r96dgv",
       "name": "מודול Ford Connect | L1 - בסיסי - ימין",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة Ford Connect | L1 - أساسي - يمين",
+        "en": "Ford Connect Module | L1 - Basic - Right",
+        "he": "מודול Ford Connect | L1 - בסיסי - ימין",
+        "ru": "Модуль Ford Connect | L1 - базовый - правый"
+      },
       "description": "<p>מודול ריהוט StoreVan לרכב Ford Connect, L1, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Connect L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Ford Connect | L1 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FOR-CON-L1-BR",
@@ -346,31 +351,31 @@
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-30T07:10:31.960Z"
+      "updated_at": "2026-06-30T07:11:06.907Z"
     },
     {
       "id": "3f7e8e68-d480-49f0-8f61-ca0917086d82",
-      "slug": "mvdvl-ford-connect-l1-mvrchb-shmal-tedlkh",
+      "slug": "mvdvl-ford-connect-l1-mvrchb-shmal-32kv6u",
       "name": "מודול Ford Connect | L1 - מורחב - שמאל",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Ford Connect, L1, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Connect L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Ford Connect, L1, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Connect L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Ford Connect | L1 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FOR-CON-L1-EL",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 8418.16,
       "base_price": 8418.16,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+        "https://mutzagim.co.il/assets/product-1782803487825-ln3ct.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l1-mvrchb-shmal-tedlkh",
+      "url": "https://mutzagim.co.il/product/mvdvl-ford-connect-l1-mvrchb-shmal-32kv6u",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-11T15:54:12.917Z"
+      "updated_at": "2026-06-30T07:11:37.126Z"
     },
     {
       "id": "522fb795-c882-492a-b37b-3fad1403b63e",
