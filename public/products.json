@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T07:55:53.295Z",
+  "generated_at": "2026-06-30T09:26:18.610Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -517,28 +517,27 @@
     },
     {
       "id": "d266220c-d0d1-4474-bb1d-a500b8da1460",
-      "slug": "mvdvl-fiat-ducato-l4-mvrchb-shmal-oiyer6",
+      "slug": "mvdvl-fiat-ducato-l4-mvrchb-shmal-cmdeem",
       "name": "מודול Fiat Ducato | L4 - מורחב - שמאל",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L4, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Fiat Ducato, L4, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Ducato | L4 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-DUC-L4-EL",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 13889.96,
       "base_price": 13889.96,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+        "https://mutzagim.co.il/assets/product-1782811535244-xmofcb.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-mvrchb-shmal-oiyer6",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-mvrchb-shmal-cmdeem",
       "categories": [
-        "זיווד רכבים",
         "זיווד רכבים "
       ],
-      "updated_at": "2026-06-30T07:32:54.657Z"
+      "updated_at": "2026-06-30T09:25:46.540Z"
     },
     {
       "id": "2782d7c4-5052-4140-9ab3-455b6cda9409",
