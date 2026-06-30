@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T09:26:51.506Z",
+  "generated_at": "2026-06-30T09:28:37.111Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -546,53 +546,56 @@
     },
     {
       "id": "2782d7c4-5052-4140-9ab3-455b6cda9409",
-      "slug": "mvdvl-fiat-ducato-l4-bsysy-ymyn-uvv8ah",
+      "slug": "mvdvl-fiat-ducato-l4-bsysy-ymyn-28kgeu",
       "name": "מודול Fiat Ducato | L4 - בסיסי - ימין",
-      "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L4, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "name_translations": {
+        "ar": "وحدة Fiat Ducato | L4 - أساسي - يمين",
+        "en": "Fiat Ducato Module | L4 - Basic - Right",
+        "he": "מודול Fiat Ducato | L4 - בסיסי - ימין",
+        "ru": "Модуль Fiat Ducato | L4 - базовый - правый"
+      },
+      "description": "<p>מודול ריהוט StoreVan לרכב Fiat Ducato, L4, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Ducato | L4 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-DUC-L4-BR",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 6596.57,
       "base_price": 6596.57,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+        "https://mutzagim.co.il/assets/product-1782811606193-u0ltls.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-bsysy-ymyn-uvv8ah",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-bsysy-ymyn-28kgeu",
       "categories": [
-        "זיווד רכבים",
         "זיווד רכבים "
       ],
-      "updated_at": "2026-06-30T07:32:53.357Z"
+      "updated_at": "2026-06-30T09:27:35.656Z"
     },
     {
       "id": "8f607202-66d3-4527-ab78-82aa2bb7b9de",
-      "slug": "mvdvl-fiat-ducato-l4-bsysy-shmal-w64jlw",
+      "slug": "mvdvl-fiat-ducato-l4-bsysy-shmal-9nmwlh",
       "name": "מודול Fiat Ducato | L4 - בסיסי - שמאל",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Fiat Ducato, L4, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Fiat Ducato, L4, בסיסי - שמאל. מודול ריהוט בסיסי לצד שמאל של חלל המטען. כולל מדפים מתכווננים ומגירה אחת. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Ducato L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Fiat Ducato | L4 - בסיסי - שמאל. מודול בסיסי שמאל - מדפים + מגירה אחת. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-FIA-DUC-L4-BL",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 9186.67,
       "base_price": 9186.67,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp"
+        "https://mutzagim.co.il/assets/product-1782811675396-8n5ph8.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-bsysy-shmal-w64jlw",
+      "url": "https://mutzagim.co.il/product/mvdvl-fiat-ducato-l4-bsysy-shmal-9nmwlh",
       "categories": [
-        "זיווד רכבים",
         "זיווד רכבים "
       ],
-      "updated_at": "2026-06-30T07:32:54.226Z"
+      "updated_at": "2026-06-30T09:28:08.615Z"
     },
     {
       "id": "018f39f3-4705-4da6-b8ca-a47b71140b18",
@@ -1728,31 +1731,6 @@
       "updated_at": "2026-06-30T07:32:36.652Z"
     },
     {
-      "id": "12901f8f-6551-4d40-9e6e-b0d3c46ce4bd",
-      "slug": "mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
-      "name": "מודול Mercedes-Benz Vito | L3 - מורחב - שמאל",
-      "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
-      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
-      "sku": "SV-MER-VIT-L3-EL",
-      "brand": null,
-      "price": 12037.97,
-      "base_price": 12037.97,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
-      ],
-      "in_stock": false,
-      "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
-      "categories": [
-        "זיווד רכבים",
-        "זיווד רכבים "
-      ],
-      "updated_at": "2026-06-30T07:32:36.436Z"
-    },
-    {
       "id": "789fc651-3ff8-498f-aa17-ac102d893d0a",
       "slug": "mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
       "name": "מודול Mercedes-Benz Vito | L3 - בסיסי - ימין",
@@ -1776,6 +1754,31 @@
         "זיווד רכבים "
       ],
       "updated_at": "2026-06-30T07:32:36.220Z"
+    },
+    {
+      "id": "12901f8f-6551-4d40-9e6e-b0d3c46ce4bd",
+      "slug": "mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
+      "name": "מודול Mercedes-Benz Vito | L3 - מורחב - שמאל",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L3-EL",
+      "brand": null,
+      "price": 12037.97,
+      "base_price": 12037.97,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
+      "categories": [
+        "זיווד רכבים",
+        "זיווד רכבים "
+      ],
+      "updated_at": "2026-06-30T07:32:36.436Z"
     },
     {
       "id": "5750b7a7-771f-49bb-bf06-64267bdf9790",
