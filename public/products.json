@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T07:06:32.306Z",
+  "generated_at": "2026-06-30T07:07:31.572Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -1617,30 +1617,6 @@
       "updated_at": "2026-06-11T15:53:59.044Z"
     },
     {
-      "id": "789fc651-3ff8-498f-aa17-ac102d893d0a",
-      "slug": "mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
-      "name": "מודול Mercedes-Benz Vito | L3 - בסיסי - ימין",
-      "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
-      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
-      "sku": "SV-MER-VIT-L3-BR",
-      "brand": null,
-      "price": 5717.03,
-      "base_price": 5717.03,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
-      ],
-      "in_stock": false,
-      "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
-      "categories": [
-        "זיווד רכבים"
-      ],
-      "updated_at": "2026-06-11T15:53:59.044Z"
-    },
-    {
       "id": "12901f8f-6551-4d40-9e6e-b0d3c46ce4bd",
       "slug": "mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
       "name": "מודול Mercedes-Benz Vito | L3 - מורחב - שמאל",
@@ -1659,6 +1635,30 @@
       "in_stock": false,
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:59.044Z"
+    },
+    {
+      "id": "789fc651-3ff8-498f-aa17-ac102d893d0a",
+      "slug": "mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
+      "name": "מודול Mercedes-Benz Vito | L3 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L3-BR",
+      "brand": null,
+      "price": 5717.03,
+      "base_price": 5717.03,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
       "categories": [
         "זיווד רכבים"
       ],
@@ -2626,27 +2626,27 @@
     },
     {
       "id": "7a88d55c-09ab-412b-bfce-a115080ca477",
-      "slug": "mvdvl-citron-berlingo-l2-mgyrvt-ymyn-du1pid",
+      "slug": "mvdvl-citron-berlingo-l2-mgyrvt-ymyn-nmucm6",
       "name": "מודול Citroën Berlingo | L2 - מגירות - ימין",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Citroën Berlingo, L2, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Berlingo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Citroën Berlingo, L2, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Berlingo L2 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Citroën Berlingo | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-CIT-BER-L2-DR",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 6648.32,
       "base_price": 6648.32,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp"
+        "https://mutzagim.co.il/assets/product-1782803210362-20yq7w.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-mgyrvt-ymyn-du1pid",
+      "url": "https://mutzagim.co.il/product/mvdvl-citron-berlingo-l2-mgyrvt-ymyn-nmucm6",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-11T15:53:50.194Z"
+      "updated_at": "2026-06-30T07:06:59.959Z"
     },
     {
       "id": "0296bc1f-c27e-41cf-94ba-758b757f221c",
