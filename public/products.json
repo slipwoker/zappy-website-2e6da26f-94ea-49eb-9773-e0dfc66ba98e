@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T07:09:48.149Z",
+  "generated_at": "2026-06-30T07:10:24.781Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -1932,7 +1932,12 @@
       "id": "291db270-68f2-4533-8b37-ca9b1b1cd30c",
       "slug": "mvdvl-mercedes-benz-citan-l1-mzvvdvt-ymyn-rzv1ey",
       "name": "מודול Mercedes-Benz Citan | L1 - מזוודות - ימין",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة Mercedes-Benz Citan | L1 - حقائب - يمين",
+        "en": "Mercedes-Benz Citan Module | L1 - Cases - Right",
+        "he": "מודול Mercedes-Benz Citan | L1 - מזוודות - ימין",
+        "ru": "Модуль Mercedes-Benz Citan | L1 - чемоданы - правый"
+      },
       "description": "<p>מודול ריהוט StoreVan לרכב Mercedes-Benz Citan, L1, מזוודות - ימין. מודול ריהוט עם מיכלי אחסון (מזוודות) לצד ימין. אחסון מאובטח לכלים וציוד. אלומיניום. אחריות 8 שנים. מתאים ל-Citan L1 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Mercedes-Benz Citan | L1 - מזוודות - ימין. מודול מזוודות ימין - אחסון מאובטח. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-MER-CIT-L1-KR",
@@ -1950,7 +1955,7 @@
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-30T07:09:16.395Z"
+      "updated_at": "2026-06-30T07:09:53.283Z"
     },
     {
       "id": "70b43e96-5c56-4dd8-9869-ea7e14e8c80c",
