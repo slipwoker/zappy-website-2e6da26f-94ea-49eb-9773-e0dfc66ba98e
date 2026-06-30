@@ -592,13 +592,14 @@ https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-bsysy-shmal-nha88
 - Image: https://mutzagim.co.il/assets/product-1781193229212-09097f6.webp
 
 ### מודול Mercedes-Benz Sprinter | L4 - מורחב - שמאל
-https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-mvrchb-shmal-3w3oqs
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-mvrchb-shmal-zg8yld
 - Price: 13889.96 ILS
 - Availability: Out of stock
 - Category: זיווד רכבים
 - SKU: SV-MER-SPR-L4-EL
+- Brand: StoreVan 
 - Description: מודול StoreVan Mercedes-Benz Sprinter | L4 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
-- Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+- Image: https://mutzagim.co.il/assets/product-1782804056526-gv4cqd.webp
 
 ### מודול Mercedes-Benz Sprinter | L2 - מגירות - ימין
 https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l2-mgyrvt-ymyn-8m6zv3
@@ -726,15 +727,6 @@ https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-mgyrvt-ymyn-obgyie
 - Description: מודול StoreVan Mercedes-Benz Vito | L2 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.
 - Image: https://mutzagim.co.il/assets/product-1781193229476-0pnz6.webp
 
-### מודול Mercedes-Benz Vito | L3 - בסיסי - ימין
-https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq
-- Price: 5717.03 ILS
-- Availability: Out of stock
-- Category: זיווד רכבים
-- SKU: SV-MER-VIT-L3-BR
-- Description: מודול StoreVan Mercedes-Benz Vito | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
-- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
-
 ### מודול Mercedes-Benz Vito | L3 - מורחב - שמאל
 https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu
 - Price: 12037.97 ILS
@@ -743,6 +735,15 @@ https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu
 - SKU: SV-MER-VIT-L3-EL
 - Description: מודול StoreVan Mercedes-Benz Vito | L3 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.
 - Image: https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp
+
+### מודול Mercedes-Benz Vito | L3 - בסיסי - ימין
+https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq
+- Price: 5717.03 ILS
+- Availability: Out of stock
+- Category: זיווד רכבים
+- SKU: SV-MER-VIT-L3-BR
+- Description: מודול StoreVan Mercedes-Benz Vito | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.
+- Image: https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp
 
 ### מודול Mercedes-Benz Vito | L2 - בסיסי - ימין
 https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l2-bsysy-ymyn-vidvlz

@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-30T07:20:38.631Z",
+  "generated_at": "2026-06-30T07:21:40.603Z",
   "base_url": "https://mutzagim.co.il",
   "currency": "ILS",
   "count": 193,
@@ -1117,7 +1117,12 @@
       "id": "3762554b-ff7d-4a94-9c72-8307981712b7",
       "slug": "mvdvl-mercedes-benz-sprinter-l4-mgyrvt-ymyn-91s4om",
       "name": "מודול Mercedes-Benz Sprinter | L4 - מגירות - ימין",
-      "name_translations": {},
+      "name_translations": {
+        "ar": "وحدة Mercedes-Benz Sprinter | L4 - أدراج - يمين",
+        "en": "Mercedes-Benz Sprinter Module | L4 - Drawers - Right",
+        "he": "מודול Mercedes-Benz Sprinter | L4 - מגירות - ימין",
+        "ru": "Модуль Mercedes-Benz Sprinter | L4 - ящики - правый"
+      },
       "description": "<p>מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L4, מגירות - ימין. מודול ריהוט עם מגירות לצד ימין. גישה מהירה לכלים וציוד. מגירות שחרור מלא. אלומיניום. אחריות 8 שנים. מתאים ל-Sprinter L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L4 - מגירות - ימין. מודול מגירות ימין - שחרור מלא. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-MER-SPR-L4-DR",
@@ -1135,7 +1140,7 @@
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-30T07:20:06.816Z"
+      "updated_at": "2026-06-30T07:20:41.451Z"
     },
     {
       "id": "dcfe73bb-289a-456d-80a6-2ebad48aa098",
@@ -1283,27 +1288,27 @@
     },
     {
       "id": "c8935916-75d5-4c35-a8d0-5f0b0fa18590",
-      "slug": "mvdvl-mercedes-benz-sprinter-l4-mvrchb-shmal-3w3oqs",
+      "slug": "mvdvl-mercedes-benz-sprinter-l4-mvrchb-shmal-zg8yld",
       "name": "מודול Mercedes-Benz Sprinter | L4 - מורחב - שמאל",
       "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L4, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Sprinter L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "description": "<p>מודול ריהוט StoreVan לרכב Mercedes-Benz Sprinter, L4, מורחב - שמאל. מודול ריהוט מורחב לצד שמאל. כולל מגירה תחתונה עם נעילה, מדפים מתכווננים ואחסון מרבי. אלומיניום חזק. אחריות 8 שנים. מתאים ל-Sprinter L4 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).</p>",
       "short_description": "מודול StoreVan Mercedes-Benz Sprinter | L4 - מורחב - שמאל. מודול מורחב שמאל - מגירה + מדפים. אלומיניום. אחריות 8 שנים.",
       "sku": "SV-MER-SPR-L4-EL",
-      "brand": null,
+      "brand": "StoreVan ",
       "price": 13889.96,
       "base_price": 13889.96,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://mutzagim.co.il/assets/product-1781193229489-hgj0j.webp"
+        "https://mutzagim.co.il/assets/product-1782804056526-gv4cqd.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-mvrchb-shmal-3w3oqs",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-sprinter-l4-mvrchb-shmal-zg8yld",
       "categories": [
         "זיווד רכבים"
       ],
-      "updated_at": "2026-06-11T15:54:03.933Z"
+      "updated_at": "2026-06-30T07:21:09.170Z"
     },
     {
       "id": "99d4a5d1-0ae1-4410-8a6e-ee20589a96e5",
@@ -1642,30 +1647,6 @@
       "updated_at": "2026-06-11T15:53:59.044Z"
     },
     {
-      "id": "789fc651-3ff8-498f-aa17-ac102d893d0a",
-      "slug": "mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
-      "name": "מודול Mercedes-Benz Vito | L3 - בסיסי - ימין",
-      "name_translations": {},
-      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
-      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
-      "sku": "SV-MER-VIT-L3-BR",
-      "brand": null,
-      "price": 5717.03,
-      "base_price": 5717.03,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
-      ],
-      "in_stock": false,
-      "stock_status": "out_of_stock",
-      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
-      "categories": [
-        "זיווד רכבים"
-      ],
-      "updated_at": "2026-06-11T15:53:59.044Z"
-    },
-    {
       "id": "12901f8f-6551-4d40-9e6e-b0d3c46ce4bd",
       "slug": "mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
       "name": "מודול Mercedes-Benz Vito | L3 - מורחב - שמאל",
@@ -1684,6 +1665,30 @@
       "in_stock": false,
       "stock_status": "out_of_stock",
       "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-mvrchb-shmal-ga29hu",
+      "categories": [
+        "זיווד רכבים"
+      ],
+      "updated_at": "2026-06-11T15:53:59.044Z"
+    },
+    {
+      "id": "789fc651-3ff8-498f-aa17-ac102d893d0a",
+      "slug": "mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
+      "name": "מודול Mercedes-Benz Vito | L3 - בסיסי - ימין",
+      "name_translations": {},
+      "description": "מודול ריהוט StoreVan לרכב Mercedes-Benz Vito, L3, בסיסי - ימין. מודול ריהוט בסיסי לצד ימין של חלל המטען. מדפים מתכווננים. מסגרת אלומיניום חזקה וקלה. אחריות 8 שנים. מתאים ל-Vito L3 ולדגמים שווי-מידה. מידות: 1,016×365×1,300 מ\"מ (W×D×H).",
+      "short_description": "מודול StoreVan Mercedes-Benz Vito | L3 - בסיסי - ימין. מודול בסיסי ימין - מדפים. אלומיניום. אחריות 8 שנים.",
+      "sku": "SV-MER-VIT-L3-BR",
+      "brand": null,
+      "price": 5717.03,
+      "base_price": 5717.03,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://mutzagim.co.il/assets/product-1781193229288-8mzwz7.webp"
+      ],
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://mutzagim.co.il/product/mvdvl-mercedes-benz-vito-l3-bsysy-ymyn-bhkmmq",
       "categories": [
         "זיווד רכבים"
       ],
