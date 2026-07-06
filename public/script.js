@@ -5453,6 +5453,8 @@ function stripHtmlToText(html) {
     const orderDetailsSection = document.getElementById('order-details-section');
     const orderItemsList = document.getElementById('order-items-list');
     const orderTotalsSummary = document.getElementById('order-totals-summary');
+    const transactionDetails = document.querySelector('.order-success-details');
+    if (transactionDetails) transactionDetails.style.display = 'none';
     
     // If the i18n runtime replaced the H1's innerHTML (stripping the span),
     // re-inject the span so confirm-order and order display still work.
@@ -5474,10 +5476,13 @@ function stripHtmlToText(html) {
       return;
     }
     
-    // Extract order number from reference (format: zappy_websiteId_timestamp)
+    // Keep the receipt neutral until confirmed order/course data arrives.
+
+    
     const parts = reference.split('_');
+
+    
     const orderDisplay = parts.length >= 3 ? parts[2] : reference;
-    if (orderNumberEl) orderNumberEl.textContent = '#' + orderDisplay;
     
     // Confirm/create the order on the server (in case webhook didn't fire)
     const websiteId = window.ZAPPY_WEBSITE_ID;
@@ -5495,7 +5500,7 @@ function stripHtmlToText(html) {
             confirmedOrderData = confirmData.data.orderData;
           }
           // Update order number to the official one if available
-          if (confirmData.data.orderNumber && orderNumberEl) {
+          if (confirmData.data.orderNumber && orderNumberEl && !confirmData.data.isCoursesMode) {
             orderNumberEl.textContent = '#' + confirmData.data.orderNumber;
           }
           if (confirmData.data.loginToken) {
@@ -5575,8 +5580,14 @@ function stripHtmlToText(html) {
             var titleEl = document.querySelector('.order-success-title');
             var continueBtn = document.querySelector('.continue-home-btn');
             var detailLabels = document.querySelectorAll('.order-success-detail-label');
+            var courseTitle = orderData.primaryCourseName || (orderData.courseNames && orderData.courseNames[0]) || '';
             if (titleEl) {
-              titleEl.innerHTML = getEcomText('thankYouOrder', t.thankYouOrder || 'Thank you for your order') + ' <span class="order-number-inline" id="order-number-value">' + orderNumberEl.textContent + '</span>';
+              titleEl.textContent = getEcomText('thankYouOrder', t.thankYouOrder || 'Thank you for enrolling in') + ' ';
+              var courseSpan = document.createElement('span');
+              courseSpan.className = 'order-number-inline';
+              courseSpan.id = 'order-number-value';
+              courseSpan.textContent = courseTitle || getEcomText('yourCourse', 'your course');
+              titleEl.appendChild(courseSpan);
             }
             if (detailLabels[0]) detailLabels[0].textContent = getEcomText('transactionDate', t.transactionDate || t.orderDate || 'Date');
             if (detailLabels[1]) detailLabels[1].textContent = getEcomText('paymentMethod', t.paymentMethod || 'Payment Method');
@@ -5595,7 +5606,9 @@ function stripHtmlToText(html) {
           if (paymentEl && orderData.paymentMethodName) {
             paymentEl.textContent = orderData.paymentMethodName;
           }
-          if (shippingEl && orderData.shippingMethodName) {
+          if (shippingEl && isCourseSuccess) {
+            shippingEl.textContent = getEcomText('courseAccessMethod', t.courseAccessMethod || (isRTL ? 'גישה דיגיטלית מקוונת' : 'Online course access'));
+          } else if (shippingEl && orderData.shippingMethodName) {
             var shippingText = orderData.shippingMethodName;
             if (orderData.shippingIsPickup) {
               shippingText += '. ' + (isRTL ? 'איסוף עצמי' : 'Store pickup');
@@ -5605,6 +5618,7 @@ function stripHtmlToText(html) {
           if (emailEl && orderData.customerEmail) {
             emailEl.textContent = getEcomText('orderConfirmation', t.orderConfirmation || 'A confirmation email has been sent to') + ' ' + orderData.customerEmail;
           }
+          if (transactionDetails) transactionDetails.style.display = '';
           
           // Show order details
           if (orderDetailsSection) orderDetailsSection.style.display = 'block';
@@ -5624,7 +5638,7 @@ function stripHtmlToText(html) {
           // Render totals
           if (orderTotalsSummary) {
             let totalsHtml = '<div><span>' + (t.subtotal || 'Subtotal') + ':</span><span>' + formatOrderMoney(parseFloat(orderData.subtotal || 0)) + '</span></div>';
-            if (orderData.shippingCost > 0) {
+            if (!isCourseSuccess && orderData.shippingCost > 0) {
               totalsHtml += '<div><span>' + (t.shipping || 'Shipping') + ':</span><span>' + formatOrderMoney(parseFloat(orderData.shippingCost)) + '</span></div>';
             }
             if (orderData.discount > 0) {
@@ -11841,6 +11855,66 @@ function ancestorHasExplicitColor(el){
   return false;
 }
 
+// Respect deliberate author-level `color: ... !important` rules. The runtime
+// fixer runs late and writes inline `!important`, so without this check it can
+// override an explicit user/AI styling request (e.g. white FAQ text on a brand
+// orange card) simply because black has a slightly higher WCAG ratio. We still
+// fix ordinary generated CSS, but an author `!important` colour is intentional.
+function elementMatchesColorRule(el, importantOnly){
+  if(!el||!el.matches)return false;
+  function ruleApplies(rule){
+    if(!rule)return false;
+    if(rule.type===1){
+      try{
+        if(rule.style&&rule.style.getPropertyValue('color')&&
+          (!importantOnly||rule.style.getPropertyPriority('color')==='important')&&
+          el.matches(rule.selectorText)){
+          return true;
+        }
+      }catch(e){return false;}
+    }
+    if(rule.cssRules){
+      try{
+        for(var ri=0;ri<rule.cssRules.length;ri++){
+          if(ruleApplies(rule.cssRules[ri]))return true;
+        }
+      }catch(e2){return false;}
+    }
+    return false;
+  }
+  for(var si=0;si<document.styleSheets.length;si++){
+    var rules=null;
+    try{rules=document.styleSheets[si].cssRules;}catch(e3){continue;}
+    if(!rules)continue;
+    for(var i=0;i<rules.length;i++){
+      if(ruleApplies(rules[i]))return true;
+    }
+  }
+  return false;
+}
+function elementMatchesImportantColorRule(el){
+  return elementMatchesColorRule(el,true);
+}
+function elementMatchesAuthorColorRule(el){
+  return elementMatchesColorRule(el,false);
+}
+function selfOrAncestorHasImportantAuthorColor(el){
+  var n=el;
+  while(n&&n!==document.body){
+    if(elementMatchesImportantColorRule(n))return true;
+    n=n.parentElement;
+  }
+  return false;
+}
+function selfOrAncestorHasAuthorColor(el){
+  var n=el;
+  while(n&&n!==document.body){
+    if(elementMatchesAuthorColorRule(n))return true;
+    n=n.parentElement;
+  }
+  return false;
+}
+
 function isDecorativeAccentText(el){
   if(!el||!el.matches)return false;
   if(el.matches('.font-accent,.hero-logotype,.hero-logotype-line,[class*="script"],[class*="accent-line"],[class*="subheadline"]'))return true;
@@ -11912,6 +11986,7 @@ function fixContrast(){
     var inlineStyle=el.getAttribute('style')||'';
     if(/(?:^|;\s*)color\s*:/i.test(inlineStyle))continue;
     if(ancestorHasExplicitColor(el))continue;
+    if(selfOrAncestorHasImportantAuthorColor(el))continue;
     if(el.tagName==='FONT'&&el.hasAttribute('color'))continue;
     var txt=el.textContent?el.textContent.trim():'';
     if(!txt)continue;
@@ -11924,6 +11999,7 @@ function fixContrast(){
     if(!cRGB||!bRGB)continue;
     var ratio=contrastRatio(cRGB,bRGB);
     if(ratio<4.5){
+      if(ratio>=3&&selfOrAncestorHasAuthorColor(el))continue;
       var darkC=contrastRatio(darkRGB,bRGB);
       var lightC=contrastRatio(lightRGB,bRGB);
       var best=darkC>=lightC?dark:light;
@@ -12790,7 +12866,7 @@ function fixContrast(){
   setTimeout(fix, 3000);
 })();
 
-/* ZAPPY_CART_ITEM_NAME_I18N_V1 */
+/* ZAPPY_CART_ITEM_NAME_I18N_V2 */
 (function(){
   function getWebsiteId() {
     return window.ZAPPY_WEBSITE_ID || document.body.getAttribute('data-website-id') || document.documentElement.getAttribute('data-website-id') || '';
@@ -12843,8 +12919,8 @@ function fixContrast(){
     var lang = getLang();
     if (!websiteId || !lang) return;
     var key = 'zappy_cart_' + websiteId;
-    var cart = readCart(key);
-    var courseItems = cart.filter(function(item) { return item && (item.isCourse === true || item.custom_fields); });
+    var requestCart = readCart(key);
+    var courseItems = requestCart.filter(function(item) { return item && (item.isCourse === true || item.custom_fields); });
     if (!courseItems.length) return;
     var apiBase = (window.ZAPPY_API_BASE || window.zappyApiBase || '').replace(/\/$/, '');
     var url = apiBase + '/api/ecommerce/storefront/products?websiteId=' + encodeURIComponent(websiteId) + '&lang=' + encodeURIComponent(lang);
@@ -12855,8 +12931,9 @@ function fixContrast(){
         if (!Array.isArray(products) || !products.length) return;
         var byId = {};
         products.forEach(function(product) { if (product && product.id) byId[String(product.id)] = product; });
+        var latestCart = readCart(key);
         var changed = false;
-        cart.forEach(function(item) {
+        latestCart.forEach(function(item) {
           if (!item || !(item.isCourse === true || item.custom_fields)) return;
           var product = byId[String(item.id)];
           if (!product) return;
@@ -12869,8 +12946,8 @@ function fixContrast(){
             changed = true;
           }
         });
-        if (changed) writeCart(key, cart);
-        applyTranslatedNamesToDom(cart);
+        if (changed) writeCart(key, latestCart);
+        applyTranslatedNamesToDom(latestCart);
       })
       .catch(function(){});
   }
@@ -14348,10 +14425,10 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V20 */
+/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V21 */
 (function() {
-  if (window.__zappyEcomLanguageRoutingRuntime >= 20) return;
-  window.__zappyEcomLanguageRoutingRuntime = 20;
+  if (window.__zappyEcomLanguageRoutingRuntime >= 21) return;
+  window.__zappyEcomLanguageRoutingRuntime = 21;
 
   // Routing strategy: use path-based language URLs for ALL storefront pages
   // (including dynamic /product/:slug and /category/:slug). The publish
@@ -14764,12 +14841,12 @@ function fixContrast(){
   // declaration merging that was eating the standalone CSS injection.
   function ensureRuntimeCssInjected() {
     var existing = document.getElementById('zappy-ecom-routing-runtime-css');
-    if (existing && existing.getAttribute('data-v') === '25') return;
+    if (existing && existing.getAttribute('data-v') === '26') return;
     if (existing) existing.remove();
     var style = document.createElement('style');
     style.id = 'zappy-ecom-routing-runtime-css';
     style.setAttribute('data-zappy-runtime', 'ecom-routing');
-    style.setAttribute('data-v', '25');
+    style.setAttribute('data-v', '26');
     style.textContent =
       '@media (min-width: 769px){' +
         'html[dir="ltr"] .nav-container > .nav-brand,body[dir="ltr"] .nav-container > .nav-brand,html[dir="ltr"] .nav-right-group > .nav-brand,body[dir="ltr"] .nav-right-group > .nav-brand{order:-1!important}' +
@@ -14789,6 +14866,11 @@ function fixContrast(){
         'html[dir="ltr"] .zappy-catalog-menu .catalog-menu-categories{display:flex!important;align-items:flex-start!important;align-content:flex-start!important;row-gap:4px!important;column-gap:2px!important}' +
         'html[dir="ltr"] .zappy-catalog-menu .catalog-menu-item{padding-inline:10px!important}' +
         'html[dir="ltr"] .zappy-catalog-menu .catalog-menu-all{margin-top:0!important;align-self:flex-start!important}' +
+        '.navbar .nav-menu>li:has(>.sub-menu),nav.navbar .nav-menu>li:has(>.sub-menu),#navMenu>li:has(>.sub-menu){position:relative!important}' +
+        '.navbar .nav-menu>li>.sub-menu,nav.navbar .nav-menu>li>.sub-menu,#navMenu>li>.sub-menu{display:block!important;position:absolute!important;top:100%!important;inset-inline-start:0!important;inset-inline-end:auto!important;min-width:200px!important;max-width:min(280px,calc(100vw - 32px))!important;width:max-content!important;max-height:calc(100vh - 150px)!important;overflow-y:auto!important;background:var(--background-color,var(--background,#fff))!important;border-radius:12px!important;box-shadow:0 8px 30px rgba(0,0,0,.15),0 2px 8px rgba(0,0,0,.06)!important;padding:8px!important;margin:0!important;list-style:none!important;opacity:0!important;visibility:hidden!important;pointer-events:none!important;transform:translateY(6px)!important;z-index:100001!important}' +
+        '.navbar .nav-menu>li:hover>.sub-menu,.navbar .nav-menu>li:focus-within>.sub-menu,nav.navbar .nav-menu>li:hover>.sub-menu,nav.navbar .nav-menu>li:focus-within>.sub-menu,#navMenu>li:hover>.sub-menu,#navMenu>li:focus-within>.sub-menu{opacity:1!important;visibility:visible!important;pointer-events:auto!important;transform:translateY(0)!important}' +
+        '.navbar .nav-menu>li>.sub-menu>li,nav.navbar .nav-menu>li>.sub-menu>li,#navMenu>li>.sub-menu>li{display:block!important;width:100%!important;list-style:none!important;margin:0!important;padding:0!important}' +
+        '.navbar .nav-menu>li>.sub-menu a,nav.navbar .nav-menu>li>.sub-menu a,#navMenu>li>.sub-menu a{display:block!important;white-space:nowrap!important;padding:10px 16px!important;border-radius:8px!important;text-decoration:none!important}' +
         '.nav-menu .zappy-products-dropdown>.sub-menu,#navMenu .zappy-products-dropdown>.sub-menu{left:50%!important;right:auto!important;transform:translateX(-50%) translateY(8px)!important}' +
         '.nav-menu .zappy-products-dropdown:hover>.sub-menu,#navMenu .zappy-products-dropdown:hover>.sub-menu,.nav-menu .zappy-products-dropdown:focus-within>.sub-menu,#navMenu .zappy-products-dropdown:focus-within>.sub-menu{transform:translateX(-50%) translateY(0)!important}' +
         '.nav-menu.zappy-desktop-wrap,#navMenu.zappy-desktop-wrap{flex-wrap:wrap!important;max-height:44px!important;align-content:flex-start!important;row-gap:4px!important}' +
@@ -14900,6 +14982,8 @@ function fixContrast(){
   setTimeout(patch, 1500);
 })();
 /* ZAPPY_COURSE_ORDER_SUCCESS_RECEIPT_V1 */
+
+/* ZAPPY_COURSE_ORDER_SUCCESS_TERMINOLOGY_V1 */
 
 /* ZAPPY_CHECKOUT_FOCUS_UX_V2 */
 (function(){
@@ -15904,6 +15988,135 @@ function withConsent(category, callback) {
       window.addEventListener('load', initCookieConsent, { once: true });
     }
   }
+})();
+
+/* ZAPPY_ANNOUNCEMENT_HEADER_SYNC_V1 */
+(function(){
+  if (window.__zappyAnnouncementHeaderSyncV1) return;
+  window.__zappyAnnouncementHeaderSyncV1 = true;
+
+  function primaryHeader() {
+    var selectors = [
+      'nav#navbar',
+      'nav.navbar',
+      '.navbar:not(.zappy-catalog-menu)',
+      'nav[class*="nav"]',
+      'header.navbar',
+      'header:not([class*="gallery"]):not([class*="hero"]):not([class*="section"])'
+    ];
+    for (var i = 0; i < selectors.length; i++) {
+      var el = document.querySelector(selectors[i]);
+      if (!el) continue;
+      if (el.classList && el.classList.contains('zappy-catalog-menu')) continue;
+      if (el.id === 'zappy-catalog-menu') continue;
+      if (el.classList && el.classList.contains('mobile-search-panel')) continue;
+      if (el.tagName === 'HEADER' && el.closest('section')) continue;
+      if (el.classList && (
+        el.classList.contains('lookbook-gallery-header') ||
+        el.classList.contains('hero-header') ||
+        el.classList.contains('section-header') ||
+        el.classList.contains('page-header')
+      )) continue;
+      return el;
+    }
+    return null;
+  }
+
+  function visibleHeight(el) {
+    if (!el) return 0;
+    var cs;
+    try { cs = window.getComputedStyle(el); } catch (e) {}
+    if (cs && (cs.display === 'none' || cs.visibility === 'hidden')) return 0;
+    var r = el.getBoundingClientRect ? el.getBoundingClientRect() : null;
+    return Math.ceil((r && r.height) || el.offsetHeight || 0);
+  }
+
+  function sync() {
+    var header = primaryHeader();
+    var bar = document.querySelector('.zappy-announcement-bar');
+    var catalog = document.querySelector('.zappy-catalog-menu');
+    var barHeight = visibleHeight(bar);
+    if (!header) {
+      if (barHeight > 0) document.body.style.setProperty('padding-top', barHeight + 'px', 'important');
+      return;
+    }
+
+    header.style.setProperty('position', 'fixed', 'important');
+    header.style.setProperty('top', barHeight + 'px', 'important');
+    header.style.setProperty('left', '0', 'important');
+    header.style.setProperty('right', '0', 'important');
+    header.style.setProperty('z-index', '100000', 'important');
+    header.style.marginBottom = '0';
+
+    var headerHeight = visibleHeight(header);
+    var totalHeight = barHeight + headerHeight;
+    if (catalog && visibleHeight(catalog) > 0) {
+      catalog.style.marginTop = '0';
+      catalog.style.setProperty('top', totalHeight + 'px', 'important');
+      totalHeight += visibleHeight(catalog);
+    }
+
+    document.documentElement.style.setProperty('--header-height', headerHeight + 'px');
+    document.documentElement.style.setProperty('--total-header-height', totalHeight + 'px');
+    document.documentElement.style.setProperty('--zappy-mobile-menu-top', (barHeight + headerHeight) + 'px');
+    document.body.style.setProperty('padding-top', totalHeight + 'px', 'important');
+  }
+
+  var timer = null;
+  function schedule(delay) {
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(sync, delay || 0);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function(){ schedule(0); });
+  } else {
+    schedule(0);
+  }
+  window.addEventListener('load', function(){ schedule(0); });
+  window.addEventListener('resize', function(){ schedule(50); }, { passive: true });
+  window.addEventListener('zappy:languageChanged', function(){ schedule(50); });
+  window.addEventListener('languageChanged', function(){ schedule(50); });
+  [50, 150, 350, 750, 1500, 3000].forEach(function(ms){ setTimeout(sync, ms); });
+
+  try {
+    new MutationObserver(function(mutations) {
+      for (var i = 0; i < mutations.length; i++) {
+        var mutation = mutations[i];
+        var t = mutation.target;
+        var classes = t && t.classList;
+        if (mutation.type === 'childList') {
+          for (var j = 0; j < mutation.addedNodes.length; j++) {
+            var node = mutation.addedNodes[j];
+            var nodeClasses = node && node.classList;
+            if (nodeClasses && (
+              nodeClasses.contains('zappy-announcement-bar') ||
+              nodeClasses.contains('zappy-catalog-menu') ||
+              nodeClasses.contains('navbar')
+            )) {
+              schedule(0);
+              return;
+            }
+          }
+        }
+        if (
+          (t === document.body && mutation.attributeName === 'class') ||
+          (classes && (
+          classes.contains('zappy-announcement-bar') ||
+          classes.contains('zappy-catalog-menu')
+        ))
+        ) {
+          schedule(0);
+          return;
+        }
+      }
+    }).observe(document.body || document.documentElement, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['class', 'style']
+    });
+  } catch (e) {}
 })();
 
 /* ZAPPY_CUSTOMER_DISCOUNT_CONFIG_FALLBACK_V3 */
