@@ -4692,6 +4692,25 @@ body[dir="rtl"] .zappy-catalog-menu .catalog-menu-categories,
 .zappy-catalog-menu.rtl .catalog-menu-categories{flex-direction: row !important;}
 /* V2 E-COMMERCE THEME OVERRIDES: Now handled by ecommerceV2GenerationService.js */
 /* ==END ZAPPY E-COMMERCE CSS== */
+
+.prod-showcase .prod-showcase__image-wrapper {
+  background: #f8fafc;
+  min-height: 320px !important;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.prod-showcase .prod-showcase__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100% !important;
+  object-fit: contain;
+  padding: 16px;
+  max-height: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
