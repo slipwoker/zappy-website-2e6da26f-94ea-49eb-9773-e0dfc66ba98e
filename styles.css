@@ -4727,6 +4727,8 @@ body[dir="rtl"] .zappy-catalog-menu .catalog-menu-categories,
 }
 /* Batch: Fix stretched images across all pages by removing forced aspect-ratio */
 .card img, .service-card img, .blog-card img { aspect-ratio: auto !important; } img[style*="aspect-ratio"] { aspect-ratio: auto !important; }
+/* Batch: Change object-fit to contain so images show full ratio without cropping */
+.card img, .solution-image img, .gallery-image, img[style*="object-fit: cover"] { object-fit: contain !important; }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
