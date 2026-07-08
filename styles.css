@@ -4725,6 +4725,8 @@ body[dir="rtl"] .zappy-catalog-menu .catalog-menu-categories,
 .prod-showcase .prod-showcase__image-badge {
   bottom: 8px;
 }
+/* Batch: Fix stretched images across all pages by removing forced aspect-ratio */
+.card img, .service-card img, .blog-card img { aspect-ratio: auto !important; } img[style*="aspect-ratio"] { aspect-ratio: auto !important; }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
