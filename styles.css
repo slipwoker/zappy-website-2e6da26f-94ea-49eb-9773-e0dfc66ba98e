@@ -4711,6 +4711,20 @@ body[dir="rtl"] .zappy-catalog-menu .catalog-menu-categories,
   padding: 16px;
   max-height: none !important;
 }
+
+.prod-showcase .prod-showcase__image-wrapper {
+  min-height: 320px;
+  aspect-ratio: 1 / 1;
+  background: #f8fafc;
+}
+
+.prod-showcase .prod-showcase__image {
+  padding: 24px;
+}
+
+.prod-showcase .prod-showcase__image-badge {
+  bottom: 8px;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
