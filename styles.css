@@ -4731,10 +4731,6 @@ body[dir="rtl"] .zappy-catalog-menu .catalog-menu-categories,
 .card img, .solution-image img, .gallery-image, img[style*="object-fit: cover"] { object-fit: contain !important; }
 /* Batch: Fix image aspect ratios across all pages - remove forced 16:9/4:3 ratios, restore natural proportions with proper cover fill */
 .card img, .service-card img, .blog-card img, .testimonial-card img { aspect-ratio: auto !important; height: auto !important; object-fit: cover !important; }
-
-.solutions-showcase .solution-image img {
-  object-fit: cover !important;
-}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
