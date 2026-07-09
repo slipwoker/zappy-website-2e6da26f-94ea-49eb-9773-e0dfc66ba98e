@@ -4729,6 +4729,12 @@ body[dir="rtl"] .zappy-catalog-menu .catalog-menu-categories,
 .card img, .service-card img, .blog-card img { aspect-ratio: auto !important; } img[style*="aspect-ratio"] { aspect-ratio: auto !important; }
 /* Batch: Change object-fit to contain so images show full ratio without cropping */
 .card img, .solution-image img, .gallery-image, img[style*="object-fit: cover"] { object-fit: contain !important; }
+/* Batch: Fix image aspect ratios across all pages - remove forced 16:9/4:3 ratios, restore natural proportions with proper cover fill */
+.card img, .service-card img, .blog-card img, .testimonial-card img { aspect-ratio: auto !important; height: auto !important; object-fit: cover !important; }
+
+.solutions-showcase .solution-image img {
+  object-fit: cover !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
